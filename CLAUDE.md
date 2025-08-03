@@ -10,7 +10,7 @@ This is a N8N workflow project for **VolaBot**, an AI-powered travel consultant 
 
 ### Core Components
 
-**N8N Workflow (`Hotels-Agent.json`)**
+**N8N Workflow (`Hotels-Agent-CRISTI.json`)**
 - Main workflow configuration defining the entire agent pipeline
 - Event-driven architecture triggered by chat messages
 - Integrated AI agent with sophisticated travel consultant persona
@@ -24,7 +24,7 @@ This is a N8N workflow project for **VolaBot**, an AI-powered travel consultant 
 
 **Data Sources & Scraping**
 - **Booking.com Scraper**: Apify voyager~booking-scraper for accommodation data
-- **Airbnb Scraper**: Apify tri_angle~airbnb-scraper for accommodation data  
+- **Airbnb Scraper**: Apify tri_angle~airbnb-scraper for accommodation data
 - **Review Scrapers**: Separate scrapers for detailed review analysis from both platforms
 - **Google Maps Reviews**: Additional review source via compass~google-maps-reviews-scraper
 
@@ -74,10 +74,10 @@ Chat Input → AI Agent → Scraping Tools → Review Analysis → Response
 ### N8N Workflow Management
 ```bash
 # Import workflow (if N8N CLI available)
-n8n import:workflow --file=Hotels-Agent.json
+n8n import:workflow --file=Hotels-Agent-CRISTI.json
 
 # Export workflow changes
-n8n export:workflow --id=pkELWZSsqdr9pNfy --output=Hotels-Agent.json
+n8n export:workflow --id=pkELWZSsqdr9pNfy --output=Hotels-Agent-CRISTI.json
 ```
 
 ### Environment Configuration
@@ -101,7 +101,8 @@ cp .env.example .env
 - **Prompt Location**: Both files contain identical VolaBot system instructions
 
 ### Workflow Configuration
-- **`Hotels-Agent.json`**: Complete N8N workflow definition
+- **`Hotels-Agent-CRISTI.json`**: Complete N8N workflow definition (primary workflow)
+- **`Hotels-Agent.json`**: Legacy workflow file (backup)
 - **Node Configuration**: All tool integrations, AI settings, and flow logic
 - **Credentials**: References to PostgreSQL, Google Gemini, and Apify API configurations
 
@@ -113,7 +114,7 @@ cp .env.example .env
 POST https://api.apify.com/v2/acts/voyager~booking-scraper/run-sync-get-dataset-items
 // Parameters: checkIn, checkOut, search, adults, children, rooms, currency, language
 
-// Airbnb Scraper  
+// Airbnb Scraper
 POST https://api.apify.com/v2/acts/tri_angle~airbnb-scraper/run-sync-get-dataset-items
 // Parameters: adults, children, checkIn, checkOut, locationQueries, priceMin, priceMax
 
