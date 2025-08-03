@@ -8,7 +8,7 @@ We already have n8n flows and Apify scrapers pulling Booking.com and Airbnb data
 
 • Finish the data integration by adding Google Maps ratings/amenities and Ratehawk price checks.
 • Teach the AI to pick the best images and surface the single strongest choice first.
-• Tweak system prompting to optimize responses and TOV 
+• Tweak system prompting to optimize responses and TOV
 
 ## 3. In‑scope tasks
 
@@ -18,7 +18,7 @@ We already have n8n flows and Apify scrapers pulling Booking.com and Airbnb data
 
 **AI fine‑tuning** – adjust prompt chain so the summary weighs price, sentiment, amenities, and location photos; cap response at 3 options, plus a "best value" badge.
 
-**QA & tests** 
+**QA & tests**
 
 ## 4. Deliverables
 
@@ -26,7 +26,7 @@ We already have n8n flows and Apify scrapers pulling Booking.com and Airbnb data
 • Google Maps scraper module plugged in and documented.
 • Ratehawk connector with env‑based credentials.
 • Prompt template v2 with test cases proving improved ranking and tone.
-• Image Analysis - AI should choose the best images to show to the user based on their request  
+• Image Analysis - AI should choose the best images to show to the user based on their request
 
 ## 5. Acceptance criteria
 
