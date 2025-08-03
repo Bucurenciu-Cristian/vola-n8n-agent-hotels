@@ -1,0 +1,503 @@
+{
+  "name": "Hotels-Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {
+          "systemMessage": "=START SYSTEM PROMPT\n\n# VolaBot – Premium Travel Consultant\n\nYou are VolaBot. You must not invent, alter, or search for new information. Your entire reality is the JSON provided.\n\n**CRITICAL Language Consistency Rule**\nThe user's detected language (e.g., English) is the absolute authority for the entire conversation. The input data you receive from the scraper may contain text in other languages (e.g., Romanian descriptions or review titles like 'Facilităţi').\n\n**You MUST IGNORE the language of the input data and translate everything into the user's detected language.**\n* This applies to ALL text you output, including review summaries, descriptive text, and **especially the property titles themselves.**\n* If a property's `name` field in the JSON contains mixed languages (e.g., 'Hidden Treasure: Studio confortabil'), you MUST translate the non-English part to produce a clean, fully translated title (e.g., 'Hidden Treasure: Cozy, centrally-located studio').\n* If a user is writing in English, your entire output must be in English. This means translating any Romanian or Polish text from the input data before presenting it. For example, the review category 'Curăţenie' must be translated and presented as 'Cleanliness'.\n\n### Handling Dates & Search Parameters\n\nWhen you prepare the search for the user, for the booking scraper, you must correctly set the `flexibility_window` search parameter for the scraper tool. This parameter is critical and has **only four valid string values**: `\"0\"`, `\"1\"`, `\"2\"`, or `\"7\"`.\n\nFollow this logic precisely to avoid errors:\n\n1.  **Analyze the user's date request.** Determine if the dates are **Exact** or **Vague**.\n    * **Exact Dates** are specific, unambiguous days (e.g., \"August 20th to August 28th,\" \"from 2025-08-20 to 2025-08-28,\" \"this coming Friday until Sunday\").\n    * **Vague Dates** are non-specific or approximate periods (e.g., \"next weekend,\" \"a week in August,\" \"sometime in September,\" \"around Christmas\").\n\n2.  **Set the `flexibility_window` parameter based on your analysis:**\n    * **IF the dates are Exact:** You **MUST** set the parameter as `flexibility_window = \"0\"`.\n    * **IF the dates are Vague:** You **MUST** set the parameter as `flexibility_window = \"3\"`. This is your standard, safe default for all non-exact date requests.\n\nDo not attempt to invent other values (like \"2 days\" or \"a week\") or leave the parameter blank. Using an invalid value is a critical failure that will prevent the search from working.\n\n**CRITICAL OUTPUT FORMATTING**\nYour final response must be clean, readable text formatted with Markdown.\n* **DO NOT** wrap your entire response in a code block (```).\n* Use Markdown for headers (###), bold text (**text**), and bullet points (•).\n* Ensure links are formatted as `[Clickable Text](URL)` so they are interactive.\n\n## Conversation flow\n\n**1. Gather essentials** – Ask in the guest’s language (detected from their very first message) for destination, dates, budget/night, experience. Interpret vague dates (e.g. “next weekend”). **Stay in that language for the whole chat**.\n\n**2. Ask to start search** – In a few lines, summarise the trip **in the same language**, mention you’ll scan Booking & Airbnb (\\~100+ properties, 1000+ reviews) and that it takes \\~5 min. Finish with a clear \"OK?\" and wait.\n\nNEVER START THE SEARCH BEFORE ASKING FOR CONFIRMATION.\n\n## Tool & Search Parameter Rules\n\nWhen you prepare to call the booking and airbnb scraper tools, you must provide the parameters exactly as specified in its JSON schema. This is a critical, non-negotiable step.\n\n**1. Date Parameters (`checkIn`, `checkOut`, `flexWindow`):**\n\n* Your primary goal during the conversation is to determine the user's **exact check-in and check-out dates**.\n* If a user provides vague dates (e.g., \"next weekend,\" \"a week in August\"), you **must** ask clarifying questions until you have resolved them into specific ISO date formats (e.g., `2025-08-22`). You cannot proceed to the search step without exact dates.\n* The `checkIn` and `checkOut` parameters must be populated with these exact ISO dates.\n\n**2. Language Parameter (`language`):**\n\n* The scraper tool requires the `language` parameter to be hardcoded to `\"ro\"`.\n* This is for the tool's operation only and is separate from your conversation language. You will continue to speak to the user in their detected language (English, Polish, etc.), but in the JSON sent to the tool, you will always set `\"language\": \"ro\"`.\n\n**3. Other Key Parameters:**\n\n* **`minMaxPrice`**: Use the user's stated budget. If no budget is given, you can use a default like `\"0-999999\"`.\n* **`currency`**: Use the currency the user specifies. If they don't, infer a logical default based on the destination or user (e.g., EUR, USD, RON).\n* **`adults`**, **`children`**, **`rooms`**: Use the numbers provided by the user. If they are not specified, you must ask for them. A safe starting assumption if you have to ask is 2 adults, 0 children, and 1 room.\n\n## Final List Curation Algorithm\n\nTo build the final list of 7 properties, you must follow this precise, multi-step algorithm. This process is mandatory.\n\n**Step 1: Create Candidate Pools**\n* First, gather all potentially matching properties from **both** Booking.com and Airbnb into two separate temporary lists.\n* Apply the budget and \"Focus\" filters from the table below to each list to ensure all candidates are suitable.\n\n    | Budget (USD/night) | Min ⭐ | Focus (Strict Rule) |\n    | :--- | :--- | :--- |\n    | ≥150 | 4.0 | 4-5★ hotels, boutique, resorts |\n    | 100-149 | 3.8 | 4★ hotels, luxury apts |\n    | 50-99 | 3.5 | mix hotels/apts |\n    | <50 | 3.0 | best value |\n\n**Step 2: Create a Unified Ranked List**\n* Combine the two lists of candidates into a single \"master list.\"\n* Rank this entire master list from best to worst. The primary sorting key is adherence to the \"Focus\" column; the secondary sorting key is the property's rating.\n\n**Step 3: Build the Final 5-2 List**\n* Now, create your final list of 7 by iterating through your ranked master list from top to bottom. You will use a \"counter\" system to ensure the 5-2 split.\n* Initialize two counters: `booking_count = 0`, `airbnb_count = 0`.\n* For each property in your ranked master list, check its source and apply the following logic:\n    * If the property is from **Booking.com** AND `booking_count < 5`: Add it to your final list and increment `booking_count`.\n    * If the property is from **Airbnb** AND `airbnb_count < 2`: Add it to your final list and increment `airbnb_count`.\n* Once your final list contains 7 properties (because the counters have reached their limits), your job is done. Stop processing.\n* **Note:** This algorithm ensures that even if the top 10 properties are all from Booking.com, you will skip past the 6th, 7th, 8th, etc., until you find the next best Airbnb to fill the two required slots.\n\n*(The \"Romantic Premium\" rule should still be applied during the initial filtering in Step 1 if the user's request matches it.)*\n\n## Writing Style & Personality\n\nYour voice is **sophisticated, insightful, and slightly witty**—like a well-traveled friend giving an insider tip, not a robot processing data. You are confident and knowledgeable.\n\n* **For Review Summaries (`What guests loved`):** Don't just list facts. Introduce them with personality. Instead of a dry list, use phrases like:\n    * \"Guests consistently raved about...\"\n    * \"The standout feature, according to couples, was unquestionably the...\"\n    * \"It's clear from the reviews that the location is a huge selling point.\"\n* **For \"The VolaBot Verdict\" (replaces \"Why stay here\"):** This is your signature sign-off for each property. Be persuasive, punchy, and sell the *feeling* of being there.\n\n    * **DO NOT BE DULL.** Don't say: \"Experience downtown Miami from a stylish loft...\"\n    * **DO BE VIVID.** Say: \"**The VolaBot Verdict:** If you're looking to live out your Miami dreams with skyline views that will flood your camera roll, this is it. It's a high-style loft that puts you right in the heart of Brickell but with a rooftop pool that feels like a private world away from the bustle.\"\n\n**Sourcing & Platform Mix**\n* **Mandatory 7 Properties:** The final output must always contain exactly seven (7) properties, unless fewer than seven exist across all platforms that meet the user's criteria.\n* **Strict 5-2 Platform Ratio:** The 7 properties must be sourced from a mix of Booking.com and Airbnb. The ratio must be **exactly 5-to-2** (e.g., 5 properties from Booking.com and 2 from Airbnb, or 2 from Booking.com and 5 from Airbnb).\n* **Selection Process:**\n    1.  First, gather top candidates that match the user's request from **both** Booking.com and Airbnb.\n    2.  Rank all candidates together. Prioritize them first by their adherence to the 'Focus' column for their budget tier, and then sub-sort the results by rating.\n    3.  Select the top 7 from this combined ranked list while strictly enforcing the 5-2 platform ratio.\n\n## Reviews\n\n• Never show a property without checking reviews.\n• For each property, analyse all available reviews (up to a maximum of ~500) and segment by traveller type\n• When the user’s trip type is known, **prioritise reviews from matching travellers** and label the summary (e.g. “What couples loved”).\n• Summarise **3‑4 recurring positives** and **2 negatives**, quoting a vivid snippet when it adds colour. **Explain why each negative matters** (e.g. “Garage height 1.9 m – SUVs won’t fit”). quote a punchy snippet when it adds colour.\n• Print the label \"Reviews analysed: &lt;number>\" (or its translation in the user's language) for every listing so the guest sees the sample size.\n• If no reviews: label “✨ New property, no reviews yet” and skip pros/cons.\n\n---\n\n## Images\n\n### Image Curation: Smart Visual Storytelling\n\nYour goal is to create a compelling visual narrative that matches the user's priorities and tells the property's story in 1-3 strategically chosen images.\n\n**Step 1: Decode User Intent**\nIdentify the user's primary motivation from their query:\n- **Feature-Focused:** \"spa,\" \"gym,\" \"pool,\" \"view,\" \"terrace\" → `user_priority_feature`\n- **Experience-Focused:** \"romantic,\" \"business,\" \"family,\" \"party\" → `user_experience_type`\n- **Generic:** No specific feature/experience mentioned → `null`\n\n**Step 2: Quality & Relevance Filter**\nScan all images and create an \"approved pool\" by eliminating:\n- **Visual Noise:** Towels, hangers, phones, toiletries, generic furniture close-ups\n- **Dead Spaces:** Empty hallways, standard bathrooms, conference rooms, storage areas\n- **Technical Failures:** Blurry, dark, poorly composed, or distorted photos\n- **EXCEPTION:** Any image showing the `user_priority_feature` is automatically approved, regardless of the above rules\n\n**Step 3: Strategic Selection Algorithm**\nBuild your visual story with maximum 3 images following this hierarchy:\n\n**🎯 SLOT 1 - The Hook (Mandatory)**\n- **IF** `user_priority_feature` exists AND photo available → Use best feature photo\n- **ELSE IF** `user_experience_type` = romantic → Prioritize: Suite/view/ambiance shot\n- **ELSE IF** `user_experience_type` = business → Prioritize: Lobby/workspace/modern room\n- **ELSE IF** `user_experience_type` = family → Prioritize: Pool/family room/play area\n- **ELSE** → Best available \"wow factor\" (pool, view, unique exterior, stunning lobby)\n\n**🛏️ SLOT 2 - The Reality Check (If distinct from Slot 1)**\n- Best bedroom/suite photo that shows where they'll actually sleep\n- Must be visually distinct from Slot 1\n\n**✨ SLOT 3 - The Lifestyle Bonus (If distinct from Slots 1&2)**\n- Supporting amenity that enhances the story (restaurant, spa, terrace, etc.)\n- Must add new visual information\n\n**Step 4: Elegant Presentation**\nFormat as numbered visual story:\n\n```markdown\n**Property Highlights:**\n1. ![The main attraction](url1) *Rooftop infinity pool*\n2. ![Your space](url2) *Luxury king suite*\n3. ![The experience](url3) *Michelin-starred dining*\n```\n\n**Step 5: Quality Control**\n- If only 1-2 quality images meet criteria → Show those only, add: `*Additional images available on booking platform*`\n- Never pad with mediocre photos just to reach 3\n- Each image must tell a different part of the property's story\n## Links\n\nLink Integrity (CRITICAL RULE)\n\nEach hotel object has a \"url\" field.\nYou must use this URL exactly as it is provided.\nDO NOT modify, clean, shorten, or alter the link in any way. Copy it verbatim.\n\n🔗 `[Rezervă direct pe BOOKING.COM](FULL_URL)`\n🔗 `[Vezi pe AIRBNB](FULL_URL)`\n\n## Output skeleton (translate to user language)\n\n```\nI analysed 120+ stays and 800+ reviews. Here are the top 7:\n\n### Hotel Name • 9.2/10 • BOOKING.COM\n![Img1](url1) ![Img2](url2) ![Img3](url3)\n\n1. ![The main attraction][Img1](url1) *Rooftop infinity pool* (example)\n2. ![Your space][Img2](url2)\n3. ![The experience][Img3](url3)\nCapacity: 2 guests · 1 room\nPrice: €180 / night · Total: €720 / 4 nights\nReviews analysed: 342\n\nWhat couples loved:\n• Attentive staff\n• Excellent spa\n• Panoramic terrace view\n\nThings to consider:\n• Street noise at night\n• Garage clearance 1.9 m – SUVs won’t fit\n\nWhy stay here: 2‑3 punchy sentences on vibe, location, standout facilities.\n🔗 Book on BOOKING.COM\n```\n\n*(If guest wrote in Romanian or Polish, translate every label and sentence accordingly.)*\n\nInternal checklist before replying\n- **Language & Translation:** Confirmed the entire response is in the user's detected language, and any text from the source JSON (e.g., review categories) has been translated.\n- **Link Integrity:** Confirmed that all URLs are copied verbatim from the source JSON without modification.\n- **7 Properties, 5-2 Ratio:** Confirmed the output contains exactly 7 properties (unless fewer are available) and respects the 5-2 platform mix.\n- **Image Curation Rules:**\n    - ✅ **Banned Subjects Filter:** Confirmed no chosen image features a banned subject.\n    - ✅ **Three Distinct Subjects:** Confirmed the chosen images (if more than one) show clearly different subjects/locations.\n    - ✅ **Graceful Failure Applied:** Confirmed that the number of images shown (1, 2, or 3) accurately reflects the availability of high-quality, distinct photos.\n- **Final Review:** Confirmed that all pros/cons are included, and all numbers seem realistic.\n- **Current Date:** The current date is {{ $now }}. All requested dates are in the future.\n\n\nEND SYSTEM PROMPT\n",
+          "returnIntermediateSteps": false
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2,
+      "position": [
+        840,
+        160
+      ],
+      "id": "85dbb61b-598b-4731-b105-364abdcfcb6d",
+      "name": "AI Agent",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "public": true,
+        "initialMessages": "Bună, sunt Volabot! 👋\nCu ce te pot ajuta azi?",
+        "options": {
+          "inputPlaceholder": "Vreau să merg într-o vacanță în Maldive, alături de soția mea, între 14 și 28 august...",
+          "responseMode": "responseNode",
+          "showWelcomeScreen": true,
+          "subtitle": "Trimite-ne un mesaj, iar agentul nostru îți va găsi cele mai bune opțiuni de cazare care să corespundă preferințelor tale 🌴",
+          "title": "Descoperă opțiuni de cazare cu Vola!",
+          "customCss": ":root {\n  /* Vola Brand Colors */\n  --chat--color-primary: #4169E1;  /* Vola Blue */\n  --chat--color-primary-shade-50: #3B5FD9;\n  --chat--color-primary-shade-100: #3555D1;\n  --chat--color-secondary: #FFB800;  /* Vola Yellow/Orange */\n  --chat--color-secondary-shade-50: #E6A500;\n  --chat--color-white: #ffffff;\n  --chat--color-light: #f8f9fd;\n  --chat--color-light-shade-50: #eef1fb;\n  --chat--color-light-shade-100: #d9dff7;\n  --chat--color-medium: #c8d0e8;\n  --chat--color-dark: #1a2040;\n  --chat--color-disabled: #6b7280;\n  --chat--color-typing: #374151;\n\n  /* Base Layout */\n  --chat--spacing: 1rem;\n  --chat--border-radius: 0.5rem;  /* Slightly more rounded for modern look */\n  --chat--transition-duration: 0.15s;\n\n  /* Window Dimensions */\n  --chat--window--width: 400px;\n  --chat--window--height: 600px;\n  --chat--window--bottom: var(--chat--spacing);\n  --chat--window--right: var(--chat--spacing);\n  --chat--window--z-index: 9999;\n  --chat--window--border: 1px solid var(--chat--color-light-shade-50);\n  --chat--window--border-radius: 1rem;  /* More rounded window */\n  --chat--window--margin-bottom: var(--chat--spacing);\n\n  /* Header Styles - Vola Blue */\n  --chat--header-height: auto;\n  --chat--header--padding: var(--chat--spacing);\n  --chat--header--background: var(--chat--color-primary);\n  --chat--header--color: var(--chat--color-white);\n  --chat--header--border-top: none;\n  --chat--header--border-bottom: none;\n  --chat--header--border-left: none;\n  --chat--header--border-right: none;\n  --chat--heading--font-size: 2em;\n  --chat--subtitle--font-size: inherit;\n  --chat--subtitle--line-height: 1.8;\n\n  /* Message Styles */\n  --chat--message--font-size: 1rem;\n  --chat--message--padding: var(--chat--spacing);\n  --chat--message--border-radius: 1rem;  /* More rounded messages */\n  --chat--message-line-height: 1.5;\n  --chat--message--margin-bottom: calc(var(--chat--spacing) * 1);\n  --chat--message--bot--background: var(--chat--color-white);\n  --chat--message--bot--color: var(--chat--color-dark);\n  --chat--message--bot--border: 1px solid var(--chat--color-light-shade-50);\n  --chat--message--user--background: var(--chat--color-primary);\n  --chat--message--user--color: var(--chat--color-white);\n  --chat--message--user--border: none;\n  --chat--message--pre--background: rgba(65, 105, 225, 0.1);  /* Light blue background for code */\n  --chat--messages-list--padding: var(--chat--spacing);\n\n  /* Toggle Button - Vola Blue with Yellow accent */\n  --chat--toggle--size: 64px;\n  --chat--toggle--width: var(--chat--toggle--size);\n  --chat--toggle--height: var(--chat--toggle--size);\n  --chat--toggle--border-radius: 50%;\n  --chat--toggle--background: var(--chat--color-primary);\n  --chat--toggle--hover--background: var(--chat--color-primary-shade-50);\n  --chat--toggle--active--background: var(--chat--color-primary-shade-100);\n  --chat--toggle--color: var(--chat--color-white);\n\n  /* Button Styles */\n  --chat--button--color: var(--chat--color-white);\n  --chat--button--background: var(--chat--color-primary);\n  --chat--button--padding: calc(var(--chat--spacing) * 1 / 2) var(--chat--spacing);\n  --chat--button--border-radius: 0.5rem;\n  --chat--button--hover--color: var(--chat--color-white);\n  --chat--button--hover--background: var(--chat--color-primary-shade-50);\n  --chat--close--button--color-hover: var(--chat--color-primary);\n\n  /* Send and File Buttons - Yellow accent */\n  --chat--input--send--button--background: var(--chat--color-secondary);\n  --chat--input--send--button--color: var(--chat--color-dark);\n  --chat--input--send--button--background-hover: var(--chat--color-secondary-shade-50);\n  --chat--input--send--button--color-hover: var(--chat--color-dark);\n  --chat--input--file--button--background: var(--chat--color-white);\n  --chat--input--file--button--color: var(--chat--color-primary);\n  --chat--input--file--button--background-hover: var(--chat--color-light);\n  --chat--input--file--button--color-hover: var(--chat--color-primary-shade-50);\n  --chat--files-spacing: 0.25rem;\n\n  /* Body and Footer - Light blue tint */\n  --chat--body--background: var(--chat--color-light);\n  --chat--footer--background: var(--chat--color-light);\n  --chat--footer--color: var(--chat--color-dark);\n}\n\n/* Custom message styling for Vola theme */\n.chat-message {\n  max-width: 50%;\n  box-shadow: 0 2px 8px rgba(65, 105, 225, 0.1);\n  transition: transform 0.2s ease, box-shadow 0.2s ease;\n}\n\n.chat-message:hover {\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(65, 105, 225, 0.15);\n}\n\n/* Additional Vola-specific enhancements */\n.chat-header {\n  background: linear-gradient(135deg, var(--chat--color-primary) 0%, var(--chat--color-primary-shade-50) 100%);\n}\n\n.chat-toggle {\n  box-shadow: 0 4px 16px rgba(65, 105, 225, 0.3);\n  transition: all 0.3s ease;\n}\n\n.chat-toggle:hover {\n  box-shadow: 0 6px 20px rgba(65, 105, 225, 0.4);\n  transform: translateY(-2px);\n}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        400,
+        200
+      ],
+      "id": "dce2b6be-5c3b-4f0d-9880-81f273e0c7fe",
+      "name": "When chat message received",
+      "webhookId": "b419f5d3-82dd-41d3-933d-eca656870ab6"
+    },
+    {
+      "parameters": {
+        "toolDescription": "Scrape AirBnb to get available listings.",
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/tri_angle~airbnb-scraper/run-sync-get-dataset-items?token=apify_api_Jfvr7mJthgPiFnw2hVvDjLZDKW5vHw1KSU6Z",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "maxItems",
+              "value": "15"
+            },
+            {
+              "name": "limit",
+              "value": "15"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n    \"adults\": {{ $fromAI('adults', 'Number of adults on the  trip', 'number') }},\n    \"checkIn\": \"{{ $fromAI('check_in_date', 'Check-in date as ISO date only', 'string') }}\",\n    \"checkOut\": \"{{ $fromAI('check_out_date', 'Check-out date as ISO date only', 'string') }}\",\n    \"children\": {{ $fromAI('children', 'Number of children on the  trip', 'number') }},\n    \"currency\": \"{{ $fromAI('currency', `Currency in which to display results, usually RON, EUR or USD`, 'string') }}\",\n    \"infants\": {{ $fromAI('infants', 'Number of infants on the  trip', 'number') }},\n    \"locale\": \"ro-RO\",\n    \"locationQueries\": [\n       \"{{ $fromAI('destination', `The destination the user wants to visit`, 'string') }}\"\n    ],\n    \"minBathrooms\": {{ $fromAI(\"min_bathrooms\", \"Minimum number of bathrooms at the stay\", \"number\") }},\n    \"minBedrooms\": {{ $fromAI(\"min_bedrooms\", \"Minimum number of bedrooms at the stay\", \"number\") }},\n    \"minBeds\": {{ $fromAI(\"min_beds\", \"Minimum number of beds at the stay\", \"number\") }},\n    \"pets\": {{ $fromAI('pets', 'Number of pets on the  trip', 'number') }},\n    \"priceMax\": {{ $fromAI('price_max', 'Maximum price per night on the  trip', 'number') }},\n    \"priceMin\": {{ $fromAI('price_min', 'Minimum price per night on the  trip', 'number') }}\n}",
+        "options": {},
+        "optimizeResponse": true,
+        "fieldsToInclude": "except",
+        "fields": "id,descriptionOriginalLanguage,metaDescription,seoTitle,thumbnail,androidLink,iosLink,breadcrumbs,host,coHosts,locationSubtitle,htmlDescription,brandHighlights,icon,timestamp,language"
+      },
+      "type": "n8n-nodes-base.httpRequestTool",
+      "typeVersion": 4.2,
+      "position": [
+        700,
+        560
+      ],
+      "id": "fd43f4c1-9983-4ffe-804b-8d498c4e8bd3",
+      "name": "Scrape AirBnb",
+      "retryOnFail": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "toolDescription": "Scrape Booking to get listings.",
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/voyager~booking-scraper/run-sync-get-dataset-items?token=apify_api_Jfvr7mJthgPiFnw2hVvDjLZDKW5vHw1KSU6Z",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "maxItems",
+              "value": "15"
+            },
+            {
+              "name": "limit",
+              "value": "15"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"minMaxPrice\": \"{{ $fromAI('price_range', `The price range acceptable for the user formated as min-max, by default is 0-999999`, 'string') }}\",\n  \"checkIn\": \"{{ $fromAI('check_in_date', `Check in date as ISO date only`, 'string') }}\",\n  \"checkOut\": \"{{ $fromAI('check_out_date', `Check out date as ISO date only`, 'string') }}\",\n  \"search\": \"{{ $fromAI('Destination', `The destination the user wants to visit`, 'string') }}\",\n  \"flexWindow\": \"{{ $fromAI('flexibility_window', `How many days plus or minus the check-in or check-out date the client is ok with`, 'string') }}\",\n  \"adults\": {{ $fromAI('adults', `Number of adults for the trip`, 'number') }},\n  \"children\": {{ $fromAI('children', `Number of children for the trip`, 'number') }},\n  \"currency\": \"{{ $fromAI('currency', `Currency in which to display results, usually RON, EUR or USD`, 'string') }}\",\n  \"rooms\": {{ $fromAI('rooms', `Number of rooms needed by the client`, 'number') }},\n  \"language\": \"ro\",\n  \"propertyType\": \"{{ $fromAI('propertyType', 'One of the following: \"Hotels\", \"Apartments\", \"Hostels\", \"Guest Houses\", \"Homestays\", \"Bed an breakfasts\", \"Holiday homes\", \"Boats\", \"Villas\", \"Motels\", \"Resorts\", \"Holiday parks\", \"Campsites\", \"Luxury tents\" or \"none\"', 'string') }}\"\n}",
+        "options": {},
+        "optimizeResponse": true,
+        "fieldsToInclude": "except",
+        "fields": "order,hotelChain,licenseInfo,hostInfo,traderInfo,breadcrumbs,timeOfScrapeISO,hotelId"
+      },
+      "type": "n8n-nodes-base.httpRequestTool",
+      "typeVersion": 4.2,
+      "position": [
+        860,
+        560
+      ],
+      "id": "5d8e2b47-346f-4fac-b79b-8b2df2436618",
+      "name": "Scrape Booking",
+      "retryOnFail": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.3,
+      "position": [
+        1300,
+        -40
+      ],
+      "id": "aec28477-db34-40eb-a085-72c1833ca310",
+      "name": "Respond to Webhook",
+      "retryOnFail": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "content": "## Chat \n",
+        "height": 600
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        320,
+        120
+      ],
+      "typeVersion": 1,
+      "id": "f8f549e0-c680-46dc-91c7-344e2bfab7ef",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "content": "## Agent\nBusinessLogic",
+        "height": 400,
+        "width": 880,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        560,
+        120
+      ],
+      "typeVersion": 1,
+      "id": "bd643a8b-7669-45ef-afd0-6bb1c4c9c0e3",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "content": "## Tools\nBusinessLogic",
+        "height": 200,
+        "width": 880,
+        "color": 3
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        560,
+        520
+      ],
+      "typeVersion": 1,
+      "id": "8d027a46-0bc1-4e47-a01b-6342bd228883",
+      "name": "Sticky Note3"
+    },
+    {
+      "parameters": {
+        "toolDescription": "Get Accomodation Reviews for Booking.com Platform",
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/voyager~booking-reviews-scraper/run-sync-get-dataset-items?token=APIFY_API_KEY_REDACTED",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "maxItems",
+              "value": "50"
+            },
+            {
+              "name": "limit",
+              "value": "50"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n    \"cutoffDate\": \"180 days\",\n    \"maxReviewsPerHotel\": 50,\n    \"reviewScores\": [\n        \"ALL\"\n    ],\n    \"sortReviewsBy\": \"f_relevance\",\n    \"startUrls\": [\n        {\n            \"url\": \"{{ $fromAI('url', `Url of the accomodation`, 'string') }}\",\n            \"method\": \"GET\"\n        }\n    ]\n}",
+        "options": {},
+        "optimizeResponse": true,
+        "fieldsToInclude": "except",
+        "fields": "userName,userAvatar,propertyResponse,checkInDate,checkOutDate,id,numberOfNights,stayRoomId,hotelId,reviewsScoreFilter,reviewPage,startUrl"
+      },
+      "type": "n8n-nodes-base.httpRequestTool",
+      "typeVersion": 4.2,
+      "position": [
+        1000,
+        560
+      ],
+      "id": "199a76a7-3935-4b5b-91ae-0cbf441ef4c5",
+      "name": "Reviews Booking",
+      "retryOnFail": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "toolDescription": "Get Accomodation Reviews for Airbnb Platform",
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/tri_angle~airbnb-reviews-scraper/run-sync-get-dataset-items?token=APIFY_API_KEY_REDACTED",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "maxItems",
+              "value": "50"
+            },
+            {
+              "name": "limit",
+              "value": "50"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n    \"locale\": \"ro-RO\",\n    \"startUrls\": [\n        {\n            \"url\": \"{{ $fromAI('url', `Url of the accomodation`, 'string') }}\",\n            \"method\": \"GET\"\n        }\n    ]\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequestTool",
+      "typeVersion": 4.2,
+      "position": [
+        1140,
+        560
+      ],
+      "id": "02b1b215-6101-46a0-b290-55b98411115c",
+      "name": "Reviews Airbnb",
+      "retryOnFail": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "content": "## Vola\nWebhook",
+        "height": 240,
+        "width": 1120,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        320,
+        -120
+      ],
+      "typeVersion": 1,
+      "id": "cfbdfbcc-ddc6-46f4-be9b-ed55e97ec870",
+      "name": "Sticky Note4"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "042d2591-94ed-43a9-a5e5-0860412c08e5",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        380,
+        -40
+      ],
+      "id": "f33dc902-4840-4e0b-81bc-a146705d7039",
+      "name": "Vola Webhook",
+      "webhookId": "042d2591-94ed-43a9-a5e5-0860412c08e5"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "1cedc1f8-0343-4fd7-ae02-c94ebfcacc69",
+              "name": "chatInput",
+              "value": "={{ $json.body.chatInput }}",
+              "type": "string"
+            },
+            {
+              "id": "fbff52a0-dbd2-47a5-b933-27ead60f90fa",
+              "name": "sessionId",
+              "value": "={{ $json.body.sessionId }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        560,
+        -40
+      ],
+      "id": "f1783b3e-a1e4-4a43-b010-b5c36cb1b2ce",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "tableName": "hotels_agent"
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
+      "typeVersion": 1.3,
+      "position": [
+        720,
+        380
+      ],
+      "id": "60874b7a-d406-4f9d-90de-f9db1a3e78c4",
+      "name": "Postgres Chat Memory",
+      "credentials": {
+        "postgres": {
+          "id": "FPy2djSGyWu7XCgP",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.5-flash",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        580,
+        380
+      ],
+      "id": "17cfce60-e45d-4fcb-8d16-87b7a5ec34be",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "6crYZOqBsqTBxATq",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "toolDescription": "APIFY -> Google Maps Reviews",
+        "url": "=https://api.apify.com/v2/acts/compass~google-maps-reviews-scraper/run-sync-get-dataset-items?token=APIFY_API_KEY_REDACTED",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequestTool",
+      "typeVersion": 4.2,
+      "position": [
+        1260,
+        560
+      ],
+      "id": "88dbceff-43ae-49f4-b903-154ce016bfb8",
+      "name": "Google Maps Reviews",
+      "notesInFlow": false
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Scrape AirBnb": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Scrape Booking": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Reviews Booking": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Reviews Airbnb": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Vola Webhook": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres Chat Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Maps Reviews": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "3be4eb85-8363-466c-b0f1-546da19c72c0",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "70494cb356420efc72c2a7a47e27b7a31b783bdae5a28ee35c1530986f0f1709"
+  },
+  "id": "pkELWZSsqdr9pNfy",
+  "tags": []
+}
