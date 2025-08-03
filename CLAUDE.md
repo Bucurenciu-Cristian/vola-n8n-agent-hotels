@@ -26,7 +26,7 @@ This is a N8N workflow project for **VolaBot**, an AI-powered travel consultant 
 - **Booking.com Scraper**: Apify voyager~booking-scraper for accommodation data
 - **Airbnb Scraper**: Apify tri_angle~airbnb-scraper for accommodation data
 - **Review Scrapers**: Separate scrapers for detailed review analysis from both platforms
-- **Google Maps Reviews**: Additional review source via compass~google-maps-reviews-scraper
+- **Google Maps Reviews**: compass~google-maps-reviews-scraper for authentic guest experiences, ratings validation, and amenity verification
 
 ### Workflow Architecture
 
@@ -57,6 +57,13 @@ Chat Input → AI Agent → Scraping Tools → Review Analysis → Response
 - **Segmentation**: Groups reviews by traveler type (couples, families, business)
 - **Sentiment Analysis**: 3-4 positives + 2 negatives with context explanation
 - **Sample Size Transparency**: Shows number of reviews analyzed
+
+### Google Maps Integration
+- **Enhanced Validation**: Cross-validates property ratings with Google Maps reviews
+- **Amenity Verification**: Uses Google reviews to confirm gym, spa, pool availability
+- **Ranking Boost**: Properties with 4.0+ Google rating get priority scoring
+- **Cost Optimized**: 25 reviews per property (~$15/month operational cost)
+- **Authentic Experience**: Incorporates genuine guest experiences from Google platform
 
 ### Smart Image Curation
 - **User-Priority Matching**: Prioritizes images based on user's stated preferences
@@ -121,6 +128,10 @@ POST https://api.apify.com/v2/acts/tri_angle~airbnb-scraper/run-sync-get-dataset
 // Review Scrapers
 POST https://api.apify.com/v2/acts/voyager~booking-reviews-scraper/run-sync-get-dataset-items
 POST https://api.apify.com/v2/acts/tri_angle~airbnb-reviews-scraper/run-sync-get-dataset-items
+
+// Google Maps Reviews Scraper
+POST https://api.apify.com/v2/acts/compass~google-maps-reviews-scraper/run-sync-get-dataset-items
+// Parameters: startUrls (Google Maps URLs), maxReviews (25), reviewsSort ("newest"), reviewsOrigin ("Google")
 ```
 
 ### Critical Parameters
@@ -129,14 +140,22 @@ POST https://api.apify.com/v2/acts/tri_angle~airbnb-reviews-scraper/run-sync-get
 - **Date Formats**: ISO date format required (YYYY-MM-DD)
 - **Currency**: User-specified or inferred (EUR, USD, RON)
 
+### Google Maps Parameters
+- **`maxReviews`**: Set to 25 for cost optimization (estimated $15/month)
+- **`reviewsSort`**: "newest" for relevant recent feedback
+- **`reviewsStartDate`**: "6 months" for recent reviews only
+- **`reviewsOrigin`**: "Google" for hotels to avoid diluted results
+- **`personalDataEnabled`**: false for privacy compliance
+
 ## Business Logic
 
 ### Property Selection Algorithm
 1. **Candidate Pools**: Gather properties from both platforms
 2. **Budget Filtering**: Apply quality thresholds based on price range
 3. **Unified Ranking**: Combine and rank all candidates by quality + rating
-4. **5-2 Enforcement**: Select top 7 while maintaining platform ratio
-5. **Quality Gates**: Ensure minimum ratings and focus criteria are met
+4. **Google Maps Enhancement**: Apply bonus scoring for 4.0+ Google ratings, verify amenities through Google reviews
+5. **5-2 Enforcement**: Select top 7 while maintaining platform ratio
+6. **Quality Gates**: Ensure minimum ratings and focus criteria are met
 
 ### User Interaction Flow
 1. **Information Gathering**: Destination, dates, budget, preferences
