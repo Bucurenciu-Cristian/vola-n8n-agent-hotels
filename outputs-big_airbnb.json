@@ -1,0 +1,3222 @@
+[
+  {
+    "response": [
+      {
+        "coordinates": {
+          "latitude": 45.75667,
+          "longitude": 21.22924
+        },
+        "sharingConfigTitle": "Loft · Timișoara · ★4,85 · 1 dormitor · 2 paturi · 1 baie",
+        "url": "https://www.airbnb.com/rooms/42469599?locale=ro-RO&currency=RON&adults=1&children=0&infants=0&pets=0&check_in=2025-08-22&check_out=2025-08-26",
+        "propertyType": "Întreaga locuință: loft",
+        "roomType": "Entire home/apt",
+        "homeTier": 1,
+        "personCapacity": 3,
+        "rating": {
+          "accuracy": 4.87,
+          "checking": 4.95,
+          "cleanliness": 4.73,
+          "communication": 4.98,
+          "location": 4.97,
+          "value": 4.85,
+          "guestSatisfaction": 4.85,
+          "reviewsCount": 335
+        },
+        "location": "Timișoara",
+        "locationDescriptions": [
+          {
+            "title": "Timișoara, Județul Timiș, România",
+            "content": "Acest apartament-mansardă este situat într-o clădire istorică cu două etaje care a fost construită în jurul anului 1750 și restaurată recent (2018) în ceea ce privește siguranța ,instalațiile și finisajele întregii case . Este situat chiar în centrul vechi al orașului Timișoara, păzit de străzi pietonale cu tot felul de baruri , terase, cluburi, restaurante și Piața Unirii, una dintre cele mai frumoase piețe baroce din Europa, la 1 minut de mers pe jos",
+            "mapMarkerRadiusInMeters": 0
+          },
+          {
+            "title": "Deplasarea și accesul",
+            "content": "În imediata apropiere a clădirii și atunci când părăsești casa se află orașul istoric Timișoara, cu străzi și piețe pietonale. În centrul orașului și în zona pietonală, care este la aproximativ 1 km de 1 km, vei găsi toate cele mai importante mijloace de transport în comun, cum ar fi tramvaie, autobuze, biciclete, taxiuri. Cea mai apropiată stație de taxi și tramvai este la 250 m de clădire. Din cauza zonei pietonale, parcarea este permisă numai pe străzi, la limita centrului istoric al orașului. Poți plăti parcarea prin telefon sau poți găsi parcare privată",
+            "mapMarkerRadiusInMeters": 0
+          }
+        ],
+        "title": "Centrul vechi al orașului Savoya 2  Studio",
+        "description": "NOU apartament studio Loft Piața Unirii Savoya (Piața Unirii ) din Timișoara, situat într-o clădire istorică cu două etaje care a fost construită în jurul anului 1750 și restaurată recent (2018) . Este situat chiar în centrul vechi al orașului Timișoara, păzit de străzi pietonale cu tot felul de baruri , terase, cluburi, restaurante și Piața Unirii, una dintre cele mai frumoase piețe baroce din Europa, la 1 minut de mers pe jos. Cu prietenii? Poți rezerva un apartament separat în aceeași clădireSpațiulSpațiulAcest  apartament este spațios, mobilat la un standard ridicat, cald și primitor. Acesta este un apartament studio cu balcon interior perfect pentru a treia persoană sau chiar doi copii cu o canapea extensibilă de 140/200 cm . Camera principală este perfectă pentru cazarea a două persoane  cu un pat matrimonial de 180/200 cm și include : * Loc de luat masa * Bucătărie* Dormitor* Baie cu dușZona de living și de servit masa sunt dispuse în spațiu deschis și sunt conectate cu bucătăria. Bucătăria este complet utilată. Livingul este foarte aerisit, cu televizor LCD și internet. Baia are un duș mare și o mașină de spălat rufe.Accesul oaspețilorAccesul oaspețilorPoarta principală și intrarea în clădire sunt sigure  și necesită un cod de acces pentru intrare. Fiecare apartament are la ușa de intrare o încuietoare cu cheie, unde oaspetele poate găsi și lăsa cheile fără a fi nevoie să aștepte și să se întâlnească cu proprietarul",
+        "subDescription": {
+          "title": "Întreaga locuință: loft în Timișoara, România",
+          "items": ["3 oaspeți", "1 dormitor", "2 paturi", "1 baie"]
+        },
+        "isAvailable": true,
+        "price": {
+          "label": "289 lei pe noapte",
+          "qualifier": "noapte",
+          "price": "289 lei",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "breakDown": {
+            "basePrice": {
+              "description": "4 nopți x 228,33 lei",
+              "price": "913,32 lei"
+            },
+            "basePriceBreakdown": [],
+            "serviceFee": null,
+            "taxes": null,
+            "total": {
+              "price": "$91,332",
+              "description": "Total (calculated price, may vary)"
+            },
+            "totalBeforeTaxes": null,
+            "cleaningFee": null,
+            "specialOffer": null,
+            "earlyBirdDiscount": null
+          }
+        },
+        "images": [
+          {
+            "caption": "Imaginea 1 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/5b1235c6-fbc9-4bc1-bf01-19f7212ffde2.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/7c8cb746-b32b-4d11-937e-c49520cfbf5f.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/ab91358a-2bed-4665-9c6e-2bdc9e097447.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/d9d52aca-4a99-4999-82d6-dee7c859c50a.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/1ed004a3-f83c-474a-9f92-61a6c824ddd5.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/40e4748e-ffbb-4b31-8462-ec8a85ed601f.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/52ee9016-bebb-499f-9b66-3d1b371af13c.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/2698f80e-a4ab-4178-849e-b9554d627886.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/c3ef11e6-4750-4ab1-812c-33c8130ad357.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 6 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/c30ecb56-9940-4e33-b589-fec134ce6516.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 7 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/e020f251-1646-4b8f-9d69-2694363dcc16.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/33a08248-a487-40ce-b321-05bfd390f3ea.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/1577df72-e216-4b6c-ad48-5be3fe032b72.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/9b6d8493-ab74-42e6-aa49-95e58eec680a.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/f78f7924-c398-412a-a297-5ab0aa0527bc.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/32f7a9ba-8007-4d77-a580-0e78c1b4daa9.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 6 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/08968a73-7a1e-49f6-85ac-eb94eba46307.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 7 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/b70168ea-255f-43e1-b679-918dcad22aa4.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/f2110af8-cf4d-41d5-a177-6f7d8f3066b5.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/0e6710fb-5c61-4dc3-974b-5815bc4e9e5f.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/b24c6427-50ea-408c-81ad-7d91d61970b7.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/5a413d68-180f-414c-b6e1-cc49dffef8dd.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/2898aea2-4ec9-40ba-801d-eff53a2442cc.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/68cc3bf7-5851-49ed-96d9-e42e3eeca2df.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42469599/original/3b0b976e-7efe-447b-94b4-12fb36a7b6f4.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 6 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/44ba6993-45e5-4995-affd-c0f8e27fca89.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 7 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/1a114ef2-708b-4e63-a6d1-579c21efeceb.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 8 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/a16ba103-66a4-454d-8bd1-93067806f6d4.jpg",
+            "orientation": "LANDSCAPE"
+          }
+        ],
+        "highlights": [
+          {
+            "title": "Check-in independent",
+            "subtitle": "Fă check-in pe cont propriu folosind cutia securizată.",
+            "icon": "SYSTEM_CHECK_IN",
+            "type": "LISTING_SELF_CHECKIN"
+          },
+          {
+            "title": "Restaurante excelente în apropiere",
+            "subtitle": "Oaspeții spun că există opțiuni excelente pentru a lua masa în oraș.",
+            "icon": "SYSTEM_LOCATION",
+            "type": "LISTING_REVIEW_AREA_VIBES"
+          },
+          {
+            "title": "Anulare gratuită până pe 21 aug.",
+            "subtitle": "Obții o rambursare integrală dacă te răzgândești.",
+            "icon": "SYSTEM_CALENDAR",
+            "type": "LISTING_CANCELLATION_POLICY"
+          }
+        ],
+        "houseRules": {
+          "additional": null,
+          "general": [
+            {
+              "title": "Check-in și check-out",
+              "values": [
+                {
+                  "title": "Check-in: între 14:00 și 22:00",
+                  "icon": "SYSTEM_CLOCK",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Check-out înainte de ora 11:00",
+                  "icon": "SYSTEM_CLOCK",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Check-in independent cu cutie securizată.",
+                  "icon": "SYSTEM_CHECK_IN",
+                  "additionalInfo": null
+                }
+              ]
+            },
+            {
+              "title": "În timpul șederii",
+              "values": [
+                {
+                  "title": "Maximum 3 oaspeți",
+                  "icon": "SYSTEM_FAMILY",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fără animale de companie",
+                  "icon": "SYSTEM_NO_PETS",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Ore de liniște",
+                  "icon": "SYSTEM_EVENING",
+                  "additionalInfo": "Între 21:00 și 08:00"
+                },
+                {
+                  "title": "Fără petreceri sau evenimente",
+                  "icon": "SYSTEM_NO_EVENTS",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fotografierea în scopuri comerciale este interzisă",
+                  "icon": "SYSTEM_NO_CAMERA",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fumatul interzis",
+                  "icon": "SYSTEM_SMOKING_NOT_ALLOWED",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Reguli suplimentare",
+                  "icon": "SYSTEM_CLIPBOARD",
+                  "additionalInfo": null
+                }
+              ]
+            }
+          ]
+        },
+        "cancellationPolicies": [
+          {
+            "title": "Anulare gratuită până pe 21 aug.. Dacă anulezi înainte de check-in-ul de pe 22 aug., vei primi o rambursare parțială.",
+            "policyName": "Flexibilă",
+            "policyId": 3
+          }
+        ],
+        "amenities": [
+          {
+            "title": "Vederi pitorești",
+            "values": [
+              {
+                "title": "Vedere panoramică a orașului",
+                "subtitle": "",
+                "icon": "SYSTEM_VIEW_CITY",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Baie",
+            "values": [
+              {
+                "title": "Uscător de păr",
+                "subtitle": "",
+                "icon": "SYSTEM_HAIRDRYER",
+                "available": true
+              },
+              {
+                "title": "Șampon",
+                "subtitle": "",
+                "icon": "SYSTEM_SHAMPOO",
+                "available": true
+              },
+              {
+                "title": "Apă caldă",
+                "subtitle": "",
+                "icon": "SYSTEM_HOT_WATER",
+                "available": true
+              },
+              {
+                "title": "Gel de duș",
+                "subtitle": "",
+                "icon": "SYSTEM_SOAP",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Dormitor și lenjerie",
+            "values": [
+              {
+                "title": "Mașină de spălat (în unitate) Gratuit",
+                "subtitle": "",
+                "icon": "SYSTEM_WASHER",
+                "available": true
+              },
+              {
+                "title": "Dotări esențiale",
+                "subtitle": "Prosoape, lenjerie de pat, săpun și hârtie igienică",
+                "icon": "SYSTEM_TOILETRIES",
+                "available": true
+              },
+              {
+                "title": "Umerașe",
+                "subtitle": "",
+                "icon": "SYSTEM_HANGERS",
+                "available": true
+              },
+              {
+                "title": "Lenjerie de pat",
+                "subtitle": "",
+                "icon": "SYSTEM_BLANKETS",
+                "available": true
+              },
+              {
+                "title": "Fier de călcat",
+                "subtitle": "",
+                "icon": "SYSTEM_IRON",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Divertisment",
+            "values": [
+              {
+                "title": "HDTV cu cablu standard",
+                "subtitle": "",
+                "icon": "SYSTEM_TV",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Încălzire și climatizare",
+            "values": [
+              {
+                "title": "Aer condiționat – sistem fără conducte, de tip split",
+                "subtitle": "",
+                "icon": "SYSTEM_SNOWFLAKE",
+                "available": true
+              },
+              {
+                "title": "Încălzire",
+                "subtitle": "",
+                "icon": "SYSTEM_THERMOMETER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Siguranța locuinței",
+            "values": [
+              {
+                "title": "Camere de supraveghere de exterior aflate la proprietate",
+                "subtitle": "Pe  scara imobilului din zona comună ",
+                "icon": "SYSTEM_SURVEILLANCE",
+                "available": true
+              },
+              {
+                "title": "Detector de fum",
+                "subtitle": "",
+                "icon": "SYSTEM_DETECTOR_SMOKE",
+                "available": true
+              },
+              {
+                "title": "Extinctor",
+                "subtitle": "",
+                "icon": "SYSTEM_FIRE_EXTINGUISHER",
+                "available": true
+              },
+              {
+                "title": "Trusă de prim ajutor",
+                "subtitle": "",
+                "icon": "SYSTEM_FIRST_AID_KIT",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Internet și birou",
+            "values": [
+              {
+                "title": "Wi-Fi",
+                "subtitle": "",
+                "icon": "SYSTEM_WI_FI",
+                "available": true
+              },
+              {
+                "title": "Spațiu de muncă dedicat",
+                "subtitle": "Într-un spațiu comun",
+                "icon": "SYSTEM_WORKSPACE",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Bucătărie și sufragerie",
+            "values": [
+              {
+                "title": "Bucătărie",
+                "subtitle": "Spațiu în care oaspeții își pot prepara singuri mâncarea",
+                "icon": "SYSTEM_COOKING_BASICS",
+                "available": true
+              },
+              {
+                "title": "Frigider",
+                "subtitle": "",
+                "icon": "SYSTEM_REFRIGERATOR",
+                "available": true
+              },
+              {
+                "title": "Ustensile esențiale de gătit",
+                "subtitle": "Oale și tigăi, ulei, sare și piper",
+                "icon": "SYSTEM_COOKING_BASICS",
+                "available": true
+              },
+              {
+                "title": "Veselă și argintărie",
+                "subtitle": "Boluri, bețișoare, farfurii, căni etc.",
+                "icon": "SYSTEM_DISHES_AND_SILVERWARE",
+                "available": true
+              },
+              {
+                "title": "Plită",
+                "subtitle": "",
+                "icon": "SYSTEM_STOVE",
+                "available": true
+              },
+              {
+                "title": "Cafetieră",
+                "subtitle": "",
+                "icon": "SYSTEM_COFFEE_MAKER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Caracteristicile poziției",
+            "values": [
+              {
+                "title": "Intrare separată",
+                "subtitle": "Intrare separată din stradă sau din clădire",
+                "icon": "SYSTEM_DOOR",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Servicii",
+            "values": [
+              {
+                "title": "Check-in independent",
+                "subtitle": "",
+                "icon": "SYSTEM_KEY",
+                "available": true
+              },
+              {
+                "title": "Cutie securizată",
+                "subtitle": "",
+                "icon": "SYSTEM_SAFE",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Nu sunt incluse",
+            "values": [
+              {
+                "title": "Uscător automat de rufe",
+                "subtitle": "",
+                "icon": "SYSTEM_NO_DRYER",
+                "available": false
+              },
+              {
+                "title": "Detector de monoxid de carbon",
+                "subtitle": "Nu există detector de monoxid de carbon în cadrul proprietății.",
+                "icon": "SYSTEM_NO_DETECTOR_CO2",
+                "available": false
+              }
+            ]
+          }
+        ],
+        "checkIn": "2025-08-22",
+        "checkOut": "2025-08-26"
+      },
+      {
+        "coordinates": {
+          "latitude": 45.762015152149935,
+          "longitude": 21.224070779762286
+        },
+        "sharingConfigTitle": "Unitate de închiriat · Timișoara · ★Nou · 1 dormitor · 2 paturi · 1 baie",
+        "url": "https://www.airbnb.com/rooms/1448359504732224620?locale=ro-RO&currency=RON&adults=1&children=0&infants=0&pets=0&check_in=2025-08-22&check_out=2025-08-26",
+        "propertyType": "Întreaga locuință: unitate de închiriat",
+        "roomType": "Entire home/apt",
+        "homeTier": 1,
+        "personCapacity": 4,
+        "rating": {
+          "accuracy": 5,
+          "checking": 5,
+          "cleanliness": 3,
+          "communication": 5,
+          "location": 5,
+          "value": 4,
+          "guestSatisfaction": 4,
+          "reviewsCount": 1
+        },
+        "location": "Timișoara",
+        "locationDescriptions": [
+          {
+            "title": "Timișoara, Timiș, România",
+            "content": "Cherry Pie apartment amplasat ultracentral în inima Timișoarei, la câțiva pași de Parcul Botanic și la doar 5 minute de mers pe jos până în Piața Unirii si 3 minute de Iulius Gardens unul dintre cele mai spectaculoase spaţii verzi din Timişoara, amenajat într-o manieră inedită.<br />Amplasat intr-un cartier Rezidentia cu renume in Timisoara si o zonă pietonală nouă, unde vei găsi restaurante, cafenele, magazine, brutării, zone de relaxare.",
+            "mapMarkerRadiusInMeters": 0
+          },
+          {
+            "title": "Deplasarea și accesul",
+            "content": "Cu priveliști impresionante asupra Parcului Botanic și a centrului orașului, dar și cu acces imediat la natură, te vei bucura de un aer curat și proaspăt.<br />Echilibru perfect între confortul urban și frumusețea naturală, contribuind la îmbunătățirea calității vieții tale.<br />900 m pana in Centru, 400 m pana in Piata Unirii si 200 m pana la Iulius Town.",
+            "mapMarkerRadiusInMeters": 0
+          }
+        ],
+        "title": "Botanic Park - Cherry Pie apartament lângă Open House",
+        "description": "Descoperă combinația perfectă de confort, spațiu și o locație imbatabilă la Cherry Pie Apartment, un apartament modern cu 2 camere, situat la etajul 8 al noului Complex Rezidențial Nord One din Timișoara!Bucură-te de o poziționare excepțională: suntem amplasați chiar lângă pitorescul Parc Botanic și vizavi de Iulius Town, cel mai mare mall din vestul țării, oferindu-ți acces facil la shopping, restaurante, divertisment și spații verzi relaxante.SpațiulCherry Pie Apartment, este conceput pentru a-ți oferi o ședere extraordinară. Designul interior modern, cu accente atent alese, creează o atmosferă primitoare și relaxantă. Livingul spațios, cu o canapea confortabilă și un TV inteligent, este perfect pentru seri de film sau socializare. Bucătăria complet utilată îți permite să prepari mese delicioase, iar zona de dining este ideală pentru a savura mâncarea alături de cei drag.Ne-am asigurat că șederea ta va fi una extraordinară. Pe lângă facilitățile standard, te vei bucura de un somn odihnitor în paturi confortabile, învăluit în lenjerie de pat deosebită, de înaltă calitate, ce completează perfect ambianta relaxantă a dormitorului. Dormitorul este un sanctuar de liniște, cu un pat confortabil și decoruri plăcute.Am gândit totul pentru confortul tău la Cherry Pie Apartment:Complet echipat: Apartamentul dispune de toate facilitățile necesare pentru o ședere fără griji.Spațiu de lucru dedicat: Un birou ergonomic cu conexiune rapidă la internet este la dispoziția ta, ideal pentru work-from-home sau pentru a rămâne conectat.Confort termic: Beneficiezi de aer condiționat în ambele camere, asigurând o temperaturăplăcută indiferent de anotimp.Parcare subterană privată: Nu-ți face griji pentru mașină, ai un loc sigur și comod de parcare chiar sub clădire.Vedere panoramică: De la etajul 8, te vei bucura de o priveliște impresionantă direct către Iulius Town și împrejurimi.Perfect pentru familiile cu copii! Cherry Pie Apartment este baby-friendly, dotat și pregătit să primească familii, oferind spațiu și siguranță pentru micuți.Accesul oaspeților- Cerry Pie apartment este situat central și foarte aproape de principalele atracții ale orașului, inclusiv restaurante, cafenele, magazine și obiective turistice.- IULIUS Town este la doar cateva minute distanță, ceea ce face din această locație alegerea perfectă pentru cei care doresc să se bucure de viața urbană din Timișoara.- Accesul se poate face cu mașina până în fata clădirii unde exista posibilitatea sa parcati masina in gratuit in parcarea privata pusa la dispozitia oaspetilorAlte lucruri de reținut- Se solicita completarea unui formular de cazare cu toate datele de identitate alte oaspetilor si furnizarea unui act de identitate inainte de cazarea propriu zisa pentru a primi instructiunile de check-in.- Datele cu caracter personal vor fi prelucrate în conformitate cu prevederile Regulamentului general privind protecția datelor, Regulamentul (UE) 2016/679 al Parlamentului European. In acest scop se vor lua masurile necesare pentru evitarea alterarii, pierderii, tratării sau accesului neautorizat al acestuia- Pentru a finaliza rezervarea, este necesar prezentarea unui card bancar și asigurarea unui depozit in valoare de 100 euro. Depozitul va fi returnat la maxim 5 zile după check-out daca nu s-au realizat incalcari de regulament sau daune aduse proprietatii sau obiectelor din interior.- Această proprietate este administrata de Open House apartments, companie de Property management cu o experientă de peste 10 ani pe piata!",
+        "subDescription": {
+          "title": "Întreaga locuință: unitate de închiriat în Timișoara, România",
+          "items": ["4 oaspeți", "1 dormitor", "2 paturi", "1 baie"]
+        },
+        "isAvailable": true,
+        "price": {
+          "label": "323 lei pe noapte",
+          "qualifier": "noapte",
+          "price": "323 lei",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "breakDown": {
+            "basePrice": {
+              "description": "4 nopți x 282,20 lei",
+              "price": "1.128,80 lei"
+            },
+            "basePriceBreakdown": [],
+            "serviceFee": null,
+            "taxes": null,
+            "total": {
+              "price": "$1",
+              "description": "Total (calculated price, may vary)"
+            },
+            "totalBeforeTaxes": null,
+            "cleaningFee": null,
+            "specialOffer": null,
+            "earlyBirdDiscount": null
+          }
+        },
+        "images": [
+          {
+            "caption": "Imaginea 1 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/4b7c4ee1-684a-4521-9a78-8ad16b729920.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/dd1f33dc-889c-476a-818a-0691ce949ecb.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/32710b27-5cc1-4be9-aea7-f3258523cab9.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/c9bca1b2-f99b-4a8e-9f72-676e6ed88539.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Living cu canapea extensibila si zona de relaxare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/4af444c7-c781-415d-920b-a8dd61c79639.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 6 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/fa933bd4-82d4-4d3b-81ad-79a6b27544db.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/fbb1d25a-d99f-4bbc-bc85-d8673471158f.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/a91d96ce-d23f-4b78-9cd6-c986af34afdc.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/6afb83ef-8d40-4b72-8716-5e88a1abedcd.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/4659414d-d179-4aac-a260-2ee536a68cdd.jpeg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/f5814e57-bd27-4789-a770-ad803e01ec34.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 6 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/c499dad6-d959-4aed-9e69-4851c046e010.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Vedere catre Iulius Town din zona de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/b97d0895-f808-46ef-bbd6-a91531e2dee6.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/e2954e0c-dfab-45c9-bef5-d1184ba98617.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "masa pentru 4 persoane de servit masa in familie!",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/4d2c45b7-9b49-4952-a015-624411412628.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/929b0a03-0449-443d-a488-451df4ea3e04.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/02541ea0-c3e2-4675-86c4-c99f6340b711.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/8a734174-c381-4890-8205-abc4eb9a05f6.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Dormitor cu pat King Size cu aer conditionat si vedere catre Iulius Town",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/5babe718-15b3-4abd-a81b-8bd0474340c6.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/74d0e915-c95f-498f-9a46-30aa57d89f8c.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/8e2a13c1-87a8-48de-8e42-97bea26f12ba.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/f896a978-e092-4cb9-8d44-11875f8a5410.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 6 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/9222210c-3097-4196-92b2-04fdc89bbf8b.jpeg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 7 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/7a166f77-db10-4ed0-b2ea-4f8dab36c4c2.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 8 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/119edced-62a8-4339-8923-71e971f0d227.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 9 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/8d05ec0a-e589-4c6e-8a27-797ebfc3f4f2.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/47c53421-7a1b-4af5-9973-f2da898a0f44.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/34623f7a-cff7-4f1d-a4cd-67b261f2847e.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/0bde974d-2fc6-41df-8d5d-b6f7eb35ea87.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/d70afb50-2c4d-4b2f-bd80-d35da5a3fcf2.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/6533ca86-9180-44f6-b84f-617cf0ec5342.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Terasa cu vedere catre Iulius Town",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/8afdf875-32d2-4fa5-8660-4bc6802120e3.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Exterior",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/22e53b7c-5470-4862-bd66-df89863484c7.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Cladirea Nord One Parcul Botanic inaugurat in 2024",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/d7802143-a4c2-4039-b01a-80e95ef4afe7.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Vedere catre Iulius Town",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/f5401083-7936-444c-9100-f8893dafa502.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/0882c78a-4b05-487f-922d-4c6ffcf90fdc.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/12f7fd20-4c21-409a-95fd-9961e8ac4677.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/7c343149-1793-4b67-90df-790742a9c156.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/dddcbbb4-4bdc-4d68-bd81-634e933d1679.jpeg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 6 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/8e6e3a0b-39b8-478f-89f7-324d52450eaa.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 7 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/39eaa532-2bc8-46fb-886a-5b91e4dc1ca1.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 8 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/c101f081-3862-46ce-8848-d910b0870388.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 9 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/a409d9c8-7332-45b9-97e9-f4ccdbed7b93.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 10 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/3cfe3bd2-3d69-485b-bb2c-d10e1c2471e0.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 11 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1448359504732224620/original/498e7de1-af42-4d56-a229-9e0503674198.jpeg",
+            "orientation": "PORTRAIT"
+          }
+        ],
+        "highlights": [
+          {
+            "title": "Check-in independent",
+            "subtitle": "Fă check-in pe cont propriu folosind cutia securizată.",
+            "icon": "SYSTEM_CHECK_IN",
+            "type": "LISTING_SELF_CHECKIN"
+          },
+          {
+            "title": "Zonă accesibilă pe jos",
+            "subtitle": "Această zonă este ușor accesibilă.",
+            "icon": "SYSTEM_LOCATION",
+            "type": "LISTING_REVIEW_AREA_VIBES"
+          },
+          {
+            "title": "Anulare gratuită până pe 21 aug.",
+            "subtitle": "Obții o rambursare integrală dacă te răzgândești.",
+            "icon": "SYSTEM_CALENDAR",
+            "type": "LISTING_CANCELLATION_POLICY"
+          }
+        ],
+        "houseRules": {
+          "additional": null,
+          "general": [
+            {
+              "title": "Check-in și check-out",
+              "values": [
+                {
+                  "title": "Check-in: între 15:00 și 00:00",
+                  "icon": "SYSTEM_CLOCK",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Check-out înainte de ora 11:00",
+                  "icon": "SYSTEM_CLOCK",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Check-in independent cu cutie securizată.",
+                  "icon": "SYSTEM_CHECK_IN",
+                  "additionalInfo": null
+                }
+              ]
+            },
+            {
+              "title": "În timpul șederii",
+              "values": [
+                {
+                  "title": "Maximum 4 oaspeți",
+                  "icon": "SYSTEM_FAMILY",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fără animale de companie",
+                  "icon": "SYSTEM_NO_PETS",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Ore de liniște",
+                  "icon": "SYSTEM_EVENING",
+                  "additionalInfo": "Între 20:00 și 07:00"
+                },
+                {
+                  "title": "Fără petreceri sau evenimente",
+                  "icon": "SYSTEM_NO_EVENTS",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fotografierea în scopuri comerciale este permisă",
+                  "icon": "SYSTEM_CAMERA",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fumatul interzis",
+                  "icon": "SYSTEM_SMOKING_NOT_ALLOWED",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Reguli suplimentare",
+                  "icon": "SYSTEM_CLIPBOARD",
+                  "additionalInfo": null
+                }
+              ]
+            },
+            {
+              "title": "Înainte de a pleca",
+              "values": [
+                {
+                  "title": "Strânge prosoapele folosite",
+                  "icon": "SYSTEM_TOWEL",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Aruncă gunoiul",
+                  "icon": "SYSTEM_TRASH",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Cereri suplimentare",
+                  "icon": "SYSTEM_NOTE_PAPER",
+                  "additionalInfo": "Va rugam la plecare asigurati-vă de două ori ca nu cumva sa vă uitati din lucruri personale in apartament. Verificati in toate incaperile cu atenție.\nVa multumim!"
+                }
+              ]
+            }
+          ]
+        },
+        "cancellationPolicies": [
+          {
+            "title": "Anulare gratuită până pe 21 aug.. Dacă anulezi înainte de check-in-ul de pe 22 aug., vei primi o rambursare parțială.",
+            "policyName": "Flexibilă",
+            "policyId": 3
+          }
+        ],
+        "amenities": [
+          {
+            "title": "Baie",
+            "values": [
+              {
+                "title": "Cadă",
+                "subtitle": "",
+                "icon": "SYSTEM_BATHTUB",
+                "available": true
+              },
+              {
+                "title": "Uscător de păr",
+                "subtitle": "",
+                "icon": "SYSTEM_HAIRDRYER",
+                "available": true
+              },
+              {
+                "title": "Produse de curățenie",
+                "subtitle": "",
+                "icon": "SYSTEM_CLEANING_SUPPLIES",
+                "available": true
+              },
+              {
+                "title": "Șampon",
+                "subtitle": "",
+                "icon": "SYSTEM_SHAMPOO",
+                "available": true
+              },
+              {
+                "title": "Balsam",
+                "subtitle": "",
+                "icon": "SYSTEM_SHAMPOO",
+                "available": true
+              },
+              {
+                "title": "Săpun de corp",
+                "subtitle": "",
+                "icon": "SYSTEM_SOAP",
+                "available": true
+              },
+              {
+                "title": "Apă caldă",
+                "subtitle": "",
+                "icon": "SYSTEM_HOT_WATER",
+                "available": true
+              },
+              {
+                "title": "Gel de duș",
+                "subtitle": "",
+                "icon": "SYSTEM_SOAP",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Dormitor și lenjerie",
+            "values": [
+              {
+                "title": "Mașină de spălat",
+                "subtitle": "",
+                "icon": "SYSTEM_WASHER",
+                "available": true
+              },
+              {
+                "title": "Uscător automat de rufe (în unitate) Gratuit",
+                "subtitle": "",
+                "icon": "SYSTEM_DRYER",
+                "available": true
+              },
+              {
+                "title": "Dotări esențiale",
+                "subtitle": "Prosoape, lenjerie de pat, săpun și hârtie igienică",
+                "icon": "SYSTEM_TOILETRIES",
+                "available": true
+              },
+              {
+                "title": "Umerașe",
+                "subtitle": "",
+                "icon": "SYSTEM_HANGERS",
+                "available": true
+              },
+              {
+                "title": "Lenjerie de pat",
+                "subtitle": "",
+                "icon": "SYSTEM_BLANKETS",
+                "available": true
+              },
+              {
+                "title": "Perne și pături suplimentare",
+                "subtitle": "",
+                "icon": "SYSTEM_PILLOW",
+                "available": true
+              },
+              {
+                "title": "Fier de călcat",
+                "subtitle": "",
+                "icon": "SYSTEM_IRON",
+                "available": true
+              },
+              {
+                "title": "Suport de uscare pentru îmbrăcăminte",
+                "subtitle": "",
+                "icon": "SYSTEM_HANGERS",
+                "available": true
+              },
+              {
+                "title": "Plasă pentru țânțari",
+                "subtitle": "",
+                "icon": "SYSTEM_MOSQUITO_NET",
+                "available": true
+              },
+              {
+                "title": "Spațiu de depozitare pentru îmbrăcăminte",
+                "subtitle": "",
+                "icon": "SYSTEM_WARDROBE",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Divertisment",
+            "values": [
+              {
+                "title": "Conexiune prin cablu",
+                "subtitle": "",
+                "icon": "SYSTEM_CABLE",
+                "available": true
+              },
+              {
+                "title": "Televizor",
+                "subtitle": "",
+                "icon": "SYSTEM_TV",
+                "available": true
+              },
+              {
+                "title": "Cărți și materiale de lectură",
+                "subtitle": "",
+                "icon": "SYSTEM_BOOK",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Familie",
+            "values": [
+              {
+                "title": "Pătuț de joacă/călătorie – dotare disponibilă la cerere",
+                "subtitle": "Storuri sau draperii opace",
+                "icon": "SYSTEM_PACK_N_PLAY",
+                "available": true
+              },
+              {
+                "title": "Cărți și jucării pentru copii cu vârste între 0 și 2 ani, între 2 și 5 ani și între 5 și 10 ani",
+                "subtitle": "",
+                "icon": "SYSTEM_TOYS",
+                "available": true
+              },
+              {
+                "title": "Scaun înalt de sine stătător – întotdeauna în locuință",
+                "subtitle": "Cu capitonat și tavă pentru servit mâncarea",
+                "icon": "SYSTEM_HIGH_CHAIR",
+                "available": true
+              },
+              {
+                "title": "Veselă pentru copii",
+                "subtitle": "",
+                "icon": "SYSTEM_CHILD_UTENSILS",
+                "available": true
+              },
+              {
+                "title": "Monitor pentru bebeluși – dotare disponibilă la cerere",
+                "subtitle": "",
+                "icon": "SYSTEM_BABY_MONITOR",
+                "available": true
+              },
+              {
+                "title": "Protecții pentru ferestre",
+                "subtitle": "",
+                "icon": "SYSTEM_WINDOW_GUARD",
+                "available": true
+              },
+              {
+                "title": "Protecții pentru prize",
+                "subtitle": "",
+                "icon": "SYSTEM_OUTLET_COVER",
+                "available": true
+              },
+              {
+                "title": "Protecții pentru colțurile de masă",
+                "subtitle": "",
+                "icon": "SYSTEM_CORNER_GUARD",
+                "available": true
+              },
+              {
+                "title": "Loc de joacă în aer liber",
+                "subtitle": "O zonă în aer liber dotată cu structuri de joacă pentru copii",
+                "icon": "SYSTEM_PLAY_SLIDE",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Încălzire și climatizare",
+            "values": [
+              {
+                "title": "Aer condiționat",
+                "subtitle": "",
+                "icon": "SYSTEM_SNOWFLAKE",
+                "available": true
+              },
+              {
+                "title": "Încălzire",
+                "subtitle": "",
+                "icon": "SYSTEM_THERMOMETER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Siguranța locuinței",
+            "values": [
+              {
+                "title": "Detector de fum",
+                "subtitle": "",
+                "icon": "SYSTEM_DETECTOR_SMOKE",
+                "available": true
+              },
+              {
+                "title": "Detector de monoxid de carbon",
+                "subtitle": "",
+                "icon": "SYSTEM_DETECTOR_CO",
+                "available": true
+              },
+              {
+                "title": "Extinctor",
+                "subtitle": "",
+                "icon": "SYSTEM_FIRE_EXTINGUISHER",
+                "available": true
+              },
+              {
+                "title": "Trusă de prim ajutor",
+                "subtitle": "",
+                "icon": "SYSTEM_FIRST_AID_KIT",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Internet și birou",
+            "values": [
+              {
+                "title": "Wi-Fi",
+                "subtitle": "",
+                "icon": "SYSTEM_WI_FI",
+                "available": true
+              },
+              {
+                "title": "Spațiu de muncă dedicat",
+                "subtitle": "",
+                "icon": "SYSTEM_WORKSPACE",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Bucătărie și sufragerie",
+            "values": [
+              {
+                "title": "Bucătărie",
+                "subtitle": "Spațiu în care oaspeții își pot prepara singuri mâncarea",
+                "icon": "SYSTEM_COOKING_BASICS",
+                "available": true
+              },
+              {
+                "title": "Frigider",
+                "subtitle": "",
+                "icon": "SYSTEM_REFRIGERATOR",
+                "available": true
+              },
+              {
+                "title": "Cuptor cu microunde",
+                "subtitle": "",
+                "icon": "SYSTEM_MICROWAVE",
+                "available": true
+              },
+              {
+                "title": "Ustensile esențiale de gătit",
+                "subtitle": "Oale și tigăi, ulei, sare și piper",
+                "icon": "SYSTEM_COOKING_BASICS",
+                "available": true
+              },
+              {
+                "title": "Veselă și argintărie",
+                "subtitle": "Boluri, bețișoare, farfurii, căni etc.",
+                "icon": "SYSTEM_DISHES_AND_SILVERWARE",
+                "available": true
+              },
+              {
+                "title": "Minifrigider",
+                "subtitle": "",
+                "icon": "SYSTEM_MINI_BAR",
+                "available": true
+              },
+              {
+                "title": "Congelator",
+                "subtitle": "",
+                "icon": "SYSTEM_REFRIGERATOR",
+                "available": true
+              },
+              {
+                "title": "Mașină de spălat vase",
+                "subtitle": "",
+                "icon": "SYSTEM_DISHWASHER",
+                "available": true
+              },
+              {
+                "title": "Plită electrică Other din oțel inoxidabil",
+                "subtitle": "",
+                "icon": "SYSTEM_STOVE",
+                "available": true
+              },
+              {
+                "title": "Cuptor simplu din oțel inoxidabil",
+                "subtitle": "",
+                "icon": "SYSTEM_OVEN",
+                "available": true
+              },
+              {
+                "title": "Fierbător de apă",
+                "subtitle": "",
+                "icon": "SYSTEM_WATER_KETTLE",
+                "available": true
+              },
+              {
+                "title": "Cafetieră: espressor",
+                "subtitle": "",
+                "icon": "SYSTEM_COFFEE_MAKER",
+                "available": true
+              },
+              {
+                "title": "Pahare de vin",
+                "subtitle": "",
+                "icon": "SYSTEM_MAPS_BAR",
+                "available": true
+              },
+              {
+                "title": "Prăjitor de pâine",
+                "subtitle": "",
+                "icon": "SYSTEM_TOASTER",
+                "available": true
+              },
+              {
+                "title": "Tavă de copt",
+                "subtitle": "",
+                "icon": "SYSTEM_BAKING_SHEET",
+                "available": true
+              },
+              {
+                "title": "Blender",
+                "subtitle": "",
+                "icon": "SYSTEM_BLENDER",
+                "available": true
+              },
+              {
+                "title": "Compactor de gunoi",
+                "subtitle": "",
+                "icon": "SYSTEM_TRASH",
+                "available": true
+              },
+              {
+                "title": "Masă pentru servit masa",
+                "subtitle": "",
+                "icon": "SYSTEM_DINING_TABLE",
+                "available": true
+              },
+              {
+                "title": "Cafea",
+                "subtitle": "",
+                "icon": "SYSTEM_COFFEE_MAKER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Caracteristicile poziției",
+            "values": [
+              {
+                "title": "Intrare separată",
+                "subtitle": "Intrare separată din stradă sau din clădire",
+                "icon": "SYSTEM_DOOR",
+                "available": true
+              },
+              {
+                "title": "Spălătorie cu autoservire în apropiere",
+                "subtitle": "",
+                "icon": "SYSTEM_LAUNDRY_SERVICE",
+                "available": true
+              },
+              {
+                "title": "Acces la complex",
+                "subtitle": "Oaspeții pot folosi dotările unui complex din apropiere",
+                "icon": "SYSTEM_MAPS_RESORT",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Parcare și facilități",
+            "values": [
+              {
+                "title": "Parcare gratuită la proprietate",
+                "subtitle": "",
+                "icon": "SYSTEM_MAPS_CAR_RENTAL",
+                "available": true
+              },
+              {
+                "title": "Lift",
+                "subtitle": "Locuința sau clădirea are un lift de cel puțin 132 cm adâncime și o ușă de cel puțin 81 cm lățime",
+                "icon": "SYSTEM_ELEVATOR",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Servicii",
+            "values": [
+              {
+                "title": "Șederile de lungă durată sunt permise",
+                "subtitle": "Permite șederi de 28 de zile sau mai mult",
+                "icon": "SYSTEM_CALENDAR",
+                "available": true
+              },
+              {
+                "title": "Check-in independent",
+                "subtitle": "",
+                "icon": "SYSTEM_KEY",
+                "available": true
+              },
+              {
+                "title": "Cutie securizată",
+                "subtitle": "",
+                "icon": "SYSTEM_SAFE",
+                "available": true
+              },
+              {
+                "title": "Serviciul de menaj este disponibil de la 09:30 până la 15:00, de luni până sâmbătă: disponibil la un cost suplimentar",
+                "subtitle": "",
+                "icon": "SYSTEM_CLEAN",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Nu sunt incluse",
+            "values": [
+              {
+                "title": "Camere de supraveghere de exterior aflate la proprietate",
+                "subtitle": null,
+                "icon": "SYSTEM_NO_SURVEILLANCE",
+                "available": false
+              }
+            ]
+          }
+        ],
+        "checkIn": "2025-08-22",
+        "checkOut": "2025-08-26"
+      },
+      {
+        "coordinates": {
+          "latitude": 45.75578766327014,
+          "longitude": 21.235083134366498
+        },
+        "sharingConfigTitle": "Unitate de închiriat · Timișoara · ★5,0 · 1 dormitor · 1 pat · 1 baie",
+        "url": "https://www.airbnb.com/rooms/1128548799249837797?locale=ro-RO&currency=RON&adults=1&children=0&infants=0&pets=0&check_in=2025-08-22&check_out=2025-08-26",
+        "propertyType": "Întreaga locuință: unitate de închiriat",
+        "roomType": "Entire home/apt",
+        "homeTier": 1,
+        "personCapacity": 2,
+        "rating": {
+          "accuracy": 5,
+          "checking": 4.78,
+          "cleanliness": 5,
+          "communication": 4.89,
+          "location": 4.94,
+          "value": 4.89,
+          "guestSatisfaction": 5,
+          "reviewsCount": 18
+        },
+        "location": "Timișoara",
+        "locationDescriptions": [
+          {
+            "title": "Timișoara, Județul Timiș, România",
+            "content": null,
+            "mapMarkerRadiusInMeters": 0
+          }
+        ],
+        "title": "Two Chic",
+        "description": "Descoperiți rafinamentul în acest apartament cu două camere din centrul orașului, ideal pentru călătorii sofisticați. Dotat cu baie chic, paturi confortabile, spațiu de lucru, bucătărie utilată, dining, AC, canapea și TV, promite confort și stil. Amplasarea excelentă oferă acces ușor la atracțiile urbane, perfect pentru vacanțe memorabile sau deplasări de afaceri.SpațiulVă întâmpinăm într-un apartament cu două camere, situat în inima orașului, unde eleganța și confortul se împletesc pentru a oferi o experiență de neuitat. Perfect pentru călătorii cu un simț al esteticii rafinate, acest spațiu a fost gândit să fie atât un refugiu de relaxare, cât și un punct de plecare spre aventurile urbane.La interior, veți descoperi o baie modernă, echipată cu tot necesarul pentru a vă revigora, și un pat confortabil care promite un somn liniștit. Spațiul de lucru luminos vă invită să vă păstrați angajamentele profesionale, iar bucătăria complet utilată și zona de dining sunt perfecte pentru a experimenta cu bucătăria locală sau pentru a savura mesele în intimitate.Adăugând la acestea, aerul condiționat asigură confortul termic indiferent de sezon, în timp ce canapeaua și televizorul sunt gata să vă găzduiască momentele de relaxare. Situat convenabil, apartamentul vă oferă acces imediat la atracțiile orașului, făcându-l ideal atât pentru escapade memorabile, cât și pentru călătorii de afaceri.Așteptăm cu nerăbdare să vă fim gazde și să contribuim la crearea unor amintiri de neuitat în confortul și eleganța acestui apartament central!",
+        "subDescription": {
+          "title": "Întreaga locuință: unitate de închiriat în Timișoara, România",
+          "items": ["2 oaspeți", "1 dormitor", "1 pat", "1 baie"]
+        },
+        "isAvailable": true,
+        "price": {
+          "label": "300 lei pe noapte",
+          "qualifier": "noapte",
+          "price": "300 lei",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "breakDown": {
+            "basePrice": {
+              "description": "4 nopți x 300,00 lei",
+              "price": "1.200,00 lei"
+            },
+            "basePriceBreakdown": [],
+            "serviceFee": null,
+            "taxes": null,
+            "total": {
+              "price": "$1",
+              "description": "Total (calculated price, may vary)"
+            },
+            "totalBeforeTaxes": null,
+            "cleaningFee": null,
+            "specialOffer": null,
+            "earlyBirdDiscount": null
+          }
+        },
+        "images": [
+          {
+            "caption": "Imaginea 1 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/baa0b123-8da8-42ba-88ff-ecdc77772bd8.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/4c36fd69-4995-45f6-8d74-d556f1eee26d.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/f0a53069-3870-46dd-952f-960c96a06690.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/45dcfbc7-3f98-46bd-ab55-fcb6027257b2.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/9abc1376-61f5-432b-b706-f2d7cceedef9.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 6 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/2a78e9d3-ce65-4924-8cc7-e15a0b0942d8.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 7 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/bd703f09-2c10-4058-8345-5e3b88c4dfb2.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 8 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/18492c91-ddab-412a-8e5f-70177d4cc570.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 9 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/4cbf9389-d644-4bf8-879c-3d77b6394214.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/bf24207a-29db-4e18-9660-ca9f4772e181.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/5d38877c-9e1f-4526-9f2f-992e62ef0a75.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/63ed429c-6add-461a-9fa8-ea4b8fb45b67.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/a6952943-91cd-45a8-a820-ec4868b55f99.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/ae38b742-b5eb-469e-9a48-0aa46aaf2fde.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/53c54c09-d435-42eb-be06-b45ac36582d8.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/ebc2299f-c0e2-4b1d-8af2-a23f9cbcf193.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/cd1c56c6-3712-4268-91ea-dc76c1b83866.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/dcaa6067-950a-410a-9a50-b3cf2b39420f.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/be752563-cd17-4298-a848-2b4081d9f7ba.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/628fef96-1d66-47b7-afdb-88cb8e4264b3.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/689edb8b-8ede-406a-8a90-91da727aca9b.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/d448e385-7e0c-49ba-8cf1-d98a4ea942d3.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/e911136c-603f-4d1e-98a2-00867424a1c9.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 6 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/a075ee82-3d4e-48f1-a5e2-8b3f3dd46578.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/63ebc678-756a-42fd-866d-ae2b44592c8e.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/70eacc84-7374-4006-8e23-5cb65246f162.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/a80f0246-c828-4c52-b954-e864643c94a4.jpeg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Spațiu de lucru",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/9669bf36-1252-48a1-9139-049601f906f4.jpeg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Exterior",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/b6c6921f-1631-4e1b-bf52-088a17f34ec5.jpeg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/aa611b47-a1be-4f34-b4a9-dd52e3f1d958.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/14ca5f81-e843-472c-89f3-fcf9df08ca7b.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-1128548799249837797/original/6a642ec8-1bac-4c26-bbeb-04ca07d28f49.jpeg",
+            "orientation": "LANDSCAPE"
+          }
+        ],
+        "highlights": [
+          {
+            "title": "Check-in independent",
+            "subtitle": "Fă check-in pe cont propriu folosind cutia securizată.",
+            "icon": "SYSTEM_CHECK_IN",
+            "type": "LISTING_SELF_CHECKIN"
+          },
+          {
+            "title": "Zonă frumoasă, accesibilă pe jos",
+            "subtitle": "Oaspeții spun că această zonă este pitorească și ușor accesibilă.",
+            "icon": "SYSTEM_LOCATION",
+            "type": "LISTING_REVIEW_AREA_VIBES"
+          },
+          {
+            "title": "Anulare gratuită până pe 21 aug.",
+            "subtitle": "Obții o rambursare integrală dacă te răzgândești.",
+            "icon": "SYSTEM_CALENDAR",
+            "type": "LISTING_CANCELLATION_POLICY"
+          }
+        ],
+        "houseRules": {
+          "additional": null,
+          "general": [
+            {
+              "title": "Check-in și check-out",
+              "values": [
+                {
+                  "title": "Check-in după ora 16:00",
+                  "icon": "SYSTEM_CLOCK",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Check-out înainte de ora 11:00",
+                  "icon": "SYSTEM_CLOCK",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Check-in independent cu cutie securizată.",
+                  "icon": "SYSTEM_CHECK_IN",
+                  "additionalInfo": null
+                }
+              ]
+            },
+            {
+              "title": "În timpul șederii",
+              "values": [
+                {
+                  "title": "Maximum 2 oaspeți",
+                  "icon": "SYSTEM_FAMILY",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fără animale de companie",
+                  "icon": "SYSTEM_NO_PETS",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Ore de liniște",
+                  "icon": "SYSTEM_EVENING",
+                  "additionalInfo": "Între 22:00 și 08:00"
+                },
+                {
+                  "title": "Fără petreceri sau evenimente",
+                  "icon": "SYSTEM_NO_EVENTS",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fotografierea în scopuri comerciale este permisă",
+                  "icon": "SYSTEM_CAMERA",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fumatul interzis",
+                  "icon": "SYSTEM_SMOKING_NOT_ALLOWED",
+                  "additionalInfo": null
+                }
+              ]
+            },
+            {
+              "title": "Înainte de a pleca",
+              "values": [
+                {
+                  "title": "Returnează cheile",
+                  "icon": "SYSTEM_HOST_OWNERS",
+                  "additionalInfo": null
+                }
+              ]
+            }
+          ]
+        },
+        "cancellationPolicies": [
+          {
+            "title": "Anulare gratuită până pe 21 aug.. Dacă anulezi înainte de check-in-ul de pe 22 aug., vei primi o rambursare parțială.",
+            "policyName": "Flexibilă",
+            "policyId": 3
+          }
+        ],
+        "amenities": [
+          {
+            "title": "Baie",
+            "values": [
+              {
+                "title": "Uscător de păr",
+                "subtitle": "",
+                "icon": "SYSTEM_HAIRDRYER",
+                "available": true
+              },
+              {
+                "title": "Produse de curățenie",
+                "subtitle": "",
+                "icon": "SYSTEM_CLEANING_SUPPLIES",
+                "available": true
+              },
+              {
+                "title": "Șampon",
+                "subtitle": "",
+                "icon": "SYSTEM_SHAMPOO",
+                "available": true
+              },
+              {
+                "title": "Apă caldă",
+                "subtitle": "",
+                "icon": "SYSTEM_HOT_WATER",
+                "available": true
+              },
+              {
+                "title": "Gel de duș",
+                "subtitle": "",
+                "icon": "SYSTEM_SOAP",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Dormitor și lenjerie",
+            "values": [
+              {
+                "title": "Mașină de spălat",
+                "subtitle": "",
+                "icon": "SYSTEM_WASHER",
+                "available": true
+              },
+              {
+                "title": "Dotări esențiale",
+                "subtitle": "Prosoape, lenjerie de pat, săpun și hârtie igienică",
+                "icon": "SYSTEM_TOILETRIES",
+                "available": true
+              },
+              {
+                "title": "Umerașe",
+                "subtitle": "",
+                "icon": "SYSTEM_HANGERS",
+                "available": true
+              },
+              {
+                "title": "Lenjerie de pat",
+                "subtitle": "",
+                "icon": "SYSTEM_BLANKETS",
+                "available": true
+              },
+              {
+                "title": "Fier de călcat",
+                "subtitle": "",
+                "icon": "SYSTEM_IRON",
+                "available": true
+              },
+              {
+                "title": "Suport de uscare pentru îmbrăcăminte",
+                "subtitle": "",
+                "icon": "SYSTEM_HANGERS",
+                "available": true
+              },
+              {
+                "title": "Plasă pentru țânțari",
+                "subtitle": "",
+                "icon": "SYSTEM_MOSQUITO_NET",
+                "available": true
+              },
+              {
+                "title": "Spațiu de depozitare pentru îmbrăcăminte",
+                "subtitle": "",
+                "icon": "SYSTEM_WARDROBE",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Divertisment",
+            "values": [
+              {
+                "title": "Televizor",
+                "subtitle": "",
+                "icon": "SYSTEM_TV",
+                "available": true
+              },
+              {
+                "title": "Cărți și materiale de lectură",
+                "subtitle": "",
+                "icon": "SYSTEM_BOOK",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Familie",
+            "values": [
+              {
+                "title": "Jocuri de societate",
+                "subtitle": "",
+                "icon": "SYSTEM_BOARD_GAMES",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Încălzire și climatizare",
+            "values": [
+              {
+                "title": "Aer condiționat",
+                "subtitle": "",
+                "icon": "SYSTEM_SNOWFLAKE",
+                "available": true
+              },
+              {
+                "title": "Încălzire",
+                "subtitle": "",
+                "icon": "SYSTEM_THERMOMETER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Siguranța locuinței",
+            "values": [
+              {
+                "title": "Detector de monoxid de carbon",
+                "subtitle": "",
+                "icon": "SYSTEM_DETECTOR_CO",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Internet și birou",
+            "values": [
+              {
+                "title": "Wi-Fi",
+                "subtitle": "",
+                "icon": "SYSTEM_WI_FI",
+                "available": true
+              },
+              {
+                "title": "Spațiu de muncă dedicat",
+                "subtitle": "",
+                "icon": "SYSTEM_WORKSPACE",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Bucătărie și sufragerie",
+            "values": [
+              {
+                "title": "Bucătărie",
+                "subtitle": "Spațiu în care oaspeții își pot prepara singuri mâncarea",
+                "icon": "SYSTEM_COOKING_BASICS",
+                "available": true
+              },
+              {
+                "title": "Frigider",
+                "subtitle": "",
+                "icon": "SYSTEM_REFRIGERATOR",
+                "available": true
+              },
+              {
+                "title": "Ustensile esențiale de gătit",
+                "subtitle": "Oale și tigăi, ulei, sare și piper",
+                "icon": "SYSTEM_COOKING_BASICS",
+                "available": true
+              },
+              {
+                "title": "Veselă și argintărie",
+                "subtitle": "Boluri, bețișoare, farfurii, căni etc.",
+                "icon": "SYSTEM_DISHES_AND_SILVERWARE",
+                "available": true
+              },
+              {
+                "title": "Congelator",
+                "subtitle": "",
+                "icon": "SYSTEM_REFRIGERATOR",
+                "available": true
+              },
+              {
+                "title": "Mașină de spălat vase",
+                "subtitle": "",
+                "icon": "SYSTEM_DISHWASHER",
+                "available": true
+              },
+              {
+                "title": "Plită",
+                "subtitle": "",
+                "icon": "SYSTEM_STOVE",
+                "available": true
+              },
+              {
+                "title": "Cuptor",
+                "subtitle": "",
+                "icon": "SYSTEM_OVEN",
+                "available": true
+              },
+              {
+                "title": "Fierbător de apă",
+                "subtitle": "",
+                "icon": "SYSTEM_WATER_KETTLE",
+                "available": true
+              },
+              {
+                "title": "Cafetieră: Nespresso",
+                "subtitle": "",
+                "icon": "SYSTEM_COFFEE_MAKER",
+                "available": true
+              },
+              {
+                "title": "Pahare de vin",
+                "subtitle": "",
+                "icon": "SYSTEM_MAPS_BAR",
+                "available": true
+              },
+              {
+                "title": "Prăjitor de pâine",
+                "subtitle": "",
+                "icon": "SYSTEM_TOASTER",
+                "available": true
+              },
+              {
+                "title": "Tavă de copt",
+                "subtitle": "",
+                "icon": "SYSTEM_BAKING_SHEET",
+                "available": true
+              },
+              {
+                "title": "Masă pentru servit masa",
+                "subtitle": "",
+                "icon": "SYSTEM_DINING_TABLE",
+                "available": true
+              },
+              {
+                "title": "Cafea",
+                "subtitle": "",
+                "icon": "SYSTEM_COFFEE_MAKER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Exterioare",
+            "values": [
+              {
+                "title": "Curte pavată sau balcon privat",
+                "subtitle": "",
+                "icon": "SYSTEM_PATIO_BALCONY",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Parcare și facilități",
+            "values": [
+              {
+                "title": "Lift",
+                "subtitle": "Locuința sau clădirea are un lift de cel puțin 132 cm adâncime și o ușă de cel puțin 81 cm lățime",
+                "icon": "SYSTEM_ELEVATOR",
+                "available": true
+              },
+              {
+                "title": "Parcare cu plată pe stradă, în afara proprietății",
+                "subtitle": "",
+                "icon": "SYSTEM_MAPS_CAR_RENTAL",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Servicii",
+            "values": [
+              {
+                "title": "Check-in independent",
+                "subtitle": "",
+                "icon": "SYSTEM_KEY",
+                "available": true
+              },
+              {
+                "title": "Cutie securizată",
+                "subtitle": "",
+                "icon": "SYSTEM_SAFE",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Nu sunt incluse",
+            "values": [
+              {
+                "title": "Detector de fum",
+                "subtitle": "Este posibil ca această locuință să nu fie dotată cu detector de fum. Contactează gazda pentru orice întrebări.",
+                "icon": "SYSTEM_NO_DETECTOR_SMOKE",
+                "available": false
+              },
+              {
+                "title": "Intrare separată",
+                "subtitle": "",
+                "icon": "SYSTEM_NO_PRIVATE_ENTRANCE",
+                "available": false
+              }
+            ]
+          }
+        ],
+        "checkIn": "2025-08-22",
+        "checkOut": "2025-08-26"
+      },
+      {
+        "coordinates": {
+          "latitude": 45.72401,
+          "longitude": 21.25366
+        },
+        "sharingConfigTitle": "Unitate de închiriat · Timișoara · ★5,0 · 1 dormitor · 1 pat · 1 baie",
+        "url": "https://www.airbnb.com/rooms/977470422748852661?locale=ro-RO&currency=RON&adults=1&children=0&infants=0&pets=0&check_in=2025-08-22&check_out=2025-08-26",
+        "propertyType": "Întreaga locuință: unitate de închiriat",
+        "roomType": "Entire home/apt",
+        "homeTier": 1,
+        "personCapacity": 2,
+        "rating": {
+          "accuracy": 5,
+          "checking": 5,
+          "cleanliness": 5,
+          "communication": 5,
+          "location": 4.88,
+          "value": 5,
+          "guestSatisfaction": 5,
+          "reviewsCount": 43
+        },
+        "location": "Timișoara",
+        "locationDescriptions": [
+          {
+            "title": "Timișoara, Județul Timiș, România",
+            "content": null,
+            "mapMarkerRadiusInMeters": 152
+          }
+        ],
+        "title": "Apartament cu măsline",
+        "description": "Experimenteaza confortul in apartamentul nostru cu 1 dormitor, conceput pentru a gazdui pana la 3 persoane. Pozitionat intr-un cartier linistit, la parterul unui bloc cu 1 etaj , apartamentul ofera o ambianta primitoare si o gradina privata.",
+        "subDescription": {
+          "title": "Întreaga locuință: unitate de închiriat în Timișoara, România",
+          "items": ["2 oaspeți", "1 dormitor", "1 pat", "1 baie"]
+        },
+        "isAvailable": true,
+        "price": {
+          "label": "363 lei pe noapte",
+          "qualifier": "noapte",
+          "price": "363 lei",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "breakDown": {
+            "basePrice": {
+              "description": "4 nopți x 310,00 lei",
+              "price": "1.240,00 lei"
+            },
+            "basePriceBreakdown": [],
+            "serviceFee": null,
+            "taxes": null,
+            "total": {
+              "price": "$1",
+              "description": "Total (calculated price, may vary)"
+            },
+            "totalBeforeTaxes": null,
+            "cleaningFee": null,
+            "specialOffer": null,
+            "earlyBirdDiscount": null
+          }
+        },
+        "images": [
+          {
+            "caption": "Imaginea 1 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/ff83282d-07a3-4ceb-8f8f-627a6a99681e.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/806a6872-ef81-41f0-9578-b23d59edd206.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/958d3d77-4857-445c-a1ce-559f1dbc5385.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/8560b0e0-dffd-4e1f-8ec1-eeb86038e700.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/895dbba8-ecf3-4371-8105-d4508baba4b3.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 6 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/e4ad5d50-b0e1-4e8f-9502-2d833d220be4.jpeg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 7 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/cb391da9-f4cb-487a-9d4a-7a751fb366e9.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 8 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/6a7a947b-4311-46cd-ae19-9106e9f0cb29.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 9 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/8aa2d983-9e7e-4ce2-a8e5-e9dcc3184fb9.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 10 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-977470422748852661/original/862dc102-2776-40f4-a297-d99a6f9f1f7f.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 11 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-977470422748852661/original/c47b5ef6-038c-4678-8d27-3c0be0968c08.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 12 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/f3a42081-141c-4f6d-aae0-75e32ee27b88.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/fe26dca8-7e41-49b6-a0c3-cacd901ffaaf.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/9b1e6b5a-66ca-4373-8d94-4f9e27c5be01.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/e799b5d5-2028-422e-ae43-0be165f1b810.jpeg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-977470422748852661/original/98b721a0-b6e3-4a2a-a859-fbcd692b3d5a.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-977470422748852661/original/7d312ae0-07d1-45e9-957c-6aa7a4d575d4.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/01b84f37-f38a-484a-8b0d-fa4062b130b5.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-977470422748852661/original/14efe2d0-b012-4744-b6cf-1267379d97b4.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-977470422748852661/original/75c8715a-7473-4ea0-8313-ce10543c8465.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/1a1bb114-5499-4455-bddc-949698357d58.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/3bf5fccb-cf32-4182-9957-3242a70a4fe2.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/f61c9d69-7d5e-4258-806c-c81de024d127.jpeg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/c1e885ed-a17a-4f3a-814a-5f0809a0734b.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/de8e4f5b-454e-4aa5-80d0-e309d10bee4a.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/aaef9992-9466-4b80-b1ca-2ef8bb6ea970.jpeg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/2a46d33c-0418-4cc9-a3c1-6837caa886f4.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Grădină",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/a43528d1-3f80-4af1-98d2-5b8f1d566e00.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Grădină",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/2d331768-b9a2-411d-9859-de10fa18ccf9.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Măslin",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/a63fd521-150d-499b-a12e-aae1d7c0c11e.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Bucură-te de terasa noastră de lângă minunatul măslin",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/cffd237e-4144-4f01-b801-1a65ecde4917.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Grădină",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/dd2f90b4-be90-4b67-a6bc-366748b6308e.jpeg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 6 din categoria Grădină",
+            "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTc3NDcwNDIyNzQ4ODUyNjYx/original/a41939a1-3f82-4f51-b714-13bb9c3dc7f3.jpeg",
+            "orientation": "LANDSCAPE"
+          }
+        ],
+        "highlights": [
+          {
+            "title": "Printre cele mai apreciate 5 % dintre locuințe",
+            "subtitle": "Această locuință este bine cotată pe baza scorurilor, recenziilor și seriozității gazdei.",
+            "icon": "SYSTEM_GOLDEN_TROPHY",
+            "type": "LISTING_GUEST_FAVORITE"
+          },
+          {
+            "title": "Check-in independent",
+            "subtitle": "Fă check-in pe cont propriu folosind tastatura de acces prin cod digital.",
+            "icon": "SYSTEM_CHECK_IN",
+            "type": "LISTING_SELF_CHECKIN"
+          },
+          {
+            "title": "Anulare gratuită până pe 17 aug.",
+            "subtitle": "Obții o rambursare integrală dacă te răzgândești.",
+            "icon": "SYSTEM_CALENDAR",
+            "type": "LISTING_CANCELLATION_POLICY"
+          }
+        ],
+        "houseRules": {
+          "additional": null,
+          "general": [
+            {
+              "title": "Check-in și check-out",
+              "values": [
+                {
+                  "title": "Check-in după ora 14:00",
+                  "icon": "SYSTEM_CLOCK",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Check-out înainte de ora 11:00",
+                  "icon": "SYSTEM_CLOCK",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Check-in independent cu acces prin cod digital.",
+                  "icon": "SYSTEM_CHECK_IN",
+                  "additionalInfo": null
+                }
+              ]
+            },
+            {
+              "title": "În timpul șederii",
+              "values": [
+                {
+                  "title": "Maximum 2 oaspeți",
+                  "icon": "SYSTEM_FAMILY",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fără animale de companie",
+                  "icon": "SYSTEM_NO_PETS",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Ore de liniște",
+                  "icon": "SYSTEM_EVENING",
+                  "additionalInfo": "Între 22:00 și 19:00"
+                },
+                {
+                  "title": "Fără petreceri sau evenimente",
+                  "icon": "SYSTEM_NO_EVENTS",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fotografierea în scopuri comerciale este interzisă",
+                  "icon": "SYSTEM_NO_CAMERA",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fumatul interzis",
+                  "icon": "SYSTEM_SMOKING_NOT_ALLOWED",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Reguli suplimentare",
+                  "icon": "SYSTEM_CLIPBOARD",
+                  "additionalInfo": null
+                }
+              ]
+            },
+            {
+              "title": "Înainte de a pleca",
+              "values": [
+                {
+                  "title": "Închide luminile și electrocasnicele",
+                  "icon": "SYSTEM_POWER_SWITCH",
+                  "additionalInfo": null
+                }
+              ]
+            }
+          ]
+        },
+        "cancellationPolicies": [
+          {
+            "title": "Anulare gratuită până pe 17 aug.. Dacă anulezi înainte de check-in-ul de pe 22 aug., vei primi o rambursare parțială.",
+            "policyName": "Moderată",
+            "policyId": 4
+          }
+        ],
+        "amenities": [
+          {
+            "title": "Baie",
+            "values": [
+              {
+                "title": "Cadă",
+                "subtitle": "",
+                "icon": "SYSTEM_BATHTUB",
+                "available": true
+              },
+              {
+                "title": "Uscător de păr",
+                "subtitle": "",
+                "icon": "SYSTEM_HAIRDRYER",
+                "available": true
+              },
+              {
+                "title": "Produse de curățenie",
+                "subtitle": "",
+                "icon": "SYSTEM_CLEANING_SUPPLIES",
+                "available": true
+              },
+              {
+                "title": "Șampon",
+                "subtitle": "",
+                "icon": "SYSTEM_SHAMPOO",
+                "available": true
+              },
+              {
+                "title": "Săpun de corp",
+                "subtitle": "",
+                "icon": "SYSTEM_SOAP",
+                "available": true
+              },
+              {
+                "title": "Apă caldă",
+                "subtitle": "",
+                "icon": "SYSTEM_HOT_WATER",
+                "available": true
+              },
+              {
+                "title": "Gel de duș",
+                "subtitle": "",
+                "icon": "SYSTEM_SOAP",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Dormitor și lenjerie",
+            "values": [
+              {
+                "title": "Mașină de spălat (în unitate) Gratuit",
+                "subtitle": "",
+                "icon": "SYSTEM_WASHER",
+                "available": true
+              },
+              {
+                "title": "Dotări esențiale",
+                "subtitle": "Prosoape, lenjerie de pat, săpun și hârtie igienică",
+                "icon": "SYSTEM_TOILETRIES",
+                "available": true
+              },
+              {
+                "title": "Umerașe",
+                "subtitle": "",
+                "icon": "SYSTEM_HANGERS",
+                "available": true
+              },
+              {
+                "title": "Lenjerie de pat",
+                "subtitle": "Lenjerie de pat din bumbac",
+                "icon": "SYSTEM_BLANKETS",
+                "available": true
+              },
+              {
+                "title": "Storuri",
+                "subtitle": "",
+                "icon": "SYSTEM_BLACKOUT_SHADES",
+                "available": true
+              },
+              {
+                "title": "Fier de călcat",
+                "subtitle": "",
+                "icon": "SYSTEM_IRON",
+                "available": true
+              },
+              {
+                "title": "Spațiu de depozitare pentru îmbrăcăminte: dulap",
+                "subtitle": "",
+                "icon": "SYSTEM_WARDROBE",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Divertisment",
+            "values": [
+              {
+                "title": "Televizor HD cu diagonala de 55\" și Netflix",
+                "subtitle": "",
+                "icon": "SYSTEM_TV",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Familie",
+            "values": [
+              {
+                "title": "Scaun înalt de sine stătător",
+                "subtitle": "",
+                "icon": "SYSTEM_HIGH_CHAIR",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Încălzire și climatizare",
+            "values": [
+              {
+                "title": "Aer condiționat centralizat",
+                "subtitle": "",
+                "icon": "SYSTEM_SNOWFLAKE",
+                "available": true
+              },
+              {
+                "title": "Încălzire centralizată",
+                "subtitle": "",
+                "icon": "SYSTEM_THERMOMETER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Siguranța locuinței",
+            "values": [
+              {
+                "title": "Camere de supraveghere de exterior aflate la proprietate",
+                "subtitle": "Parcare",
+                "icon": "SYSTEM_SURVEILLANCE",
+                "available": true
+              },
+              {
+                "title": "Extinctor",
+                "subtitle": "",
+                "icon": "SYSTEM_FIRE_EXTINGUISHER",
+                "available": true
+              },
+              {
+                "title": "Trusă de prim ajutor",
+                "subtitle": "",
+                "icon": "SYSTEM_FIRST_AID_KIT",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Internet și birou",
+            "values": [
+              {
+                "title": "Wi-Fi",
+                "subtitle": "",
+                "icon": "SYSTEM_WI_FI",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Bucătărie și sufragerie",
+            "values": [
+              {
+                "title": "Bucătărie",
+                "subtitle": "Spațiu în care oaspeții își pot prepara singuri mâncarea",
+                "icon": "SYSTEM_COOKING_BASICS",
+                "available": true
+              },
+              {
+                "title": "Frigider",
+                "subtitle": "",
+                "icon": "SYSTEM_REFRIGERATOR",
+                "available": true
+              },
+              {
+                "title": "Ustensile esențiale de gătit",
+                "subtitle": "Oale și tigăi, ulei, sare și piper",
+                "icon": "SYSTEM_COOKING_BASICS",
+                "available": true
+              },
+              {
+                "title": "Veselă și argintărie",
+                "subtitle": "Boluri, bețișoare, farfurii, căni etc.",
+                "icon": "SYSTEM_DISHES_AND_SILVERWARE",
+                "available": true
+              },
+              {
+                "title": "Congelator",
+                "subtitle": "",
+                "icon": "SYSTEM_REFRIGERATOR",
+                "available": true
+              },
+              {
+                "title": "Mașină de spălat vase",
+                "subtitle": "",
+                "icon": "SYSTEM_DISHWASHER",
+                "available": true
+              },
+              {
+                "title": "Cuptor",
+                "subtitle": "",
+                "icon": "SYSTEM_OVEN",
+                "available": true
+              },
+              {
+                "title": "Cafetieră: Nespresso",
+                "subtitle": "",
+                "icon": "SYSTEM_COFFEE_MAKER",
+                "available": true
+              },
+              {
+                "title": "Pahare de vin",
+                "subtitle": "",
+                "icon": "SYSTEM_MAPS_BAR",
+                "available": true
+              },
+              {
+                "title": "Tavă de copt",
+                "subtitle": "",
+                "icon": "SYSTEM_BAKING_SHEET",
+                "available": true
+              },
+              {
+                "title": "Masă pentru servit masa",
+                "subtitle": "",
+                "icon": "SYSTEM_DINING_TABLE",
+                "available": true
+              },
+              {
+                "title": "Cafea",
+                "subtitle": "",
+                "icon": "SYSTEM_COFFEE_MAKER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Exterioare",
+            "values": [
+              {
+                "title": "Curte privată în spate – împrejmuită integral",
+                "subtitle": "Un spațiu în aer liber de pe proprietate, de obicei acoperit cu iarbă",
+                "icon": "SYSTEM_FLOWER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Parcare și facilități",
+            "values": [
+              {
+                "title": "Parcare gratuită la proprietate",
+                "subtitle": "",
+                "icon": "SYSTEM_MAPS_CAR_RENTAL",
+                "available": true
+              },
+              {
+                "title": "Locuință cu un singur nivel",
+                "subtitle": "Nu există scări în locuință",
+                "icon": "SYSTEM_NO_STAIRS",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Servicii",
+            "values": [
+              {
+                "title": "Șederile de lungă durată sunt permise",
+                "subtitle": "Permite șederi de 28 de zile sau mai mult",
+                "icon": "SYSTEM_CALENDAR",
+                "available": true
+              },
+              {
+                "title": "Check-in independent",
+                "subtitle": "",
+                "icon": "SYSTEM_KEY",
+                "available": true
+              },
+              {
+                "title": "Acces prin cod digital",
+                "subtitle": "Intră în locuință cu un cod de intrare",
+                "icon": "SYSTEM_BUZZER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Nu sunt incluse",
+            "values": [
+              {
+                "title": "Uscător automat de rufe",
+                "subtitle": "",
+                "icon": "SYSTEM_NO_DRYER",
+                "available": false
+              },
+              {
+                "title": "Detector de fum",
+                "subtitle": "Nu există detector de fum în cadrul proprietății.",
+                "icon": "SYSTEM_NO_DETECTOR_SMOKE",
+                "available": false
+              },
+              {
+                "title": "Detector de monoxid de carbon",
+                "subtitle": "Gazda a indicat că detectorul de monoxid de carbon nu este necesar. Contactează gazda pentru orice întrebări.",
+                "icon": "SYSTEM_NO_DETECTOR_CO2",
+                "available": false
+              }
+            ]
+          }
+        ],
+        "checkIn": "2025-08-22",
+        "checkOut": "2025-08-26"
+      },
+      {
+        "coordinates": {
+          "latitude": 45.73055,
+          "longitude": 21.19909
+        },
+        "sharingConfigTitle": "Unitate de închiriat · Timisoara · ★4,79 · 1 dormitor · 2 paturi · 1 baie",
+        "url": "https://www.airbnb.com/rooms/36337955?locale=ro-RO&currency=RON&adults=1&children=0&infants=0&pets=0&check_in=2025-08-22&check_out=2025-08-26",
+        "propertyType": "Întreaga locuință: unitate de închiriat",
+        "roomType": "Entire home/apt",
+        "homeTier": 1,
+        "personCapacity": 4,
+        "rating": {
+          "accuracy": 4.79,
+          "checking": 4.96,
+          "cleanliness": 4.82,
+          "communication": 4.82,
+          "location": 4.82,
+          "value": 4.82,
+          "guestSatisfaction": 4.79,
+          "reviewsCount": 28
+        },
+        "location": "Timisoara",
+        "locationDescriptions": [
+          {
+            "title": "Timișoara, Timis, România",
+            "content": "Clădirea este situată într-un cartier foarte liniștit, foarte aproape de unul dintre cele mai mari centre comerciale ale orașului, Shopping City Timișoara, unde poți face cumpărături, mânca, viziona un film și multe altele. De acolo ai acces la rețeaua de transport public, care te poate duce în centrul orașului în 15 minute, folosind autobuzul sau tramvaiul.",
+            "mapMarkerRadiusInMeters": 152
+          }
+        ],
+        "title": "Apartament deluxe din oțel alb",
+        "description": "Un loc nou și la modă de cazare în Timișoara, într-un cartier liniștit. Cu un design arhitectural exterior și interior foarte unic, locuința mea va satisface nevoile celor mai exigenți călători.  Serviciile de hotel, inclusiv masaje în confortul dormitorului dvs., închirierea de mașini, șofer privat pentru călătorii organizate și multe altele, vă vor face să aveți cel mai bun timp și să plecați cu nimic altceva decât zâmbete și amintiri bune.SpațiulAceastă proprietate este deschisă rezervării din iulie 2019. Acesta este un bloc de apartamente nou, care are caracteristici de securitate de ultimă generație, materiale ecologice și respirabile, cu un design arhitectural unic, care îl diferențiază de altele. Clădirea are studiouri și apartamente de lux, fiecare diferită de cealaltă, cu mobilier răcoros, design de perete chique, pictură, toate pentru a stabili o dispoziție și o atmosferă foarte unică. Toate apartamentele au bucătării complet încărcate, cu ustensile de bucătărie, veselă, vin și pahare obișnuite, tigăi și farfurii, unități de aer condiționat, unități de aer condiționat, birouri, zonă de luat masa, balcoane cu mobilier exterior, televizoare și lista dispărută. Oferim masaje la fața locului cu terapeutul nostru autorizat, închirieri auto, preluare și predare de la aeroport la cerere, șofer privat care să te conducă pe tine sau un grup de prieteni în jurul Timișoarei într-una dintre călătoriile noastre organizate și multe alte avantaje și servicii.Alte lucruri de reținutClădirea era doar scări, fără lift, și va trebui să urci două etaje pe scări. Te rugăm să ții cont de acest lucru înainte de a face o rezervare.",
+        "subDescription": {
+          "title": "Întreaga locuință: unitate de închiriat în Timișoara, România",
+          "items": ["4 oaspeți", "1 dormitor", "2 paturi", "1 baie"]
+        },
+        "isAvailable": true,
+        "price": {
+          "label": "1.460 lei pentru 4 nopți",
+          "qualifier": "pentru 4 nopți",
+          "price": "1.460 lei",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "breakDown": {
+            "basePrice": {
+              "description": "4 nopți x 364,86 lei",
+              "price": "1.459,42 lei"
+            },
+            "basePriceBreakdown": [],
+            "serviceFee": null,
+            "taxes": null,
+            "total": {
+              "price": "$1",
+              "description": "Total (calculated price, may vary)"
+            },
+            "totalBeforeTaxes": null,
+            "cleaningFee": null,
+            "specialOffer": null,
+            "earlyBirdDiscount": null
+          }
+        },
+        "images": [
+          {
+            "caption": "Imaginea 1 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/202f2343-13e2-44e1-bc54-dcb3de4e8f1f.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/c305e9ab-b0e6-4b92-b667-e54ff8e7ca97.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/107418d0-d62b-4633-bb1b-5e7333bcd5e8.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/e8b2de0f-45f9-4a5d-83ad-c785e5ec19af.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Living",
+            "imageUrl": "https://a0.muscache.com/im/pictures/e61b93e4-9d65-40e2-b160-f171fe6fc301.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/1c6817f7-2b65-43ab-9649-250c782db280.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/0e7f481d-e0c1-4b00-8769-e35c79e09c73.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/8ad64a1f-4cbf-423b-8083-253a4cba09a9.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/1bf7b2bd-5fd2-4777-9115-ec19394994b3.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Bucătărie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/6f903f86-a75b-44ce-b8cc-98d810776d48.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/69317ab8-5f7f-48e7-9620-0533895a7b3f.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/b8fe0b08-9730-48f2-b237-065a3fca1c73.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Zonă de luat masa",
+            "imageUrl": "https://a0.muscache.com/im/pictures/059d32a8-f75c-4639-98f0-8516090a63ba.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/d53b690d-90fd-446f-bb32-a697cf7f00a3.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Dormitor",
+            "imageUrl": "https://a0.muscache.com/im/pictures/4da369a9-908d-4e90-a531-c8177c2e2716.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/efaf84d0-9dc8-4015-82a4-f82339d8bfb0.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/202f33c9-2635-42f2-9828-447a8faec31b.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Baie completă",
+            "imageUrl": "https://a0.muscache.com/im/pictures/d5cd7cf0-01e9-489d-b979-691800a832bf.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Birou",
+            "imageUrl": "https://a0.muscache.com/im/pictures/ff5adf02-4787-4047-8747-07f3372ead87.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Exterior",
+            "imageUrl": "https://a0.muscache.com/im/pictures/a47edfe4-94b0-4ddb-8fbf-70576545024a.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Exterior",
+            "imageUrl": "https://a0.muscache.com/im/pictures/8634b2e7-e720-4c28-b53a-5cac4b1da62b.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Exterior",
+            "imageUrl": "https://a0.muscache.com/im/pictures/53ed2810-f657-4942-897f-090b9e86418a.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Exterior",
+            "imageUrl": "https://a0.muscache.com/im/pictures/570a8e7c-667f-4a97-917f-539b6f7cb758.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Exterior",
+            "imageUrl": "https://a0.muscache.com/im/pictures/f6fcd4c1-6f3b-4825-8ea3-be332bfb726f.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 1 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/3344de61-79a9-4648-b7ab-154e8c7b3dee.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 2 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/0362a1b6-a2dd-4dd6-b901-d090f2e06aa4.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 3 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/786fe121-9f1d-4af8-ab2c-c2f18e4675c9.jpg",
+            "orientation": "LANDSCAPE"
+          },
+          {
+            "caption": "Imaginea 4 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/eaadf2ba-fe09-4c0d-91af-909c54656d88.jpg",
+            "orientation": "PORTRAIT"
+          },
+          {
+            "caption": "Imaginea 5 din categoria Fotografii suplimentare",
+            "imageUrl": "https://a0.muscache.com/im/pictures/62092fe2-9a47-4ce7-bde2-fc2a56867dd2.jpg",
+            "orientation": "LANDSCAPE"
+          }
+        ],
+        "highlights": [
+          {
+            "title": "Liniște și pace",
+            "subtitle": "Această locuință se află într-o zonă liniștită.",
+            "icon": "SYSTEM_LOCATION",
+            "type": "LISTING_REVIEW_AREA_VIBES"
+          },
+          {
+            "title": "Parchează gratuit",
+            "subtitle": "Acesta este unul dintre puținele locuri cu parcare gratuită din această regiune.",
+            "icon": "SYSTEM_PARKING",
+            "type": "LISTING_POPULAR_AMENITY"
+          },
+          {
+            "title": "Anulare gratuită până pe 21 aug.",
+            "subtitle": "Obții o rambursare integrală dacă te răzgândești.",
+            "icon": "SYSTEM_CALENDAR",
+            "type": "LISTING_CANCELLATION_POLICY"
+          }
+        ],
+        "houseRules": {
+          "additional": null,
+          "general": [
+            {
+              "title": "Check-in și check-out",
+              "values": [
+                {
+                  "title": "Check-in după ora 15:00",
+                  "icon": "SYSTEM_CLOCK",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Check-out înainte de ora 12:00",
+                  "icon": "SYSTEM_CLOCK",
+                  "additionalInfo": null
+                }
+              ]
+            },
+            {
+              "title": "În timpul șederii",
+              "values": [
+                {
+                  "title": "Maximum 4 oaspeți",
+                  "icon": "SYSTEM_FAMILY",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fără animale de companie",
+                  "icon": "SYSTEM_NO_PETS",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fără petreceri sau evenimente",
+                  "icon": "SYSTEM_NO_EVENTS",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Fumatul interzis",
+                  "icon": "SYSTEM_SMOKING_NOT_ALLOWED",
+                  "additionalInfo": null
+                },
+                {
+                  "title": "Reguli suplimentare",
+                  "icon": "SYSTEM_CLIPBOARD",
+                  "additionalInfo": null
+                }
+              ]
+            }
+          ]
+        },
+        "cancellationPolicies": [
+          {
+            "title": "Anulare gratuită până pe 21 aug.. Dacă anulezi înainte de check-in-ul de pe 22 aug., vei primi o rambursare parțială.",
+            "policyName": "Flexibilă",
+            "policyId": 3
+          }
+        ],
+        "amenities": [
+          {
+            "title": "Baie",
+            "values": [
+              {
+                "title": "Șampon",
+                "subtitle": "",
+                "icon": "SYSTEM_SHAMPOO",
+                "available": true
+              },
+              {
+                "title": "Apă caldă",
+                "subtitle": "",
+                "icon": "SYSTEM_HOT_WATER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Dormitor și lenjerie",
+            "values": [
+              {
+                "title": "Dotări esențiale",
+                "subtitle": "Prosoape, lenjerie de pat, săpun și hârtie igienică",
+                "icon": "SYSTEM_TOILETRIES",
+                "available": true
+              },
+              {
+                "title": "Umerașe",
+                "subtitle": "",
+                "icon": "SYSTEM_HANGERS",
+                "available": true
+              },
+              {
+                "title": "Lenjerie de pat",
+                "subtitle": "",
+                "icon": "SYSTEM_BLANKETS",
+                "available": true
+              },
+              {
+                "title": "Perne și pături suplimentare",
+                "subtitle": "",
+                "icon": "SYSTEM_PILLOW",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Divertisment",
+            "values": [
+              {
+                "title": "Conexiune prin cablu",
+                "subtitle": "",
+                "icon": "SYSTEM_CABLE",
+                "available": true
+              },
+              {
+                "title": "Televizor",
+                "subtitle": "",
+                "icon": "SYSTEM_TV",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Încălzire și climatizare",
+            "values": [
+              {
+                "title": "Aer condiționat",
+                "subtitle": "",
+                "icon": "SYSTEM_SNOWFLAKE",
+                "available": true
+              },
+              {
+                "title": "Încălzire",
+                "subtitle": "",
+                "icon": "SYSTEM_THERMOMETER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Siguranța locuinței",
+            "values": [
+              {
+                "title": "Detector de fum",
+                "subtitle": "",
+                "icon": "SYSTEM_DETECTOR_SMOKE",
+                "available": true
+              },
+              {
+                "title": "Detector de monoxid de carbon",
+                "subtitle": "",
+                "icon": "SYSTEM_DETECTOR_CO",
+                "available": true
+              },
+              {
+                "title": "Extinctor",
+                "subtitle": "",
+                "icon": "SYSTEM_FIRE_EXTINGUISHER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Internet și birou",
+            "values": [
+              {
+                "title": "Wi-Fi",
+                "subtitle": "",
+                "icon": "SYSTEM_WI_FI",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Bucătărie și sufragerie",
+            "values": [
+              {
+                "title": "Bucătărie",
+                "subtitle": "Spațiu în care oaspeții își pot prepara singuri mâncarea",
+                "icon": "SYSTEM_COOKING_BASICS",
+                "available": true
+              },
+              {
+                "title": "Frigider",
+                "subtitle": "",
+                "icon": "SYSTEM_REFRIGERATOR",
+                "available": true
+              },
+              {
+                "title": "Ustensile esențiale de gătit",
+                "subtitle": "Oale și tigăi, ulei, sare și piper",
+                "icon": "SYSTEM_COOKING_BASICS",
+                "available": true
+              },
+              {
+                "title": "Veselă și argintărie",
+                "subtitle": "Boluri, bețișoare, farfurii, căni etc.",
+                "icon": "SYSTEM_DISHES_AND_SILVERWARE",
+                "available": true
+              },
+              {
+                "title": "Plită",
+                "subtitle": "",
+                "icon": "SYSTEM_STOVE",
+                "available": true
+              },
+              {
+                "title": "Cuptor",
+                "subtitle": "",
+                "icon": "SYSTEM_OVEN",
+                "available": true
+              },
+              {
+                "title": "Cafetieră",
+                "subtitle": "",
+                "icon": "SYSTEM_COFFEE_MAKER",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Caracteristicile poziției",
+            "values": [
+              {
+                "title": "Intrare separată",
+                "subtitle": "Intrare separată din stradă sau din clădire",
+                "icon": "SYSTEM_DOOR",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Exterioare",
+            "values": [
+              {
+                "title": "Curte pavată sau balcon",
+                "subtitle": "",
+                "icon": "SYSTEM_PATIO_BALCONY",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Parcare și facilități",
+            "values": [
+              {
+                "title": "Parcare gratuită la proprietate",
+                "subtitle": "",
+                "icon": "SYSTEM_MAPS_CAR_RENTAL",
+                "available": true
+              },
+              {
+                "title": "Parcare gratuită pe stradă",
+                "subtitle": "",
+                "icon": "SYSTEM_MAPS_CAR_RENTAL",
+                "available": true
+              },
+              {
+                "title": "Locuință cu un singur nivel",
+                "subtitle": "Nu există scări în locuință",
+                "icon": "SYSTEM_NO_STAIRS",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Nu sunt incluse",
+            "values": [
+              {
+                "title": "Mașină de spălat",
+                "subtitle": "",
+                "icon": "SYSTEM_NO_WASHER",
+                "available": false
+              },
+              {
+                "title": "Uscător automat de rufe",
+                "subtitle": "",
+                "icon": "SYSTEM_NO_DRYER",
+                "available": false
+              }
+            ]
+          }
+        ],
+        "checkIn": "2025-08-22",
+        "checkOut": "2025-08-26"
+      }
+    ]
+  }
+]
