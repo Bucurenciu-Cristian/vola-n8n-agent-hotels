@@ -4,7 +4,7 @@
 
 ### 1. Weekend în Sibiu
 ```
-Salut! Eu și soția căutăm cazare în **Sibiu centrul istoric** pentru **12-14 septembrie 2025** (2 nopți). Suntem **2 adulți, 1 cameră**. Buget: **250-350 RON/noapte** în lei românești. Căutăm experiență **românтică** - hotel boutique sau pensiune cu atmosferă intimă, micul dejun inclus obligatoriu, cameră cu vedere la centrul vechi, fără zgomot de trafic.
+Salut! Eu și soția căutăm cazare în **Sibiu centrul istoric** pentru **12-14 septembrie 2025** (2 nopți). Suntem **2 adulți, 1 cameră**. Buget: **250-500 RON/noapte** în lei românești. Căutăm experiență **românтică** - hotel boutique sau pensiune cu atmosferă intimă, micul dejun inclus obligatoriu, cameră cu vedere la centrul vechi, fără zgomot de trafic.
 ```
 
 ### 2. Concediu la mare
