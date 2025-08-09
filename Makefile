@@ -85,10 +85,10 @@ update-from-downloads:
 		mkdir -p $(BACKUP_DIR); \
 		TIMESTAMP=$$(date +%Y%m%d-%H%M%S); \
 		if [ -f "$(WORKFLOW_JSON)" ]; then \
-			cp "$(WORKFLOW_JSON)" "$(BACKUP_DIR)/Hotels-Agent-CRISTI-backup-$$TIMESTAMP.json"; \
+			mv "$(WORKFLOW_JSON)" "$(BACKUP_DIR)/Hotels-Agent-CRISTI-backup-$$TIMESTAMP.json"; \
 			echo "✅ Backup created: Hotels-Agent-CRISTI-backup-$$TIMESTAMP.json"; \
 		fi; \
-		cp "$$DOWNLOAD_FILE" "$(WORKFLOW_JSON)"; \
+		mv "$$DOWNLOAD_FILE" "$(WORKFLOW_JSON)"; \
 		echo "✅ Updated $(WORKFLOW_JSON) from Downloads"; \
 		echo "📋 Next steps:"; \
 		echo "1. Run: make validate"; \
