@@ -1,0 +1,105 @@
+POST https://api.apify.com/v2/acts/compass~crawler-google-places/run-sync-get-dataset-items?token=apify_api_Jfvr7mJthgPiFnw2hVvDjLZDKW5vHw1KSU6Z&maxItems=10&limit=10
+Content-Type: application/json
+
+{
+  "searchStringsArray": [
+    "hotels"
+  ],
+  "locationQuery": "Brasov",
+  "maxCrawledPlacesPerSearch": 3
+}
+###
+
+
+
+
+###
+{
+  "searchStringsArray": [
+    "hotels"
+  ],
+  "locationQuery": "Sibiu",
+  "maxCrawledPlacesPerSearch": 3,
+  "language": "ro",
+  "maxReviews": 1,
+  "reviewsSort": "newest"
+}
+
+###
+
+  {
+    "searchStringsArray": {{ $fromAI('searchStringsArray', 'Type what youd normally search for in the Google Maps search bar, like English breakfast or pet shelter. Aim for unique terms for faster processing. Using similar terms (e.g., bar vs. restaurant vs. cafe) may slightly increase your capture rate but is less efficient.⚠️ Heads up: Adding a location directly to the search, e.g., restaurant Pittsburgh, can limit you to a maximum of 120 results per search term due to  Return as JSON array of strings, e.g. ["Hotel Name 1", "Hotel Name 2"]', 'json', ["hotels"]) }},
+    "locationQuery": {{ $fromAI('locationQuery', 'The destination city or area to search in', 'string', '') }},
+    "maxCrawledPlacesPerSearch": {{ $fromAI('maxCrawledPlacesPerSearch', 'Maximum number of places to crawl per search (recommended 10-15 based on search complexity)', 'number', 10) }},
+    "language": {{ $fromAI('language', 'The language to search in (en, ro, us)', 'string', 'ro') }},
+    "maxReviews": 1,
+    "reviewsSort": "newest",
+  }
+
+
+###
+
+
+{
+  "searchStringsArray": {{ $fromAI('searchStringsArray', 'Array of hotel names to search for on Google Maps. Return as JSON array of strings, e.g. ["Hotel Name 1", "Hotel Name 2"]', 'json', []) }},
+  "locationQuery": {{ $fromAI('locationQuery', 'The destination city or area to search in', 'string', '') }},
+  "maxCrawledPlacesPerSearch": {{ $fromAI('maxCrawledPlacesPerSearch', 'Maximum number of places to crawl per search (recommended 20-50 based on search complexity)', 'number', 10) }},
+  "language": {{ $fromAI('language', 'The language to search in', 'string', 'ro') }},
+  "searchMatching": {{ $fromAI('searchMatching', 'Search matching strategy: "all" for comprehensive results, "exact" for precise matches', 'string', 'all') }},
+  "placeMinimumStars": {{ $fromAI('placeMinimumStars', 'Minimum star rating filter based on user budget and quality expectations (empty string for no filter)', 'string', '') }},
+  "website": "allPlaces",
+  "skipClosedPlaces": {{ $fromAI('skipClosedPlaces', 'Whether to skip closed places based on user travel dates', 'boolean', false) }},
+  "scrapePlaceDetailPage": false,
+  "scrapeTableReservationProvider": false,
+  "includeWebResults": false,
+  "scrapeDirectories": false,
+  "maxQuestions": {{ $fromAI('maxQuestions', 'Maximum Q&A to scrape based on user information needs', 'number', 10) }},
+  "scrapeContacts": {{ $fromAI('scrapeContacts', 'Whether to scrape contact information for direct booking potential', 'boolean', false) }},
+  "maximumLeadsEnrichmentRecords": 5,
+  "maxReviews": {{ $fromAI('maxReviews', 'Maximum reviews to analyze per property (10-50 based on thoroughness needed)', 'number', 30) }},
+  "reviewsSort": {{ $fromAI('reviewsSort', 'Review sorting preference: "newest" for recent feedback, "rating" for quality insights, "relevance" for user-specific', 'string', 'newest') }},
+  "reviewsFilterString": {{ $fromAI('reviewsFilterString', 'Filter reviews by traveler type or keywords relevant to user request (e.g. "couple", "family", "business", "romantic")', 'string', '') }},
+  "reviewsOrigin": "google",
+  "scrapeReviewsPersonalData": false,
+  "scrapeImageAuthors": false,
+  "allPlacesNoSearchAction": ""
+}
+
+###
+
+{
+  "searchStringsArray": {{ $fromAI('searchStringsArray', 'Array of hotel names to search for on Google Maps. Return as JSON array of strings, e.g. ["Hotel Name 1", "Hotel Name 2"]', 'json', ["hotels"]) }},
+  "locationQuery": {{ $fromAI('locationQuery', 'The destination city or area to search in', 'string', 'Sibiu') }},
+  "maxCrawledPlacesPerSearch": {{ $fromAI('maxCrawledPlacesPerSearch', 'Maximum number of places to crawl per search (recommended 20-50 based on search complexity)', 'number', 3) }},
+  "language": {{ $fromAI('language', 'The language to search in', 'string', 'ro') }},
+  "searchMatching": {{ $fromAI('searchMatching', 'Search matching strategy: "all" for comprehensive results, "exact" for precise matches', 'string', 'all') }},
+  "placeMinimumStars": {{ $fromAI('placeMinimumStars', 'Minimum star rating filter based on user budget and quality expectations (empty string for no filter)', 'string', '3.0') }},
+  "website": "allPlaces",
+  "skipClosedPlaces": {{ $fromAI('skipClosedPlaces', 'Whether to skip closed places based on user travel dates', 'boolean', true) }},
+  "scrapePlaceDetailPage": false,
+  "scrapeTableReservationProvider": false,
+  "includeWebResults": false,
+  "scrapeDirectories": false,
+  "maxQuestions": {{ $fromAI('maxQuestions', 'Maximum Q&A to scrape based on user information needs', 'number', 10) }},
+  "scrapeContacts": {{ $fromAI('scrapeContacts', 'Whether to scrape contact information for direct booking potential', 'boolean', false) }},
+  "maximumLeadsEnrichmentRecords": 5,
+  "maxReviews": {{ $fromAI('maxReviews', 'Maximum reviews to analyze per property (10-50 based on thoroughness needed)', 'number', 30) }},
+  "reviewsSort": {{ $fromAI('reviewsSort', 'Review sorting preference: "newest" for recent feedback, "rating" for quality insights, "relevance" for user-specific', 'string', 'newest') }},
+  "reviewsFilterString": {{ $fromAI('reviewsFilterString', 'Filter reviews by traveler type or keywords relevant to user request (e.g. "couple", "family", "business", "romantic")', 'string', 'family') }},
+  "reviewsOrigin": "google",
+  "scrapeReviewsPersonalData": false,
+  "scrapeImageAuthors": false,
+  "allPlacesNoSearchAction": ""
+}
+
+
+###
+
+{
+    "locationQuery": {{ $fromAI('locationQuery', 'The destination city or area to search in (place it in quotes)', 'string', 'Sibiu') }},
+    "maxCrawledPlacesPerSearch": {{ $fromAI('maxCrawledPlacesPerSearch', 'Maximum number of places to crawl per search (recommended 10-15 based on search complexity)', 'number', 2) }},
+    "language": {{ $fromAI('language', 'The language to search in (en, ro, us) and make sure to place it in quotes ', 'string', 'ro') }},
+    "maxReviews": 1,
+    "reviewsSort": "newest",
+}
+

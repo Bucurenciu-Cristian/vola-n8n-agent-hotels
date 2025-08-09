@@ -1,0 +1,355 @@
+[{
+  "title": "Stupina",
+  "price": "€2,124",
+  "categoryName": "Bed & breakfast",
+  "address": "Strada Plugarilor 6, Brașov 500473, Romania",
+  "neighborhood": null,
+  "street": "Strada Plugarilor 6",
+  "city": "Brașov",
+  "postalCode": "500473",
+  "state": null,
+  "countryCode": "RO",
+  "website": "https://stupina.eu/",
+  "phone": "+40 722 228 832",
+  "phoneUnformatted": "+40722228832",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 45.686708,
+    "lng": 25.569921
+  },
+  "totalScore": 4.8,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ08hlNy5as0ARJsFkfiriqkk",
+  "categories": [
+    "Bed & breakfast"
+  ],
+  "fid": "0x40b35a2e3765c8d3:0x49aae22a7e64c126",
+  "cid": "5308303782946586918",
+  "reviewsCount": 211,
+  "imagesCount": 253,
+  "imageCategories": [],
+  "scrapedAt": "2025-08-08T19:43:38.018Z",
+  "googleFoodUrl": null,
+  "hotelStars": "3-star hotel",
+  "checkInDate": "2025-08-17",
+  "checkOutDate": "2025-08-18",
+  "hotelAds": [
+    {
+      "title": "Bluepillow.de",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Oswx_C7QSakWohgMgoSMKXJKZ0JFUJf5N3YketUIrU2mfgI0e1I49clLa74UQ62poWo4aER4hOqgcYVmVU3GOmvM8bXXIZhSimPJaHci23hnnx65p_uarC0zkbh7fcEZfisV&pcurl=https://www.bluepillow.de/search/594395ce7c00cb0e643b64dc?begin%3D2025-08-17%26end%3D2025-08-18%26block_id%3D-b,wKLBrPIwApFPfA5XUrucoupNh7Z8BZhUXPsL6Wo0M8jkjv9Sf2Ap_c5UAVbxCVn1Fts5_F5nRSdNc_MJRQlFwg,-bkng-Hotel%26adults%3D2%26childs%3D0%26infants%3D0%26childrens%3D0%26country%3DDE%26currency%3DEUR%26language%3Den%26source%3Dmapresults%26utm_campaign%3Dhotel%26prid%3D&s=AD1XQnk_AvN5fhB9mNzYxOGK3c1L",
+      "isOfficialSite": false,
+      "price": "€2,124",
+      "url": "https://www.bluepillow.de/search/594395ce7c00cb0e643b64dc?begin=2025-08-17&end=2025-08-18&block_id=-b,wKLBrPIwApFPfA5XUrucoupNh7Z8BZhUXPsL6Wo0M8jkjv9Sf2Ap_c5UAVbxCVn1Fts5_F5nRSdNc_MJRQlFwg,-bkng-Hotel&adults=2&childs=0&infants=0&childrens=0&country=DE&currency=EUR&language=en&source=mapresults&utm_campaign=hotel&prid="
+    }
+  ],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Amenities": [
+      {
+        "Free Wi-Fi": true
+      },
+      {
+        "Free breakfast": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Stupina&query_place_id=ChIJ08hlNy5as0ARJsFkfiriqkk",
+  "searchPageUrl": "https://www.google.com/maps/search/hotels/@45.68704762654394,25.527701087050172,14z?hl=en",
+  "searchString": "hotels",
+  "language": "en",
+  "rank": 3,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipNX1-LR0N5z4gDnZ1C8_h0XTgm9UOhC1uX2U08X=w408-h272-k-no",
+  "kgmid": "/g/1pv1rv_bc"
+},
+{
+  "title": "Vila William’s",
+  "price": "€81",
+  "categoryName": "Hotel",
+  "address": "Strada Dimitrie Anghel 8, Brașov 500450, Romania",
+  "neighborhood": null,
+  "street": "Strada Dimitrie Anghel 8",
+  "city": "Brașov",
+  "postalCode": "500450",
+  "state": null,
+  "countryCode": "RO",
+  "website": "https://vilawilliams.ro/",
+  "phone": "+40 722 830 660",
+  "phoneUnformatted": "+40722830660",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 45.6680352,
+    "lng": 25.5767152
+  },
+  "totalScore": 4.4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJT23CxrBbs0ARc30o8W4LGys",
+  "categories": [
+    "Hotel"
+  ],
+  "fid": "0x40b35bb0c6c26d4f:0x2b1b0b6ef1287d73",
+  "cid": "3106088939122359667",
+  "reviewsCount": 223,
+  "imagesCount": 222,
+  "imageCategories": [],
+  "scrapedAt": "2025-08-08T19:43:38.022Z",
+  "googleFoodUrl": null,
+  "hotelStars": "3-star hotel",
+  "checkInDate": "2025-08-17",
+  "checkOutDate": "2025-08-18",
+  "hotelAds": [
+    {
+      "title": "Booking.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxVeeccLbbMVEdUNRBm7Sp1N8O5c9u-gw6M81aRfUaH8JblxcI8nQALSh_lrupuo76kuQV4DZuR0Ic0N-59t5qwnK_Z95xS9GAtx7j5FFpZn6omKPzkA3-33QpStIiZv9J3s2MZkA-HIdm1&pcurl=https://www.booking.com/hotel/ro/vila-williams.html?checkin%3D2025-08-17%26checkout%3D2025-08-18%26group_adults%3D2%26req_adults%3D2%26show_room%3D435337302_147308954_2_0_0_874904%26lang%3Den%26selected_currency%3DEUR%26exrt%3D0.19721413%26ext_price_total%3D80.94%26ext_price_tax%3D9.09%26xfc%3DRON%26hca%3Dm%26group_children%3D0%26req_children%3D0%26%26no_rooms%3D1%26ts%3D1754487761%26edgtid%3Dhhy5TpCxRTmzI65MuEqF5Q%26efpc%3DQQtApBC0ChGf%26utm_source%3Dmetagha%26utm_medium%3Dmapresults%26utm_campaign%3DDE%26utm_term%3Dhotel-4353373%26utm_content%3Ddev-desktop_los-1_bw-9_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250817_ppt-%26aid%3D2127502%26label%3Dmetagha-link-MRDE-hotel-4353373_dev-desktop_los-1_bw-9_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250817_ppt-&s=AD1XQnmM58oZGKRJgRQuc2Zhz-mH",
+      "isOfficialSite": false,
+      "price": "€81",
+      "url": "https://www.booking.com/hotel/ro/vila-williams.html?checkin=2025-08-17&checkout=2025-08-18&group_adults=2&req_adults=2&show_room=435337302_147308954_2_0_0_874904&lang=en&selected_currency=EUR&exrt=0.19721413&ext_price_total=80.94&ext_price_tax=9.09&xfc=RON&hca=m&group_children=0&req_children=0&&no_rooms=1&ts=1754487761&edgtid=hhy5TpCxRTmzI65MuEqF5Q&efpc=QQtApBC0ChGf&utm_source=metagha&utm_medium=mapresults&utm_campaign=DE&utm_term=hotel-4353373&utm_content=dev-desktop_los-1_bw-9_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250817_ppt-&aid=2127502&label=metagha-link-MRDE-hotel-4353373_dev-desktop_los-1_bw-9_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250817_ppt-"
+    },
+    {
+      "title": "Agoda",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszFLJqa2_j0Ed80fy1l_Yc7rpxyT2YklUUvfjQOyFfCdUdR0gw3byXTQkrdSZFNoqEBcsoSDQwwfgRSS9bsornrXbfpOFE1sjP7XYq9zLsmWuT4r0sd8WrXWKEzFLg9PzztQ-ln&pcurl=https://www.agoda.com/partners/partnersearch.aspx?site_id%3D1917614%26CkInDay%3D17%26CkInMonth%3D08%26CkInYear%3D2025%26CkOutDay%3D18%26campaignid%3D%26CkOutMonth%3D08%26CkOutYear%3D2025%26SearchDateType%3Ddefault%26NumberOfAdults%3D2%26LT%3D9%26NumberOfChildren%3D0%26childages%3D%26NumberOfRooms%3D1%26gsite%3Dmapresults%26los%3D1%26PartnerCurrency%3DEUR%26hid%3D6426794%26RoomID%3D79411103%26masterRoomId%3D79411103%26PriceTax%3D9.08%26PriceTotal%3D80.93%26RatePlan%3D52c3036f-b2a2-5947-25ed-34257467831e%26UserCountry%3DDE%26Currency%3DEUR%26UserDevice%3Ddesktop%26Verif%3Dfalse%26rr%3Drow_desktop%26audience_list%3D%26mcid%3D3038%26booking_source%3Dcpc%26adType%3D0%26mpt%3Da3RGbUhiR2ZiUGVvVGQ1VTZkWjdyU1lhbmlvUU5XRFRISkc5K1J0VHNjYXB2cGt2bW9WZUNnPT0%26original_rr%3D&s=AD1XQnkQiNl8f03ncaFihiUt2yYd",
+      "isOfficialSite": false,
+      "price": "€81",
+      "url": "https://www.agoda.com/partners/partnersearch.aspx?site_id=1917614&CkInDay=17&CkInMonth=08&CkInYear=2025&CkOutDay=18&campaignid=&CkOutMonth=08&CkOutYear=2025&SearchDateType=default&NumberOfAdults=2&LT=9&NumberOfChildren=0&childages=&NumberOfRooms=1&gsite=mapresults&los=1&PartnerCurrency=EUR&hid=6426794&RoomID=79411103&masterRoomId=79411103&PriceTax=9.08&PriceTotal=80.93&RatePlan=52c3036f-b2a2-5947-25ed-34257467831e&UserCountry=DE&Currency=EUR&UserDevice=desktop&Verif=false&rr=row_desktop&audience_list=&mcid=3038&booking_source=cpc&adType=0&mpt=a3RGbUhiR2ZiUGVvVGQ1VTZkWjdyU1lhbmlvUU5XRFRISkc5K1J0VHNjYXB2cGt2bW9WZUNnPT0&original_rr="
+    },
+    {
+      "title": "Priceline",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osz-k8--KqTcI8r-6CLmNnwKqGazdxStXkzYKkPr-13swqRqkUZd05EqwZe3abHFFrfHua2u9MHmadEIXKrk5JikqiuJJ1elJ8A42rvai9tTRWHDokhRkwlPePh_PJdD5l-SQL50mJl36Q&pcurl=https://www.priceline.com/r/?channel%3Dmeta%26product%3Dhotel%26theme%3Dghalistings%26refid%3DPLGOOGLEMSS%26refclickid%3DDE_HP%257C128507404_mapresults_1%257C20250817%257Cdesktop%257Cdefaultdate%7Cpublic%7C%7C%7C9%257C2%257C0%7C0%7CEN%26hotelid%3D128507404%26checkin%3D20250817%26checkout%3D20250818%26rooms%3D1%26currency%3DRON%26displayedCurr%3DEUR%26POSCountryCode%3DDE%26taxDisplayMode%3DBP%26cityID%3D5000485857%26adults%3D2%26land%3DL%26metaid%3DGMqL1ywUi9EEDQlsz4IMIbdn5rL2SSdqMIFR0Sqzwp3OghOXuXdB4eaA4Z9Ers3RJXjiRkQQ6kEPDJRFv2iCbUsCiYFWWeo4_iMaG0gCqhLaS6_Dus-ET4R3bhULb7azzbUwRgOyq3tOoFGOz8HaqkQS0nxG5u6bBJjWsNbLU_Vruz6agPzLAOO36qysKHoFPozyLcWK6UADyaKhf4bNu0jiU9vrAfUvNkd6e0bQ3y3gwuYWR-ahYyzuxDLQ51PmhP-TWNNAcO1NoOCzp2y8-T_vas_CkYVjfZSJzd2H4vXsM1MKkCbnY1a1vAgLpO6g0JugzUt22aBlgMOkNh8i_g%26dblcnt%3Dtrue%26user_num_adults%3D2%26hc%3D1%26pdtax%3D9.09%26pdt%3D80.94%26locale%3Den-us%26ad-src%3D&s=AD1XQnmhCq7xC8ye9f3_JxU5JPL5",
+      "isOfficialSite": false,
+      "price": "€81",
+      "url": "https://www.priceline.com/r/?channel=meta&product=hotel&theme=ghalistings&refid=PLGOOGLEMSS&refclickid=DE_HP|128507404_mapresults_1|20250817|desktop|defaultdate|public|||9|2|0|0|EN&hotelid=128507404&checkin=20250817&checkout=20250818&rooms=1&currency=RON&displayedCurr=EUR&POSCountryCode=DE&taxDisplayMode=BP&cityID=5000485857&adults=2&land=L&metaid=GMqL1ywUi9EEDQlsz4IMIbdn5rL2SSdqMIFR0Sqzwp3OghOXuXdB4eaA4Z9Ers3RJXjiRkQQ6kEPDJRFv2iCbUsCiYFWWeo4_iMaG0gCqhLaS6_Dus-ET4R3bhULb7azzbUwRgOyq3tOoFGOz8HaqkQS0nxG5u6bBJjWsNbLU_Vruz6agPzLAOO36qysKHoFPozyLcWK6UADyaKhf4bNu0jiU9vrAfUvNkd6e0bQ3y3gwuYWR-ahYyzuxDLQ51PmhP-TWNNAcO1NoOCzp2y8-T_vas_CkYVjfZSJzd2H4vXsM1MKkCbnY1a1vAgLpO6g0JugzUt22aBlgMOkNh8i_g&dblcnt=true&user_num_adults=2&hc=1&pdtax=9.09&pdt=80.94&locale=en-us&ad-src="
+    },
+    {
+      "title": "My Luxury Hotel",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszJvtzisoZY-pd97LiZok8KnJGH3qyHT5XCwtpdhGq-dWYWl7DFQQk34qgMYFapp7ORdJdvZOAZVfwBuFys_yQI4UhN4S8AJ_QaFSeHMDJJGCTqVUhfllONGReu788jz00Q6VdE-BVjwxmfchGj1rzYZw&pcurl=https://www.myluxuryhotel.com/de-de/hotel/4966553?ppc%3Dtrue%26isHotel%3Dtrue%26checkin%3D2025-08-17%26checkout%3D2025-08-18%26nights%3D1%26rooms%3D%255B%257B%2522adults%2522:2,%2522children%2522:%255B%255D,%2522kidsAge%2522:%255B%255D%257D%255D%26utm_source%3DGoogleHC%26utm_medium%3Dpaid%26utm_campaign%3D%26utm_content%3Dmapresults%26utm_term%3D4966553%26ghv%3D1&s=AD1XQnkcTkqhZ7PEvYKJTgW8AxiP",
+      "isOfficialSite": false,
+      "price": "€81",
+      "url": "https://www.myluxuryhotel.com/de-de/hotel/4966553?ppc=true&isHotel=true&checkin=2025-08-17&checkout=2025-08-18&nights=1&rooms=[{\"adults\":2,\"children\":[],\"kidsAge\":[]}]&utm_source=GoogleHC&utm_medium=paid&utm_campaign=&utm_content=mapresults&utm_term=4966553&ghv=1"
+    },
+    {
+      "title": "LateRooms.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osy5khQqYCu2SsO0Gv3VcpdfrKQKOew4VDw2tddqB6ee4poiL_6LTUqDu5NgegKgObEYHLdzjhQkbtjg11FMT9WhxVabkOn0cvGnfhwyVsATUr1Q9g5YqLvZPQHH9ZcyE1kZ_Et52Dj6VRVx2A&pcurl=https://www.laterooms.com/de-de/hotel/4966553?ppc%3Dtrue%26isHotel%3Dtrue%26checkin%3D2025-08-17%26checkout%3D2025-08-18%26nights%3D1%26rooms%3D%255B%257B%2522adults%2522:2,%2522children%2522:%255B%255D,%2522kidsAge%2522:%255B%255D%257D%255D%26utm_source%3DGoogleHC%26utm_medium%3Dpaid%26utm_campaign%3D%26utm_content%3Dmapresults%26utm_term%3D4966553%26pv%3D1754657081&s=AD1XQnnGobENW18laTKjPhHHHUiA",
+      "isOfficialSite": false,
+      "price": "€81",
+      "url": "https://www.laterooms.com/de-de/hotel/4966553?ppc=true&isHotel=true&checkin=2025-08-17&checkout=2025-08-18&nights=1&rooms=[{\"adults\":2,\"children\":[],\"kidsAge\":[]}]&utm_source=GoogleHC&utm_medium=paid&utm_campaign=&utm_content=mapresults&utm_term=4966553&pv=1754657081"
+    },
+    {
+      "title": "Bluepillow.de",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswABZFExumQjJf3d1tjo2kNGFcrtu6nX2eqERMjSKzjyEb7ETfnEkXm61si_bLEo-btY-lw9uMW8jInKZnZ87OmQm4kvhQcRZM5slheguvfArX4n7Cjl6O3EYZMBCNvdLOb&pcurl=https://www.bluepillow.de/search/5c2cb13fe24da4118c471930?begin%3D2025-08-17%26end%3D2025-08-18%26block_id%3D-b,liFfdfTQR5xbSucyWmrz_tJJjWGCIf0eZ2ALmvZ9LkHOofyI0gzpT7GHeayUuKWIrhnJe5viDZoGxcNtC5GvuQ,-bkng-Hotel%26adults%3D2%26childs%3D0%26infants%3D0%26childrens%3D0%26country%3DDE%26currency%3DEUR%26language%3Den%26source%3Dmapresults%26utm_campaign%3Dhotel%26prid%3D&s=AD1XQnmyMjRIqSWObWkREOVnwn0R",
+      "isOfficialSite": false,
+      "price": "€81",
+      "url": "https://www.bluepillow.de/search/5c2cb13fe24da4118c471930?begin=2025-08-17&end=2025-08-18&block_id=-b,liFfdfTQR5xbSucyWmrz_tJJjWGCIf0eZ2ALmvZ9LkHOofyI0gzpT7GHeayUuKWIrhnJe5viDZoGxcNtC5GvuQ,-bkng-Hotel&adults=2&childs=0&infants=0&childrens=0&country=DE&currency=EUR&language=en&source=mapresults&utm_campaign=hotel&prid="
+    },
+    {
+      "title": "goseek.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxsMAX9O9Yq_r3U2KFC91uqqCdYqvcxrftZLjAdXVTcvpI6tUP3Zoi9drur3GH3ULn4S3tCOJDmQrwJiC2AFU0O89EfpXRz-QMl-C7fE8wyu1Fu6Y-cu8ZkyVI834xgiGoh7aii2ZUE&pcurl=https://deals.goseek.com/?sig%3D34c47a49c3e8320dca5a5dda0da2a460c1bc23afde972e2894a4ff0b6052fb53383131303836353931%26turl%3Dhttps%253A%252F%252Fwww.goseek.com%252FHotel%252FSearch%253FcheckIn%253D2025-08-17%2526checkOut%253D2025-08-18%2526curr%253DEUR%2526forceCurrencyChange%253D1%2526lang%253Den%2526forceLanguageChange%253D1%2526rooms%253D2%253A%2526utm_source%253Dgha%2526utm_medium%253Dcpc%2526hotelId%253D4657308%2526userCountry%253DDE%2526profile%253Dr2d2m73kn8%2526preferredRate%253D80.94%2526label%253Dsrc%25253Dgha%252526cltype%25253Dhotel%252526datype%25253Ddefault%252526gsite%25253Dmapresults%252526vf%25253D0%252526ucountry%25253DDE%252526udevice%25253Ddesktop%252526hotel%25253D4657308%252526day%25253D17%252526month%25253D08%252526year%25253D2025%252526los%25253D1%252526price%25253D80.94%252526currency%25253DEUR%252526cid%25253D%252526listid%25253D%252526rateid%25253DDE%252526closerateid%25253D%252526promo%25253D0%252526isPrivateRate%25253D0%252526isAudienceUser%25253D0%252526isPaidClick%25253D0%252526%2526cp%253DjScfSW5KUjgCgtMNmxtbVdidERSZxiJ99jEBiADONb4nuILQhkI76rV4e--x6F9ENCcAhiQAyDwICoDUk9O&s=AD1XQnngVkjO9SM3x38usDhjzhlj",
+      "isOfficialSite": false,
+      "price": "€81",
+      "url": "https://deals.goseek.com/?sig=34c47a49c3e8320dca5a5dda0da2a460c1bc23afde972e2894a4ff0b6052fb53383131303836353931&turl=https://www.goseek.com/Hotel/Search?checkIn=2025-08-17&checkOut=2025-08-18&curr=EUR&forceCurrencyChange=1&lang=en&forceLanguageChange=1&rooms=2:&utm_source=gha&utm_medium=cpc&hotelId=4657308&userCountry=DE&profile=r2d2m73kn8&preferredRate=80.94&label=src%3Dgha%26cltype%3Dhotel%26datype%3Ddefault%26gsite%3Dmapresults%26vf%3D0%26ucountry%3DDE%26udevice%3Ddesktop%26hotel%3D4657308%26day%3D17%26month%3D08%26year%3D2025%26los%3D1%26price%3D80.94%26currency%3DEUR%26cid%3D%26listid%3D%26rateid%3DDE%26closerateid%3D%26promo%3D0%26isPrivateRate%3D0%26isAudienceUser%3D0%26isPaidClick%3D0%26&cp=jScfSW5KUjgCgtMNmxtbVdidERSZxiJ99jEBiADONb4nuILQhkI76rV4e--x6F9ENCcAhiQAyDwICoDUk9O"
+    },
+    {
+      "title": "Wego",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Oszf8hmqJ5iWsIF5nLsfmASA_yLxamDrhSSuljSm9rXkeY8i_8kgHV8JRV5y1wRT2i6C2ZDHqAEEO_b57HPUBQxmNH_VRlWT5WLNlodULbwIHLM_iPDV2q6SmHM6&pcurl=https://www.wego.com/hotels-handoff/searches/XHV/2025-08-17/2025-08-18?guests%3D2%26wego_hotel_id%3D2936335%26bow_only%3Dtrue%26ts_code%3D2f2fc%26wg_source%3Dmeta_distribution%26wg_medium%3Dgha%26wg_campaign%3Dfbl%26wego_currency%3DEUR%26ulang%3Den%26wego_price%3DVVNEOjk1LjU0OjQ5MzU5NzZiMDFhNzNiODY3YzA1Y2E4MzY1MjIwZDhmOGNjZTg2ZTgzZWMyZGFhZTM3NmJiYjVkZjIyYzNmN2M6Ym9vZ25pazY5cXNhOjE3NTQ1OTUxMzg6RDpVUzoyOTNiYjA3MTc0OWU1OWJjOjI6MDp0cnVl%26provider%3DaG90ZWxzLndlZ28uY29t%26no_app_links%3Dtrue&s=AD1XQnkRZu0wEwtjhoSjNCf59ElX",
+      "isOfficialSite": false,
+      "price": "€82",
+      "url": "https://www.wego.com/hotels-handoff/searches/XHV/2025-08-17/2025-08-18?guests=2&wego_hotel_id=2936335&bow_only=true&ts_code=2f2fc&wg_source=meta_distribution&wg_medium=gha&wg_campaign=fbl&wego_currency=EUR&ulang=en&wego_price=VVNEOjk1LjU0OjQ5MzU5NzZiMDFhNzNiODY3YzA1Y2E4MzY1MjIwZDhmOGNjZTg2ZTgzZWMyZGFhZTM3NmJiYjVkZjIyYzNmN2M6Ym9vZ25pazY5cXNhOjE3NTQ1OTUxMzg6RDpVUzoyOTNiYjA3MTc0OWU1OWJjOjI6MDp0cnVl&provider=aG90ZWxzLndlZ28uY29t&no_app_links=true"
+    },
+    {
+      "title": "Expedia.de",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osy_kqJH1P4NFymXolYuBP0qNIkkxNJeEiH0FGYUY5znfTIkrZcqATv_Cd30jZkN_89g_ozf_uKUKJVfEmZGLrNFV5Q-GhEwsNwE_9lfsHzsAsODJk8WJfFyo0QDFkZsHvOCDwajYEE&pcurl=https://www.expedia.de/Hotel-Search?selected%3D32848858%26startDate%3D2025-08-17%26endDate%3D2025-08-18%26MDPCID%3DDE.META.HPA.HOTEL-ORGANIC-desktop.HOTEL%26MDPDTL%3DHTL.32848858.20250817.20250818.DDT.9.CID..AUDID..RRID.bex_eu_desktop%26adults%3D2%26children%3D%26mctc%3D10%26ct%3Dhotel%26mpg%3DEUR%26mpf%3D87.99%26mpj%3D8.72%26mpl%3DEUR%26exp_pg%3Dgoogle%26langid%3D2057%26ad%3D2%26tp%3D%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_term%3D32848858%26utm_content%3Dmapresults%26utm_campaign%3DHotelAds%26rateplanid%3D266129722%26mpm%3D24%26mpn%3D216928040%26mpo%3DEC%26mpp%3D1&s=AD1XQnnkW83w_suLM6JK0hbzaMEI",
+      "isOfficialSite": false,
+      "price": "€88",
+      "url": "https://www.expedia.de/Hotel-Search?selected=32848858&startDate=2025-08-17&endDate=2025-08-18&MDPCID=DE.META.HPA.HOTEL-ORGANIC-desktop.HOTEL&MDPDTL=HTL.32848858.20250817.20250818.DDT.9.CID..AUDID..RRID.bex_eu_desktop&adults=2&children=&mctc=10&ct=hotel&mpg=EUR&mpf=87.99&mpj=8.72&mpl=EUR&exp_pg=google&langid=2057&ad=2&tp=&utm_source=google&utm_medium=cpc&utm_term=32848858&utm_content=mapresults&utm_campaign=HotelAds&rateplanid=266129722&mpm=24&mpn=216928040&mpo=EC&mpp=1"
+    },
+    {
+      "title": "Amimir.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osyk6QVb9PcF__dnS90aLMdhg4bewTByp0kjJxPYsFL4yZZ_0guDF2EpoZk1N2jBhhLOEV1OvAeL_Zp9dR4T-5_JJdMNNjZhDJ5Cw4Dx3_DOl8RaOokSLVJs2pWazmCc0v81a-8h8Mv513RWNw&pcurl=https://www.amimir.com/en/book/?start%3D17%252F08%252F2025%26end%3D18%252F08%252F2025%26hotelId%3D541303%26highlightHotel%3Dtrue%26hab1%3D2%26ehab1%3D%26metasearch%26utm_content%3D541303%26checkV%3Dfalse%26totalPrice%3D91.98%26userCountry%3DDE%26utm_source%3DgoogleMetasearch%26utm_medium%3Dorganic&s=AD1XQnm-_3rIcDbv2DiBQ25IRbX1",
+      "isOfficialSite": false,
+      "price": "€92",
+      "url": "https://www.amimir.com/en/book/?start=17/08/2025&end=18/08/2025&hotelId=541303&highlightHotel=true&hab1=2&ehab1=&metasearch&utm_content=541303&checkV=false&totalPrice=91.98&userCountry=DE&utm_source=googleMetasearch&utm_medium=organic"
+    },
+    {
+      "title": "Opodo",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswUgN_M8kADocYD3NRsTS3E-yM5riRahp3sLXM9uVRoomHF3UdEiDJwZ-Gc4_EMzXdAZ_sqIOVuXtr4fM3o4NiBm7zn9LGeAXcR0tccXLDiF8e_9_1n-sRC_r8NUec&pcurl=https://accommodation.opodo.de/Hotel-Search?selected%3D32848858%26startDate%3D2025-08-17%26endDate%3D2025-08-18%26adults%3D2%26children%3D%26mpf%3D92.04%26cur%3DEUR%26mpj%3D9.12%26wapb3%3D%7Cc.506940%7Cl.de_DE%7Ct.meta%7Cs.ghs%26MDPCID%3DOpodo-DE.DPS.Opodo.MetaSearch-GHA.HOTEL%26mpl%3DEUR%26numberOfRooms%3D1%26locale%3Dde_DE%26rffrid%3Dh4p.hcom.DE.ghaodigeo.000.000.kwrd%3D%26pos%3DOPODO_DE%26rateplanid%3D266129722%26mctc%3D10%26utm_medium%3Dmetasearch%26utm_campaign%3D1052163456%26utm_term%3Dhotel%26utm_source%3DFREEBOOKING&s=AD1XQnklCQChLN6faxuk7Ckk84lU",
+      "isOfficialSite": false,
+      "price": "€92",
+      "url": "https://accommodation.opodo.de/Hotel-Search?selected=32848858&startDate=2025-08-17&endDate=2025-08-18&adults=2&children=&mpf=92.04&cur=EUR&mpj=9.12&wapb3=|c.506940|l.de_DE|t.meta|s.ghs&MDPCID=Opodo-DE.DPS.Opodo.MetaSearch-GHA.HOTEL&mpl=EUR&numberOfRooms=1&locale=de_DE&rffrid=h4p.hcom.DE.ghaodigeo.000.000.kwrd=&pos=OPODO_DE&rateplanid=266129722&mctc=10&utm_medium=metasearch&utm_campaign=1052163456&utm_term=hotel&utm_source=FREEBOOKING"
+    },
+    {
+      "title": "Travelminit.ro",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswWIXMWrCO0u4IyrcmHUy4WClgQj01s1L1VaLqiSDu2J2n6lAR-HnvsATbuj9l9scxBgNUV7G5-WWrVPl35qaTVWyvhM2EJk8NeOTnlLnsWIVOWCK1Q-pqKYQ1hCRgNhAE_AhglmCU&pcurl=https://travelminit.ro/vila-william-s-brasov?checkin%3D2025-08-17%26checkout%3D2025-08-18%26currency%3DEUR%26ref%3Dmapresults%26utm_source%3Dgoogle%26utm_medium%3Dhpa%26utm_campaign%3Dhpa%26utm_content%3Dmapresults%26utm_term%3D1544712_vila-william-s-brasov%26adults%3D2&s=AD1XQnmbVXWi5z_PTviI1akV9Iiz",
+      "isOfficialSite": false,
+      "price": "€94",
+      "url": "https://travelminit.ro/vila-william-s-brasov?checkin=2025-08-17&checkout=2025-08-18&currency=EUR&ref=mapresults&utm_source=google&utm_medium=hpa&utm_campaign=hpa&utm_content=mapresults&utm_term=1544712_vila-william-s-brasov&adults=2"
+    },
+    {
+      "title": "Trip.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osz8lePRtcLWAjWBbOruMvBs7oUsG3Fb60gKRGlwk7XgLBpP7VG-PPoaOLaESEgUJQLTGP79HOJnJ078Kom6Z7OyRvQ3mBv5LjVHDa4YFKk_AIxfSx-uYRgfcjTLzg&pcurl=https://de.trip.com/hotels/redirect?hotelid%3D37059966%26city%3D9403%26shoppingid%3DM5obQxZYZz_W%26adult%3D2%26children%3D0%26ages%3D%26checkin%3D2025-08-17%26checkout%3D2025-08-18%26curr%3DEUR%26Allianceid%3D15214%26Sid%3D1349494%26locale%3Dde_de%26prid%3DLANG_DE%26trip_sub1%3D17_08_2025_1_mapresults_37059966_DE_desktop_default___0_0-LANG_DE-landing%26hpaopts%3Dstand%5BH4sIAAAAAAAA_-Ny5WKSYBJi4mCUsubo2PF9JqsQo5HBfUaLrfIBHDMY__26KriCkXEHI9NFxpj-Q181bMIcHjKuc39YJbIuwuEF46W__xczLmBhlOLxNc1PCqyIioyqig9XYNS4fuH6ETYPxiA2NydjU2OjKBku5tBgF0Hl2z_rsvbIOEgxu4YGKfLPMV60ZbuCQxJrSqqui2vGF6EuRiYPxlWM7FzMBkaGAkyfGPmRzY03NAEAr3I3lrAAAAA%5Dfgt%5B1%5D%26br%3D98.72%26tf%3D9.78%26display%3Dincavg%26crn%3D1%26roomid%3D1396562952%26allianceid%3D15214%26sid%3D1349494&s=AD1XQnmvZor6aWOSR1TJZd2ENVqC",
+      "isOfficialSite": false,
+      "price": "€99",
+      "url": "https://de.trip.com/hotels/redirect?hotelid=37059966&city=9403&shoppingid=M5obQxZYZz_W&adult=2&children=0&ages=&checkin=2025-08-17&checkout=2025-08-18&curr=EUR&Allianceid=15214&Sid=1349494&locale=de_de&prid=LANG_DE&trip_sub1=17_08_2025_1_mapresults_37059966_DE_desktop_default___0_0-LANG_DE-landing&hpaopts=stand[H4sIAAAAAAAA_-Ny5WKSYBJi4mCUsubo2PF9JqsQo5HBfUaLrfIBHDMY__26KriCkXEHI9NFxpj-Q181bMIcHjKuc39YJbIuwuEF46W__xczLmBhlOLxNc1PCqyIioyqig9XYNS4fuH6ETYPxiA2NydjU2OjKBku5tBgF0Hl2z_rsvbIOEgxu4YGKfLPMV60ZbuCQxJrSqqui2vGF6EuRiYPxlWM7FzMBkaGAkyfGPmRzY03NAEAr3I3lrAAAAA]fgt[1]&br=98.72&tf=9.78&display=incavg&crn=1&roomid=1396562952&allianceid=15214&sid=1349494"
+    },
+    {
+      "title": "DirectBooking.ro",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswYAHQlOdNFe9_vxl2Mn6c1BOEJku2ZUyuq10qKDdWEK_MQVVrKsVRnFSMdTYIDYthrM_SeC4DJkmrRwyigq9_73MwHt4mrtLWCl-QyrBpA7YvF7fNYbrxNXukX28dJ4tYwkMe4Og&pcurl=https://www.directbooking.ro/offer-details.aspx?id%3D2685751%26checkin%3D08/17/2025%26nrn%3D1%26nra%3D2%26nrc%3D0%26tr%3Dindividual%26varstecopii%3D%26mk%3Dhotelcenter&s=AD1XQnlShjRfzTEHkG2EYEMYyYcw",
+      "isOfficialSite": false,
+      "price": "€99",
+      "url": "https://www.directbooking.ro/offer-details.aspx?id=2685751&checkin=08/17/2025&nrn=1&nra=2&nrc=0&tr=individual&varstecopii=&mk=hotelcenter"
+    },
+    {
+      "title": "Hotels.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osytp3ZYWt8Rbi4X9TsJW4ljj7I372h8DA0jTtieWHey1IpyEIPMLcU5m-nUjendYrjPunBBSCPmRe40lANxxAyur3r5kjOunjXannvuPtcZvFb-9Olzq6mvhEQnPCuATGOFu2llRg&pcurl=https://hotels.com/Hotel-Search?selected%3D32848858%26startDate%3D2025-08-17%26endDate%3D2025-08-18%26mdpcid%3DHCOM-DE.META.HPA.HOTEL-ORGANIC-desktop.HOTEL%26MDPDTL%3DHTL.32848858.20250817.20250818.DDT.9.CID..AUDID.%26adults%3D2%26children%3D%26mctc%3D10%26mpf%3D101.14%26mpg%3DEUR%26mpl%3DEUR%26mpj%3D10.02%26rffrid%3Dsem.hcom.DE.156.024.mapresults.02.desktop-1.kwrd%3DGGMETA.32848858DEen-20250817-D-ABW%3D9-camp%3D-aud%3D-N%26rateplanid%3D266129722%26mpm%3D24%26mpn%3D216928040%26mpo%3DEC%26mpp%3D1%26eapid%3D25%26locale%3Den_IE%26pos%3DHCOM_EMEA%26siteid%3D300000025%26tpid%3D3180&s=AD1XQnlL_5ZXr86IFe_9ejwGBF8N",
+      "isOfficialSite": false,
+      "price": "€101",
+      "url": "https://hotels.com/Hotel-Search?selected=32848858&startDate=2025-08-17&endDate=2025-08-18&mdpcid=HCOM-DE.META.HPA.HOTEL-ORGANIC-desktop.HOTEL&MDPDTL=HTL.32848858.20250817.20250818.DDT.9.CID..AUDID.&adults=2&children=&mctc=10&mpf=101.14&mpg=EUR&mpl=EUR&mpj=10.02&rffrid=sem.hcom.DE.156.024.mapresults.02.desktop-1.kwrd=GGMETA.32848858DEen-20250817-D-ABW=9-camp=-aud=-N&rateplanid=266129722&mpm=24&mpn=216928040&mpo=EC&mpp=1&eapid=25&locale=en_IE&pos=HCOM_EMEA&siteid=300000025&tpid=3180"
+    }
+  ],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Amenities": [
+      {
+        "Free Wi-Fi": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Vila%20William%E2%80%99s&query_place_id=ChIJT23CxrBbs0ARc30o8W4LGys",
+  "searchPageUrl": "https://www.google.com/maps/search/hotels/@45.68704762654394,25.527701087050172,14z?hl=en",
+  "searchString": "hotels",
+  "language": "en",
+  "rank": 9,
+  "isAdvertisement": false,
+  "imageUrl": "https://images.trvl-media.com/lodging/33000000/32850000/32848900/32848858/5335b238_z.jpg",
+  "kgmid": "/g/11fjtpqv3f"
+},
+{
+  "title": "Hotel Boutique Anadi",
+  "price": "€137",
+  "categoryName": "Hotel",
+  "address": "Strada Cărămidăriei 39, Brașov 500047, Romania",
+  "neighborhood": null,
+  "street": "Strada Cărămidăriei 39",
+  "city": "Brașov",
+  "postalCode": "500047",
+  "state": null,
+  "countryCode": "RO",
+  "website": "http://hotelanadi.ro/index.php/en/",
+  "phone": "+40 747 033 033",
+  "phoneUnformatted": "+40747033033",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 45.6528519,
+    "lng": 25.5670897
+  },
+  "totalScore": 4.4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJe3O7jAhbs0ARPmrtpva9fY0",
+  "categories": [
+    "Hotel"
+  ],
+  "fid": "0x40b35b088cbb737b:0x8d7dbdf6a6ed6a3e",
+  "cid": "10195513998496852542",
+  "reviewsCount": 217,
+  "imagesCount": 840,
+  "imageCategories": [],
+  "scrapedAt": "2025-08-08T19:43:38.023Z",
+  "googleFoodUrl": null,
+  "hotelStars": "2-star hotel",
+  "checkInDate": "2025-08-17",
+  "checkOutDate": "2025-08-18",
+  "hotelAds": [
+    {
+      "title": "Booking.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsympOfpPMsqtDztEWMoVxGYOExDXoSTH2XKZhE054YLoP6BEt0T67kZTM0HX_gw9vcl0Paqo4cgWQmLZBgj5DIx3WUSCQ2hpf7_P1NTsM41DxpkU9k0FNMw0sOr3EV2AqEyuDwmtL12-Jps&pcurl=https://www.booking.com/hotel/ro/anadi-boutique.html?checkin%3D2025-08-17%26checkout%3D2025-08-18%26group_adults%3D2%26req_adults%3D2%26show_room%3D337014904_138470995_2_0_0%26lang%3Den%26selected_currency%3DEUR%26exrt%3D0.19721413%26ext_price_total%3D137.26%26ext_price_tax%3D14.67%26xfc%3DRON%26hca%3Dm%26group_children%3D0%26req_children%3D0%26%26ts%3D1754548624%26no_rooms%3D1%26edgtid%3DvXEarQ2DRYGjvtAIVDAPKA%26efpc%3DaWsAppawChGf%26utm_source%3Dmetagha%26utm_medium%3Dmapresults%26utm_campaign%3DDE%26utm_term%3Dhotel-3370149%26utm_content%3Ddev-desktop_los-1_bw-9_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250817_ppt-%26aid%3D2127502%26label%3Dmetagha-link-MRDE-hotel-3370149_dev-desktop_los-1_bw-9_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250817_ppt-&s=AD1XQnlc5MYhvcRC2IJezHN_z7Av",
+      "isOfficialSite": false,
+      "price": "€137",
+      "url": "https://www.booking.com/hotel/ro/anadi-boutique.html?checkin=2025-08-17&checkout=2025-08-18&group_adults=2&req_adults=2&show_room=337014904_138470995_2_0_0&lang=en&selected_currency=EUR&exrt=0.19721413&ext_price_total=137.26&ext_price_tax=14.67&xfc=RON&hca=m&group_children=0&req_children=0&&ts=1754548624&no_rooms=1&edgtid=vXEarQ2DRYGjvtAIVDAPKA&efpc=aWsAppawChGf&utm_source=metagha&utm_medium=mapresults&utm_campaign=DE&utm_term=hotel-3370149&utm_content=dev-desktop_los-1_bw-9_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250817_ppt-&aid=2127502&label=metagha-link-MRDE-hotel-3370149_dev-desktop_los-1_bw-9_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250817_ppt-"
+    },
+    {
+      "title": "Agoda",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osw1GCXNJBoyM3t6yYFWbEtK96SkbX6NRTpDqikPG1GNQ-kqhnZjX0O5j0vgchDpBu4OSGsYGMJLivCzdd3T6UIKMcGlbHNrWbB0H6H8EQkPnstwGAKByjQTx4TBK1HAiAm6dL_O&pcurl=https://www.agoda.com/partners/partnersearch.aspx?site_id%3D1917614%26CkInDay%3D17%26CkInMonth%3D08%26CkInYear%3D2025%26CkOutDay%3D18%26campaignid%3D%26CkOutMonth%3D08%26CkOutYear%3D2025%26SearchDateType%3Ddefault%26NumberOfAdults%3D2%26LT%3D9%26NumberOfChildren%3D0%26childages%3D%26NumberOfRooms%3D1%26gsite%3Dmapresults%26los%3D1%26PartnerCurrency%3DEUR%26hid%3D6526334%26RoomID%3D80465644%26masterRoomId%3D80465644%26PriceTax%3D14.67%26PriceTotal%3D137.26%26RatePlan%3D221b977b-f2a9-abb1-7c68-4555a8f49958%26UserCountry%3DDE%26Currency%3DEUR%26UserDevice%3Ddesktop%26Verif%3Dfalse%26rr%3Drow_desktop%26audience_list%3D%26mcid%3D3038%26booking_source%3Dcpc%26adType%3D0%26mpt%3DbXA1SU95anIvZlE1Qk1XU1FleFpldUhQOEJtOVNmaktLdWN6eWQ0Z2FPYmFuUVE0anNQUmlnPT0%26original_rr%3D&s=AD1XQnlEq1iivrBZ5GOAmtdQdPV4",
+      "isOfficialSite": false,
+      "price": "€137",
+      "url": "https://www.agoda.com/partners/partnersearch.aspx?site_id=1917614&CkInDay=17&CkInMonth=08&CkInYear=2025&CkOutDay=18&campaignid=&CkOutMonth=08&CkOutYear=2025&SearchDateType=default&NumberOfAdults=2&LT=9&NumberOfChildren=0&childages=&NumberOfRooms=1&gsite=mapresults&los=1&PartnerCurrency=EUR&hid=6526334&RoomID=80465644&masterRoomId=80465644&PriceTax=14.67&PriceTotal=137.26&RatePlan=221b977b-f2a9-abb1-7c68-4555a8f49958&UserCountry=DE&Currency=EUR&UserDevice=desktop&Verif=false&rr=row_desktop&audience_list=&mcid=3038&booking_source=cpc&adType=0&mpt=bXA1SU95anIvZlE1Qk1XU1FleFpldUhQOEJtOVNmaktLdWN6eWQ0Z2FPYmFuUVE0anNQUmlnPT0&original_rr="
+    },
+    {
+      "title": "My Luxury Hotel",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszzwVKa6XxoxepxJbLqtvhBycp-nJ8aIpXXVkxKa9CJl48eAqo04kK2EgsxvAmQNgbTkH9uK7giknzq7MhQxw58ebQ3zerLRK-nWUpdqfZydivM4MhRGaIcNBk1Cgpkp18ooTA8AyiCr_whR8ZKYGKGUQ&pcurl=https://www.myluxuryhotel.com/de-de/hotel/2270852?ppc%3Dtrue%26isHotel%3Dtrue%26checkin%3D2025-08-17%26checkout%3D2025-08-18%26nights%3D1%26rooms%3D%255B%257B%2522adults%2522:2,%2522children%2522:%255B%255D,%2522kidsAge%2522:%255B%255D%257D%255D%26utm_source%3DGoogleHC%26utm_medium%3Dpaid%26utm_campaign%3D%26utm_content%3Dmapresults%26utm_term%3D2270852%26ghv%3D1&s=AD1XQnkj_5VD4BS9mBDeio25P2vT",
+      "isOfficialSite": false,
+      "price": "€137",
+      "url": "https://www.myluxuryhotel.com/de-de/hotel/2270852?ppc=true&isHotel=true&checkin=2025-08-17&checkout=2025-08-18&nights=1&rooms=[{\"adults\":2,\"children\":[],\"kidsAge\":[]}]&utm_source=GoogleHC&utm_medium=paid&utm_campaign=&utm_content=mapresults&utm_term=2270852&ghv=1"
+    },
+    {
+      "title": "LateRooms.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsyZmzM47G2j5kxMgk4cBHRrB30wyBj7UKtI7Aq1VZ3lglGC64Nh8Q9SPRAPs6rlbdsh82WEAIAj7XmVCE7-0zqZpl0EoBrOp5eZ6yJOy7FiXN_MRTq4xxZPmbGpkwBmiagEQFnFmVOs4Ysg2g&pcurl=https://www.laterooms.com/de-de/hotel/2270852?ppc%3Dtrue%26isHotel%3Dtrue%26checkin%3D2025-08-17%26checkout%3D2025-08-18%26nights%3D1%26rooms%3D%255B%257B%2522adults%2522:2,%2522children%2522:%255B%255D,%2522kidsAge%2522:%255B%255D%257D%255D%26utm_source%3DGoogleHC%26utm_medium%3Dpaid%26utm_campaign%3D%26utm_content%3Dmapresults%26utm_term%3D2270852%26pv%3D1754675842&s=AD1XQnlWi4fRtvv64jBCn_sm_Mv2",
+      "isOfficialSite": false,
+      "price": "€137",
+      "url": "https://www.laterooms.com/de-de/hotel/2270852?ppc=true&isHotel=true&checkin=2025-08-17&checkout=2025-08-18&nights=1&rooms=[{\"adults\":2,\"children\":[],\"kidsAge\":[]}]&utm_source=GoogleHC&utm_medium=paid&utm_campaign=&utm_content=mapresults&utm_term=2270852&pv=1754675842"
+    },
+    {
+      "title": "goseek.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswJwBqS_FJ-7XeaSLLyvhYDVfUexJgIUbkEtlJlhegxwyWgi05lfmwXefsAITCvDIXaJ8hYXy6SrSdKdYk95s0wxtdZbFjzU9UQVgPzTwTtGEnCYJsT50DFQsPUQm2Dm-53M4O0tzub&pcurl=https://deals.goseek.com/?sig%3D34c47a49c3e8320dca5a5dda0da2a460c1bc23afde972e2894a4ff0b6052fb53383131303836353931%26turl%3Dhttps%253A%252F%252Fwww.goseek.com%252FHotel%252FSearch%253FcheckIn%253D2025-08-17%2526checkOut%253D2025-08-18%2526curr%253DEUR%2526forceCurrencyChange%253D1%2526lang%253Den%2526forceLanguageChange%253D1%2526rooms%253D2%253A%2526utm_source%253Dgha%2526utm_medium%253Dcpc%2526hotelId%253D3967846%2526userCountry%253DDE%2526profile%253Dr2d2m73kn8%2526preferredRate%253D137.26%2526label%253Dsrc%25253Dgha%252526cltype%25253Dhotel%252526datype%25253Ddefault%252526gsite%25253Dmapresults%252526vf%25253D0%252526ucountry%25253DDE%252526udevice%25253Ddesktop%252526hotel%25253D3967846%252526day%25253D17%252526month%25253D08%252526year%25253D2025%252526los%25253D1%252526price%25253D137.26%252526currency%25253DEUR%252526cid%25253D%252526listid%25253D%252526rateid%25253DDE%252526closerateid%25253D%252526promo%25253D0%252526isPrivateRate%25253D0%252526isAudienceUser%25253D0%252526isPaidClick%25253D0%252526%2526cp%253D4UAm0tOAMb0Cgt1a2EyaXF5eXlwMBi89djEBiACONb4nuILQhoIvPab9JzdpPT_ARDS5QMYkAMg_jYqA1JPTg&s=AD1XQnldwx8zN-nnEKfjVL_gijAS",
+      "isOfficialSite": false,
+      "price": "€137",
+      "url": "https://deals.goseek.com/?sig=34c47a49c3e8320dca5a5dda0da2a460c1bc23afde972e2894a4ff0b6052fb53383131303836353931&turl=https://www.goseek.com/Hotel/Search?checkIn=2025-08-17&checkOut=2025-08-18&curr=EUR&forceCurrencyChange=1&lang=en&forceLanguageChange=1&rooms=2:&utm_source=gha&utm_medium=cpc&hotelId=3967846&userCountry=DE&profile=r2d2m73kn8&preferredRate=137.26&label=src%3Dgha%26cltype%3Dhotel%26datype%3Ddefault%26gsite%3Dmapresults%26vf%3D0%26ucountry%3DDE%26udevice%3Ddesktop%26hotel%3D3967846%26day%3D17%26month%3D08%26year%3D2025%26los%3D1%26price%3D137.26%26currency%3DEUR%26cid%3D%26listid%3D%26rateid%3DDE%26closerateid%3D%26promo%3D0%26isPrivateRate%3D0%26isAudienceUser%3D0%26isPaidClick%3D0%26&cp=4UAm0tOAMb0Cgt1a2EyaXF5eXlwMBi89djEBiACONb4nuILQhoIvPab9JzdpPT_ARDS5QMYkAMg_jYqA1JPTg"
+    },
+    {
+      "title": "Amimir.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswFaRpakqz70G1qW84r7D-aKrN1U1oI99xi8PISQP-UzY6iSDp6M9fpAcWG9of7vFoaSitQvJ9prUClXKcw4Q02RRGXKLz1IcDAcYi1xw48a6HqdjGHvWl1Y3OkaHQ_NhYeSd9MP44khpZr0g&pcurl=https://www.amimir.com/en/book/?start%3D17%252F08%252F2025%26end%3D18%252F08%252F2025%26hotelId%3D618619%26highlightHotel%3Dtrue%26hab1%3D2%26ehab1%3D%26metasearch%26utm_content%3D618619%26checkV%3Dfalse%26totalPrice%3D137.14%26userCountry%3DDE%26utm_source%3DgoogleMetasearch%26utm_medium%3Dorganic&s=AD1XQnnnC-3m7L2n-jWQa0Pam_ps",
+      "isOfficialSite": false,
+      "price": "€137",
+      "url": "https://www.amimir.com/en/book/?start=17/08/2025&end=18/08/2025&hotelId=618619&highlightHotel=true&hab1=2&ehab1=&metasearch&utm_content=618619&checkV=false&totalPrice=137.14&userCountry=DE&utm_source=googleMetasearch&utm_medium=organic"
+    },
+    {
+      "title": "Bluepillow.de",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszKl1XXlALgmLauUK5xmWGmvTYTYAP0EWO2bLMd-bWKhb14T0Pk2l9POzZENZ5MHIWYG5uS2IxD_KHujDielXpVR3GDWaQt0_ONkKQcFiXCuGyi37bDxhA-dwaJyv6OO8FF&pcurl=https://www.bluepillow.de/search/5adabfb57c00cb04b0312643?begin%3D2025-08-17%26end%3D2025-08-18%26block_id%3D-b,MhtSy48_gIRsw8aS7GrnK9TLeEsqqoNsCdSMNNUJ0ZZSf-afbLCnuyk9Giv4dQQjMy_M6lHyXCErc561_YEnuQ,-bkng-Hotel%26adults%3D2%26childs%3D0%26infants%3D0%26childrens%3D0%26country%3DDE%26currency%3DEUR%26language%3Den%26source%3Dmapresults%26utm_campaign%3Dhotel%26prid%3Dforeign&s=AD1XQnlcvvUGEQ9Vw0E31_oHs31d",
+      "isOfficialSite": false,
+      "price": "€137",
+      "url": "https://www.bluepillow.de/search/5adabfb57c00cb04b0312643?begin=2025-08-17&end=2025-08-18&block_id=-b,MhtSy48_gIRsw8aS7GrnK9TLeEsqqoNsCdSMNNUJ0ZZSf-afbLCnuyk9Giv4dQQjMy_M6lHyXCErc561_YEnuQ,-bkng-Hotel&adults=2&childs=0&infants=0&childrens=0&country=DE&currency=EUR&language=en&source=mapresults&utm_campaign=hotel&prid=foreign"
+    },
+    {
+      "title": "Travelmyth.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszdF_3y-gACMZa47x__EZAPC0Ely-30kDRUGOXrESjoVQe5NeXGkCPkABcPrydRH3GwhgML4ehV9rR9l_TfOb_sPxUNLe5vbhj8qN34N0t4TOV_HP7khWee0XMdy0kUFVua&pcurl=https://www.travelmyth.com/enter.php?source%3DGoogle%26h%3D2168129%26checkin_day%3D17%26checkin_month%3D08%26checkin_year%3D2025%26checkout_day%3D18%26checkout_month%3D08%26checkout_year%3D2025%26lengthOfStay%3D1%26checkin_day_of_week%3DSunday%26bookingWindow%3D9%26adults%3D2%26children%3D0%26packageId%3D0974c9990de36d6270f49a108621c1cb%26device%3Ddesktop%26gsite%3Dmapresults%26prTax%3D0.00%26prTotal%3D137.22%26ratePlanId%3DNcqfhPGVB3w%26rateRuleId%3Dtaxesincl%26userCountry%3DDE%26userLang%3Den%26cId%3D%26currency%3DEUR%26dateType%3Ddefault%26aId%3D80%26aLabel%3D8010&s=AD1XQnkR3FVGlJMq9vimK7mzGi5l",
+      "isOfficialSite": false,
+      "price": "€137",
+      "url": "https://www.travelmyth.com/enter.php?source=Google&h=2168129&checkin_day=17&checkin_month=08&checkin_year=2025&checkout_day=18&checkout_month=08&checkout_year=2025&lengthOfStay=1&checkin_day_of_week=Sunday&bookingWindow=9&adults=2&children=0&packageId=0974c9990de36d6270f49a108621c1cb&device=desktop&gsite=mapresults&prTax=0.00&prTotal=137.22&ratePlanId=NcqfhPGVB3w&rateRuleId=taxesincl&userCountry=DE&userLang=en&cId=&currency=EUR&dateType=default&aId=80&aLabel=8010"
+    },
+    {
+      "title": "Wego",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Oszb3ii1VviurfWG18p7Ntfhod9BcY8CnrG3h3m5pyqOEViqpwVTnzimQbHz9ZYvXVAFoo2fIzhj2RBKn0I2P3-Yd08y6EUsHnWSOys0cogO9Nnzwz928dNcxBp-&pcurl=https://www.wego.com/hotels-handoff/searches/XHV/2025-08-17/2025-08-18?guests%3D2%26wego_hotel_id%3D2416058%26bow_only%3Dtrue%26ts_code%3D2f2fc%26wg_source%3Dmeta_distribution%26wg_medium%3Dgha%26wg_campaign%3Dfbl%26wego_currency%3DEUR%26ulang%3Den%26wego_price%3DVVNEOjE2Mi41NTo4ZmJkYjliMzhhNmNjZmZlOTgzYjc4MTAxYmRlMDFiMTEyNjViMjA5MDNkMmQ0YzA5YzhkOGYxODg5Y2NjNjQ2OmJvb2duaWs2OXFzYToxNzU0Njc3MTMwOkQ6VVM6OTE2YmNhNjhlZWNiODMxNzoyOjA6dHJ1ZQ%253D%253D%26provider%3DaG90ZWxzLndlZ28uY29t%26no_app_links%3Dtrue&s=AD1XQnl7biOT23ErBBXzLyapKnmx",
+      "isOfficialSite": false,
+      "price": "€139",
+      "url": "https://www.wego.com/hotels-handoff/searches/XHV/2025-08-17/2025-08-18?guests=2&wego_hotel_id=2416058&bow_only=true&ts_code=2f2fc&wg_source=meta_distribution&wg_medium=gha&wg_campaign=fbl&wego_currency=EUR&ulang=en&wego_price=VVNEOjE2Mi41NTo4ZmJkYjliMzhhNmNjZmZlOTgzYjc4MTAxYmRlMDFiMTEyNjViMjA5MDNkMmQ0YzA5YzhkOGYxODg5Y2NjNjQ2OmJvb2duaWs2OXFzYToxNzU0Njc3MTMwOkQ6VVM6OTE2YmNhNjhlZWNiODMxNzoyOjA6dHJ1ZQ==&provider=aG90ZWxzLndlZ28uY29t&no_app_links=true"
+    }
+  ],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Amenities": [
+      {
+        "Free Wi-Fi": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Boutique%20Anadi&query_place_id=ChIJe3O7jAhbs0ARPmrtpva9fY0",
+  "searchPageUrl": "https://www.google.com/maps/search/hotels/@45.68704762654394,25.527701087050172,14z?hl=en",
+  "searchString": "hotels",
+  "language": "en",
+  "rank": 10,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipOF2jUtMXEGJ5lk7YW4qzx55xnNF8Z7hgfVBXDX=w408-h263-k-no",
+  "kgmid": "/g/11gfm8hxv9"
+}]

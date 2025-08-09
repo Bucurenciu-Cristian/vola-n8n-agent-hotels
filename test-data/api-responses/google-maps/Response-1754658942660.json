@@ -1,0 +1,1493 @@
+[{
+  "title": "Hotel Continental Forum Sibiu",
+  "description": "Cazare rafinată într-o clădire din anii 1800, restaurată, cu un restaurant, un bar și o cafenea.",
+  "price": "74 USD",
+  "categoryName": "Hotel",
+  "address": "Piața Unirii 10, Sibiu 550173, România",
+  "neighborhood": null,
+  "street": "Piața Unirii 10",
+  "city": "Sibiu",
+  "postalCode": "550173",
+  "state": null,
+  "countryCode": "RO",
+  "website": "https://continental-forum-sibiu.continentalhotels.ro/",
+  "phone": "+40 372 692 692",
+  "phoneUnformatted": "+40372692692",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 45.7922171,
+    "lng": 24.1479144
+  },
+  "totalScore": 4.3,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ5Vyuy49nTEcRIJd9iPztxgE",
+  "categories": [
+    "Hotel",
+    "Centru de conferințe",
+    "Restaurant"
+  ],
+  "fid": "0x474c678fcbae5ce5:0x1c6edfc887d9720",
+  "cid": "128051308304111392",
+  "reviewsCount": 2827,
+  "imagesCount": 2760,
+  "imageCategories": [
+    "Toate",
+    "Cele mai recente",
+    "Videoclipuri",
+    "Camere",
+    "Exterior",
+    "Dotări",
+    "Mâncăruri/băuturi",
+    "De la vizitatori",
+    "De la proprietar",
+    "Street View și 360°"
+  ],
+  "scrapedAt": "2025-08-08T13:14:35.457Z",
+  "googleFoodUrl": null,
+  "hotelStars": "Hotel de patru stele",
+  "hotelDescription": "Situat într-o clădire din secolul al XIX-lea, restaurată, într-o zonă comercială verde, acest hotel elegant se află la 7 minute de mers pe jos de Muzeul Național Brukenthal și la 9 minute de mers de Turnul Sfatului din Sibiu.\n Camerele cu decor primitor oferă Wi-Fi gratuit, televizoare cu ecran plat, seifuri și minibaruri. Apartamentele au în plus camere de zi. Un apartament cu două dormitoare, situat la ultimul etaj, are o bucătărie și o cadă cu hidromasaj. Este disponibil room service non-stop.\n Micul dejun de tip bufet (contra cost) este servit într-un restaurant spațios care are o grădină. Există o cafenea relaxată și un bar, precum și o sală de fitness și o zonă de spa.",
+  "checkInDate": "2025-09-21",
+  "checkOutDate": "2025-09-22",
+  "hotelAds": [
+    {
+      "title": "Continental Forum Sibiu",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsyvnVuQJRn-m2p8vI1fslU8dYlvMZjXHBngzYqXQDFIfEWF9WRlq3-RSGpkPL8TEigd-_AYQXpWXahQ6u9Y-WI6hVGLVQ7_6P1j7inR33BrbShSeEBevANTj4N-oJcF22Vo6Q&pcurl=https://wtbngprod-cdn.official-rates.com/xml/fichesatellite.phtml?tosite%3Dtmphotel%26from%3DDist-GHP%26DistNum%3DTARO45792414%26fromdate%3D2025-09-21%26todate%3D2025-09-22%26lg%3Dro%26nbadult%3D2%26currency%3DUSD%26tdp%3D81.73%26vrfc%3Dfalse%26offercode%3DfsmLCWekkB8%26roomId%3D123768%26usercountry%3DUS%26device%3Ddesktop%26price%3D81.73%26organicLink%3Dtrue%26rateId%3D464915&s=AD1XQnkarc4UQkn2ieNVoPyPtPEU",
+      "isOfficialSite": true,
+      "price": "82 USD",
+      "url": "https://wtbngprod-cdn.official-rates.com/xml/fichesatellite.phtml?tosite=tmphotel&from=Dist-GHP&DistNum=TARO45792414&fromdate=2025-09-21&todate=2025-09-22&lg=ro&nbadult=2&currency=USD&tdp=81.73&vrfc=false&offercode=fsmLCWekkB8&roomId=123768&usercountry=US&device=desktop&price=81.73&organicLink=true&rateId=464915"
+    },
+    {
+      "title": "Dinogo.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszSmyw-JpCVRaIjA22XZwkSBfXwbQRYk3p9WK2Aej7Bcw4XoeK_jzZeRFdb_oFhkU_fueyTnoY1fzZ3yG4I0jXUSuj9QxKs8DZW2MWmvVhDDkrGPpY66TIGiA1eVrIcmW-I30VYUMMz&pcurl=https://dinogo.com/hotel/search?hotelId%3D1308046%26checkIn%3D21-09-2025%26checkOut%3D22-09-2025%26adults%3D2%26rooms%3D1%26children%3D0%26travellerType%3D1%26utm_campaign%3DGoogleHotels%26utm_medium%3Daff%26utm_source%3DGoogleHotels%26aff_cid%3D493%26countryCode%3DUS%26currency%3DUSD%26displayedTotal%3D80.80%26displayedTax%3D8.01%26custom2%3D&s=AD1XQnnOjE34zaPkd2x1HJ6MK-J0",
+      "isOfficialSite": false,
+      "price": "81 USD",
+      "url": "https://dinogo.com/hotel/search?hotelId=1308046&checkIn=21-09-2025&checkOut=22-09-2025&adults=2&rooms=1&children=0&travellerType=1&utm_campaign=GoogleHotels&utm_medium=aff&utm_source=GoogleHotels&aff_cid=493&countryCode=US&currency=USD&displayedTotal=80.80&displayedTax=8.01&custom2="
+    },
+    {
+      "title": "Reservation Day",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxW1jmvm3gSM40_a6bP8EBkEdUas1Y6Du3u_yeXa0LagCWwHatCxsAUfFhw6_mSWD_YxSW1kbYvqEbbgreCSIhlSGWiDPHCg9TIvg0qiWw_b2MZT8Kozy0qSE2UWt4W75KmBPe_tVYxqmaUxgpJm4E&pcurl=https://www.reservationday.com/transition/?data%3Dprice%3D78.7%2526total_price%3D83.42%2526retail_price%3D105.25%2526retail_total_price%3D111.56%2526request_id%3Dc9f6aced-fca1-4aab-b103-c73c093ca899%2526ps%3D22284431%2526pp%3DxYI6o4uvoha7gdFbzPGGQQ%2526pb%3DC87zfJJ7BwOsaGEVAsIfgBblQIZPsZm4aVaSiiF6jTzZYKloCyFN3MvXE-sovG_zNmTZW2hj9n1AbU3uZcs-fCdYCE1ibHW08B5xlha1NsDMzEwasS6_qA5fth9NnOq6xZnXw03PDZwoCweGlMNbIiQc8SQS3bmiq9fWrmlozasymSNbc6-dHSdsFt8knEzYEgG9UMjEYpZannAJV5epM3-8TN6QpBa18i83YTkBUNPp7jZ-rdp-ib794S-nLYOXZ5kbAsNgm_GNJaqGty1mxhdm-cuwxKDqlHQ2B29XNSM%25253D%2526gha_rd_pull_request%3DTrue%2526rtp%3DSdTUqdR7wIew8aRS9esAtw%25253D%25253D%2526risk_lk_1%3Dfalse%2526alwd_risk%3Dfalse%2526alwd_rand%3Dfalse%2526gt%3D1754601271%2526sg%3D15fqT%2526ttl_bkt%3Dnone%2526ru%3D1757980740%26utm_source%3Dgha_rd%26utm_content%3Dmapresults%26currency%3DUSD%26user_country%3DUS%26verification%3Dfalse%26rate_rule_ids%3D%26date_type%3Ddefault%26rate_rule_id%3Dsignedout_desktop%26display_currency%3DUSD%26display_all_inclusive_price%3D83.42%26checkin_at%3D2025-09-21%26checkout_at%3D2025-09-22%26provider_hotel_id%3D10004282481%26provider%3Dean%26num_adults%3D2%26children%3D%5B%5D%26hotel_campaign%3D%26user_locale%3Dro-US%26user_list_id%3D%26utm_medium%3Dorganic%26utm_id%3Dgha_organic_rd&s=AD1XQnmY3G-AgiB9KPXTf36ThmzE",
+      "isOfficialSite": false,
+      "price": "83 USD",
+      "url": "https://www.reservationday.com/transition/?data=price=78.7&total_price=83.42&retail_price=105.25&retail_total_price=111.56&request_id=c9f6aced-fca1-4aab-b103-c73c093ca899&ps=22284431&pp=xYI6o4uvoha7gdFbzPGGQQ&pb=C87zfJJ7BwOsaGEVAsIfgBblQIZPsZm4aVaSiiF6jTzZYKloCyFN3MvXE-sovG_zNmTZW2hj9n1AbU3uZcs-fCdYCE1ibHW08B5xlha1NsDMzEwasS6_qA5fth9NnOq6xZnXw03PDZwoCweGlMNbIiQc8SQS3bmiq9fWrmlozasymSNbc6-dHSdsFt8knEzYEgG9UMjEYpZannAJV5epM3-8TN6QpBa18i83YTkBUNPp7jZ-rdp-ib794S-nLYOXZ5kbAsNgm_GNJaqGty1mxhdm-cuwxKDqlHQ2B29XNSM%3D&gha_rd_pull_request=True&rtp=SdTUqdR7wIew8aRS9esAtw%3D%3D&risk_lk_1=false&alwd_risk=false&alwd_rand=false&gt=1754601271&sg=15fqT&ttl_bkt=none&ru=1757980740&utm_source=gha_rd&utm_content=mapresults&currency=USD&user_country=US&verification=false&rate_rule_ids=&date_type=default&rate_rule_id=signedout_desktop&display_currency=USD&display_all_inclusive_price=83.42&checkin_at=2025-09-21&checkout_at=2025-09-22&provider_hotel_id=10004282481&provider=ean&num_adults=2&children=[]&hotel_campaign=&user_locale=ro-US&user_list_id=&utm_medium=organic&utm_id=gha_organic_rd"
+    },
+    {
+      "title": "Reserving",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osw05HH3YxgRKPmHQE-osmsuH-xGNYoWZrm1tz9UlY110WDvsp9B4Ex_Ru4nzEgOBJ9xFtZTZX3ksWVYioJIFjM9zIp0vL6eCHa7449GIPfVvzvtZVBRcEGoYf04ZgzjXRpFEhcQ_Nh-&pcurl=https://h-en.reserving.com/search?i%3D7103%26rf%3DGOOGLEHOTELS%26portal%3Drsvcom%26lang%3Dro%26auto%3D1%26tipo%3DS%26id%3D45492%26numero_habs%3D1%26no_adultos_hab1%3D2%26no_ninos_hab1%3D0%26fecha_entrada%3D21%252F09%252F2025%26fecha_salida%3D22%252F09%252F2025%26refp%3D85.92%26campaing-id%3D%26tp%3D%26moneda%3DUSD%26device%3Ddesktop%26pais_dom%3DUS%26sg%3Db%3D73.78,bclx%3D44,bhab%3D376,big%3D2025-08-08,bmid%3D56,bpd%3Des,breg%3D12,ts%3D2025-08-08T14:49:03%2B02:00/B:A03735B4C8843A8CA5CB728FD6D70EA4D85F6C7074FDD65BBCEC66D7%26c3%3Dmode%3DP,d%3D2,ts_id%3D6573432571458240%26r%3DCAMPAIGN-ID%3D;TRACKING-PARAM%3D;CUSTOM1%3D;PRICE-DISPLAYED-TOTAL%3D85.92;DEFAULT-DATE%3D1;CLICK-TYPE%3Dhotel;USER-COUNTRY%3DUS;DEVICE%3Ddesktop;SITE%3Dmapresults;USER-LANGUAGE%3Dro;USER-CURRENCY%3DUSD;POS%3DALL-ALL-ALL-RSVCOM;AD-CLICK%3D0;PAYMENT-ID%3Dfree;C2%3Db%3D73.78,bclx%3D44,bhab%3D376,big%3D2025-08-08,bmid%3D56,bpd%3Des,breg%3D12,ts%3D2025-08-08T14:49:03%2B02:00/B:A03735B4C8843A8CA5CB728FD6D70EA4D85F6C7074FDD65BBCEC66D7;C3%3Dmode%3DP,d%3D2,ts_id%3D6573432571458240&s=AD1XQnndf3aQXfxtE0zhFiI8U3dl",
+      "isOfficialSite": false,
+      "price": "86 USD",
+      "url": "https://h-en.reserving.com/search?i=7103&rf=GOOGLEHOTELS&portal=rsvcom&lang=ro&auto=1&tipo=S&id=45492&numero_habs=1&no_adultos_hab1=2&no_ninos_hab1=0&fecha_entrada=21/09/2025&fecha_salida=22/09/2025&refp=85.92&campaing-id=&tp=&moneda=USD&device=desktop&pais_dom=US&sg=b=73.78,bclx=44,bhab=376,big=2025-08-08,bmid=56,bpd=es,breg=12,ts=2025-08-08T14:49:03+02:00/B:A03735B4C8843A8CA5CB728FD6D70EA4D85F6C7074FDD65BBCEC66D7&c3=mode=P,d=2,ts_id=6573432571458240&r=CAMPAIGN-ID=;TRACKING-PARAM=;CUSTOM1=;PRICE-DISPLAYED-TOTAL=85.92;DEFAULT-DATE=1;CLICK-TYPE=hotel;USER-COUNTRY=US;DEVICE=desktop;SITE=mapresults;USER-LANGUAGE=ro;USER-CURRENCY=USD;POS=ALL-ALL-ALL-RSVCOM;AD-CLICK=0;PAYMENT-ID=free;C2=b=73.78,bclx=44,bhab=376,big=2025-08-08,bmid=56,bpd=es,breg=12,ts=2025-08-08T14:49:03+02:00/B:A03735B4C8843A8CA5CB728FD6D70EA4D85F6C7074FDD65BBCEC66D7;C3=mode=P,d=2,ts_id=6573432571458240"
+    },
+    {
+      "title": "ZenHotels.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswvVGh1KeKqP31Qa65_Tke2aZM6_cFu8sIZNsvad6cJ5dqvv2jrAxqgl0_euKQwM4BPvyNp3l6rHrjxQwi_kgIx27WtCgEX_uA2xv-z4Zkjga7L5ZXzaJjIO_rPPaqX710&pcurl=https://www.zenhotels.com/go/rooms/7591676/?dates%3D21.09.2025-22.09.2025%26cur%3DUSD%26lang%3Dro%26utm_source%3Dgoogle_hotelads%26utm_medium%3Dcpc-metasearch%26partner_slug%3Dgoogle%26guests%3D2%26from%3Dhotel_continental_forum_sibiu.81.USD.sr-019889a5-3292-7f8e-a30d-ad2a33797265%26utm_campaign%3Dro-US%26price%3Done%26scroll%3Dprices%26partner_data%3DT7PLSPscnH885uM9xLLsiVLBEXUnx7fHWo8_iE1DIGQpm-tTCwPAcXrzltu2IghmuEHqRUPiC3ZIDzQXRSYtlbRJhEvp9DdvSp2HSKyIEU3eVqy-87NDrxBcV2ke6_WuF2es-AyViD-Vz482qc0QP-xGLbUlwrJn1ZKsmXT0avnI%26utm_content%3DGoogleCPC%26utm_term%3Dgacid_.bw_44.los_1.dow_Sunday.dtype_default.hid_7591676.rid_91.aud_.d_desktop.ad_0.ctype_hotel.promo_0.apireqtype_deals%3Ddisabled%26showed_price%3D81.00%26showed_taxes%3D0.00%26deals%3Ddisabled&s=AD1XQnnlJKfgItjv3pA2tx-5wJ1s",
+      "isOfficialSite": false,
+      "price": "81 USD",
+      "url": "https://www.zenhotels.com/go/rooms/7591676/?dates=21.09.2025-22.09.2025&cur=USD&lang=ro&utm_source=google_hotelads&utm_medium=cpc-metasearch&partner_slug=google&guests=2&from=hotel_continental_forum_sibiu.81.USD.sr-019889a5-3292-7f8e-a30d-ad2a33797265&utm_campaign=ro-US&price=one&scroll=prices&partner_data=T7PLSPscnH885uM9xLLsiVLBEXUnx7fHWo8_iE1DIGQpm-tTCwPAcXrzltu2IghmuEHqRUPiC3ZIDzQXRSYtlbRJhEvp9DdvSp2HSKyIEU3eVqy-87NDrxBcV2ke6_WuF2es-AyViD-Vz482qc0QP-xGLbUlwrJn1ZKsmXT0avnI&utm_content=GoogleCPC&utm_term=gacid_.bw_44.los_1.dow_Sunday.dtype_default.hid_7591676.rid_91.aud_.d_desktop.ad_0.ctype_hotel.promo_0.apireqtype_deals=disabled&showed_price=81.00&showed_taxes=0.00&deals=disabled"
+    },
+    {
+      "title": "Vio.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osy5mbnMy-Tndj8OUkXwXzjkMf7J-x1Si45vdUiU0eV7-2hD042qxsrQ2p3Pz9tqrhj0yKRi7xGTGoDhaqFIW6P6BJ7fb6mikpWYGI2c8ewpBe0Vn6Ok4WQujppgB5Np3oY&pcurl=https://deals.vio.com/?sig%3D73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233%26turl%3Dhttps%253A%252F%252Fwww.vio.com%252FHotel%252FSearch%253FcheckIn%253D2025-09-21%2526checkOut%253D2025-09-22%2526curr%253DUSD%2526forceCurrencyChange%253D1%2526lang%253Dro%2526forceLanguageChange%253D1%2526rooms%253D2%253A%2526utm_source%253Dgha%2526utm_medium%253Dcpc%2526hotelId%253D1311484%2526userCountry%253DUS%2526profile%253Dr2d2m73kn8%2526preferredRate%253D90.33%2526label%253Dsrc%25253Dgha%252526cltype%25253Dhotel%252526datype%25253Ddefault%252526gsite%25253Dmapresults%252526vf%25253D0%252526ucountry%25253DUS%252526udevice%25253Ddesktop%252526hotel%25253D1311484%252526day%25253D21%252526month%25253D09%252526year%25253D2025%252526los%25253D1%252526price%25253D90.33%252526currency%25253DUSD%252526cid%25253D%252526listid%25253D%252526rateid%25253DUS_D%252526closerateid%25253D%252526promo%25253D0%252526isPrivateRate%25253D0%252526isAudienceUser%25253D0%252526isPaidClick%25253D0%252526%2526cp%253Dg-vJ2f6xkC8Cgs3VGh0NHVNNHpTWRiB49fEBiACOOqxseQKQh0I3KLGyIbgtslhEO0_INwGKgNVU0QwATiwqarGBg&s=AD1XQnn6G5Uweu7l6dGzZRZHDFEJ",
+      "isOfficialSite": false,
+      "price": "90 USD",
+      "url": "https://deals.vio.com/?sig=73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233&turl=https://www.vio.com/Hotel/Search?checkIn=2025-09-21&checkOut=2025-09-22&curr=USD&forceCurrencyChange=1&lang=ro&forceLanguageChange=1&rooms=2:&utm_source=gha&utm_medium=cpc&hotelId=1311484&userCountry=US&profile=r2d2m73kn8&preferredRate=90.33&label=src%3Dgha%26cltype%3Dhotel%26datype%3Ddefault%26gsite%3Dmapresults%26vf%3D0%26ucountry%3DUS%26udevice%3Ddesktop%26hotel%3D1311484%26day%3D21%26month%3D09%26year%3D2025%26los%3D1%26price%3D90.33%26currency%3DUSD%26cid%3D%26listid%3D%26rateid%3DUS_D%26closerateid%3D%26promo%3D0%26isPrivateRate%3D0%26isAudienceUser%3D0%26isPaidClick%3D0%26&cp=g-vJ2f6xkC8Cgs3VGh0NHVNNHpTWRiB49fEBiACOOqxseQKQh0I3KLGyIbgtslhEO0_INwGKgNVU0QwATiwqarGBg"
+    },
+    {
+      "title": "Travelocity.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszivykcToLsXG07HzYv-YQCU3_lqrJapjyteMLrfxLtfielLQ1tUoBJ7vQmmovCV-7QzDxURNaqFxU_GuCw33jXJwMtB_MvfDCLyL1a0d1vqmpNyRUv94OYJYNL_Isv0bqPUfsXWPw&pcurl=https://www.travelocity.com/Hotel-Search?selected%3D1828411%26startDate%3D2025-09-21%26endDate%3D2025-09-22%26adults%3D2%26children%3D%26MDPCID%3Dtravelocity-US.META.HPA.ORGANIC.HOTEL%26MDPDTL%3DHTL.1828411.20250921.20250922.DDT.44.CID..AUDID..mapresults%26exp_curr%3DUSD%26exp_dp%3D90.45%26exp_tx%3D8.96%26mctc%3D10%26rateplanid%3D387188066%26mpm%3D24%26mpn%3D316078961%26mpo%3DEC%26mpp%3D1&s=AD1XQnl4CgucjpuFa_QxQYgDmEIf",
+      "isOfficialSite": false,
+      "price": "90 USD",
+      "url": "https://www.travelocity.com/Hotel-Search?selected=1828411&startDate=2025-09-21&endDate=2025-09-22&adults=2&children=&MDPCID=travelocity-US.META.HPA.ORGANIC.HOTEL&MDPDTL=HTL.1828411.20250921.20250922.DDT.44.CID..AUDID..mapresults&exp_curr=USD&exp_dp=90.45&exp_tx=8.96&mctc=10&rateplanid=387188066&mpm=24&mpn=316078961&mpo=EC&mpp=1"
+    },
+    {
+      "title": "Trip.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswHcDuTEPCaKxFBAjxLnQGicG2uKWKwU-suwKmgzjVeM0m6_6dCXuB01vAntfIMqhPnMeU1N_7F6OvgFHsabTue3PSUhCiqvlannAQu2U1YUbXYaGSVCnobtH35Xw&pcurl=https://us.trip.com/hotels/redirect?hotelid%3D745017%26city%3D3302%26shoppingid%3DMysQGfEcTjlS%26adult%3D2%26children%3D0%26ages%3D%26checkin%3D2025-09-21%26checkout%3D2025-09-22%26curr%3DUSD%26Allianceid%3D15214%26Sid%3D1209572%26prid%3DLANG_US%26trip_sub1%3D21_09_2025_1_mapresults_745017_US_desktop_default___0_0-LANG_US-landing%26hpaopts%3Dstand%5BH4sIAAAAAAAA_-Py5WKSYBJi4mCUcub48fPbf1YhLkMDE3MLS2NTAyODPjGLVZ2MARwzGHfu0V3ByLiDkekiI9f1xQW2v0IdHjK2vg7cIZca4fCCcUFfU_kCFkYpHt_K4kD3NNfkkKycYAVGjY4j14-weTAGsbk5uRqZukXJcDGHBrsIKt_-WZe1R8ZBCsRThPGSWFPzdEODM6YLdzEyeTCuYmT4xMiPbGC8hQUAHlLRVrEAAAA%5Dfgt%5B1%5D%26br%3D97.58%26tf%3D9.67%26display%3Dexavg%26locale%3Den_us%26crn%3D1%26roomid%3D1610464504%26allianceid%3D15214%26sid%3D1209572&s=AD1XQnkCt2YDf6ULAaaAPxgqKqGw",
+      "isOfficialSite": false,
+      "price": "98 USD",
+      "url": "https://us.trip.com/hotels/redirect?hotelid=745017&city=3302&shoppingid=MysQGfEcTjlS&adult=2&children=0&ages=&checkin=2025-09-21&checkout=2025-09-22&curr=USD&Allianceid=15214&Sid=1209572&prid=LANG_US&trip_sub1=21_09_2025_1_mapresults_745017_US_desktop_default___0_0-LANG_US-landing&hpaopts=stand[H4sIAAAAAAAA_-Py5WKSYBJi4mCUcub48fPbf1YhLkMDE3MLS2NTAyODPjGLVZ2MARwzGHfu0V3ByLiDkekiI9f1xQW2v0IdHjK2vg7cIZca4fCCcUFfU_kCFkYpHt_K4kD3NNfkkKycYAVGjY4j14-weTAGsbk5uRqZukXJcDGHBrsIKt_-WZe1R8ZBCsRThPGSWFPzdEODM6YLdzEyeTCuYmT4xMiPbGC8hQUAHlLRVrEAAAA]fgt[1]&br=97.58&tf=9.67&display=exavg&locale=en_us&crn=1&roomid=1610464504&allianceid=15214&sid=1209572"
+    },
+    {
+      "title": "Etrip.net",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsyQM9JuFLuLKNJfeQTFDIRZQ4tEa4NFfNTNLfLPSHTsis8UWTAL-m7ZvRV0lPM0XDDqM80Gumd4GYRuwF7uxkFdtNh9_3aOKJAx2D5eL-FdU0vfrTFzNrM9XYJeoA&pcurl=https://deals.etrip.net/?sig%3De9cc68956712e1e5d60f579a67e54afadd83f5d631dc9782cc50d47864de2f2c2d32303330363031313335%26turl%3Dhttps%253A%252F%252Fsearch.etrip.net%252FHotel%252FSearch%253FcheckIn%253D2025-09-21%2526checkOut%253D2025-09-22%2526curr%253DUSD%2526forceCurrencyChange%253D1%2526lang%253Dro%2526forceLanguageChange%253D1%2526rooms%253D2%253A%2526utm_source%253Dgha%2526utm_medium%253Dcpc%2526hotelId%253D1311484%2526userCountry%253DUS%2526profile%253Dr2d2m73kn8%2526preferredRate%253D90.33%2526label%253Dsrc%25253Dgha%252526cltype%25253Dhotel%252526datype%25253Ddefault%252526gsite%25253Dmapresults%252526vf%25253D0%252526ucountry%25253DUS%252526udevice%25253Ddesktop%252526hotel%25253D1311484%252526day%25253D21%252526month%25253D09%252526year%25253D2025%252526los%25253D1%252526price%25253D90.33%252526currency%25253DUSD%252526cid%25253D%252526listid%25253D%252526rateid%25253DUS_D%252526closerateid%25253D%252526promo%25253D0%252526isPrivateRate%25253D0%252526isAudienceUser%25253D0%252526isPaidClick%25253D0%252526%2526cp%253Dg-vJ2f6xkC8Cgs3VGh0NHVNNHpTWRiB49fEBiACOOqxseQKQh0I3KLGyIbgtslhEO0_INwGKgNVU0QwATiwqarGBg&s=AD1XQnkfmpVY4Bpd5RcZA5zDvLo8",
+      "isOfficialSite": false,
+      "price": "90 USD",
+      "url": "https://deals.etrip.net/?sig=e9cc68956712e1e5d60f579a67e54afadd83f5d631dc9782cc50d47864de2f2c2d32303330363031313335&turl=https://search.etrip.net/Hotel/Search?checkIn=2025-09-21&checkOut=2025-09-22&curr=USD&forceCurrencyChange=1&lang=ro&forceLanguageChange=1&rooms=2:&utm_source=gha&utm_medium=cpc&hotelId=1311484&userCountry=US&profile=r2d2m73kn8&preferredRate=90.33&label=src%3Dgha%26cltype%3Dhotel%26datype%3Ddefault%26gsite%3Dmapresults%26vf%3D0%26ucountry%3DUS%26udevice%3Ddesktop%26hotel%3D1311484%26day%3D21%26month%3D09%26year%3D2025%26los%3D1%26price%3D90.33%26currency%3DUSD%26cid%3D%26listid%3D%26rateid%3DUS_D%26closerateid%3D%26promo%3D0%26isPrivateRate%3D0%26isAudienceUser%3D0%26isPaidClick%3D0%26&cp=g-vJ2f6xkC8Cgs3VGh0NHVNNHpTWRiB49fEBiACOOqxseQKQh0I3KLGyIbgtslhEO0_INwGKgNVU0QwATiwqarGBg"
+    },
+    {
+      "title": "Bluepillow.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszoXfJj9KrIxkLEZZNv17q3pWmbwntQM7rXkj5C1W9S5l0ugIbvithBFUlg9KDTmAyAQc62D_4W7G6Ye2ujbasw27Lxa4ujiBMlmAe-DUTiGlppVblsqwNG30euMxREqGo1&pcurl=https://www.bluepillow.com/search/5dc04556e24da41e98111c75?begin%3D2025-09-21%26end%3D2025-09-22%26block_id%3D-b,ie97dT3pPO3gZYIS7w9gfFBnRo_CM5zQw97pELpz7pjt4XU6EGB_7KD6-H3jPWXK,-bpex-Hotel%26adults%3D2%26childs%3D0%26infants%3D0%26childrens%3D0%26country%3DUS%26currency%3DUSD%26language%3Dro%26source%3Dmapresults%26utm_campaign%3Dhotel%26prid%3Dforeign&s=AD1XQnmTxSY5yALAPFKAFiTYtzd9",
+      "isOfficialSite": false,
+      "price": "90 USD",
+      "url": "https://www.bluepillow.com/search/5dc04556e24da41e98111c75?begin=2025-09-21&end=2025-09-22&block_id=-b,ie97dT3pPO3gZYIS7w9gfFBnRo_CM5zQw97pELpz7pjt4XU6EGB_7KD6-H3jPWXK,-bpex-Hotel&adults=2&childs=0&infants=0&childrens=0&country=US&currency=USD&language=ro&source=mapresults&utm_campaign=hotel&prid=foreign"
+    },
+    {
+      "title": "eDreams",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osyr3rkA5IvA1u22VFaX05RLJC72H_O40oYSDbdMz244sECWClQEFMfeYrQuKKZNbyluIBwxF61CWQe1nNfVnNjVh0eKEhSvSBm1X-C1hXyPBBPt6X9nQp27yxCFGXc&pcurl=https://accommodation.edreams.net/Hotel-Search?selected%3D1828411%26startDate%3D2025-09-21%26endDate%3D2025-09-22%26adults%3D2%26children%3D%26mpf%3D92.67%26cur%3DUSD%26mpj%3D9.18%26wapb3%3D%7Cc.506950%7Cl.en_US%7Ct.meta%7Cs.ghs%26MDPCID%3DeDreams-US.DPS.Edreams.MetaSearch-GHA.HOTEL%26mpl%3DUSD%26numberOfRooms%3D1%26locale%3Den_US%26rffrid%3Dh4p.hcom.US.ghaodigeo.000.000.kwrd%3D%26pos%3DEDREAMS_US%26rateplanid%3D387188071%26mctc%3D10%26utm_medium%3Dmetasearch%26utm_campaign%3D334071%26utm_term%3Dhotel%26utm_source%3DFREEBOOKING&s=AD1XQnkzvlFTk9u7KL0hHx34I6kQ",
+      "isOfficialSite": false,
+      "price": "93 USD",
+      "url": "https://accommodation.edreams.net/Hotel-Search?selected=1828411&startDate=2025-09-21&endDate=2025-09-22&adults=2&children=&mpf=92.67&cur=USD&mpj=9.18&wapb3=|c.506950|l.en_US|t.meta|s.ghs&MDPCID=eDreams-US.DPS.Edreams.MetaSearch-GHA.HOTEL&mpl=USD&numberOfRooms=1&locale=en_US&rffrid=h4p.hcom.US.ghaodigeo.000.000.kwrd=&pos=EDREAMS_US&rateplanid=387188071&mctc=10&utm_medium=metasearch&utm_campaign=334071&utm_term=hotel&utm_source=FREEBOOKING"
+    },
+    {
+      "title": "Wego",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osyp-MJ9u05RP0BHD5NJyECXP0eh9pZtIqSzSHzZN6Jxbi-Xj-D91dtSvwCrOj07hOZtE7ons7eT9rkdAuqzJV-SnWJ9HFY7p5Ow_TEhGLmuvJWdZkhlM-V7n5uA&pcurl=https://www.wego.com/hotels-handoff/searches/82074/2025-09-21/2025-09-22/249243?guests%3D2%26wego_hotel_id%3D249243%26bow_only%3Dtrue%26ts_code%3D2f2fc%26wg_source%3Dmeta_distribution%26wg_medium%3Dgha%26wg_campaign%3Dfbl%26wego_currency%3DUSD%26ulang%3Dro%26wego_price%3DVVNEOjkzLjY4OmVjNjdmZWM1YTk3YTk2ZDUyNmM1NWY5ZmYzOWVjMDdiZmJjYWUzOGZjMjVkNTlkZWZkNzAzMzg1YTFiMjAyMTU6YXB5YWN3Z3Bhd3E6MTc1NDY1NDM4MDpEOlVTOmRlYzU2YjliZDM3YjM0OTY6MjowOnRydWU%253D%26provider%3DaG90ZWxzLndlZ28uY29t&s=AD1XQnnZ95A6smIGXLe10hpIp9q0",
+      "isOfficialSite": false,
+      "price": "94 USD",
+      "url": "https://www.wego.com/hotels-handoff/searches/82074/2025-09-21/2025-09-22/249243?guests=2&wego_hotel_id=249243&bow_only=true&ts_code=2f2fc&wg_source=meta_distribution&wg_medium=gha&wg_campaign=fbl&wego_currency=USD&ulang=ro&wego_price=VVNEOjkzLjY4OmVjNjdmZWM1YTk3YTk2ZDUyNmM1NWY5ZmYzOWVjMDdiZmJjYWUzOGZjMjVkNTlkZWZkNzAzMzg1YTFiMjAyMTU6YXB5YWN3Z3Bhd3E6MTc1NDY1NDM4MDpEOlVTOmRlYzU2YjliZDM3YjM0OTY6MjowOnRydWU=&provider=aG90ZWxzLndlZ28uY29t"
+    },
+    {
+      "title": "rehlat.co_en",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsydYUZOe6vwkI8ScKMme1-SzWMmzv_TCRAsmM6gww8gRWiHCiGK_qVRWwLSu-6lR3_5UY-kkw-jQ7r7malrCI-vvCVkiVGuNom8xsj_zudw7IYTGz_ktLfCHTm5zKE&pcurl=https://rehlat.co/en/cheap-hotels/profile/Continental-Forum-Sibiu-1565660?encrypted_payload%3DBAtaxAHI3M6LIAbaseAHI89M989LIAgpfAHI0LIAcAHI8081LIAciAHIA2025K09K21ALIAcoAHIA2025K09K22ALIAhcAHI1565660LIAshcAHIA82733ALIArAHIEBAaAHI2LIAcdAHI0LIAcdaAHIEFLIAtpAHI1CFLIAsiAHI2LIAskAHIAALIAcldAHIAGoogleALIAspAHI325M48LIAfpAHI93M589LIAmpAHI97M489LIAscAHIAaedALIAdtAHIA202508080020AC%26CustomerCountry%3DUS%26Currency%3DUSD%26Device%3Ddesktop%26identifier%3D7c8dd587-8b34-4659-abf0-e0817b944f4c__2025-08-08T00:20:27%26utm_source%3DGoogleHotel%26utm_medium%3DMetaHotels%26utm_campaign%3DGoogleMetaHotels&s=AD1XQnmcvjdCUwCmJ6zCesudQ16R",
+      "isOfficialSite": false,
+      "price": "94 USD",
+      "url": "https://rehlat.co/en/cheap-hotels/profile/Continental-Forum-Sibiu-1565660?encrypted_payload=BAtaxAHI3M6LIAbaseAHI89M989LIAgpfAHI0LIAcAHI8081LIAciAHIA2025K09K21ALIAcoAHIA2025K09K22ALIAhcAHI1565660LIAshcAHIA82733ALIArAHIEBAaAHI2LIAcdAHI0LIAcdaAHIEFLIAtpAHI1CFLIAsiAHI2LIAskAHIAALIAcldAHIAGoogleALIAspAHI325M48LIAfpAHI93M589LIAmpAHI97M489LIAscAHIAaedALIAdtAHIA202508080020AC&CustomerCountry=US&Currency=USD&Device=desktop&identifier=7c8dd587-8b34-4659-abf0-e0817b944f4c__2025-08-08T00:20:27&utm_source=GoogleHotel&utm_medium=MetaHotels&utm_campaign=GoogleMetaHotels"
+    },
+    {
+      "title": "Prestigia.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswCm4m7CjQugElWjtYWaN3wnk26V8nYWs63_NnWJVh3HRu_mZ2kf2S5OuRiVDzXa0vWCxRMNSTy9yEGowSs8Fx9fiTR4KOHZAXRCyMofuga_M_sNTSqvxYzsvMhqvXr9Ig&pcurl=https://www.prestigia.com/de/produit.php?idTarget%3D313379%26arrivee%3D2025-09-21%26depart%3D2025-09-22%26pid%3D4%26a%3D1000129%26guestsParams%3DW3siYWR1bHRzIjoyLCJjaGlsZHJlbiI6MCwiYWdlcyI6W119XQ%3D%3D%26dev%3D3%26pv%3DOTkuNjB8NS45OHwwLjAwfGZhbHNl%26curr%3DUSD%26verif%3Dfalse%26ad_click%3Dfalse%26campaign_id%3D%26src%3D&s=AD1XQnlG9AWmHDm3dZ2fBcU9VBXC",
+      "isOfficialSite": false,
+      "price": "106 USD",
+      "url": "https://www.prestigia.com/de/produit.php?idTarget=313379&arrivee=2025-09-21&depart=2025-09-22&pid=4&a=1000129&guestsParams=W3siYWR1bHRzIjoyLCJjaGlsZHJlbiI6MCwiYWdlcyI6W119XQ==&dev=3&pv=OTkuNjB8NS45OHwwLjAwfGZhbHNl&curr=USD&verif=false&ad_click=false&campaign_id=&src="
+    },
+    {
+      "title": "Wizfair Travels",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxkL_3AuADnKjZoLxR62FhtETuwcRbL0Gzs7H_bgSYyRlWljuWCoRqbIm3DPQap2QCXm-J5A0WbJLiVgKWoc96a_B8f4Igpxy643rPMlwUVxyKap3vE-BKfGIHdpJ5BFH0HY_NVx-xE4eMLDb7l&pcurl=https://www.wizfairtravels.com/hotels/find-hotel?hotelID%3D82733%26checkinDay%3D21%26checkinMonth%3D09%26checkinYear%3D2025%26nights%3D1%26adults%3D2%26children%3D0%26age%3D&s=AD1XQnmn0xYpyC7eHUdAkvOtdjdD",
+      "isOfficialSite": false,
+      "price": "108 USD",
+      "url": "https://www.wizfairtravels.com/hotels/find-hotel?hotelID=82733&checkinDay=21&checkinMonth=09&checkinYear=2025&nights=1&adults=2&children=0&age="
+    },
+    {
+      "title": "Booking.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsyxsXHKZ2ZPVXMXoLa_z3212qV9S9M-Zm2D5UXE-X0VSkoCcCrjNu7O3sMufJqmo0S-2edJj1JNye0VctPbeRN5nUshRKwl4iSg52W5qowmvnsxBasplzvLD6tKHuLoSB3IgUAK3Y0VBmwZ&pcurl=https://www.booking.com/hotel/ro/continental-forum-sibiu.html?checkin%3D2025-09-21%26checkout%3D2025-09-22%26group_adults%3D2%26req_adults%3D2%26show_room%3D3985824_358830396_2_2_0_610043%26lang%3Dro%26selected_currency%3DUSD%26exrt%3D0.22958949%26ext_price_total%3D102.17%26ext_price_tax%3D10.12%26xfc%3DRON%26hca%3Dm%26group_children%3D0%26req_children%3D0%26%26no_rooms%3D1%26ts%3D1754608991%26edgtid%3D3mcrQ9h8S36xBmfM1hy2Qw%26efpc%3DRFsApEWwChGf%26utm_source%3Dmetagha%26utm_medium%3Dmapresults%26utm_campaign%3DUS%26utm_term%3Dhotel-39858%26utm_content%3Ddev-desktop_los-1_bw-44_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250921_ppt-%26aid%3D2127489%26label%3Dmetagha-link-MRUS-hotel-39858_dev-desktop_los-1_bw-44_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250921_ppt-&s=AD1XQnmJBzisA0y8h0A853wpSPXW",
+      "isOfficialSite": false,
+      "price": "102 USD",
+      "url": "https://www.booking.com/hotel/ro/continental-forum-sibiu.html?checkin=2025-09-21&checkout=2025-09-22&group_adults=2&req_adults=2&show_room=3985824_358830396_2_2_0_610043&lang=ro&selected_currency=USD&exrt=0.22958949&ext_price_total=102.17&ext_price_tax=10.12&xfc=RON&hca=m&group_children=0&req_children=0&&no_rooms=1&ts=1754608991&edgtid=3mcrQ9h8S36xBmfM1hy2Qw&efpc=RFsApEWwChGf&utm_source=metagha&utm_medium=mapresults&utm_campaign=US&utm_term=hotel-39858&utm_content=dev-desktop_los-1_bw-44_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250921_ppt-&aid=2127489&label=metagha-link-MRUS-hotel-39858_dev-desktop_los-1_bw-44_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250921_ppt-"
+    },
+    {
+      "title": "Agoda",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsyxzfBv4Kr_9v4Y73rTUsBDM3SJhQQcRP8r0l6S6W5MzyIv_GD0ZfU_Pp5ZQZQaDZFARbth5eAtfVf1I0D0MDitsEi4ga_BBcKsI1QbIRbngDgaaZEE83dIzmOQOaPcTTlLxVCw&pcurl=https://www.agoda.com/ro-ro/partners/partnersearch.aspx?site_id%3D1917614%26CkInDay%3D21%26CkInMonth%3D09%26CkInYear%3D2025%26CkOutDay%3D22%26campaignid%3D%26CkOutMonth%3D09%26CkOutYear%3D2025%26SearchDateType%3Ddefault%26NumberOfAdults%3D2%26LT%3D44%26NumberOfChildren%3D0%26childages%3D%26NumberOfRooms%3D1%26gsite%3Dmapresults%26los%3D1%26PartnerCurrency%3DEUR%26hid%3D3536421%26RoomID%3D484901176%26masterRoomId%3D484901176%26PriceTax%3D10.13%26PriceTotal%3D102.20%26RatePlan%3D9a1c77ab-dcf5-d349-e7b3-51cd06e06b0f%26UserCountry%3DUS%26Currency%3DUSD%26UserDevice%3Ddesktop%26Verif%3Dfalse%26rr%3Drow_desktop%26audience_list%3D%26mcid%3D3038%26booking_source%3Dcpc%26adType%3D0%26mpt%3DWWZJS0EwaFZZWDJ6RFU2bnBuNGhjQXN5VFhhNTNnMmlwLzZmNXNLUTNmQ1YwOWZhakVSM3VlRT0%26original_rr%3D&s=AD1XQnlcyu1Xn3OsutNcblnmH5MQ",
+      "isOfficialSite": false,
+      "price": "102 USD",
+      "url": "https://www.agoda.com/ro-ro/partners/partnersearch.aspx?site_id=1917614&CkInDay=21&CkInMonth=09&CkInYear=2025&CkOutDay=22&campaignid=&CkOutMonth=09&CkOutYear=2025&SearchDateType=default&NumberOfAdults=2&LT=44&NumberOfChildren=0&childages=&NumberOfRooms=1&gsite=mapresults&los=1&PartnerCurrency=EUR&hid=3536421&RoomID=484901176&masterRoomId=484901176&PriceTax=10.13&PriceTotal=102.20&RatePlan=9a1c77ab-dcf5-d349-e7b3-51cd06e06b0f&UserCountry=US&Currency=USD&UserDevice=desktop&Verif=false&rr=row_desktop&audience_list=&mcid=3038&booking_source=cpc&adType=0&mpt=WWZJS0EwaFZZWDJ6RFU2bnBuNGhjQXN5VFhhNTNnMmlwLzZmNXNLUTNmQ1YwOWZhakVSM3VlRT0&original_rr="
+    },
+    {
+      "title": "eSky.ro",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osxx-GmVOWDQ1owXdHg_uFwDGS4ZEq_3b4XG6ZbcR5PjDj3fdY1Y8OGrNlw8gx2hIEBf6G5nmPwrwjYp9GEQ6lS-nfTvavU32S6uc932IBZZ4kpw2AzIFulYcDKn3OQ&pcurl=https://www2.esky.ro/cazare/details?metaCode%3D113431%26checkInDate%3D2025-09-21%26checkOutDate%3D2025-09-22%26rooms%255B0%255D%255Badults%255D%3D2%26partner_id%3DGHSRO%26ctags%3DadType:0&s=AD1XQnk4qRTRhtkk6G7YU0xqCkMk",
+      "isOfficialSite": false,
+      "price": "95 USD",
+      "url": "https://www2.esky.ro/cazare/details?metaCode=113431&checkInDate=2025-09-21&checkOutDate=2025-09-22&rooms[0][adults]=2&partner_id=GHSRO&ctags=adType:0"
+    },
+    {
+      "title": "My Luxury Hotel",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxyW4OXn197MHDlLSAJVkNJmHPvab2KBn5D9Ub_zq6dokw6BkdN7yNRpv5bFbTmHNYEKOi7qMzMLI5FNA0UbXF550eQm3w-MHiOL3RzRCvflm-lwoKaRNnjfOHPydCHqSMZb1tRmeeKFv6MhK1nrDA7Hw&pcurl=https://www.myluxuryhotel.com/en-us/hotel/2273055?ppc%3Dtrue%26isHotel%3Dtrue%26checkin%3D2025-09-21%26checkout%3D2025-09-22%26nights%3D1%26rooms%3D%255B%257B%2522adults%2522:2,%2522children%2522:%255B%255D,%2522kidsAge%2522:%255B%255D%257D%255D%26utm_source%3DGoogleHC%26utm_medium%3Dpaid%26utm_campaign%3D%26utm_content%3Dmapresults%26utm_term%3D2273055%26ghv%3D1&s=AD1XQnl86RXP8eLmUvAi84Vj6pZG",
+      "isOfficialSite": false,
+      "price": "102 USD",
+      "url": "https://www.myluxuryhotel.com/en-us/hotel/2273055?ppc=true&isHotel=true&checkin=2025-09-21&checkout=2025-09-22&nights=1&rooms=[{\"adults\":2,\"children\":[],\"kidsAge\":[]}]&utm_source=GoogleHC&utm_medium=paid&utm_campaign=&utm_content=mapresults&utm_term=2273055&ghv=1"
+    },
+    {
+      "title": "Catchit.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osy2tNBZt1rgaBxi6yI6ag5QZbpIEdF2pXiDeuQRhS-7dqG5fY-oZ4nrcbYlt31TpeDwfqx0jO0JI7pCalf79Z8bQCNPpsEXZ88UYCni5aOHUngO0K1lXdgFeENcN1BceQ&pcurl=https://www.catchit.com/tracking/A6-6524-HO-60600_2109202522092025_7600_1500_920_8600_24_payclick/hoteles/60600-0_x?atoken%3Dnecb8x89lx89mxax0x2zzzzzzzzzzzzzz%26utoken%3D1%253A0%253A77778020%253A0%253A8424b%26chash%3Dee87a957511a3ebe89de2b625b42d2a7%26odata%3D2rg77vf16fnjjy51wl9zvm6c5n5rksh03dAzkjpwzpx6nb2jhkrAh911vn0d8zj8pm6rgvzdq0scznspp3Ahp4dq68mt0lnmb6n1szq%26craw%3DMjQqKjgyNzMzKioyXzBfMF8wXzBfMF8wKipTQSoqTyoqKipmYzQ2MmU1MzQ1MmJkMTEzYmM3YTYxMmE2MjllM2FmNCoqWQ%3D%3D%26fco%3Dro%26mcc%3Dron%26utm_source%3Dgoogle_hotel%26utm_medium%3Dmetabuscadores%26utm_campaign%3Dhoteles-afiliacion%26hotelID%3D60600%26hotel_campaign%3D&s=AD1XQnlEHuHOG3WVl922Jz5f5ZM_",
+      "isOfficialSite": false,
+      "price": "101 USD",
+      "url": "https://www.catchit.com/tracking/A6-6524-HO-60600_2109202522092025_7600_1500_920_8600_24_payclick/hoteles/60600-0_x?atoken=necb8x89lx89mxax0x2zzzzzzzzzzzzzz&utoken=1:0:77778020:0:8424b&chash=ee87a957511a3ebe89de2b625b42d2a7&odata=2rg77vf16fnjjy51wl9zvm6c5n5rksh03dAzkjpwzpx6nb2jhkrAh911vn0d8zj8pm6rgvzdq0scznspp3Ahp4dq68mt0lnmb6n1szq&craw=MjQqKjgyNzMzKioyXzBfMF8wXzBfMF8wKipTQSoqTyoqKipmYzQ2MmU1MzQ1MmJkMTEzYmM3YTYxMmE2MjllM2FmNCoqWQ==&fco=ro&mcc=ron&utm_source=google_hotel&utm_medium=metabuscadores&utm_campaign=hoteles-afiliacion&hotelID=60600&hotel_campaign="
+    },
+    {
+      "title": "BringFido",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsyMQLFkNt5tfd5gdjU_p2lb_DyVmjxVXzBDFLUK9jNZPjx7lsmqrFJYKCjxEGHWYtZdlXKAmfN6tKW8xF8TuIcZLcjJMuaiZW8dTpO7fw02fTNjdP45ARLv_MYQx3rWjEQ&pcurl=https://www.bringfido.com/lodging/58169?arrival%3D2025-09-21%26departure%3D2025-09-22%26adults%3D2%26dogs%3D0%26source%3De%26aid%3Dgooglehotels-mapresults%26channel%3Ddesktop%26currency%3DUSD%26source%3De&s=AD1XQnmxx7i6HJYBUzq80zq7XvzX",
+      "isOfficialSite": false,
+      "price": "97 USD",
+      "url": "https://www.bringfido.com/lodging/58169?arrival=2025-09-21&departure=2025-09-22&adults=2&dogs=0&source=e&aid=googlehotels-mapresults&channel=desktop&currency=USD&source=e"
+    },
+    {
+      "title": "LateRooms.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswHLEW2XPpoffhGIfszlQNmXVxNoxHcEkma7sX2cMOpNCRBgbOPgGGi_Bi8AkWDfF1PGX3yjl9cIg4V4eDVZDJaE_PkcG6W10_xiY9pmkrm-32F3apHsDIWYAq2xgRz-AB3-Fw15jzhYYzP3A&pcurl=https://www.laterooms.com/en-us/hotel/2273055?ppc%3Dtrue%26isHotel%3Dtrue%26checkin%3D2025-09-21%26checkout%3D2025-09-22%26nights%3D1%26rooms%3D%255B%257B%2522adults%2522:2,%2522children%2522:%255B%255D,%2522kidsAge%2522:%255B%255D%257D%255D%26utm_source%3DGoogleHC%26utm_medium%3Dpaid%26utm_campaign%3D%26utm_content%3Dmapresults%26utm_term%3D2273055%26pv%3D1754649124&s=AD1XQnlvR9Xs_arTjnd2rzSLl35v",
+      "isOfficialSite": false,
+      "price": "102 USD",
+      "url": "https://www.laterooms.com/en-us/hotel/2273055?ppc=true&isHotel=true&checkin=2025-09-21&checkout=2025-09-22&nights=1&rooms=[{\"adults\":2,\"children\":[],\"kidsAge\":[]}]&utm_source=GoogleHC&utm_medium=paid&utm_campaign=&utm_content=mapresults&utm_term=2273055&pv=1754649124"
+    },
+    {
+      "title": "dealbase.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsykqaMBpRtvUqVJgjELb4QQ5TYssPp15xqb6Gd1deAeM3Ce1vTO-6NSRbhCZqAG0j17td-aIoqpbp5xi2_u7e6SemmOdOxdrttHadxWUGBDkAoD03WIPh4lIiyVI8DKQwXeR2AHfb2g3laQ&pcurl=https://deals.dealbase.com/?sig%3Dd24b78db5ff27b2a7633c125e8c1eb65fcdd29bfbe8d2468da3702f8e475011131373338383435313339%26turl%3Dhttps%253A%252F%252Fwww.dealbase.com%252FHotel%252FSearch%253FcheckIn%253D2025-09-21%2526checkOut%253D2025-09-22%2526curr%253DUSD%2526forceCurrencyChange%253D1%2526lang%253Dro%2526forceLanguageChange%253D1%2526rooms%253D2%253A%2526utm_source%253Dgha%2526utm_medium%253Dcpc%2526hotelId%253D1311484%2526userCountry%253DUS%2526profile%253Dr2d2m73kn8%2526preferredRate%253D102.07%2526label%253Dsrc%25253Dgha%252526cltype%25253Dhotel%252526datype%25253Ddefault%252526gsite%25253Dmapresults%252526vf%25253D0%252526ucountry%25253DUS%252526udevice%25253Ddesktop%252526hotel%25253D1311484%252526day%25253D21%252526month%25253D09%252526year%25253D2025%252526los%25253D1%252526price%25253D102.07%252526currency%25253DUSD%252526cid%25253D%252526listid%25253D%252526rateid%25253DUS_D%252526closerateid%25253D%252526promo%25253D0%252526isPrivateRate%25253D0%252526isAudienceUser%25253D0%252526isPaidClick%25253D0%252526%2526cp%253Dn1OWOb2BOCICgs0eUljcmQwYUFJVRisy9fEBiACONHd_Y4IQhYI3KLGyIbgtslhEPS4AiC3IioDUk9O&s=AD1XQnkyj39FqRou6quv4aN9iKAo",
+      "isOfficialSite": false,
+      "price": "102 USD",
+      "url": "https://deals.dealbase.com/?sig=d24b78db5ff27b2a7633c125e8c1eb65fcdd29bfbe8d2468da3702f8e475011131373338383435313339&turl=https://www.dealbase.com/Hotel/Search?checkIn=2025-09-21&checkOut=2025-09-22&curr=USD&forceCurrencyChange=1&lang=ro&forceLanguageChange=1&rooms=2:&utm_source=gha&utm_medium=cpc&hotelId=1311484&userCountry=US&profile=r2d2m73kn8&preferredRate=102.07&label=src%3Dgha%26cltype%3Dhotel%26datype%3Ddefault%26gsite%3Dmapresults%26vf%3D0%26ucountry%3DUS%26udevice%3Ddesktop%26hotel%3D1311484%26day%3D21%26month%3D09%26year%3D2025%26los%3D1%26price%3D102.07%26currency%3DUSD%26cid%3D%26listid%3D%26rateid%3DUS_D%26closerateid%3D%26promo%3D0%26isPrivateRate%3D0%26isAudienceUser%3D0%26isPaidClick%3D0%26&cp=n1OWOb2BOCICgs0eUljcmQwYUFJVRisy9fEBiACONHd_Y4IQhYI3KLGyIbgtslhEPS4AiC3IioDUk9O"
+    },
+    {
+      "title": "Closest Hotel",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxvryeARxm1VNIbLhnQ39dxTizhxPz0us2Lb8EWowZV2TOJt9bcEzAH8H2CPPNWk1Xo1KSswxmkhmFsgrEDQXcltjx5GhVTw1BsO6IMRGs_y_g4f4RGBQIxfT5jqJyo-BDiaXixxRO3y6vJ5InVWLNCq8H8Z_g&pcurl=https://closesthotel.com/googleRedirMainSearch.php?checkInYear%3D2025%26checkInMonth%3D09%26checkInDay%3D21%26checkOutYear%3D2025%26checkOutMonth%3D09%26checkOutDay%3D22%26numberOfNights%3D1%26numberOfAdults%3D2%26numberOfChildren%3D0%26numberOfGuests%3D2%26hotelID%3D1828411%26roomID%3D316078961%26currency%3DUSD%26deviceType%3Ddesktop&s=AD1XQnlgcfjgtVoQ3oU3EfRulx0n",
+      "isOfficialSite": false,
+      "price": "97 USD",
+      "url": "https://closesthotel.com/googleRedirMainSearch.php?checkInYear=2025&checkInMonth=09&checkInDay=21&checkOutYear=2025&checkOutMonth=09&checkOutDay=22&numberOfNights=1&numberOfAdults=2&numberOfChildren=0&numberOfGuests=2&hotelID=1828411&roomID=316078961&currency=USD&deviceType=desktop"
+    }
+  ],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [
+    {
+      "title": "Mâncare și băutură",
+      "count": 1
+    },
+    {
+      "title": "Servicii",
+      "count": 1
+    }
+  ],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Amenities": [
+      {
+        "Wi-Fi gratuit": true
+      },
+      {
+        "Mic dejun cu plată": true
+      },
+      {
+        "Parcare": false
+      },
+      {
+        "Acces persoane dizabilități": true
+      },
+      {
+        "Piscină": false
+      },
+      {
+        "Aer condiționat": true
+      },
+      {
+        "Serviciu de spălătorie": true
+      },
+      {
+        "Centru de afaceri": true
+      },
+      {
+        "Adecvat pt. animale": true
+      },
+      {
+        "Room service": true
+      },
+      {
+        "Adecvat pentru copii": true
+      },
+      {
+        "Restaurant": true
+      },
+      {
+        "Transfer de la aeroport": false
+      },
+      {
+        "Centru de fitness": false
+      },
+      {
+        "Bar": true
+      },
+      {
+        "Nu se fumează": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Continental%20Forum%20Sibiu&query_place_id=ChIJ5Vyuy49nTEcRIJd9iPztxgE",
+  "searchPageUrl": "https://www.google.com/maps/search/hotels/@45.71170756366123,24.084930956814183,14z?hl=ro",
+  "searchString": "hotels",
+  "language": "ro",
+  "rank": 11,
+  "isAdvertisement": false,
+  "imageUrl": "https://photos.hotelbeds.com/giata/original/08/082733/082733a_hb_a_021.jpg",
+  "kgmid": "/m/076twhn",
+  "subTitle": null,
+  "locatedIn": null,
+  "plusCode": "Q4RX+V5 Sibiu, România",
+  "menu": null,
+  "reviewsDistribution": {
+    "oneStar": 93,
+    "twoStar": 83,
+    "threeStar": 256,
+    "fourStar": 750,
+    "fiveStar": 1645
+  },
+  "reserveTableUrl": null,
+  "similarHotelsNearby": [
+    {
+      "name": "Vila Saguna",
+      "rating": 4.7,
+      "reviews": 118,
+      "description": "Gratuite: mic dejun",
+      "price": "41 USD"
+    },
+    {
+      "name": "Casa Frieda",
+      "rating": 4.6,
+      "reviews": 12885,
+      "description": "Gratuite: mic dejun",
+      "price": "63 USD"
+    },
+    {
+      "name": "Charma Residence",
+      "rating": 4.3,
+      "reviews": 119,
+      "description": null,
+      "price": "74 USD"
+    },
+    {
+      "name": "Casa Salzburg",
+      "rating": 4.6,
+      "reviews": 144,
+      "description": "Gratuite: mic dejun",
+      "price": "108 USD"
+    },
+    {
+      "name": "Pension Ileana en Sibiu",
+      "rating": 4.1,
+      "reviews": 688,
+      "description": null,
+      "price": "47 USD"
+    },
+    {
+      "name": "Hotel Împăratul Romanilor",
+      "rating": 4.1,
+      "reviews": 2451,
+      "description": "Gratuite: mic dejun și parcare",
+      "price": "71 USD"
+    },
+    {
+      "name": "Hotel MyContinental",
+      "rating": 4.3,
+      "reviews": 1444,
+      "description": "Un hotel de 3 stele, cu 20 USD mai ieftin",
+      "price": "54 USD"
+    },
+    {
+      "name": "Hotel Rin",
+      "rating": 3.4,
+      "reviews": 569,
+      "description": null,
+      "price": "62 USD"
+    },
+    {
+      "name": "Casa Helis",
+      "rating": 4.6,
+      "reviews": 251,
+      "description": "Gratuite: mic dejun și parcare",
+      "price": null
+    }
+  ],
+  "hotelReviewSummary": null,
+  "additionalOpeningHours": null,
+  "openingHoursBusinessConfirmationText": null,
+  "questionsAndAnswers": [
+    {
+      "question": "(Translated by Google) I have a question, can I pay with holiday tickets?\n\n(Original)\nAm o intrebare ,  se poate plati cu biletele de vacanta ?",
+      "answers": [
+        {
+          "answer": "(Translated by Google) Call reception\n\n(Original)\nSunați la recepție",
+          "answerDate": "4 years ago",
+          "answeredBy": {
+            "name": "Constantin Zaharia",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWb7UI2qvYqYvCnQBOSSEP57P-jmzOB92CmFFcW60msaBhW5ROq=s120-c-rp-mo-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Meals and accommodation, but parking cannot be paid for with tickets!\n\n(Original)\nMasa si cazare, dar parcarea nu se poate achita cu tichete!",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Dani Pruteanu",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjU8-q9LSkGQnXzRrWhK8-PzggpdOjL1gnnk4_e26VUTBbu8NZ8=s120-c-rp-mo-ba3-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) You can pay with holiday vouchers for accommodation, meals, parking, anything except alcoholic beverages.\n\n(Original)\nSe poate plăti cu tichete de vacanță cazarea, masa, parcarea, orice fără băuturi alcoolice.",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Sauciuc Dorian",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocJsuDeZzBuVf0Og7D968AX3ROsv5Ikpn4Am0I8KxqjHOwwJrYGS=s120-c-rp-mo-ba4-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Unfortunately, I don't know if such a thing is possible. The safest is to call the hotel directly. \n\n(Original)\nDin pacate,nu stiu daca se poate asa ceva. Cel mai sigur este sa suni direct la hotel. ",
+          "answerDate": "7 years ago",
+          "answeredBy": {
+            "name": "Marius M",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjXSmdaK-enARbXJVIsBO8H6YSToMFBDoIFB0Hro5153EelQ1OBK=s120-c-rp-mo-br100"
+          }
+        }
+      ],
+      "askDate": "7 years ago",
+      "askedBy": {
+        "name": "Catalina Andrei",
+        "url": "https://lh3.googleusercontent.com/a-/ALV-UjU06pthr2XHEzO2sfRqJir3Dyuj_4BXPyyGsrCBDswBCCTiovXH=s120-c-rp-mo-br100"
+      }
+    },
+    {
+      "question": "(Translated by Google) good evening,\nis it possible to pay with the EDENRED holiday card?\n\n(Original)\nBuna seara ,\neste posibila plata cu, card de vacanta EDENRED?",
+      "answers": [
+        {
+          "answer": "(Translated by Google) Yes it is possible \n\n(Original)\nDa este posibil ",
+          "answerDate": "2 years ago",
+          "answeredBy": {
+            "name": "Cristi Nadejde",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocIjcX3VSdZOkQPCclLUxEdr_gEJsF-06Divopi-PEz09M44vg=s120-c-rp-mo-ba4-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) The hotel is located in a good place at the beginning of the pedestrian street of Sibiu. The level of daily room cleaning is low. Average breakfast. The location of the hotel makes up for everything.\nWe booked a suite and had a large space but don't know what the standard rooms look like. The design of the hotel rooms is in an ancient style.\n\n(Original)\nהמלון ממוקם במקום טוב בתחילת המדרחוב של סיביו. רמת ניקוי החדרים היומית הינה נמוכה. ארוחת בוקר בינונית. מיקום המלון מפצה על הכל.\nאנחנו הזמנו סוויטה והיה לנו מרחב גדול אבל לא יודע איך נראים החדרים הסטנדרטיים. עיצוב חדרי המלון הינו בסגנון עתיק.",
+          "answerDate": "2 years ago",
+          "answeredBy": {
+            "name": "Zvi Nadler",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjUPYhNWhg7UwkTaNTQWZtPhFFd3L_SJbZTxmfv824Dnpt6xIXtkTA=s120-c-rp-mo-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) I don't know for sure, I guess so!\n\n(Original)\nNu știu sigur,presupun că da!",
+          "answerDate": "2 years ago",
+          "answeredBy": {
+            "name": "GIGI APOSTOL",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjUoiTfjjHXXKixpcfJu5AsCGrJ52ArVqCyohdKjfN1DvBmiSzmp=s120-c-rp-mo-ba5-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Hi Alin. I can't tell you that, but call the front desk, I'm sure they'll tell you. A beautiful day \n\n(Original)\nBună Alin. Asta nu știu să-ți spun,  dar sună la recepție,  sunt sigur că îți vor spune. O zi frumoasa ",
+          "answerDate": "2 years ago",
+          "answeredBy": {
+            "name": "Mgr. Dušan Zlatko Roskoš",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjVGmj9DnzQ_l3QYfQQGHoqycJh0HQSPtZY3PDUoBRynmflJeJ8o=s120-c-rp-mo-ba6-br100"
+          }
+        }
+      ],
+      "askDate": "2 years ago",
+      "askedBy": {
+        "name": "draghici alin",
+        "url": "https://lh3.googleusercontent.com/a-/ALV-UjWNJ73-01Pd7s1kklexNm6idI-Bm5BvJQobwW-R7Xwo0eZZbXU=s120-c-rp-mo-br100"
+      }
+    },
+    {
+      "question": "(Translated by Google) Is it possible to enter the spa without accommodation? If so, how much does it cost to enter?\n\n(Original)\nLa spa se poate intra și fără cazare? Dacă da, cât costă intrarea?",
+      "answers": [
+        {
+          "answer": "(Translated by Google) Yes, you can enter without accommodation, but I don't know how much the entrance costs. \n\n(Original)\nDa se poate intra și fără cazare dar nu știu cât costa intrarea. ",
+          "answerDate": "5 years ago",
+          "answeredBy": {
+            "name": "Florin Apetrei",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjVo6p9o0vDKSLPdiJCxxXujaqYt69lSqRLNk7lass3WUe8Pv7fO=s120-c-rp-mo-ba5-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) You can google the hotel's phone number and ask them directly. Otherwise I don't know.\n\n(Original)\nPuteti cauta la google nr telefon al hotelului si întreba direct la ei. Altfel nu stiu.",
+          "answerDate": "5 years ago",
+          "answeredBy": {
+            "name": "Dodo Lina",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocJ823coaqEdDv9cde7chESIcez2yCbYBDFyM-67eIUiG7-MzA=s120-c-rp-mo-ba4-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Yes, it is possible.\n\n(Original)\nDa se poate",
+          "answerDate": "4 years ago",
+          "answeredBy": {
+            "name": "Constantin Zaharia",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWb7UI2qvYqYvCnQBOSSEP57P-jmzOB92CmFFcW60msaBhW5ROq=s120-c-rp-mo-br100"
+          }
+        }
+      ],
+      "askDate": "5 years ago",
+      "askedBy": {
+        "name": "Lidia Lidia",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocKGdb-iWHr8ddMo2J9DFkJ-okgOn9Yx-Y4xwGuGN_GlaXbjIYBm=s120-c-rp-mo-ba2-br100"
+      }
+    },
+    {
+      "question": "(Translated by Google) \nDo you have rooms with a balcony?\n\n(Original)\n\nAveți camere cu balcon ?",
+      "answers": [
+        {
+          "answer": "(Translated by Google) I don't think there are rooms with balconies.\n\n(Original)\nNu cred ca sunt camere cu balcon.",
+          "answerDate": "5 years ago",
+          "answeredBy": {
+            "name": "Cosmin Marian",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjXik4J9FjJQkl55vMwxuXtTD-IUcpc7CdTRz-etgtBP4NFMZLXJ=s120-c-rp-mo-ba5-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Not\n\n(Original)\nNu",
+          "answerDate": "4 years ago",
+          "answeredBy": {
+            "name": "Constantin Zaharia",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWb7UI2qvYqYvCnQBOSSEP57P-jmzOB92CmFFcW60msaBhW5ROq=s120-c-rp-mo-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) They are not, except for the presidential apartments, which are above the entrance, but they are booked all month, plus December.\nIf you ask about smoking, there is a terrace next to the restaurant.\n\n(Original)\nNu sunt, decat apartamentele prezidențiale au, care sunt deasupra intrarii, dar sunt rezervate toata luna, plus decembrie.\nDaca intrebati pt fumat, exista o terasa, langa restaurant.",
+          "answerDate": "5 years ago",
+          "answeredBy": {
+            "name": "EU EU",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjXNBFnu9_F-EYHL-adRbeQTA2bXdMc0iRbNBrEWZ3NwhAij-yET=s120-c-rp-mo-ba5-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) I don't shoot rooms with balconies \n\n(Original)\nNu șut camere cu balcon ",
+          "answerDate": "5 years ago",
+          "answeredBy": {
+            "name": "Fernando Mihai Perdei",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjVPORwYhoQYvLqNON1rjKrYm_c5uND_u_CEOYO_8OgQUvNW8LUF=s120-c-rp-mo-ba2-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) There are no rooms with a balcony.\n\n(Original)\nNu sunt camere cu balcon.",
+          "answerDate": "5 years ago",
+          "answeredBy": {
+            "name": "Marius Octavian Morariu",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjVOfE7P5nJfstm1BsGGzv370EcKeJljKz_rzlGvkfBRC9uqdiU74A=s120-c-rp-mo-ba3-br100"
+          }
+        }
+      ],
+      "askDate": "5 years ago",
+      "askedBy": {
+        "name": "Irina Corina",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocLMrMefUTR85vzC02lCauLce6-JEQRWRlbg8I5hUg0iB_DNyg=s120-c-rp-mo-br100"
+      }
+    },
+    {
+      "question": "(Translated by Google) Is parking included in the accommodation price?\nIf not, what is the cost of parking?\n\n(Original)\nDaca parcarea este asigurata in tariful de cazare?\nDaca nu, care e costul parcarii?",
+      "answers": [
+        {
+          "answer": "(Translated by Google) No. It costs 40 lei for 24 hours.\n\n(Original)\nNu. Costă 40 de lei pentru 24 de ore. ",
+          "answerDate": "5 years ago",
+          "answeredBy": {
+            "name": "Laura Ana Manzat",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjU822Ba-Ap-XAjViDATXkwe7X_5Msc5AzORXtJg05h9KKz6PWOH=s120-c-rp-mo-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) It is not included in the accommodation\n\n(Original)\nNu intră in cazare",
+          "answerDate": "4 years ago",
+          "answeredBy": {
+            "name": "Constantin Zaharia",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWb7UI2qvYqYvCnQBOSSEP57P-jmzOB92CmFFcW60msaBhW5ROq=s120-c-rp-mo-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Parking is not included in the accommodation rate.\n\n(Original)\nParcarea nu este asigurată în tariful de cazare.",
+          "answerDate": "5 years ago",
+          "answeredBy": {
+            "name": "Dan Bratu",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocLGcAjrZrvy7RBIUwIlyU_VTZ20JnZs59CZxkiA91D6UsDuuQ=s120-c-rp-mo-ba4-br100"
+          }
+        }
+      ],
+      "askDate": "5 years ago",
+      "askedBy": {
+        "name": "Pompiliu Cretu",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocKtMIkdkDkCVxrhUa2c5Au7COrFlLQnvaRdVvUHpD-lRS8vGA=s120-c-rp-mo-br100"
+      }
+    },
+    {
+      "question": "Is it a swimming pool in the SPA center?",
+      "answers": [
+        {
+          "answer": "(Translated by Google) Not\n\n(Original)\nNu",
+          "answerDate": "4 years ago",
+          "answeredBy": {
+            "name": "Constantin Zaharia",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWb7UI2qvYqYvCnQBOSSEP57P-jmzOB92CmFFcW60msaBhW5ROq=s120-c-rp-mo-br100"
+          }
+        },
+        {
+          "answer": "jacuzzy, no swimming pool",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Shobo Bass",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWbfJiai9wcW0t6wgNVstHDqxiGPqAAYVzXV1WlBUv0ARUJ52w=s120-c-rp-mo-br100"
+          }
+        },
+        {
+          "answer": "There is a big jacuzzi, but no swimming pool",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Continental Forum",
+            "url": "https://maps.gstatic.com/tactile/placeqa/merchant_2x.png"
+          }
+        },
+        {
+          "answer": "No swimming pool, and small spa, only jacuzzi and sauna. ",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "margaritaslindas lindas",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocKzApfgViXe4ci7wJgf69PIVOcBoEwB-sW072g1_0Dn4OGqgQ=s120-c-rp-mo-ba3-br100"
+          }
+        },
+        {
+          "answer": "There is only a jacuzzi. ",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Claudia Calinoiu",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjVI3uEpzWUxKDh0jIw_sFqO9tuOxFaimA1VAlV_3lz6GJ5hNFeP=s120-c-rp-mo-ba6-br100"
+          }
+        }
+      ],
+      "askDate": "6 years ago",
+      "askedBy": {
+        "name": "Marius Paval",
+        "url": "https://lh3.googleusercontent.com/a-/ALV-UjWrX8fnWDa5b6EwsyFOqlIRWEaUxhP7Qo2J6h2nxQxhVEy9Ywc_=s120-c-rp-mo-ba5-br100"
+      }
+    },
+    {
+      "question": "(Translated by Google) What time is breakfast?\n\n(Original)\nA che  ora c'è la colazione?",
+      "answers": [
+        {
+          "answer": "06:30-10:30am weekdays and 7-11am during the weekend",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Octavian Adrian Tanase",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjVlbyPW23BUaspChhh8k2fGgdg1nwnFDEo9WPO_hExTmf05R9yupg=s120-c-rp-mo-ba3-br100"
+          }
+        },
+        {
+          "answer": "Ok",
+          "answerDate": "4 years ago",
+          "answeredBy": {
+            "name": "Constantin Zaharia",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWb7UI2qvYqYvCnQBOSSEP57P-jmzOB92CmFFcW60msaBhW5ROq=s120-c-rp-mo-br100"
+          }
+        }
+      ],
+      "askDate": "6 years ago",
+      "askedBy": {
+        "name": "Antonella Inglese",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocIcWhBPmttOIbxfnO-2qoqd-o1eK7wHzIXNtdknTY8il5l3QQ=s120-c-rp-mo-ba4-br100"
+      }
+    },
+    {
+      "question": "(Translated by Google) Do you have a swimming pool?\n\n(Original)\nAveti bazin de inot?",
+      "answers": [
+        {
+          "answer": "(Translated by Google) Call reception\n\n(Original)\nSunați la recepție",
+          "answerDate": "4 years ago",
+          "answeredBy": {
+            "name": "Constantin Zaharia",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWb7UI2qvYqYvCnQBOSSEP57P-jmzOB92CmFFcW60msaBhW5ROq=s120-c-rp-mo-br100"
+          }
+        }
+      ],
+      "askDate": "6 years ago",
+      "askedBy": {
+        "name": "maura cuc",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocLYmPfjz7lFF__ihq0rEfqikDcP-wuH9zpi80LgGPFTo3RSFA=s120-c-rp-mo-br100"
+      }
+    },
+    {
+      "question": "(Translated by Google) If I make a reservation by phone, can I pay at the reception?\n\n(Original)\nDacă fac rezervare telefonică pot plăti la receptie?",
+      "answers": [
+        {
+          "answer": "(Translated by Google) Probable\n\n(Original)\nProbabil",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Alex Tirb",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWA2UaOqBqghssUmVkzHCnjtim_nJR8md02IVBBxw3i0vBGpDQi=s120-c-rp-mo-ba4-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) And\n\n(Original)\nDa",
+          "answerDate": "4 years ago",
+          "answeredBy": {
+            "name": "Constantin Zaharia",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWb7UI2qvYqYvCnQBOSSEP57P-jmzOB92CmFFcW60msaBhW5ROq=s120-c-rp-mo-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Of course \n\n(Original)\nBineinteles ",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Chris Theil",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocISrCUHKfB5JpE2eH0mlJ8SRNValUrc7XZyvFfl6PCq5FOiKA=s120-c-rp-mo-ba3-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Sure \n\n(Original)\nSigur ",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "orlando viorel ene",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocJPgDW-_YDEtnYp40U0MfVNrGY1UuMK2tJXFI9aTINje69YOA=s120-c-rp-mo-ba3-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) And\n\n(Original)\nDa",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Petru Stefan Irini",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjVCGvLvabSCCaPAy2jt8NR7CJ_lzwLMMSQ8e2chFj-hqXyt7xOQ=s120-c-rp-mo-br100"
+          }
+        }
+      ],
+      "askDate": "6 years ago",
+      "askedBy": {
+        "name": "Angel channel",
+        "url": "https://lh3.googleusercontent.com/a-/ALV-UjV-Dp11KK4jGSELh6txYpuNm9_SmpQ9CoSDIQS7YWy-mx7VrvE6=s120-c-rp-mo-br100"
+      }
+    },
+    {
+      "question": "is there coffe un the room?",
+      "answers": [
+        {
+          "answer": "(Translated by Google) And\n\n(Original)\nDa",
+          "answerDate": "4 years ago",
+          "answeredBy": {
+            "name": "Constantin Zaharia",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWb7UI2qvYqYvCnQBOSSEP57P-jmzOB92CmFFcW60msaBhW5ROq=s120-c-rp-mo-br100"
+          }
+        },
+        {
+          "answer": "Yes it is",
+          "answerDate": "7 years ago",
+          "answeredBy": {
+            "name": "Marius M",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjXSmdaK-enARbXJVIsBO8H6YSToMFBDoIFB0Hro5153EelQ1OBK=s120-c-rp-mo-br100"
+          }
+        },
+        {
+          "answer": "Yes ",
+          "answerDate": "7 years ago",
+          "answeredBy": {
+            "name": "Sirius Siriuus",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocJOLKvAbiTC2rF70Z_Xq6ymBn-r_0E4w66SK_W91odIgAsgxg=s120-c-rp-mo-br100"
+          }
+        }
+      ],
+      "askDate": "7 years ago",
+      "askedBy": {
+        "name": "Shmuel Shay",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocIaVzCyUEBL9yR1vc6vV_aR9Nyc7xd0cl9Z8NqyRQJznj12rw=s120-c-rp-mo-br100"
+      }
+    }
+  ],
+  "updatesFromCustomers": {
+    "text": "The hotel is located in the center of Sibiu, very fast check in / check out, large rooms, very helpful staff and the price is ok.  Parking spaces are available in front of the hotel (for a fee)",
+    "language": "en",
+    "postDate": "acum 7 luni",
+    "postedBy": {
+      "name": "Eugen Popa",
+      "url": "https://www.google.com/maps/contrib/104815745552066553282?hl=ro",
+      "title": "Local Guide",
+      "totalReviews": 404
+    },
+    "media": [
+      {
+        "link": "https://lh3.googleusercontent.com/geougc-cs/AB3l90CyF7GwkEph2epXMRwwqq_XAzaPaDV3FGLK0V6wdEYj4Zuuq180X9pzWztuBjjYCNXFM4gsQONzverUwrszE50JaRnPAnhYFZKGsVYxCZaPbCrkr4pJoNMtbXHo0SkVxHA_zsBB",
+        "postDate": "acum 7 luni"
+      },
+      {
+        "link": "https://lh3.googleusercontent.com/geougc-cs/AB3l90CVJH6MoFlaSvjEpYgd-0masGaMz0703LyQnjxFcYM6CdGVQzoYFfCn6n_EJshC7YJbuC2V74E-pEVqzF7PO1iUvEbdnzyCm_JxbACUg7thMOY1UJziQ8hDckCi5ZBrBoRypuew",
+        "postDate": "acum 7 luni"
+      },
+      {
+        "link": "https://lh3.googleusercontent.com/geougc-cs/AB3l90AZSOM_Ir0SPW5085K_Rhtmq7lRs3i90g8Yo90oQmy-T_-VwSppS7RKWoQvs25h5y7cny49EA65W52QnYfYoW-EH2acqdUHL-rNdeNRoTH8WZO3Z1xeuPNEOGRqyc0zS53JSict",
+        "postDate": "acum 7 luni"
+      },
+      {
+        "link": "https://lh3.googleusercontent.com/geougc-cs/AB3l90DkU9fmABRoYXtJCx5Pq0LARv8XD6mOjU9uhfC921Q0uSOv9ZHXvomAbI7tm6WEkTS8U0CVy-Chozg22ghdZu9Wb2OQbJIOMdosELZuH8YX8aMjdqeaKOVfisGy7uvmhoFaWH41",
+        "postDate": "acum 7 luni"
+      },
+      {
+        "link": "https://lh3.googleusercontent.com/geougc-cs/AB3l90A1tpcW-PEVSAcyNK0emDZYxcIb9Xm6zqdQDlnAb16g1cg1ZuaL3sUSR-E4kluG1e0FAiSAb8DxkC1TPezWmhpxaZWvkEJIBwFrzSCl6dmEMjs4O67JaiwVbg7t59ak_iHWTwo",
+        "postDate": "acum 7 luni"
+      },
+      {
+        "link": "https://lh3.googleusercontent.com/geougc-cs/AB3l90BoW-nmjCqfTVdoxBK4-Uy0UasJfohtPfpLJe8jaN5JDOh7SYdCQeHNLP7h2h3UVTUkpGuwQMQcohGONOQ-Tu-Hi4GHshMRGDn8MG9JuBmUicAIJcIUJw-pvkE-2SS5Z3k5agut0g",
+        "postDate": "acum 7 luni"
+      },
+      {
+        "link": "https://lh3.googleusercontent.com/geougc-cs/AB3l90BTPBHVdbfSA-5oWkd8cRlk8z0qVqRvoHOmXUlNti9iRlVB5tKTBzraV8pG8Cr6uSHA1u_nGjNjaLvAz6x5_qhE6MiTy1rBxtPIzZbXxx4ymCU2MPcrYIFXj8MFvChGw2iGL0op",
+        "postDate": "acum 7 luni"
+      },
+      {
+        "link": "https://lh3.googleusercontent.com/geougc-cs/AB3l90AKreLWj8ui0FMLiY0qU8fHvJrRdCZSC12d9ws3oXS8LoURaotFsldcN_-2srFYr7w_Ow7Hde26qlZ924f1uI8FvgqjKLfiJJWVR-b3GNT04nBqagzxfwpuHB-7tU5oyyZBAeW-vg",
+        "postDate": "acum 7 luni"
+      },
+      {
+        "link": "https://lh3.googleusercontent.com/geougc-cs/AB3l90A0wOfEBwWrnL7IKyO_gf92qCZe0jiE9yzcpLWa3Pkc78nLi2dS0GJqyJ-LI0RXnmIIfDfktIJ4ik4pLKeLtuCRtvqNG_f2TTZawO4tSqlB6beW-gRSzIc_CkGS8eu1JzOkCqkA",
+        "postDate": "acum 7 luni"
+      },
+      {
+        "link": "https://lh3.googleusercontent.com/geougc-cs/AB3l90BDye2GdAVLu5fggZ0auQSPO_7loDISKri_0qUogI08jhvHTBQUg5_dHH6tun--3RwK00jVhTjp_nRvOu_ucqp3l5DBhQz_CNe2OuiZk7MWxX5bsxbbz52bOUUcSUQRedJC0eA2WQ",
+        "postDate": "acum 7 luni"
+      }
+    ]
+  },
+  "userPlaceNote": null,
+  "webResults": [],
+  "tableReservationLinks": [],
+  "bookingLinks": [],
+  "orderBy": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "images": null,
+  "reviews": [
+    {
+      "reviewerId": "115980471245031646764",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115980471245031646764?hl=ro",
+      "name": "dumitru craciunescu",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXBjQF9dnsiAfN-qheSL2eReesE-TN6blwlZ6TvBHx3WJc8_sM=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "acum 2 zile",
+      "publishedAtDate": "2025-08-06T10:30:58.604Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s1dGJYWlpWall6ZW5Od1pqRm5aRzkzVlRCSmVtYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s1dGJYWlpWall6ZW5Od1pqRm5aRzkzVlRCSmVtYxAB!2m1!1s0x0:0x1c6edfc887d9720!3m1!1s2@1:CAIQACodChtycF9oOk5tbXZZVjYzenNwZjFnZG93VTBJemc%7C0cZmvXZ-IUe%7C?hl=ro",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {
+        "Camere": 4,
+        "Servire": 4,
+        "Locație": 4
+      },
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "109441929989555536953",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109441929989555536953?hl=ro",
+      "name": "K S",
+      "reviewerNumberOfReviews": 59,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK9w8hRi7neFL2rzkTvKkiWz9kGF6Lrp2RRCiR2kEcvXi09dA=s1920-c-rp-mo-ba3-br100",
+      "text": "Dobry hotel.\nUrozmaicone śniadania, bardzo smaczne.\nPolecam.",
+      "textTranslated": "Hotel bun.\nMic dejun variat, foarte gustos.\nIl recomand.",
+      "publishAt": "acum o săptămână",
+      "publishedAtDate": "2025-07-30T06:49:03.908Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2toSFpreDVXbWc1UlZJd1EyNUlZM2xCVWxWb1lXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2toSFpreDVXbWc1UlZJd1EyNUlZM2xCVWxWb1lXYxAB!2m1!1s0x0:0x1c6edfc887d9720!3m1!1s2@1:CAIQACodChtycF9oOkhHZkx5Wmg5RVIwQ25IY3lBUlVoYWc%7C0cXR0Uq7zSP%7C?hl=ro",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2025-07-30T13:02:26.000Z",
+      "responseFromOwnerText": "Dear Guest,\n\nThank you for your recent visit to us and for your review. We are glad that you had a pleasant stay and the breakfast was to your liking. We look forward to welcoming you in the future.\n\nBest regards,\nAlexandra Cosma- Sales Executive",
+      "reviewImageUrls": [],
+      "reviewContext": {
+        "Tipul călătoriei": "Vacanță",
+        "Grup de călătorie": "Familie"
+      },
+      "reviewDetailedRating": {
+        "Camere": 5,
+        "Servire": 5,
+        "Locație": 5
+      },
+      "visitedIn": null,
+      "originalLanguage": "pl",
+      "translatedLanguage": "ro"
+    },
+    {
+      "reviewerId": "109095277330867494246",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109095277330867494246?hl=ro",
+      "name": "Orit Kaizerman",
+      "reviewerNumberOfReviews": 11,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVEErC624PvLo8L31n8sZAcYr3uOMyGUzMdAW0ntsL1LNghIoB7HQ=s1920-c-rp-mo-ba3-br100",
+      "text": "מלון גדול, חניה בתשלום צמודה. קרוב מאוד למדרחוב שנעים לטייל בו.",
+      "textTranslated": "Hotel mare, parcare cu plata in apropiere. Foarte aproape de o stradă pietonală care este plăcută de mers.",
+      "publishAt": "acum o săptămână",
+      "publishedAtDate": "2025-07-29T17:40:15.311Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21KclpqaG9lSFZVZVdwQ2FYa3hiVVJrVkhSS2MzYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21KclpqaG9lSFZVZVdwQ2FYa3hiVVJrVkhSS2MzYxAB!2m1!1s0x0:0x1c6edfc887d9720!3m1!1s2@1:CAIQACodChtycF9oOmJrZjhoeHVUeWpCaXkxbURkVHRKc3c%7C0cXFSzH_erH%7C?hl=ro",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": "2025-07-30T12:48:53.000Z",
+      "responseFromOwnerText": "Dear Guest,\n\nThank you for choosing our hotel for your stay in Sibiu and we are glad that the central location was a positive aspect of your visit.\nWe appreciate your feedback and we look forward to hearing from you again.\n\nBest regards,\nAlexandra Cosma- Sales Executive",
+      "reviewImageUrls": [],
+      "reviewContext": {
+        "Tipul călătoriei": "Vacanță",
+        "Grup de călătorie": "Familie"
+      },
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "iw",
+      "translatedLanguage": "ro"
+    }
+  ],
+  "leadsEnrichment": []
+},
+{
+  "title": "Hilton Sibiu",
+  "description": "Hotel minimalist cu o sală de fitness, un bar, 3 restaurante, o piscină interioară și spa cu saune.",
+  "price": "128 USD",
+  "categoryName": "Hotel",
+  "address": "Strada Pădurea Dumbrava 1, Sibiu 550399, România",
+  "neighborhood": null,
+  "street": "Strada Pădurea Dumbrava 1",
+  "city": "Sibiu",
+  "postalCode": "550399",
+  "state": null,
+  "countryCode": "RO",
+  "website": "https://www.hilton.com/en/hotels/sbzhihi-hilton-sibiu/?SEO_id=GMB-EMEA-HI-SBZHIHI",
+  "phone": "+40 269 505 600",
+  "phoneUnformatted": "+40269505600",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 45.7604916,
+    "lng": 24.1269517
+  },
+  "totalScore": 4.5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJg4MkbJhnTEcRZ27lTT-HXCU",
+  "categories": [
+    "Hotel",
+    "Sală de banchete",
+    "Local pentru evenimente",
+    "Spa",
+    "Club de spa și sănătate",
+    "Sală de nunți"
+  ],
+  "fid": "0x474c67986c248383:0x255c873f4de56e67",
+  "cid": "2692175383220285031",
+  "reviewsCount": 2496,
+  "imagesCount": 3444,
+  "imageCategories": [
+    "Toate",
+    "Cele mai recente",
+    "Videoclipuri",
+    "Camere",
+    "Exterior",
+    "Dotări",
+    "Mâncăruri/băuturi",
+    "De la vizitatori",
+    "De la proprietar",
+    "Street View și 360°"
+  ],
+  "scrapedAt": "2025-08-08T13:14:36.843Z",
+  "googleFoodUrl": null,
+  "hotelStars": "Hotel de cinci stele",
+  "hotelDescription": "Situat în Parcul Natural Dumbrava Sibiului, acest hotel minimalist se află la 6 km de Podul Minciunilor și la 5 km de Muzeul de Etnografie Universală „Franz Binder”.\n Camerele și apartamentele formale oferă Wi-Fi gratuit, televizoare cu ecran plat și minifrigidere, plus băi din marmură și balcoane. Unele au zone de relaxare și/sau canapele extensibile. Unitățile de categorie superioară oferă acces la un lounge de club cu mic dejun, gustări și băuturi gratuite.\n Printre facilități se numără trei restaurante, un bar și spațiu pentru ședințe și evenimente. Printre alte facilități se numără o sală de fitness, un magazin de suveniruri și o piscină interioară. Mai există un centru spa cu saune, săli de meditație și băi de aburi. Sunt disponibile parcarea și micul dejun.",
+  "checkInDate": "2025-10-12",
+  "checkOutDate": "2025-10-13",
+  "hotelAds": [
+    {
+      "title": "Hilton Sibiu",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxMe-Qr9g2bTwPqlq2Nwg1bhJRQv0wvsWGP0HJue5A9QSvkTOVi8JLvbW7VDisd61ZlNYRKaqi0okV7GGMN7GVYgUDbqsg9ND7RQtWV_I6vIRNnEQZfPRtCHfDX9IA&pcurl=https://linkcenterus.derbysoftca.com/dplatform-linkcenter/booking.htm?hotelCode%3DHILTON-SBZHI%26providerHotelCode%3DSBZHI%26checkInDate%3D2025-10-12%26checkOutDate%3D2025-10-13%26identifier%3Dgoogle-hilton%26price%3D116.53%26roomTypeCode%3DK1%26ratePlanCode%3DHPPAP4%26currency%3DEUR%26language%3Dro%26userCountry%3DUS%26dateType%3Ddefault%26testClick%3Dfalse%26sitetype%3Dmapresults%26occupancy%3D2%26partnerId%3Dhilton%26campaignid%3D%26rateRuleId%3D%26userlistid%3D%26ifDefaultDate%3Ddefault%26isPromoted%3Dfalse%26isRuleIdsClosed%3Dfalse%26s_is_ad%3Dfalse%26adType%3D0%26adults%3D2%26children%3D0%26clk_src%3D%26is_ds_account%3Dtrue&s=AD1XQnnAdh0G1HcPk4OMxCXpC744",
+      "isOfficialSite": true,
+      "price": "136 USD",
+      "url": "https://linkcenterus.derbysoftca.com/dplatform-linkcenter/booking.htm?hotelCode=HILTON-SBZHI&providerHotelCode=SBZHI&checkInDate=2025-10-12&checkOutDate=2025-10-13&identifier=google-hilton&price=116.53&roomTypeCode=K1&ratePlanCode=HPPAP4&currency=EUR&language=ro&userCountry=US&dateType=default&testClick=false&sitetype=mapresults&occupancy=2&partnerId=hilton&campaignid=&rateRuleId=&userlistid=&ifDefaultDate=default&isPromoted=false&isRuleIdsClosed=false&s_is_ad=false&adType=0&adults=2&children=0&clk_src=&is_ds_account=true"
+    },
+    {
+      "title": "Vio.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszM6gvQcOmhQ56ohfRQpsGFDIWhxIqqiFcT7O80FKULgR4MJhP2A6EIVWE_0OPTJ31UQW9ffAWv9kTsBzu0HjSo9r61Bft4SibDTQ0FzhFSdTUJxhHrRxuzOSQ3NZHMpkI&pcurl=https://deals.vio.com/?sig%3D73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233%26turl%3Dhttps%253A%252F%252Fwww.vio.com%252FHotel%252FSearch%253FcheckIn%253D2025-10-12%2526checkOut%253D2025-10-13%2526curr%253DUSD%2526forceCurrencyChange%253D1%2526lang%253Dro%2526forceLanguageChange%253D1%2526rooms%253D2%253A%2526utm_source%253Dgha%2526utm_medium%253Dcpc%2526hotelId%253D1162448%2526userCountry%253DUS%2526profile%253Dr2d2m73kn8%2526preferredRate%253D142.54%2526label%253Dsrc%25253Dgha%252526cltype%25253Dhotel%252526datype%25253Ddefault%252526gsite%25253Dmapresults%252526vf%25253D0%252526ucountry%25253DUS%252526udevice%25253Ddesktop%252526hotel%25253D1162448%252526day%25253D12%252526month%25253D10%252526year%25253D2025%252526los%25253D1%252526price%25253D142.54%252526currency%25253DUSD%252526cid%25253D%252526listid%25253D%252526rateid%25253DUS%252526closerateid%25253D%252526promo%25253D0%252526isPrivateRate%25253D0%252526isAudienceUser%25253D0%252526isPaidClick%25253D0%252526%2526cp%253D_5VHM6uYfO0CgtmRVlQLUN2ZXM1URiG4dfEBiACOLm-9_EKQhYIncr71rbirKfsARCqZCCECyoDVVNE&s=AD1XQnmHlzjQYPf5lqItAjT6cDGQ",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://deals.vio.com/?sig=73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233&turl=https://www.vio.com/Hotel/Search?checkIn=2025-10-12&checkOut=2025-10-13&curr=USD&forceCurrencyChange=1&lang=ro&forceLanguageChange=1&rooms=2:&utm_source=gha&utm_medium=cpc&hotelId=1162448&userCountry=US&profile=r2d2m73kn8&preferredRate=142.54&label=src%3Dgha%26cltype%3Dhotel%26datype%3Ddefault%26gsite%3Dmapresults%26vf%3D0%26ucountry%3DUS%26udevice%3Ddesktop%26hotel%3D1162448%26day%3D12%26month%3D10%26year%3D2025%26los%3D1%26price%3D142.54%26currency%3DUSD%26cid%3D%26listid%3D%26rateid%3DUS%26closerateid%3D%26promo%3D0%26isPrivateRate%3D0%26isAudienceUser%3D0%26isPaidClick%3D0%26&cp=_5VHM6uYfO0CgtmRVlQLUN2ZXM1URiG4dfEBiACOLm-9_EKQhYIncr71rbirKfsARCqZCCECyoDVVNE"
+    },
+    {
+      "title": "Booking.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsyjjPywSTkdGJ-Isrujad4zSmvuyFqsMyaGsd6kZTWqT87lJMCDhiHIWiBJAsfqDuHlON0hRw3MeKMyxRi0T4yhIjqnQpnbOPC_tBLHYiAvflYCpuMSSLzzSYnagKnwdygMPv51zRh0GWQe&pcurl=https://www.booking.com/hotel/ro/palace-resort-spa.html?checkin%3D2025-10-12%26checkout%3D2025-10-13%26group_adults%3D2%26req_adults%3D2%26show_room%3D4043206_230040627_2_42_0%26lang%3Dro%26selected_currency%3DUSD%26exrt%3D1.16456461%26ext_price_total%3D142.85%26ext_price_tax%3D14.16%26xfc%3DEUR%26hca%3Dm%26group_children%3D0%26req_children%3D0%26%26ts%3D1754470864%26no_rooms%3D1%26edgtid%3D7zOp3xL1RcWHlBXxYM24Aw%26efpc%3DEitmoSK2ah8%26utm_source%3Dmetagha%26utm_medium%3Dmapresults%26utm_campaign%3DUS%26utm_term%3Dhotel-40432%26utm_content%3Ddev-desktop_los-1_bw-65_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20251012_ppt-%26aid%3D2127489%26label%3Dmetagha-link-MRUS-hotel-40432_dev-desktop_los-1_bw-65_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20251012_ppt-&s=AD1XQnmmZbM2XqOKtbtI905qtqX6",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://www.booking.com/hotel/ro/palace-resort-spa.html?checkin=2025-10-12&checkout=2025-10-13&group_adults=2&req_adults=2&show_room=4043206_230040627_2_42_0&lang=ro&selected_currency=USD&exrt=1.16456461&ext_price_total=142.85&ext_price_tax=14.16&xfc=EUR&hca=m&group_children=0&req_children=0&&ts=1754470864&no_rooms=1&edgtid=7zOp3xL1RcWHlBXxYM24Aw&efpc=EitmoSK2ah8&utm_source=metagha&utm_medium=mapresults&utm_campaign=US&utm_term=hotel-40432&utm_content=dev-desktop_los-1_bw-65_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20251012_ppt-&aid=2127489&label=metagha-link-MRUS-hotel-40432_dev-desktop_los-1_bw-65_dow-Sunday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20251012_ppt-"
+    },
+    {
+      "title": "Agoda",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxwS7I2ltlAcx2Jgo_ereibsFpPkuXfXtLszcjFxDs0tKi45SAtZQ-7C0MIGIBz8Vr5QLTf064ifiXGxHhxKzbE9U6IqJXKjyzh01gbe0gtI2P_k9rReV6b3Ik1b-jxtKN6YV0W&pcurl=https://www.agoda.com/ro-ro/partners/partnersearch.aspx?site_id%3D1917614%26CkInDay%3D12%26CkInMonth%3D10%26CkInYear%3D2025%26CkOutDay%3D13%26campaignid%3D%26CkOutMonth%3D10%26CkOutYear%3D2025%26SearchDateType%3Ddefault%26NumberOfAdults%3D2%26LT%3D65%26NumberOfChildren%3D0%26childages%3D%26NumberOfRooms%3D1%26gsite%3Dmapresults%26los%3D1%26PartnerCurrency%3DEUR%26hid%3D59724%26RoomID%3D4088634%26masterRoomId%3D4088634%26PriceTax%3D14.16%26PriceTotal%3D142.85%26RatePlan%3D29248888-e07b-d395-99c7-c2ab2ff45667%26UserCountry%3DUS%26Currency%3DUSD%26UserDevice%3Ddesktop%26Verif%3Dfalse%26rr%3Drow_desktop%26audience_list%3D%26mcid%3D29005%26booking_source%3Dcpc%26adType%3D0%26mpt%3Dc3BhMkcyV0VWWVhhUUc4dHprS1BwSmpORjBxZGJEdXVPakZBSWNKcGMzM0h0OG1TOGRKRllBPT0%26original_rr%3D&s=AD1XQnkOxhIcYRRaWlSwpvX0m52o",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://www.agoda.com/ro-ro/partners/partnersearch.aspx?site_id=1917614&CkInDay=12&CkInMonth=10&CkInYear=2025&CkOutDay=13&campaignid=&CkOutMonth=10&CkOutYear=2025&SearchDateType=default&NumberOfAdults=2&LT=65&NumberOfChildren=0&childages=&NumberOfRooms=1&gsite=mapresults&los=1&PartnerCurrency=EUR&hid=59724&RoomID=4088634&masterRoomId=4088634&PriceTax=14.16&PriceTotal=142.85&RatePlan=29248888-e07b-d395-99c7-c2ab2ff45667&UserCountry=US&Currency=USD&UserDevice=desktop&Verif=false&rr=row_desktop&audience_list=&mcid=29005&booking_source=cpc&adType=0&mpt=c3BhMkcyV0VWWVhhUUc4dHprS1BwSmpORjBxZGJEdXVPakZBSWNKcGMzM0h0OG1TOGRKRllBPT0&original_rr="
+    },
+    {
+      "title": "Trip.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswV9uOUoYQaT9Ja5yOYvTwdWGb03Ix3KR4fA68sI-aiU_30hNbJx15dbOJMrAiEc4EX8NqIEOHOWySr0hByTZtfN3tuDx3zr8qqG4Pn3zyIL6iRQqc-ESt-FrXzkA&pcurl=https://us.trip.com/hotels/redirect?hotelid%3D2145777%26city%3D3302%26shoppingid%3DM_ptLcZ1q5OX%26adult%3D2%26children%3D0%26ages%3D%26checkin%3D2025-10-12%26checkout%3D2025-10-13%26curr%3DUSD%26Allianceid%3D15214%26Sid%3D1209572%26prid%3DLANG_US%26trip_sub1%3D12_10_2025_1_mapresults_2145777_US_desktop_default___0_0-LANG_US-landing%26hpaopts%3Dstand%5BH4sIAAAAAAAA_-Ny4GKSYBJi4mCUMuN4uvJIM6sQo5EBq8VnwQCOGYwffzcx7mBkusi4zv1hlUhagsNDRgYQeJDo8IKxYdqmvAUsjFI8vvEFJT7JUYaFpv4RCowaO1deO8LmwRjEZuFkam7hFiXDxewaGiQo3_o6cMc-BQcp5tBgF0V1Q441MrtkHJJYU_N0Q4Mz1gh3MTJ5MK5iZOdiNjAyFGD6xMiPbG68pTEAJtjSWqsAAAA%5Dfgt%5B1%5D%26br%3D143.00%26tf%3D11.81%26display%3Dexavg%26locale%3Den_us%26crn%3D1%26roomid%3D1349588197%26allianceid%3D15214%26sid%3D1209572&s=AD1XQnnYaBdqmn8ANKJsY8U8YcQx",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://us.trip.com/hotels/redirect?hotelid=2145777&city=3302&shoppingid=M_ptLcZ1q5OX&adult=2&children=0&ages=&checkin=2025-10-12&checkout=2025-10-13&curr=USD&Allianceid=15214&Sid=1209572&prid=LANG_US&trip_sub1=12_10_2025_1_mapresults_2145777_US_desktop_default___0_0-LANG_US-landing&hpaopts=stand[H4sIAAAAAAAA_-Ny4GKSYBJi4mCUMuN4uvJIM6sQo5EBq8VnwQCOGYwffzcx7mBkusi4zv1hlUhagsNDRgYQeJDo8IKxYdqmvAUsjFI8vvEFJT7JUYaFpv4RCowaO1deO8LmwRjEZuFkam7hFiXDxewaGiQo3_o6cMc-BQcp5tBgF0V1Q441MrtkHJJYU_N0Q4Mz1gh3MTJ5MK5iZOdiNjAyFGD6xMiPbG68pTEAJtjSWqsAAAA]fgt[1]&br=143.00&tf=11.81&display=exavg&locale=en_us&crn=1&roomid=1349588197&allianceid=15214&sid=1209572"
+    },
+    {
+      "title": "Etrip.net",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osx1r8gXOo67SHfacWle4YLUULT1IMoaZq-rmb30G_l53KaTALoryLpgBBm3-tQT-vAzF9oQ5-xGi_tndW7eR54jcOlzVTFf9Ma7JtIgScQW625JU34JnTU-0YyPkQ&pcurl=https://deals.etrip.net/?sig%3De9cc68956712e1e5d60f579a67e54afadd83f5d631dc9782cc50d47864de2f2c2d32303330363031313335%26turl%3Dhttps%253A%252F%252Fsearch.etrip.net%252FHotel%252FSearch%253FcheckIn%253D2025-10-12%2526checkOut%253D2025-10-13%2526curr%253DUSD%2526forceCurrencyChange%253D1%2526lang%253Dro%2526forceLanguageChange%253D1%2526rooms%253D2%253A%2526utm_source%253Dgha%2526utm_medium%253Dcpc%2526hotelId%253D1162448%2526userCountry%253DUS%2526profile%253Dr2d2m73kn8%2526preferredRate%253D142.54%2526label%253Dsrc%25253Dgha%252526cltype%25253Dhotel%252526datype%25253Ddefault%252526gsite%25253Dmapresults%252526vf%25253D0%252526ucountry%25253DUS%252526udevice%25253Ddesktop%252526hotel%25253D1162448%252526day%25253D12%252526month%25253D10%252526year%25253D2025%252526los%25253D1%252526price%25253D142.54%252526currency%25253DUSD%252526cid%25253D%252526listid%25253D%252526rateid%25253DUS%252526closerateid%25253D%252526promo%25253D0%252526isPrivateRate%25253D0%252526isAudienceUser%25253D0%252526isPaidClick%25253D0%252526%2526cp%253D_5VHM6uYfO0CgtmRVlQLUN2ZXM1URiG4dfEBiACOLm-9_EKQhYIncr71rbirKfsARCqZCCECyoDVVNE&s=AD1XQnnH4MrQI6horiOtN5nzDM9x",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://deals.etrip.net/?sig=e9cc68956712e1e5d60f579a67e54afadd83f5d631dc9782cc50d47864de2f2c2d32303330363031313335&turl=https://search.etrip.net/Hotel/Search?checkIn=2025-10-12&checkOut=2025-10-13&curr=USD&forceCurrencyChange=1&lang=ro&forceLanguageChange=1&rooms=2:&utm_source=gha&utm_medium=cpc&hotelId=1162448&userCountry=US&profile=r2d2m73kn8&preferredRate=142.54&label=src%3Dgha%26cltype%3Dhotel%26datype%3Ddefault%26gsite%3Dmapresults%26vf%3D0%26ucountry%3DUS%26udevice%3Ddesktop%26hotel%3D1162448%26day%3D12%26month%3D10%26year%3D2025%26los%3D1%26price%3D142.54%26currency%3DUSD%26cid%3D%26listid%3D%26rateid%3DUS%26closerateid%3D%26promo%3D0%26isPrivateRate%3D0%26isAudienceUser%3D0%26isPaidClick%3D0%26&cp=_5VHM6uYfO0CgtmRVlQLUN2ZXM1URiG4dfEBiACOLm-9_EKQhYIncr71rbirKfsARCqZCCECyoDVVNE"
+    },
+    {
+      "title": "Travelocity.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osw9nhHtIsc37BmjAC_kOFCz9txEeK67gjqrjBlCvwIv7sJtOwRPPskMgI_CtHhwGMUeqwrLy0hBOd7VYpj5e1RPa_L4ConHkgSnJ-FpAmoCxtHar9UPyC2zjEMlMo1dBW1j47X9bcY&pcurl=https://www.travelocity.com/Hotel-Search?selected%3D2665121%26startDate%3D2025-10-12%26endDate%3D2025-10-13%26adults%3D2%26children%3D%26MDPCID%3Dtravelocity-US.META.HPA.ORGANIC.HOTEL%26MDPDTL%3DHTL.2665121.20251012.20251013.DDT.65.CID..AUDID..mapresults%26exp_curr%3DUSD%26exp_dp%3D143.16%26exp_tx%3D14.19%26mctc%3D10%26rateplanid%3D224086245%26mpm%3D24%26mpn%3D391253%26mpo%3DEC%26mpp%3D1&s=AD1XQnk-X583qPt7Jat4zCMGwhJ-",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://www.travelocity.com/Hotel-Search?selected=2665121&startDate=2025-10-12&endDate=2025-10-13&adults=2&children=&MDPCID=travelocity-US.META.HPA.ORGANIC.HOTEL&MDPDTL=HTL.2665121.20251012.20251013.DDT.65.CID..AUDID..mapresults&exp_curr=USD&exp_dp=143.16&exp_tx=14.19&mctc=10&rateplanid=224086245&mpm=24&mpn=391253&mpo=EC&mpp=1"
+    },
+    {
+      "title": "Catchit.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszFMDrptp2UYqNu2becyMv_no2P2Nfx-cWe1z9APUGE1w_zCoPp3Rh5MwST_ErsfNw1U4htLTE28PBpfQ34YksyS5jfyadHDjc1OVVwPnvOtDp8OTKgSI8VqyXggmnSpQ&pcurl=https://www.catchit.com/tracking/A6-6524-HO-192451_1210202513102025_11100_724.3_724_12200_42_payclick/hoteles/192451-0_x?atoken%3Dn2efc3x8acx8adxax0x2zzzzzzzzzzzzz%26utoken%3D1%253A1%253A77778020%253A0%253A13b20%26chash%3D8dcd4635438d1725d8b1893d916d6861%26odata%3Dtxcznsbhnbwbh77s1l53v3pyqc2Asbpk52mq0dkvv6y0A0l6glkbz6y04slt96zy32jvlAdspbv1srbr36vtgp9swd2stdg3xt9shg1%26craw%3DNDIqKjI2NjUxMjEqKjJfMF8wXzBfMF8wXzAqKlNBKipPKipOKipmYzQ2MmU1MzQ1MmJkMTEzYmM3YTYxMmE2MjllM2FmNCoqTg%3D%3D%26fco%3Dro%26mcc%3Dron%26utm_source%3Dgoogle_hotel%26utm_medium%3Dmetabuscadores%26utm_campaign%3Dhoteles-afiliacion%26hotelID%3D192451%26hotel_campaign%3D&s=AD1XQnlCaR1MDj1Hm0PopIztB22R",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://www.catchit.com/tracking/A6-6524-HO-192451_1210202513102025_11100_724.3_724_12200_42_payclick/hoteles/192451-0_x?atoken=n2efc3x8acx8adxax0x2zzzzzzzzzzzzz&utoken=1:1:77778020:0:13b20&chash=8dcd4635438d1725d8b1893d916d6861&odata=txcznsbhnbwbh77s1l53v3pyqc2Asbpk52mq0dkvv6y0A0l6glkbz6y04slt96zy32jvlAdspbv1srbr36vtgp9swd2stdg3xt9shg1&craw=NDIqKjI2NjUxMjEqKjJfMF8wXzBfMF8wXzAqKlNBKipPKipOKipmYzQ2MmU1MzQ1MmJkMTEzYmM3YTYxMmE2MjllM2FmNCoqTg==&fco=ro&mcc=ron&utm_source=google_hotel&utm_medium=metabuscadores&utm_campaign=hoteles-afiliacion&hotelID=192451&hotel_campaign="
+    },
+    {
+      "title": "올마이투어",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswOpzsMckAKd1uAu3Jt2Hgdu1woibJ3y5MtxjOq8NIzpgqbddhUJqulZ4WUXEQo-2Tht_X_UaC-kdaaqM2u6qMX_blCrk5qUytyADNhGrvInDMrlzpjWGKtcHluOo3KpRYaCb270cZm&pcurl=https://www.allmytour.com/products/211956?checkInDate%3D2025-10-12%26checkOutDate%3D2025-10-13%26ratePlanId%3D224086245%26externalName%3DEXPEDIA%26utm_source%3Dgoogle%26utm_medium%3DgoogleHotel%26utm_id%3DUS&s=AD1XQnnJiLg1tWUgvOTNw1KsvM9k",
+      "isOfficialSite": false,
+      "price": "142 USD",
+      "url": "https://www.allmytour.com/products/211956?checkInDate=2025-10-12&checkOutDate=2025-10-13&ratePlanId=224086245&externalName=EXPEDIA&utm_source=google&utm_medium=googleHotel&utm_id=US"
+    },
+    {
+      "title": "My Luxury Hotel",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswY6cUC63uwGLHqqBAmHc2MGvyXNY4gwOKnK4c2PmPTbnq5LZdGBRfyOeeOdkNMgIfxdWnuX-tdlAql8trM9ojthly2i0FOb7OXMn0dra1lv16Y2dyv1Oxna8dZHuHBIE8BVTV3q0GQ5X87vhft2UNeDQ&pcurl=https://www.myluxuryhotel.com/en-us/hotel/2287813?ppc%3Dtrue%26isHotel%3Dtrue%26checkin%3D2025-10-12%26checkout%3D2025-10-13%26nights%3D1%26rooms%3D%255B%257B%2522adults%2522:2,%2522children%2522:%255B%255D,%2522kidsAge%2522:%255B%255D%257D%255D%26utm_source%3DGoogleHC%26utm_medium%3Dpaid%26utm_campaign%3D%26utm_content%3Dmapresults%26utm_term%3D2287813%26ghv%3D1&s=AD1XQnn2SzzClou9YLqDipwsOqef",
+      "isOfficialSite": false,
+      "price": "144 USD",
+      "url": "https://www.myluxuryhotel.com/en-us/hotel/2287813?ppc=true&isHotel=true&checkin=2025-10-12&checkout=2025-10-13&nights=1&rooms=[{\"adults\":2,\"children\":[],\"kidsAge\":[]}]&utm_source=GoogleHC&utm_medium=paid&utm_campaign=&utm_content=mapresults&utm_term=2287813&ghv=1"
+    },
+    {
+      "title": "Bluepillow.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Oswo4KFyScxE3rgwCMfr_XGzUwrE4ZrjZEBmHVYBkmb1XRhH1SGay1EfCfRNWAtrKGmYugFrqc_jlLPDAZ-to6FjcovEIoULF0v-AKgqTZD2uEd-lPABQ0MOcT1hd5fNScch&pcurl=https://www.bluepillow.com/search/648084fe1f174c21709f4ac5?begin%3D2025-10-12%26end%3D2025-10-13%26block_id%3D-b,bAQg9JQZF9nAQ415FAxtC9v2OHEzAx1cqe_Vh-c6GFgcIaQNdUSDa7-8O_yYajlZ,-bpctrip-Hotel%26adults%3D2%26childs%3D0%26infants%3D0%26childrens%3D0%26country%3DUS%26currency%3DUSD%26language%3Dro%26source%3Dmapresults%26utm_campaign%3Dhotel%26prid%3Dmember&s=AD1XQnlh-KOrPfosk7colDOsQFG7",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://www.bluepillow.com/search/648084fe1f174c21709f4ac5?begin=2025-10-12&end=2025-10-13&block_id=-b,bAQg9JQZF9nAQ415FAxtC9v2OHEzAx1cqe_Vh-c6GFgcIaQNdUSDa7-8O_yYajlZ,-bpctrip-Hotel&adults=2&childs=0&infants=0&childrens=0&country=US&currency=USD&language=ro&source=mapresults&utm_campaign=hotel&prid=member"
+    },
+    {
+      "title": "goseek.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszPuvSl-9u5ttoUR9tz4fYBjAOx88pJzo5w_WNp4cDh8j848s1LfH1T5KvXM5sfA89kBjjXpGSTlBIsUyfKaeoDOtS-xiX0oaMtneKcRHXa9mj28VRb50HLc1smrQS4v6ZBptDzGhZD&pcurl=https://deals.goseek.com/?sig%3D34c47a49c3e8320dca5a5dda0da2a460c1bc23afde972e2894a4ff0b6052fb53383131303836353931%26turl%3Dhttps%253A%252F%252Fwww.goseek.com%252FHotel%252FSearch%253FcheckIn%253D2025-10-12%2526checkOut%253D2025-10-13%2526curr%253DUSD%2526forceCurrencyChange%253D1%2526lang%253Dro%2526forceLanguageChange%253D1%2526rooms%253D2%253A%2526utm_source%253Dgha%2526utm_medium%253Dcpc%2526hotelId%253D1162448%2526userCountry%253DUS%2526profile%253Dr2d2m73kn8%2526preferredRate%253D142.54%2526label%253Dsrc%25253Dgha%252526cltype%25253Dhotel%252526datype%25253Ddefault%252526gsite%25253Dmapresults%252526vf%25253D0%252526ucountry%25253DUS%252526udevice%25253Ddesktop%252526hotel%25253D1162448%252526day%25253D12%252526month%25253D10%252526year%25253D2025%252526los%25253D1%252526price%25253D142.54%252526currency%25253DUSD%252526cid%25253D%252526listid%25253D%252526rateid%25253DUS%252526closerateid%25253D%252526promo%25253D0%252526isPrivateRate%25253D0%252526isAudienceUser%25253D0%252526isPaidClick%25253D0%252526%2526cp%253DGVyuk4c4nJoCgt5TUpGVGh6dy0tTRjr0tfEBiACOLm-9_EKQhYIncr71rbirKfsARCqZCCECyoDVVNE&s=AD1XQnlJbQSW80ehmBKkf7ZlR0bp",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://deals.goseek.com/?sig=34c47a49c3e8320dca5a5dda0da2a460c1bc23afde972e2894a4ff0b6052fb53383131303836353931&turl=https://www.goseek.com/Hotel/Search?checkIn=2025-10-12&checkOut=2025-10-13&curr=USD&forceCurrencyChange=1&lang=ro&forceLanguageChange=1&rooms=2:&utm_source=gha&utm_medium=cpc&hotelId=1162448&userCountry=US&profile=r2d2m73kn8&preferredRate=142.54&label=src%3Dgha%26cltype%3Dhotel%26datype%3Ddefault%26gsite%3Dmapresults%26vf%3D0%26ucountry%3DUS%26udevice%3Ddesktop%26hotel%3D1162448%26day%3D12%26month%3D10%26year%3D2025%26los%3D1%26price%3D142.54%26currency%3DUSD%26cid%3D%26listid%3D%26rateid%3DUS%26closerateid%3D%26promo%3D0%26isPrivateRate%3D0%26isAudienceUser%3D0%26isPaidClick%3D0%26&cp=GVyuk4c4nJoCgt5TUpGVGh6dy0tTRjr0tfEBiACOLm-9_EKQhYIncr71rbirKfsARCqZCCECyoDVVNE"
+    },
+    {
+      "title": "Closest Hotel",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osx-Gu-3v7TfCUGKFnpF0L_bZbZruAE45W29wAwxB6bPbVgtGgSzcDhftbQOWScIP2j7THO9fbuOoAhRryHqPvviDN3_Kdkff3Mi4EU78pmD6jG-GJVORRhi1BcfCM8xYYKJfrtKw1ljFJAvE_UkYQcVH33jCN0&pcurl=https://closesthotel.com/googleRedirMainSearch.php?checkInYear%3D2025%26checkInMonth%3D10%26checkInDay%3D12%26checkOutYear%3D2025%26checkOutMonth%3D10%26checkOutDay%3D13%26numberOfNights%3D1%26numberOfAdults%3D2%26numberOfChildren%3D0%26numberOfGuests%3D2%26hotelID%3D2665121%26roomID%3D391253%26currency%3DUSD%26deviceType%3Ddesktop&s=AD1XQnksw-z1bZS8Ar3ajRKJunJu",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://closesthotel.com/googleRedirMainSearch.php?checkInYear=2025&checkInMonth=10&checkInDay=12&checkOutYear=2025&checkOutMonth=10&checkOutDay=13&numberOfNights=1&numberOfAdults=2&numberOfChildren=0&numberOfGuests=2&hotelID=2665121&roomID=391253&currency=USD&deviceType=desktop"
+    },
+    {
+      "title": "Wego",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsyhDatyPwApaQpHphP3L366iHn6KX763SFArjagOGPq2pYaEesEgs0Xy8K_5aMspRg_aMXP7-lriB1TwQzuUEjva_qfk7n-x6MimfnLJXbpWnR7Tlth_C1S_dYy&pcurl=https://www.wego.com/hotels-handoff/searches/82074/2025-10-12/2025-10-13/249250?guests%3D2%26wego_hotel_id%3D249250%26bow_only%3Dtrue%26ts_code%3D2f2fc%26wg_source%3Dmeta_distribution%26wg_medium%3Dgha%26wg_campaign%3Dfbl%26wego_currency%3DUSD%26ulang%3Dro%26wego_price%3DVVNEOjE0NC44Nzo0ZGJkMmZlYzQ5MTY3Yjk4YTM4NjIxN2QxYjEzYjAyZmRjYWE3MTE0NTViYWFmMmU2ZmNlZmU3YTg0Y2EwYWM4OmJvb2duaWs2OXFzYToxNzU0NjU0NjEwOkQ6VVM6MzVjOWRhM2Q0NmMzNGUxMzoyOjA6dHJ1ZQ%253D%253D%26provider%3DaG90ZWxzLndlZ28uY29t&s=AD1XQnkWpTI47kRcB3BHNp3Uoaml",
+      "isOfficialSite": false,
+      "price": "145 USD",
+      "url": "https://www.wego.com/hotels-handoff/searches/82074/2025-10-12/2025-10-13/249250?guests=2&wego_hotel_id=249250&bow_only=true&ts_code=2f2fc&wg_source=meta_distribution&wg_medium=gha&wg_campaign=fbl&wego_currency=USD&ulang=ro&wego_price=VVNEOjE0NC44Nzo0ZGJkMmZlYzQ5MTY3Yjk4YTM4NjIxN2QxYjEzYjAyZmRjYWE3MTE0NTViYWFmMmU2ZmNlZmU3YTg0Y2EwYWM4OmJvb2duaWs2OXFzYToxNzU0NjU0NjEwOkQ6VVM6MzVjOWRhM2Q0NmMzNGUxMzoyOjA6dHJ1ZQ==&provider=aG90ZWxzLndlZ28uY29t"
+    },
+    {
+      "title": "LateRooms.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osy2_2D0tpfO9qOQUcmdUorkzwVxfzF-VzYaTKqyiWki2QCtCdA_hEtFX1LlRJg0BIlCyFGQ4v5fEOwUwXIpGU2eHo_x8nDxN0C6ZoIboVlO1T0mwrDlsc714pgYsHhovglp1tGFlRzKm2ssWA&pcurl=https://www.laterooms.com/en-us/hotel/2287813?ppc%3Dtrue%26isHotel%3Dtrue%26checkin%3D2025-10-12%26checkout%3D2025-10-13%26nights%3D1%26rooms%3D%255B%257B%2522adults%2522:2,%2522children%2522:%255B%255D,%2522kidsAge%2522:%255B%255D%257D%255D%26utm_source%3DGoogleHC%26utm_medium%3Dpaid%26utm_campaign%3D%26utm_content%3Dmapresults%26utm_term%3D2287813%26pv%3D&s=AD1XQnk_AUI5jSHqML9ix-Fd6D0k",
+      "isOfficialSite": false,
+      "price": "144 USD",
+      "url": "https://www.laterooms.com/en-us/hotel/2287813?ppc=true&isHotel=true&checkin=2025-10-12&checkout=2025-10-13&nights=1&rooms=[{\"adults\":2,\"children\":[],\"kidsAge\":[]}]&utm_source=GoogleHC&utm_medium=paid&utm_campaign=&utm_content=mapresults&utm_term=2287813&pv="
+    },
+    {
+      "title": "Reservation Day",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxWnmT0BGy7ikpPpv-88Qa-8a3TOjGid_YfnTF16xpo2zkE2CaiLnfnaeWEGx5a0yL9oFpulKCDjWHEMIakL0XtUTSKyWobOiwc6QNsTkxerH3HBM8194N8R89FtTgGzy2vJrTyCrKsAinZaGNU7jU&pcurl=https://www.reservationday.com/transition/?data%3Dprice%3D147.16%2526total_price%3D155.98%2526retail_price%3D147.16%2526retail_total_price%3D155.98%2526request_id%3Db63c317a-0bca-4302-bd5c-ea053f6470f9%2526ps%3D73774358001493850%2526pp%3DDcW5TbvPrJ2VyIAXVJx8JQ%2526pb%3Dtvu7WN8rNN3lbmI6mdfrvmEVB-JAbSf2imItId3vRlmKfW_LHB_uH2IGNtcU3xsr2q75n44eFzLkyGDaqQF4uWXQrsIcpDuFtyTc2cpvTZl8E2b81-YtSsmxhp6nEacGp19ANtrVIpd9L5iEcLW7EEsJIiv-31q-iWe0qaNQt9wywCjH8E6m8u3pfl6QmdtN2lt_cWFzqPvlC2IbLCOzJe8va2N6iFwZCZXI9dmYmAFsRazkDu4wf11DhbhA9Rfw%2526gha_rd_pull_request%3DTrue%2526rtp%3DSdTUqdR7wIew8aRS9esAtw%25253D%25253D%2526risk_lk_1%3Dfalse%2526alwd_risk%3Dfalse%2526alwd_rand%3Dfalse%2526gt%3D1754654877%2526sg%3DFgYx5%2526ttl_bkt%3Dnone%26utm_source%3Dgha_rd%26utm_content%3Dmapresults%26currency%3DUSD%26user_country%3DUS%26verification%3Dfalse%26rate_rule_ids%3D%26date_type%3Ddefault%26rate_rule_id%3Dsignedout_desktop%26display_currency%3DUSD%26display_all_inclusive_price%3D155.98%26checkin_at%3D2025-10-12%26checkout_at%3D2025-10-13%26provider_hotel_id%3D10004462071%26provider%3Dean%26num_adults%3D2%26children%3D%5B%5D%26hotel_campaign%3D%26user_locale%3Dro-US%26user_list_id%3D%26utm_medium%3Dorganic%26utm_id%3Dgha_organic_rd&s=AD1XQnkZ5Pc-OmyLBI3y_PjaBqa-",
+      "isOfficialSite": false,
+      "price": "156 USD",
+      "url": "https://www.reservationday.com/transition/?data=price=147.16&total_price=155.98&retail_price=147.16&retail_total_price=155.98&request_id=b63c317a-0bca-4302-bd5c-ea053f6470f9&ps=73774358001493850&pp=DcW5TbvPrJ2VyIAXVJx8JQ&pb=tvu7WN8rNN3lbmI6mdfrvmEVB-JAbSf2imItId3vRlmKfW_LHB_uH2IGNtcU3xsr2q75n44eFzLkyGDaqQF4uWXQrsIcpDuFtyTc2cpvTZl8E2b81-YtSsmxhp6nEacGp19ANtrVIpd9L5iEcLW7EEsJIiv-31q-iWe0qaNQt9wywCjH8E6m8u3pfl6QmdtN2lt_cWFzqPvlC2IbLCOzJe8va2N6iFwZCZXI9dmYmAFsRazkDu4wf11DhbhA9Rfw&gha_rd_pull_request=True&rtp=SdTUqdR7wIew8aRS9esAtw%3D%3D&risk_lk_1=false&alwd_risk=false&alwd_rand=false&gt=1754654877&sg=FgYx5&ttl_bkt=none&utm_source=gha_rd&utm_content=mapresults&currency=USD&user_country=US&verification=false&rate_rule_ids=&date_type=default&rate_rule_id=signedout_desktop&display_currency=USD&display_all_inclusive_price=155.98&checkin_at=2025-10-12&checkout_at=2025-10-13&provider_hotel_id=10004462071&provider=ean&num_adults=2&children=[]&hotel_campaign=&user_locale=ro-US&user_list_id=&utm_medium=organic&utm_id=gha_organic_rd"
+    },
+    {
+      "title": "eDreams",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswAqfd6BczRNacOUtxCEXNYHF-IpQhR1lXtV2ED-eidLkZqUZ2E7Drg9QQf8Gy0WAF_nkT_-OF1WxhtaJlYKAgNlnEytbv-prFZTv8ezAjd_jZBdN49s5kfwgyiA6k&pcurl=https://accommodation.edreams.net/Hotel-Search?selected%3D2665121%26startDate%3D2025-10-12%26endDate%3D2025-10-13%26adults%3D2%26children%3D%26mpf%3D143.04%26cur%3DUSD%26mpj%3D14.18%26wapb3%3D%7Cc.506950%7Cl.en_US%7Ct.meta%7Cs.ghs%26MDPCID%3DeDreams-US.DPS.Edreams.MetaSearch-GHA.HOTEL%26mpl%3DUSD%26numberOfRooms%3D1%26locale%3Den_US%26rffrid%3Dh4p.hcom.US.ghaodigeo.000.000.kwrd%3D%26pos%3DEDREAMS_US%26rateplanid%3D224086256%26mctc%3D10%26utm_medium%3Dmetasearch%26utm_campaign%3D313228%26utm_term%3Dhotel%26utm_source%3DFREEBOOKING&s=AD1XQnnCKtrC1Tsc5PELdvwUYwL6",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://accommodation.edreams.net/Hotel-Search?selected=2665121&startDate=2025-10-12&endDate=2025-10-13&adults=2&children=&mpf=143.04&cur=USD&mpj=14.18&wapb3=|c.506950|l.en_US|t.meta|s.ghs&MDPCID=eDreams-US.DPS.Edreams.MetaSearch-GHA.HOTEL&mpl=USD&numberOfRooms=1&locale=en_US&rffrid=h4p.hcom.US.ghaodigeo.000.000.kwrd=&pos=EDREAMS_US&rateplanid=224086256&mctc=10&utm_medium=metasearch&utm_campaign=313228&utm_term=hotel&utm_source=FREEBOOKING"
+    },
+    {
+      "title": "HomeToGo",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsyUTMYiMvkGOuEhhKKURWpIQ7IAccmDb3Tb8lHzz1t24FNNIHQhwkfMbHfT1HaOBIiS3gxkBKiGUfJ14h7P8tCrlR63Fb-DPJ3Wtr8AYymI4K90USN1FSlE90AhLZdWow&pcurl=https://www.hometogo.com/search/53c1940994e9d?arrival%3D2025-10-12%26duration%3D1%26id%3Dze14bfe7945152290%2540f%2540s%26adults%3D2%26tpp%3Drszcxhfq.6893656a%26adword%3Dghf/us/ze14bfe7945152290/ct%3Dhs/n-a/n-a/53c1940994e9d%26utm_source%3Dghf%26hl%3Dro_US%26ghf_acc%3Dhtg_ghf%26c%3DUSD%26type%5B%5D%3Dhotel%26gValidation%3Dfalse%26gSite%3Dmapresults&s=AD1XQnlYE8q-P93zRc2NCRKs8sSi",
+      "isOfficialSite": false,
+      "price": "142 USD",
+      "url": "https://www.hometogo.com/search/53c1940994e9d?arrival=2025-10-12&duration=1&id=ze14bfe7945152290@f@s&adults=2&tpp=rszcxhfq.6893656a&adword=ghf/us/ze14bfe7945152290/ct=hs/n-a/n-a/53c1940994e9d&utm_source=ghf&hl=ro_US&ghf_acc=htg_ghf&c=USD&type[]=hotel&gValidation=false&gSite=mapresults"
+    },
+    {
+      "title": "Billabook.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osx1J3GY4-5B44Dhe9SDgJgW4wGdTavsuv7F1TWa5m0JBkxX341PE0lh_zWFM9hPULuyTikHx0-M_yvCuAOJVBfFN-9GPzzsJQTHRCTcoJwA0OLoIYLwoSqmKlzGsN8pv9I&pcurl=https://www.billabook.com/hotel/60251?a%3D32495%26in%3D2025-10-12%26out%3D2025-10-13%26occ%3D%5B%5B30,30%5D%5D%26user_curr%3DUSD%26quote_id%3D01988989-c479-74d2-8566-5c88287cab8b%26source%3Dfree-links%26campaign%3D%26user_country%3DUS%26query_type%3Dpcn%26device%3Ddesktop%26lang%3Dro%26adults%3D2%26children%3D0%26&s=AD1XQnkHwNMme20Q4ZUEbTemIItl",
+      "isOfficialSite": false,
+      "price": "153 USD",
+      "url": "https://www.billabook.com/hotel/60251?a=32495&in=2025-10-12&out=2025-10-13&occ=[[30,30]]&user_curr=USD&quote_id=01988989-c479-74d2-8566-5c88287cab8b&source=free-links&campaign=&user_country=US&query_type=pcn&device=desktop&lang=ro&adults=2&children=0&"
+    },
+    {
+      "title": "hutchgo (Hutchison Travel Limited)",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsyHpCp_CEoKM--zi-vlYdbxSanAmNAagrHHhtevj6lF7SJZoUmGlPa8lgFxBfZGQcYd5riCvfmt-QJFlhwBfwdnV30jtuapfztWAlekcYA6I3ky7T-Jic9Hrd3aXmTsZD9DVLHSsWjuAYEZawqrNZc&pcurl=https://www.hutchgo.com/affiliate/r.aspx?region%3DCA%26lang_id%3D1%26product%3DRH%26currency%3DUSD%26check_in%3D12/10/2025%26check_out%3D13/10/2025%26affiliate_id%3D210034%26banner_id%3D860018%26u_id%3D%26room%3D2_0_0%26searchtype%3DHOTEL%26code%3D1633063%26tid%3D99d5602a-5890-41b4-b0c9-87e8fd9edf03&s=AD1XQnmJOLQPFDStUMw8nK8tAKyD",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://www.hutchgo.com/affiliate/r.aspx?region=CA&lang_id=1&product=RH&currency=USD&check_in=12/10/2025&check_out=13/10/2025&affiliate_id=210034&banner_id=860018&u_id=&room=2_0_0&searchtype=HOTEL&code=1633063&tid=99d5602a-5890-41b4-b0c9-87e8fd9edf03"
+    },
+    {
+      "title": "Wego Marketplace",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswAJnK0wxLmOaV-kn_5E6uocppf_U6UUUmL57E5mpaKUDXVRZSPwvqh3YipayIvksI5I4ZyDELcqCy61Yhe3E4Ajs-F6LJoAGGNwX7dowHW1u1w_R4AGEkPtdy9iDqxqyIibDL3kYimn78tdg&pcurl=https://www.wego.com/hotels/searches/82074/2025-10-12/2025-10-13/249250?guests%3D2%26wego_hotel_id%3D249250%26ts_code%3D2f2fc%26wg_source%3Dmeta_distribution%26wg_medium%3Dgha%26wg_campaign%3Dmma%26ulang%3Dro%26wego_currency%3DUSD%26gh_params%3DeyJzaWQiOiJEdFhYVF9reVFRSSIsImhpZCI6MjQ5MjUwLCJjYyI6IlVTRCIsImEiOjEyOC41OSwidGEiOjE0LjE1LCJvZiI6MC4wMCwidHMiOiIyMDI1LTA4LTA3VDIwOjQ2OjEyIn0%3D%26provider%3DYWdvZGEuY29t%26provider_codes%3Dagoda.com&s=AD1XQnmyiUByTEsXqUxCo1bh71RV",
+      "isOfficialSite": false,
+      "price": "143 USD",
+      "url": "https://www.wego.com/hotels/searches/82074/2025-10-12/2025-10-13/249250?guests=2&wego_hotel_id=249250&ts_code=2f2fc&wg_source=meta_distribution&wg_medium=gha&wg_campaign=mma&ulang=ro&wego_currency=USD&gh_params=eyJzaWQiOiJEdFhYVF9reVFRSSIsImhpZCI6MjQ5MjUwLCJjYyI6IlVTRCIsImEiOjEyOC41OSwidGEiOjE0LjE1LCJvZiI6MC4wMCwidHMiOiIyMDI1LTA4LTA3VDIwOjQ2OjEyIn0=&provider=YWdvZGEuY29t&provider_codes=agoda.com"
+    }
+  ],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [
+    {
+      "title": "Mâncare și băutură",
+      "count": 1
+    },
+    {
+      "title": "Servicii",
+      "count": 1
+    },
+    {
+      "title": "Sănătate și frumusețe",
+      "count": 1
+    },
+    {
+      "title": "Altele",
+      "count": 1
+    }
+  ],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Clientelă": [
+      {
+        "Potrivit pentru comunitatea LGBTQ+": true
+      }
+    ],
+    "Amenities": [
+      {
+        "Wi-Fi cu plată": true
+      },
+      {
+        "Mic dejun cu plată": true
+      },
+      {
+        "Parcare cu plată": true
+      },
+      {
+        "Acces persoane dizabilități": true
+      },
+      {
+        "Piscină interioară": true
+      },
+      {
+        "Aer condiționat": true
+      },
+      {
+        "Serviciu de spălătorie": true
+      },
+      {
+        "Centru de afaceri": true
+      },
+      {
+        "Adecvat pt. animale": false
+      },
+      {
+        "Room service": true
+      },
+      {
+        "Adecvat pentru copii": true
+      },
+      {
+        "Restaurant": true
+      },
+      {
+        "Transfer de la aeroport": false
+      },
+      {
+        "Jacuzzi": true
+      },
+      {
+        "Spa": true
+      },
+      {
+        "Centru de fitness": true
+      },
+      {
+        "Bar": true
+      },
+      {
+        "Nu se fumează": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Hilton%20Sibiu&query_place_id=ChIJg4MkbJhnTEcRZ27lTT-HXCU",
+  "searchPageUrl": "https://www.google.com/maps/search/hotels/@45.71170756366123,24.084930956814183,14z?hl=ro",
+  "searchString": "hotels",
+  "language": "ro",
+  "rank": 8,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipO0l17Ymh3HhpJ5dHfZYEqGde5nntAlasRXaFNl=w426-h240-k-no",
+  "kgmid": "/g/1tlgwr87",
+  "subTitle": null,
+  "locatedIn": null,
+  "plusCode": "Q46G+5Q Sibiu, România",
+  "menu": null,
+  "reviewsDistribution": {
+    "oneStar": 81,
+    "twoStar": 48,
+    "threeStar": 149,
+    "fourStar": 443,
+    "fiveStar": 1775
+  },
+  "reserveTableUrl": null,
+  "similarHotelsNearby": [
+    {
+      "name": "Dumbrava Residence",
+      "rating": 4.8,
+      "reviews": 167,
+      "description": "Gratuite: Wi-Fi și parcare",
+      "price": "114 USD"
+    },
+    {
+      "name": "Best Western Silva",
+      "rating": 4.5,
+      "reviews": 959,
+      "description": "Gratuite: mic dejun, Wi-Fi și parcare",
+      "price": "91 USD"
+    },
+    {
+      "name": "Mercure Sibiu Arsenal",
+      "rating": 4.6,
+      "reviews": 466,
+      "description": "Gratuite: Wi-Fi și parcare",
+      "price": "149 USD"
+    },
+    {
+      "name": "Mary Apartment",
+      "rating": 5,
+      "reviews": 28,
+      "description": "Evaluare mai bună de la oaspeți",
+      "price": null
+    },
+    {
+      "name": "Celeste House",
+      "rating": 5,
+      "reviews": 25,
+      "description": "Evaluare mai bună de la oaspeți",
+      "price": null
+    },
+    {
+      "name": "Green Day 17",
+      "rating": 3.6,
+      "reviews": 12,
+      "description": null,
+      "price": null
+    }
+  ],
+  "hotelReviewSummary": null,
+  "additionalOpeningHours": null,
+  "openingHoursBusinessConfirmationText": null,
+  "questionsAndAnswers": [
+    {
+      "question": "(Translated by Google) Do only those staying at the hotel have access to the pool or those not staying? \n\n(Original)\nAcces la piscina au doar cei cazați la hotel sau si cei necazati? ",
+      "answers": [
+        {
+          "answer": "(Translated by Google) And those who are worried, but better ask at the reception\n\n(Original)\nȘi cei necazati dar mai bine întrebați la recepție",
+          "answerDate": "3 years ago",
+          "answeredBy": {
+            "name": "Bogdan Albu",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocL2yCYO0STyA7PV1Pi-XKPSzKwqV_1clo83tc6-tXp83wx1xA=s120-c-rp-mo-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) It can be done for a fee \n\n(Original)\nSe poate contra cost ",
+          "answerDate": "3 years ago",
+          "answeredBy": {
+            "name": "Florin Dimache",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocIiLskiItpXtxc1mFUxm6oDnUH1WJ4aj1ySD2KLLE4I-5XX8Q=s120-c-rp-mo-ba6-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) As if 90 lei was the entrance for those who are not staying in the Hilton.\n\n(Original)\nParcă 90 lei era intrarea pentru cei care nu sunt cazați în Hilton.",
+          "answerDate": "3 years ago",
+          "answeredBy": {
+            "name": "Eugen S",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocKd-Z3lgndl0ibeDFtTJC7UGQADyArgByxdeG5jHr1eYcoYJA=s120-c-rp-mo-ba5-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) It can be done for a fee \n\n(Original)\nSe poate contra cost ",
+          "answerDate": "3 years ago",
+          "answeredBy": {
+            "name": "Ionut Sarosi",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjV9z0tbn0cPZdScCKHsNgzp2Yb2r3o5wzXtUDqUsjuyGBBk5CLt=s120-c-rp-mo-ba4-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) I'm sorry, but I can give you details about the pool!\n\n(Original)\nImi pare rau dar va pot da detalii legate de piscina!",
+          "answerDate": "3 years ago",
+          "answeredBy": {
+            "name": "Aurel Faur",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWo4Uiy8yQhSbjgRpJmS3Mj_eZxn-vgZdrydmkgtHeIoY44yBYC4w=s120-c-rp-mo-ba6-br100"
+          }
+        }
+      ],
+      "askDate": "3 years ago",
+      "askedBy": {
+        "name": "Lidia Lidia",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocKGdb-iWHr8ddMo2J9DFkJ-okgOn9Yx-Y4xwGuGN_GlaXbjIYBm=s120-c-rp-mo-ba2-br100"
+      }
+    },
+    {
+      "question": "Dear Sir Maam !\n I am from Nepal . I want to be join in your hotel hilton Romania but if you have any opportunity ...?",
+      "answers": [
+        {
+          "answer": "Super...",
+          "answerDate": "4 years ago",
+          "answeredBy": {
+            "name": "Constantin Zaharia",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWb7UI2qvYqYvCnQBOSSEP57P-jmzOB92CmFFcW60msaBhW5ROq=s120-c-rp-mo-br100"
+          }
+        }
+      ],
+      "askDate": "6 years ago",
+      "askedBy": {
+        "name": "Ram Singh Gurung",
+        "url": "https://lh3.googleusercontent.com/a-/ALV-UjUiWbybP1irk21nYWVGEP3UxMEXxZu-KDWTbxtem2x5TfLCHcM=s120-c-rp-mo-br100"
+      }
+    }
+  ],
+  "updatesFromCustomers": null,
+  "userPlaceNote": null,
+  "webResults": [],
+  "tableReservationLinks": [],
+  "bookingLinks": [],
+  "orderBy": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [
+    {
+      "text": "Your Dream Escape Awaits at Hilton Sibiu! 🤩\r\n\r\nDiscover unparalleled comfort and hospitality at Hilton Sibiu. Nestled near the stunning Carpathian Mountains and the charming city center, our hotel offers the perfect blend of relaxation and adventure.\r\n\r\nIndulge in exquisite dining, unwind at our spa, or explore Sibiu's rich history and vibrant culture. \r\n\r\nWe're ready to make your stay unforgettable. ⬇️",
+      "buttonText": "Rezervă",
+      "buttonLink": "https://www.hilton.com/en/hotels/sbzhihi-hilton-sibiu/?SEO_id=GMB-EMEA-HI-SBZHIHI",
+      "date": "2025-07-16T12:38:31.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/geougc/AF1QipPnQ3ZSsfwXjds_n8LRagybBXg5Eb-gW8aYs4WN=h400-no"
+    },
+    {
+      "text": "Have a warm and cozy stay at Hilton Sibiu. ✨\r\n\r\nStay in one of our exemplary rooms where comfort meets flawless service and first-class amenities. Experience the renowned hospitality of Hilton and start your day with a hot cup of coffee while planning what to visit next.\r\n\r\nBook your comfortable stay with us! ⬇️",
+      "buttonText": "Rezervă",
+      "buttonLink": "https://www.hilton.com/en/hotels/sbzhihi-hilton-sibiu/rooms/?SEO_id=GMB-EMEA-HI-SBZHIHI",
+      "date": "2025-06-09T12:42:47.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/geougc/AF1QipNY1e4RoB-_8AtArmD1Gy9hXKFf5ga9Iuc5yd1A=h400-no"
+    },
+    {
+      "text": "Something borrowed, something blue… and a dream venue waiting for you at Hilton Sibiu. 💙\r\n\r\nFrom the elegant setting to every behind-the-scenes detail, we take care of it all - so you can fully enjoy every unforgettable moment. \r\n\r\nSay “I do” in a place as extraordinary as your love, and celebrate with a stay that makes your day even more special. 💍\r\n\r\nBook your stay at our 5-star hotel in Romania and start your forever with us. ⬇️",
+      "buttonText": "Rezervă",
+      "buttonLink": "https://www.hilton.com/en/hotels/sbzhihi-hilton-sibiu/events/?SEO_id=GMB-EMEA-HI-SBZHIHI",
+      "date": "2025-05-16T12:39:43.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/geougc/AF1QipOAwQcaCjLiPy1rerELYoU_rAlXJDUAnhvexecH=h400-no"
+    },
+    {
+      "text": "Hilton’s Simia Sour – fresh, zesty, unforgettable! 🍸\r\n\r\nA delightful mix of Monkey 47 Gin, fresh basil, lemon juice, cranberry juice, and sparkling water, this cocktail is crafted for those who appreciate bold flavours with a refreshing twist. 🍋🍃\r\n\r\nAvailable daily from 2 PM to midnight at our English Bar ✨\r\n\r\nBook your stay at our hotel in Sibiu and enjoy a memorable stay! ⬇️",
+      "buttonText": "Rezervă",
+      "buttonLink": "https://www.hilton.com/en/hotels/sbzhihi-hilton-sibiu/dining/?SEO_id=GMB-EMEA-HI-SBZHIHI",
+      "date": "2025-04-08T12:51:06.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/geougc/AF1QipN-mTJw7WUiy2h3ztjFpRZnpzrx5Ts5axfDhpor=h400-no"
+    },
+    {
+      "text": "Aprilie – luna în care natura renaște și scrie poezii. 🖊️\r\n\r\nSimte energia primăverii și lasă-te inspirat de frumusețea Sibiului!\r\n\r\nTe așteptăm la Hilton Sibiu, în inima Pădurii Dumbrava, pentru un sejur relaxant și o incursiune în bogatul patrimoniu cultural al orașului. 🏰",
+      "buttonText": "Apelează acum",
+      "buttonLink": null,
+      "date": "2025-04-04T10:43:47.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/geougc/AF1QipMjQh7UZXRftNvpqzClICKx-wAcmcZP3qASWxPk=h400-no"
+    },
+    {
+      "text": "Your February mornings are made sweeter. 💗\r\n\r\nA cozy breakfast in bed, the perfect way to celebrate the month of love. ☕🥐\r\n\r\nMoments of indulgence await you and your special someone. 💫\r\n\r\nBook your dream stay at our 5-star hotel in Romania now! ⬇️",
+      "buttonText": "Rezervă",
+      "buttonLink": "https://www.hilton.com/en/hotels/sbzhihi-hilton-sibiu/?SEO_id=GMB-EMEA-HI-SBZHIHI",
+      "date": "2025-02-14T14:53:44.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/geougc/AF1QipNoNmv6Zok3uFmz7T77e7ZxjgoScGxRF4Js0sPM=h400-no"
+    }
+  ],
+  "imageUrls": [],
+  "images": null,
+  "reviews": [
+    {
+      "reviewerId": "116060592858122298237",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116060592858122298237?hl=ro",
+      "name": "Kindy S",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXIY16jmTJtIAE6edGzmcPFbEt_dWB_kv1Ueq94FLQ9QW05KUY=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "acum 3 zile",
+      "publishedAtDate": "2025-08-05T10:23:49.143Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pKMk9IaEVObWRhWm5Gak5FcFFRVXRmWkd4eFlVRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pKMk9IaEVObWRhWm5Gak5FcFFRVXRmWkd4eFlVRRAB!2m1!1s0x0:0x255c873f4de56e67!3m1!1s2@1:CAIQACodChtycF9oOjJ2OHhENmdaZnFjNEpQQUtfZGxxYUE%7C0cZSip7Zzja%7C?hl=ro",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2025-08-06T06:49:51.000Z",
+      "responseFromOwnerText": "We love to see good ratings! Thank you from all of us at the hotel!\n\nKind Regards,\nHilton Sibiu",
+      "reviewImageUrls": [],
+      "reviewContext": {
+        "Tipul călătoriei": "Afaceri",
+        "Grup de călătorie": "Singur"
+      },
+      "reviewDetailedRating": {
+        "Camere": 5,
+        "Servire": 5,
+        "Locație": 4
+      },
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108840687590952259205",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108840687590952259205?hl=ro",
+      "name": "George Studencu",
+      "reviewerNumberOfReviews": 24,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLnJ12fZLcB6MbZhR7ULTee-nu9uJneSJsd8bGep4riE6FQsg=s1920-c-rp-mo-ba4-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "acum 3 zile",
+      "publishedAtDate": "2025-08-05T09:24:36.973Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2t4cVdURlhaWFJPZEhKSFVGbGthMFpOWTA1NFZuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t4cVdURlhaWFJPZEhKSFVGbGthMFpOWTA1NFZuYxAB!2m1!1s0x0:0x255c873f4de56e67!3m1!1s2@1:CAIQACodChtycF9oOkxqWTFXZXROdHJHUFlka0ZNY054Vnc%7C0cZRrJu0WCi%7C?hl=ro",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": "2025-08-06T08:04:32.000Z",
+      "responseFromOwnerText": "We are happy to see your great 4* rating! Thanks for allowing us to be a part of your wonderful, memorable experience. We look forward to seeing you again in the near future.\n\nKind Regards,\nHilton Sibiu",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "105518894908507812652",
+      "reviewerUrl": "https://www.google.com/maps/contrib/105518894908507812652?hl=ro",
+      "name": "Cosmin Cristea",
+      "reviewerNumberOfReviews": 16,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKHhKX0K8jU_YMS35ByvPVXtn6h74yKU_1sXvT26iTPTgg7mw=s1920-c-rp-mo-ba2-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "acum 3 zile",
+      "publishedAtDate": "2025-08-05T09:17:28.841Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tKQ1dISTJZa1kxVmxkMGNGQm9RbDk0VlVGbFJYYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tKQ1dISTJZa1kxVmxkMGNGQm9RbDk0VlVGbFJYYxAB!2m1!1s0x0:0x255c873f4de56e67!3m1!1s2@1:CAIQACodChtycF9oOkJCWHI2YkY1Vld0cFBoQl94VUFlRXc%7C0cZRkcm7J9k%7C?hl=ro",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2025-08-06T07:35:17.000Z",
+      "responseFromOwnerText": "Thanks for the awesome 5* rating! We are thrilled that you enjoyed your stay with us.\n\nKind Regards,\nHilton Sibiu",
+      "reviewImageUrls": [],
+      "reviewContext": {
+        "Tipul călătoriei": "Vacanță",
+        "Grup de călătorie": "Cuplu"
+      },
+      "reviewDetailedRating": {
+        "Camere": 5,
+        "Servire": 5,
+        "Locație": 5
+      },
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": []
+}]

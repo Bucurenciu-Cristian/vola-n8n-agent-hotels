@@ -1,0 +1,67 @@
+{
+  "searchStringsArray": {{ $fromAI('searchStringsArray', 'Array of hotel names to search for on Google Maps. Return as JSON array of strings, e.g. ["Hotel Name 1", "Hotel Name 2"]', 'json', []) }},
+  "locationQuery": {{ $fromAI('locationQuery', 'The destination city or area to search in', 'string', '') }},
+  "maxCrawledPlacesPerSearch": {{ $fromAI('maxCrawledPlacesPerSearch', 'Maximum number of places to crawl per search (recommended 20-50 based on search complexity)', 'number', 10) }},
+  "language": {{ $fromAI('language', 'The language to search in', 'string', 'ro') }},
+  "searchMatching": {{ $fromAI('searchMatching', 'Search matching strategy: "all" for comprehensive results, "exact" for precise matches', 'string', 'all') }},
+  "placeMinimumStars": {{ $fromAI('placeMinimumStars', 'Minimum star rating filter based on user budget and quality expectations (empty string for no filter)', 'string', '') }},
+  "website": "allPlaces",
+  "skipClosedPlaces": {{ $fromAI('skipClosedPlaces', 'Whether to skip closed places based on user travel dates', 'boolean', false) }},
+  "scrapePlaceDetailPage": false,
+  "scrapeTableReservationProvider": false,
+  "includeWebResults": false,
+  "scrapeDirectories": false,
+  "maxQuestions": {{ $fromAI('maxQuestions', 'Maximum Q&A to scrape based on user information needs', 'number', 10) }},
+  "scrapeContacts": {{ $fromAI('scrapeContacts', 'Whether to scrape contact information for direct booking potential', 'boolean', false) }},
+  "maximumLeadsEnrichmentRecords": 5,
+  "maxReviews": {{ $fromAI('maxReviews', 'Maximum reviews to analyze per property (10-50 based on thoroughness needed)', 'number', 30) }},
+  "reviewsSort": {{ $fromAI('reviewsSort', 'Review sorting preference: "newest" for recent feedback, "rating" for quality insights, "relevance" for user-specific', 'string', 'newest') }},
+  "reviewsFilterString": {{ $fromAI('reviewsFilterString', 'Filter reviews by traveler type or keywords relevant to user request (e.g. "couple", "family", "business", "romantic")', 'string', '') }},
+  "reviewsOrigin": "google",
+  "scrapeReviewsPersonalData": false,
+  "scrapeImageAuthors": false,
+  "allPlacesNoSearchAction": ""
+}
+
+###
+
+{
+  "locationQuery": {{ $fromAI('locationQuery', 'The destination city or area to search in', 'string', '') }},
+  "maxCrawledPlacesPerSearch": {{ $fromAI('maxCrawledPlacesPerSearch', 'Maximum number of places to crawl per search (recommended 20-50 based on search complexity)', 'number', 10) }},
+  "language": {{ $fromAI('language', 'The language to search in', 'string', 'ro') }},
+  "searchMatching": {{ $fromAI('searchMatching', 'Search matching strategy: "all" for comprehensive results, "exact" for precise matches', 'string', 'all') }},
+  "website": "allPlaces",
+  "skipClosedPlaces": {{ $fromAI('skipClosedPlaces', 'Whether to skip closed places based on user travel dates', 'boolean', false) }},
+  "scrapePlaceDetailPage": false,
+  "scrapeTableReservationProvider": false,
+  "includeWebResults": false,
+  "maxReviews": {{ $fromAI('maxReviews', 'Maximum reviews to analyze per property (10-50 based on thoroughness needed)', 'number', 3) }},
+  "reviewsSort": {{ $fromAI('reviewsSort', 'Review sorting preference: "newest" for recent feedback, "rating" for quality insights, "relevance" for user-specific', 'string', 'newest') }},
+  "reviewsOrigin": "google",
+  "scrapeReviewsPersonalData": false,
+  "scrapeImageAuthors": false
+}
+
+###
+[
+  {
+    "searchStringsArray": [
+      "hotels",
+      "apartments",
+      "guest houses"
+    ],
+    "locationQuery": "Sibiu",
+    "maxCrawledPlacesPerSearch": 50,
+    "language": "ro",
+    "searchMatching": "all",
+    "placeMinimumStars": "4.0",
+    "skipClosedPlaces": true,
+    "maxQuestions": 10,
+    "scrapeContacts": false,
+    "maxReviews": 10,
+    "reviewsSort": "newest",
+    "reviewsFilterString": "family"
+  }
+]
+\
+

@@ -1,0 +1,719 @@
+[{
+  "title": "Ana Airport Hotel",
+  "description": "Hotel fără pretenții, care oferă mic dejun gratuit, plus un restaurant și un bar în hol.",
+  "price": "78 USD",
+  "categoryName": "Hotel",
+  "address": "Șoseaua Alba Iulia 120, Sibiu 550052, România",
+  "neighborhood": null,
+  "street": "Șoseaua Alba Iulia 120",
+  "city": "Sibiu",
+  "postalCode": "550052",
+  "state": null,
+  "countryCode": "RO",
+  "website": "https://all.accor.com/hotel/B478/index.en.shtml",
+  "phone": "+40 269 228 875",
+  "phoneUnformatted": "+40269228875",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 45.793456,
+    "lng": 24.1114034
+  },
+  "totalScore": 4.1,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJGXOFPv9nTEcRIOLTGFQFPOo",
+  "categories": [
+    "Hotel"
+  ],
+  "fid": "0x474c67ff3e857319:0xea3c055418d3e220",
+  "cid": "16878371362229707296",
+  "reviewsCount": 736,
+  "imagesCount": 636,
+  "imageCategories": [
+    "Toate",
+    "Camere",
+    "Videoclipuri",
+    "Exterior",
+    "Dotări",
+    "Mâncăruri/băuturi",
+    "De la vizitatori",
+    "Street View și 360°"
+  ],
+  "scrapedAt": "2025-08-08T13:27:47.727Z",
+  "googleFoodUrl": null,
+  "hotelStars": "Hotel de trei stele",
+  "hotelDescription": "Amplasat lângă drumul european E 68, acest hotel modest se află la 2 km de Aeroportul Internațional Sibiu și la 4 km de Podul Minciunilor din Centrul Istoric.\n Camerele mobilate simplu oferă acces internet, televiziune prin satelit și minifrigidere. Unele oferă în plus balcoane private. Apartamentele au camere de zi separate.\n Beneficiile gratuite constau în parcare și un mic dejun tip bufet, servit într-un restaurant fără pretenții. Există, de asemenea, un bar relaxat în hol, cu masă de biliard și mese pe terasă.",
+  "checkInDate": "2025-08-11",
+  "checkOutDate": "2025-08-12",
+  "hotelAds": [
+    {
+      "title": "eDreams",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsybV0vzeKB2fWmy69puBPNzlfYoApK6w9nSFIQu5Nngu1fq5A4t71yDTAfroCupg234k9Uj6BSUbCqIW0numBR-xY99RJhDHAGkzrvn0xVGx1dbYCxc0JCixzdYAIg&pcurl=https://accommodation.edreams.net/Hotel-Search?selected%3D1461708%26startDate%3D2025-08-11%26endDate%3D2025-08-12%26adults%3D2%26children%3D%26mpf%3D85.21%26cur%3DUSD%26mpj%3D8.45%26wapb3%3D%7Cc.506950%7Cl.en_US%7Ct.meta%7Cs.ghs%26MDPCID%3DeDreams-US.DPS.Edreams.MetaSearch-GHA.HOTEL%26mpl%3DUSD%26numberOfRooms%3D1%26locale%3Den_US%26rffrid%3Dh4p.hcom.US.ghaodigeo.000.000.kwrd%3D%26pos%3DEDREAMS_US%26rateplanid%3D381498458%26mctc%3D10%26utm_medium%3Dmetasearch%26utm_campaign%3D330198%26utm_term%3Dhotel%26utm_source%3DFREEBOOKING&s=AD1XQnnvWgkL5Sx0GZeFkzIFEtXi",
+      "isOfficialSite": false,
+      "price": "85 USD",
+      "url": "https://accommodation.edreams.net/Hotel-Search?selected=1461708&startDate=2025-08-11&endDate=2025-08-12&adults=2&children=&mpf=85.21&cur=USD&mpj=8.45&wapb3=|c.506950|l.en_US|t.meta|s.ghs&MDPCID=eDreams-US.DPS.Edreams.MetaSearch-GHA.HOTEL&mpl=USD&numberOfRooms=1&locale=en_US&rffrid=h4p.hcom.US.ghaodigeo.000.000.kwrd=&pos=EDREAMS_US&rateplanid=381498458&mctc=10&utm_medium=metasearch&utm_campaign=330198&utm_term=hotel&utm_source=FREEBOOKING"
+    }
+  ],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Amenities": [
+      {
+        "Wi-Fi gratuit": true
+      },
+      {
+        "Mic dejun gratuit": true
+      },
+      {
+        "Parcare gratuită": true
+      },
+      {
+        "Piscină": false
+      },
+      {
+        "Aer condiționat": true
+      },
+      {
+        "Serviciu de spălătorie": true
+      },
+      {
+        "Adecvat pentru copii": true
+      },
+      {
+        "Restaurant": true
+      },
+      {
+        "Centru de fitness": false
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Ana%20Airport%20Hotel&query_place_id=ChIJGXOFPv9nTEcRIOLTGFQFPOo",
+  "searchPageUrl": "https://www.google.com/maps/search/hotels/@45.80745747877959,24.084930956814183,14z?hl=ro",
+  "searchString": "hotels",
+  "language": "ro",
+  "rank": 2,
+  "isAdvertisement": false,
+  "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/b0/5f/75/caption.jpg?w=2100&h=1400&s=1",
+  "kgmid": "/g/1tcv06cd",
+  "subTitle": null,
+  "locatedIn": null,
+  "plusCode": "Q4V6+9H Sibiu, România",
+  "menu": null,
+  "reviewsDistribution": {
+    "oneStar": 38,
+    "twoStar": 37,
+    "threeStar": 103,
+    "fourStar": 198,
+    "fiveStar": 360
+  },
+  "reserveTableUrl": null,
+  "similarHotelsNearby": [
+    {
+      "name": "Mercure Hotel Sibiu Airport",
+      "rating": 4,
+      "reviews": 581,
+      "description": "Un hotel de 4 stele la un preț similar",
+      "price": "76 USD"
+    },
+    {
+      "name": "Hotel Eden",
+      "rating": 4.2,
+      "reviews": 327,
+      "description": "Un alt hotel de 3 stele, cu 11 USD mai ieftin",
+      "price": "66 USD"
+    },
+    {
+      "name": "Villa Santa Maria",
+      "rating": 4.7,
+      "reviews": 408,
+      "description": "Evaluare mai bună de la oaspeți",
+      "price": "114 USD"
+    },
+    {
+      "name": "Pensiunea Magnolia",
+      "rating": 4.6,
+      "reviews": 238,
+      "description": "Un alt hotel de 3 stele, cu 24 USD mai ieftin",
+      "price": "53 USD"
+    },
+    {
+      "name": "Gasthof Sara",
+      "rating": 3.6,
+      "reviews": 430,
+      "description": "Un alt hotel de 3 stele, cu 11 USD mai ieftin",
+      "price": "65 USD"
+    },
+    {
+      "name": "Hotel-Restaurant Stefani",
+      "rating": 4.3,
+      "reviews": 891,
+      "description": "Un alt hotel de 3 stele, cu 6 USD mai ieftin",
+      "price": "71 USD"
+    },
+    {
+      "name": "Select",
+      "rating": 4.3,
+      "reviews": 918,
+      "description": "Un alt hotel de 3 stele, cu 5 USD mai ieftin",
+      "price": "72 USD"
+    },
+    {
+      "name": "Casa Lucia",
+      "rating": 4.6,
+      "reviews": 19,
+      "description": "Evaluare mai bună de la oaspeți",
+      "price": "50 USD"
+    },
+    {
+      "name": "Pensiunea Alina",
+      "rating": 4.9,
+      "reviews": 198,
+      "description": "Evaluare mai bună de la oaspeți",
+      "price": null
+    },
+    {
+      "name": "WILLOW&PILLOW Apartments Sibiu",
+      "rating": 5,
+      "reviews": 34,
+      "description": "Evaluare mai bună de la oaspeți",
+      "price": null
+    }
+  ],
+  "hotelReviewSummary": null,
+  "additionalOpeningHours": null,
+  "openingHoursBusinessConfirmationText": null,
+  "questionsAndAnswers": [
+    {
+      "question": "(Translated by Google) Can we have a naming ceremony at your place?\nCan it be paid with the holiday card?\n\n(Original)\nSe poate tine o onomastica la dvs.?\nSe poate achita cu cardul de  vacanță?",
+      "answers": [
+        {
+          "answer": "(Translated by Google) I think so! It was the most beautiful hotel I visited! \n\n(Original)\nEu cred ca da! A fost cel mai frumos hotel pe care l-am vizitat! ",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Matei-Dacian Boboc",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWtk_FuYts1jJAmhSf2nzsCoEMuTGKhlJZZKAqRY5zFKA4sqJ8A=s120-c-rp-mo-ba3-br100"
+          }
+        }
+      ],
+      "askDate": "6 years ago",
+      "askedBy": {
+        "name": "Ana Cruduleci",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocKEQZV8dkuuc4YI9-f3nQZNpXwmdRCIFGGkhhPOpnz4rOJlEg=s120-c-rp-mo-br100"
+      }
+    },
+    {
+      "question": "Where can I ask you questions?\nYou do not answer by email.\nYou do not answer Facebook",
+      "answers": [
+        {
+          "answer": "Maybe the community can help you 😁",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Bogdan Bucur",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjUXUN3lHhpiUGCmGxCZx7VdY3RvCHCSI1o1XUOj23DxwvI8ah7VMA=s120-c-rp-mo-ba4-br100"
+          }
+        }
+      ],
+      "askDate": "6 years ago",
+      "askedBy": {
+        "name": "יוסי ב",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocK41dNiVPziz54WoSMzwjM9QxDC5A6hVB6BjSoNnurln2URDRs=s120-c-rp-mo-br100"
+      }
+    },
+    {
+      "question": "(Translated by Google) Do we have to pay for parking if we are hotel customers?\n\n(Original)\nTrebuie să plătim parcarea daca suntem clienții hotelului?",
+      "answers": [
+        {
+          "answer": "(Translated by Google) Not! \n\n(Original)\nNu! ",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Matei-Dacian Boboc",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWtk_FuYts1jJAmhSf2nzsCoEMuTGKhlJZZKAqRY5zFKA4sqJ8A=s120-c-rp-mo-ba3-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Of course not :-)\n\n(Original)\nSigur că nu :-)",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Ioana Pavaloi",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWyfJ_cSrukEZtuMAPSvJqI8glY0nEUelLl1fcHQII52md0RIPsTw=s120-c-rp-mo-ba2-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Not.\n\n(Original)\nNu.",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Marius Titov",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWqgQlHOdaAwlvTU2XgxbGdGBbkWIsPnelKhfoQ3HryhepoN_56Qw=s120-c-rp-mo-ba3-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) I don't think so.\n\n(Original)\nNu cred .",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Seimeanu Viorel",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjXQnbJ3uX_bOuf0Skowl_yHoRaHZ8DxwqlJHd4rhfJTdFpFgCZT5g=s120-c-rp-mo-ba4-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Not\n\n(Original)\nNu",
+          "answerDate": "6 years ago",
+          "answeredBy": {
+            "name": "Daniel Tircoveanu",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjXCXBtrRoJQnk8LPFeLB7Mt6Ys8H6OaUd6g9T3_27FL4PAd9oDDZQ=s120-c-rp-mo-ba5-br100"
+          }
+        }
+      ],
+      "askDate": "6 years ago",
+      "askedBy": {
+        "name": "Dia Sălășan",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocLQbKBP_F0mq4VKLb1eDm_ZCAs26LBMlBgnajGCI_RW-BsjCQ=s120-c-rp-mo-br100"
+      }
+    },
+    {
+      "question": "(Translated by Google) How do you get from \n\nSibiu bus station at ana airport hotel\n\n(Original)\nCum ajungi din \n\nautogara sibiu la hotel ana airport\n",
+      "answers": [
+        {
+          "answer": "(Translated by Google) A good solution would be to go by taxi\n\n(Original)\nO solutie buna ar fi sa mergi cu un taxi",
+          "answerDate": "7 years ago",
+          "answeredBy": {
+            "name": "Cracaoanu Marius",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjVsgOVpVBhu9aLUpEX2rC4tusRAym8TJtGlt4xHvvmekpmFV1Y=s120-c-rp-mo-ba4-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) I do not recommend\n\n(Original)\nNu recomand ",
+          "answerDate": "7 years ago",
+          "answeredBy": {
+            "name": "cristian negrila",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocJgEbqggCout6pGclfT0JUjlyAEzhFoiO6HIka51QLAUbbAMA=s120-c-rp-mo-ba6-br100"
+          }
+        },
+        {
+          "answer": "Taxi.",
+          "answerDate": "7 years ago",
+          "answeredBy": {
+            "name": "Cosmin Ene",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjUvFZfEApwCuZ-TI8XxB3fXObTF-FTr-de0FlwimeJ3QRFreGfV=s120-c-rp-mo-ba6-br100"
+          }
+        },
+        {
+          "answer": "Taxi 8 lei",
+          "answerDate": "7 years ago",
+          "answeredBy": {
+            "name": "Felicia Ienci",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjXPuWs5coJaEl-oHGO55LujEXipcWHtUt9eIT219bp39pvUjCpz=s120-c-rp-mo-ba6-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Taxi, in 10-15 minutes you will reach the hotel :)\n\n(Original)\nTaxi, in 10-15 min ajungi la hotel :)",
+          "answerDate": "7 years ago",
+          "answeredBy": {
+            "name": "Ardeal Brasov",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocJbIjgpE-PVTW2Cm6iu0xSrWLUgKJaDOjmlVY04_fvvazWs2Q=s120-c-rp-mo-br100"
+          }
+        }
+      ],
+      "askDate": "7 years ago",
+      "askedBy": {
+        "name": "Fideliu Rubinescu-Ostriceanu",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocKjDUxI9q7wH2oLp_r6dtb8Mwuvy18ydTb42m031GF5jyXpDw=s120-c-rp-mo-br100"
+      }
+    }
+  ],
+  "updatesFromCustomers": {
+    "text": "飯店空間蠻大。",
+    "language": "zh-Hant",
+    "postDate": "acum 3 luni",
+    "postedBy": {
+      "name": "鄭燦堂",
+      "url": "https://www.google.com/maps/contrib/116694730940849463236?hl=ro",
+      "title": "Local Guide",
+      "totalReviews": 25
+    },
+    "media": [
+      {
+        "link": "https://lh3.googleusercontent.com/geougc-cs/AB3l90BBg30f4HYfap1CHKMBejpCGryyeUvHjboGsEMTunFsIBYrdMXEaOJy7QOnL1IWu4awm1vRCiPbnYIuksmOWzObTc9u3wUHi0iNrkwHpA4hmSsnbOCTFmrIJtmPFd6JEeQeGGOZ",
+        "postDate": "acum 3 luni"
+      }
+    ]
+  },
+  "userPlaceNote": null,
+  "webResults": [],
+  "tableReservationLinks": [],
+  "bookingLinks": [],
+  "orderBy": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "images": null,
+  "reviews": [
+    {
+      "reviewerId": "104258296767110429463",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104258296767110429463?hl=ro",
+      "name": "herman dekker",
+      "reviewerNumberOfReviews": 129,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVfIUoyHBv0mJGq6Xu0vP8M7lY54dLfYSLQW0L0ZJwPAr5LPJrq=s1920-c-rp-mo-ba4-br100",
+      "text": "Good family room , for a fare price. Walk to airport good possible (1.7km)",
+      "textTranslated": "Cameră de familie bună, pentru un preț rezonabil. Se poate ajunge pe jos la aeroport (1,7 km).",
+      "publishAt": "acum 5 ani",
+      "publishedAtDate": "2019-10-01T03:37:07.460Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMwOGFtbzl3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUMwOGFtbzl3RRAB!2m1!1s0x0:0xea3c055418d3e220!3m1!1s2@1:CIHM0ogKEICAgIC08amo9wE%7CCgwI45PL7AUQ6KvR2wE%7C?hl=ro",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "ro"
+    }
+  ],
+  "leadsEnrichment": []
+},
+{
+  "title": "Mercure Hotel Sibiu Airport",
+  "description": "Hotel informal lângă aeroport, cu restaurant și bar în hol, plus centru de fitness și saună.",
+  "price": "83 USD",
+  "categoryName": "Hotel",
+  "address": "Șoseaua Alba Iulia 120, Sibiu 550052, România",
+  "neighborhood": null,
+  "street": "Șoseaua Alba Iulia 120",
+  "city": "Sibiu",
+  "postalCode": "550052",
+  "state": null,
+  "countryCode": "RO",
+  "website": "https://all.accor.com/hotel/B478/index.en.shtml?dateIn=&nights=&compositions=1&stayplus=false#origin=accor",
+  "phone": "+40 269 228 875",
+  "phoneUnformatted": "+40269228875",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 45.7933005,
+    "lng": 24.1116046
+  },
+  "totalScore": 4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJfRP8lgJnTEcROvaj7tSopjY",
+  "categories": [
+    "Hotel"
+  ],
+  "fid": "0x474c670296fc137d:0x36a6a8d4eea3f63a",
+  "cid": "3938020556672333370",
+  "reviewsCount": 581,
+  "imagesCount": 822,
+  "imageCategories": [
+    "Toate",
+    "Cele mai recente",
+    "Videoclipuri",
+    "Camere",
+    "Exterior",
+    "Dotări",
+    "Mâncăruri/băuturi",
+    "De la vizitatori",
+    "De la proprietar",
+    "Street View și 360°"
+  ],
+  "scrapedAt": "2025-08-08T13:27:47.922Z",
+  "googleFoodUrl": null,
+  "hotelStars": "Hotel de patru stele",
+  "hotelDescription": "Situat într-o zonă plină de parcuri comerciale, acest hotel relaxat lângă aeroport se află la 4 km de Turnul Sfatului și la 5 km de Muzeul Național Brukenthal. Aeroportul Internațional Sibiu se află la 2 km distanță.\n Camerele decorate primitor, unele cu tavan înclinat, dispun de Wi-Fi, ecran plat și minifrigidere, plus zone de relaxare. Apartamentele au canapele extensibile.\n Există un bar elegant în hol și un restaurant, precum și o terasă și spațiu de întâlniri. Alte facilități includ o saună și o sală de fitness. Sunt disponibile parcare, transfer de la / la aeroport și mic dejun tip bufet.",
+  "checkInDate": "2025-08-09",
+  "checkOutDate": "2025-08-11",
+  "hotelAds": [
+    {
+      "title": "Mercure",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsytXTzlthkSc8zHJH1h7OQSxnDpNSfuSJU3o1fjIKh0Wv4kAWxd3QfiQzdxUBou0Zke8VeZkguPKDcDbYf4BWgdQOz2TxJlBXNtxXU5-XacqR6InFTK2ovb9JMLbQ&pcurl=https://travel-productads.koddi.com/PropertyAdvocateAPI/ClickRedirect?client%3DAccor%26channel%3DGHPA%26placement%3Dmapresults%26destinationURL%3Dhttps%253A%252F%252Fall.accor.com%252Flien_externe.svlt%253Fgoto%253Drech_resa%2526destination%253DB478%2526dayIn%253D09%2526monthIn%253D08%2526yearIn%253D2025%2526nightNb%253D2%2526adultNumber%253D2%2526childrenNumber%253D0%26amp;hideWDR%3DYES%26amp;hideHotelDetails%3DYES%2526merchantid%253Dseo-meta-google%2526sourceid%253Dx-B478-US-cpc-desktop-default-0--2-09-08-2025-1-Saturday-mapresults--0-0-0%2526utm_source%253Dseo_meta_google%2526utm_medium%253Dpartenariats%2526utm_campaign%253DB478-US-cpc-desktop-default-0--mapresults--0-0-0%26amp;forceResultsList%3DYES&s=AD1XQnkq4Yg6NngXx5t2o6jYpYye",
+      "isOfficialSite": true,
+      "price": "93 USD",
+      "url": "https://travel-productads.koddi.com/PropertyAdvocateAPI/ClickRedirect?client=Accor&channel=GHPA&placement=mapresults&destinationURL=https://all.accor.com/lien_externe.svlt?goto=rech_resa&destination=B478&dayIn=09&monthIn=08&yearIn=2025&nightNb=2&adultNumber=2&childrenNumber=0&amp;hideWDR=YES&amp;hideHotelDetails=YES&merchantid=seo-meta-google&sourceid=x-B478-US-cpc-desktop-default-0--2-09-08-2025-1-Saturday-mapresults--0-0-0&utm_source=seo_meta_google&utm_medium=partenariats&utm_campaign=B478-US-cpc-desktop-default-0--mapresults--0-0-0&amp;forceResultsList=YES"
+    },
+    {
+      "title": "Booking.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxVam_tPkztCvChkyfetzzW6-2E6FPPod7gfsg8awkKbf5TehC9XcKnpZcBMlHCzwuND4aFfEUC66gNTvF8NBqXmGWq5jM2My-p-vKh2cjIlyXNIvIEkEBSdMseB_RGFzzZTvGs5bfeVb0W&pcurl=https://www.booking.com/hotel/ro/ana-sibiu.html?checkin%3D2025-08-09%26checkout%3D2025-08-11%26group_adults%3D2%26req_adults%3D2%26show_room%3D4054820_376288305_2_1_0%26lang%3Dro%26selected_currency%3DUSD%26exrt%3D0.22958949%26ext_price_total%3D186.32%26ext_price_tax%3D18.46%26xfc%3DRON%26hca%3Dm%26group_children%3D0%26req_children%3D0%26%26ts%3D1754603785%26no_rooms%3D1%26edgtid%3DYi02wH47SZe84ykUduorfg%26efpc%3DgRtSqBG1KhGf%26utm_source%3Dmetagha%26utm_medium%3Dmapresults%26utm_campaign%3DUS%26utm_term%3Dhotel-40548%26utm_content%3Ddev-desktop_los-2_bw-1_dow-Saturday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250809_ppt-%26aid%3D2127489%26label%3Dmetagha-link-MRUS-hotel-40548_dev-desktop_los-2_bw-1_dow-Saturday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250809_ppt-&s=AD1XQnkeDqN1uRa1E1rcZQtW5Bev",
+      "isOfficialSite": false,
+      "price": "93 USD",
+      "url": "https://www.booking.com/hotel/ro/ana-sibiu.html?checkin=2025-08-09&checkout=2025-08-11&group_adults=2&req_adults=2&show_room=4054820_376288305_2_1_0&lang=ro&selected_currency=USD&exrt=0.22958949&ext_price_total=186.32&ext_price_tax=18.46&xfc=RON&hca=m&group_children=0&req_children=0&&ts=1754603785&no_rooms=1&edgtid=Yi02wH47SZe84ykUduorfg&efpc=gRtSqBG1KhGf&utm_source=metagha&utm_medium=mapresults&utm_campaign=US&utm_term=hotel-40548&utm_content=dev-desktop_los-2_bw-1_dow-Saturday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250809_ppt-&aid=2127489&label=metagha-link-MRUS-hotel-40548_dev-desktop_los-2_bw-1_dow-Saturday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20250809_ppt-"
+    },
+    {
+      "title": "Tiket.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Oszhs-q3b-WL4KSHP4Hb7_Df6re4Nu0ghy1tQjjr4NTyLhfNpi6O9QgGZ0_uc00VZpYxwzH-gIqattPv-ZDXCcfWi3cfzealJ7c8U1VexjqWJt258kkc9aSVl4EvTw&pcurl=https://en.tiket.com/hotel/romania/mercure-sibiu-airport-406001623914170801?hotelID%3Dc7c8f974-5124-4111-a8d9-70f2bb223c95%26checkin%3D2025-08-09%26checkout%3D2025-08-11%26adult%3D2%26country%3DUS%26device%3Ddesktop%26lang%3Den%26isAat%3Dtrue%26utm_source%3Dgoogle-hotel%26utm_term%3Dc7c8f974-5124-4111-a8d9-70f2bb223c95%26utm_medium%3Daff-meta%26utm_campaign%3DGoogle-Hotel-0023-B2B-none-hotel%26utm_external%3Daff&s=AD1XQnknXHJMmX-4LfeLAKBULLl6",
+      "isOfficialSite": false,
+      "price": "93 USD",
+      "url": "https://en.tiket.com/hotel/romania/mercure-sibiu-airport-406001623914170801?hotelID=c7c8f974-5124-4111-a8d9-70f2bb223c95&checkin=2025-08-09&checkout=2025-08-11&adult=2&country=US&device=desktop&lang=en&isAat=true&utm_source=google-hotel&utm_term=c7c8f974-5124-4111-a8d9-70f2bb223c95&utm_medium=aff-meta&utm_campaign=Google-Hotel-0023-B2B-none-hotel&utm_external=aff"
+    },
+    {
+      "title": "Reservation Day",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osz3CrFpeLOOtio4Llih8Nj-lqvRP9arqcqo5-soH-IG-XOJ-JkIt0WnF_6EsOu4-YeYxNqnDpTjyUHAtvGwqpiNGz7O80nthNGBmWKAVnLFzYvkorDecmBmfaLy8K7-SFrtQSBwXxPysnbgNPzUMg0&pcurl=https://www.reservationday.com/transition/?data%3Dprice%3D183.77%2526total_price%3D185.94%2526retail_price%3D206.54%2526retail_total_price%3D208.98%2526request_id%3Daddd758d-ff93-4b6d-8155-1ab1efd7303c%2526ps%3D73774358001493850%2526pp%3DXcSMFYj5X9r2W4Au17Zq_A%2526pb%3D7tQfiia9xDcZRQcP1xssBlpalB_CMxUsYsTrZXJhcHntJXQUer2gbbiOnBSNK8nQOkdWiBhhyaeErN1y5Jw6wzQ0LltVGttdqFg2KTpkZD_auT7RyfV0fzSX2ydqOlpiyDfKS_7YOlY2RXE-dAr_dImQ5k-VsnlivlzUKm7wlvb2jOw5FAKYBwXphXwWDxRIoYQ8GCn_A5ShLHkOi75kzPTQhCpbiQAVVvoKHluuMOerj7sZyEmo11RFGyLZp6TP%2526gha_rd_pull_request%3DTrue%2526rtp%3DSdTUqdR7wIew8aRS9esAtw%25253D%25253D%2526risk_lk_1%3Dfalse%2526alwd_risk%3Dfalse%2526alwd_rand%3Dfalse%2526gt%3D1754643436%2526sg%3DQZtXW%2526ttl_bkt%3Dnone%26utm_source%3Dgha_rd%26utm_content%3Dmapresults%26currency%3DUSD%26user_country%3DUS%26verification%3Dfalse%26rate_rule_ids%3D%26date_type%3Ddefault%26rate_rule_id%3Dsignedout_desktop%26display_currency%3DUSD%26display_all_inclusive_price%3D185.94%26checkin_at%3D2025-08-09%26checkout_at%3D2025-08-11%26provider_hotel_id%3D10004282489%26provider%3Dean%26num_adults%3D2%26children%3D%5B%5D%26hotel_campaign%3D%26user_locale%3Dro-US%26user_list_id%3D%26utm_medium%3Dorganic%26utm_id%3Dgha_organic_rd&s=AD1XQnnl8gge3cT2cIdfC7V6ZuSP",
+      "isOfficialSite": false,
+      "price": "93 USD",
+      "url": "https://www.reservationday.com/transition/?data=price=183.77&total_price=185.94&retail_price=206.54&retail_total_price=208.98&request_id=addd758d-ff93-4b6d-8155-1ab1efd7303c&ps=73774358001493850&pp=XcSMFYj5X9r2W4Au17Zq_A&pb=7tQfiia9xDcZRQcP1xssBlpalB_CMxUsYsTrZXJhcHntJXQUer2gbbiOnBSNK8nQOkdWiBhhyaeErN1y5Jw6wzQ0LltVGttdqFg2KTpkZD_auT7RyfV0fzSX2ydqOlpiyDfKS_7YOlY2RXE-dAr_dImQ5k-VsnlivlzUKm7wlvb2jOw5FAKYBwXphXwWDxRIoYQ8GCn_A5ShLHkOi75kzPTQhCpbiQAVVvoKHluuMOerj7sZyEmo11RFGyLZp6TP&gha_rd_pull_request=True&rtp=SdTUqdR7wIew8aRS9esAtw%3D%3D&risk_lk_1=false&alwd_risk=false&alwd_rand=false&gt=1754643436&sg=QZtXW&ttl_bkt=none&utm_source=gha_rd&utm_content=mapresults&currency=USD&user_country=US&verification=false&rate_rule_ids=&date_type=default&rate_rule_id=signedout_desktop&display_currency=USD&display_all_inclusive_price=185.94&checkin_at=2025-08-09&checkout_at=2025-08-11&provider_hotel_id=10004282489&provider=ean&num_adults=2&children=[]&hotel_campaign=&user_locale=ro-US&user_list_id=&utm_medium=organic&utm_id=gha_organic_rd"
+    },
+    {
+      "title": "Travelocity.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszC2_Lg-rlTMLbDtcLgm9dOgEU_bT-PFBikaFaJ3X7M9ywVQ5ryPPGb_OOrS1fgprIefd1szttlAcC5Tr89yEuZCwSPDH_B_xBLwUrL3nYJuGmntpbf7-9XGPURJMmwG06HP72EPWU&pcurl=https://www.travelocity.com/Hotel-Search?selected%3D1461708%26startDate%3D2025-08-09%26endDate%3D2025-08-11%26adults%3D2%26children%3D%26MDPCID%3Dtravelocity-US.META.HPA.ORGANIC.HOTEL%26MDPDTL%3DHTL.1461708.20250809.20250811.DDT.1.CID..AUDID..mapresults%26exp_curr%3DUSD%26exp_dp%3D186.74%26exp_tx%3D18.50%26mctc%3D10%26rateplanid%3D254217684%26mpm%3D24%26mpn%3D215145901%26mpo%3DEC%26mpp%3D1&s=AD1XQnlY7v1au81NdxgLWRMjp8dP",
+      "isOfficialSite": false,
+      "price": "93 USD",
+      "url": "https://www.travelocity.com/Hotel-Search?selected=1461708&startDate=2025-08-09&endDate=2025-08-11&adults=2&children=&MDPCID=travelocity-US.META.HPA.ORGANIC.HOTEL&MDPDTL=HTL.1461708.20250809.20250811.DDT.1.CID..AUDID..mapresults&exp_curr=USD&exp_dp=186.74&exp_tx=18.50&mctc=10&rateplanid=254217684&mpm=24&mpn=215145901&mpo=EC&mpp=1"
+    },
+    {
+      "title": "My Luxury Hotel",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osyjb39ERh0oMvgIHYdWmhjGBGCmRiBrDQ8a33y1rmEqr3JaPq_7g6HT0vBGgvxuYK5ZcSe0O5W6XbQjlnZPtN7XcItA2kFg-KQcoJ4QR_jCnhmrYKnUGBSOj5ftAEWtM7QJkBIpIjPvcEPkjOJ1Phk6dQ&pcurl=https://www.myluxuryhotel.com/en-us/hotel/2286806?ppc%3Dtrue%26isHotel%3Dtrue%26checkin%3D2025-08-09%26checkout%3D2025-08-11%26nights%3D2%26rooms%3D%255B%257B%2522adults%2522:2,%2522children%2522:%255B%255D,%2522kidsAge%2522:%255B%255D%257D%255D%26utm_source%3DGoogleHC%26utm_medium%3Dpaid%26utm_campaign%3D%26utm_content%3Dmapresults%26utm_term%3D2286806%26ghv%3D1&s=AD1XQnmjZwLoe92_GVaL4Po1nq5Q",
+      "isOfficialSite": false,
+      "price": "93 USD",
+      "url": "https://www.myluxuryhotel.com/en-us/hotel/2286806?ppc=true&isHotel=true&checkin=2025-08-09&checkout=2025-08-11&nights=2&rooms=[{\"adults\":2,\"children\":[],\"kidsAge\":[]}]&utm_source=GoogleHC&utm_medium=paid&utm_campaign=&utm_content=mapresults&utm_term=2286806&ghv=1"
+    },
+    {
+      "title": "HomeToGo",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswIRM8vWrRnMIBHVYAxaeH-wegIl5mgbIH02mwGKGt9fjmCuj5LvKqGoJKA81vdEuNgjMfcYtEI7zJCUtwVWqTZvL0faAPZhd0mjWVdVLapSTB-Wh3WB3vZxcw5miY6tw&pcurl=https://www.hometogo.com/search/5c18304eee7d2?arrival%3D2025-08-09%26duration%3D2%26id%3Dzf796a3d9c3bee445%2540f%2540s%26adults%3D2%26tpp%3Drumruhfq.689432be%26adword%3Dghf/us/zf796a3d9c3bee445/ct%3Dhs/n-a/n-a/5c18304eee7d2%26utm_source%3Dghf%26hl%3Dro_US%26ghf_acc%3Dhtg_ghf%26c%3DUSD%26type%5B%5D%3Dhotel%26gValidation%3Dfalse%26gSite%3Dmapresults&s=AD1XQnmgONnRdu5RiZFjnXjz5EwX",
+      "isOfficialSite": false,
+      "price": "93 USD",
+      "url": "https://www.hometogo.com/search/5c18304eee7d2?arrival=2025-08-09&duration=2&id=zf796a3d9c3bee445@f@s&adults=2&tpp=rumruhfq.689432be&adword=ghf/us/zf796a3d9c3bee445/ct=hs/n-a/n-a/5c18304eee7d2&utm_source=ghf&hl=ro_US&ghf_acc=htg_ghf&c=USD&type[]=hotel&gValidation=false&gSite=mapresults"
+    },
+    {
+      "title": "LateRooms.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszF1wDZpdR5awYIozVbwVB5zBV3g-KmkLnXhSZTv9x3BLy7vbwB9RFMUue52EvG0mQPrrVYfolKw4PU3GTnWI9sREe_PWaKbFiaps-DO02yLhPbiGmGpR8osILRyCg6oosljIOVSA9RRpuAJg&pcurl=https://www.laterooms.com/en-us/hotel/2286806?ppc%3Dtrue%26isHotel%3Dtrue%26checkin%3D2025-08-09%26checkout%3D2025-08-11%26nights%3D2%26rooms%3D%255B%257B%2522adults%2522:2,%2522children%2522:%255B%255D,%2522kidsAge%2522:%255B%255D%257D%255D%26utm_source%3DGoogleHC%26utm_medium%3Dpaid%26utm_campaign%3D%26utm_content%3Dmapresults%26utm_term%3D2286806%26pv%3D1754653770&s=AD1XQnmjmt-_ISlOMn7aoqJNN59L",
+      "isOfficialSite": false,
+      "price": "93 USD",
+      "url": "https://www.laterooms.com/en-us/hotel/2286806?ppc=true&isHotel=true&checkin=2025-08-09&checkout=2025-08-11&nights=2&rooms=[{\"adults\":2,\"children\":[],\"kidsAge\":[]}]&utm_source=GoogleHC&utm_medium=paid&utm_campaign=&utm_content=mapresults&utm_term=2286806&pv=1754653770"
+    },
+    {
+      "title": "Bluepillow.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osyj-asAvUy5FYFgH_ZULN_NkLOi14icWiY0vIsRmKQLIjptguVPZB06XyqfnKVshxn8110e9jCcl7GRdhHRJFZ9v--yg0gDCDA6dstlGVKK8Sh7dn51EZu1olvTE5suFcFj&pcurl=https://www.bluepillow.com/search/5943948e7c00cb0e643abea2?begin%3D2025-08-09%26end%3D2025-08-11%26block_id%3D-b,H_YhmvazHOXdetZrK1VNCcE7m3sSXGKYP39MhXKCKjZqd3THcHe9rOJagpC9AeEt,-bkng-Hotel%26adults%3D2%26childs%3D0%26infants%3D0%26childrens%3D0%26country%3DUS%26currency%3DUSD%26language%3Dro%26source%3Dmapresults%26utm_campaign%3Dhotel%26prid%3D&s=AD1XQnnOHVeVTeqB7beqGSr-KRrs",
+      "isOfficialSite": false,
+      "price": "93 USD",
+      "url": "https://www.bluepillow.com/search/5943948e7c00cb0e643abea2?begin=2025-08-09&end=2025-08-11&block_id=-b,H_YhmvazHOXdetZrK1VNCcE7m3sSXGKYP39MhXKCKjZqd3THcHe9rOJagpC9AeEt,-bkng-Hotel&adults=2&childs=0&infants=0&childrens=0&country=US&currency=USD&language=ro&source=mapresults&utm_campaign=hotel&prid="
+    },
+    {
+      "title": "EcoHotels.com",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszdRawBoS2yFWYtW56vq0xMgZG_K5mNOcCDaC-ijeqIKI0e78jrE64UaWYzdkZ10c4X6Y6Ke9nvjvUtfVnlKp_G6OjrPMgpNbyZ0V5GwPX0_uYKmMyR3dblmD7DNKPZrO762Aid&pcurl=https://ecohotels.com/search?checkin%3D2025-08-09%26checkout%3D2025-08-11%26rooms%3D2-%26searchtype%3D2%26googlehotelid%3D4289%26usercurrency%3DUSD%26free-booking-links-5d458b93-4768-4cc8-afda-0ac59be71aff&s=AD1XQnmn8BNZDTnY0CZMbELf1Oa7",
+      "isOfficialSite": false,
+      "price": "92 USD",
+      "url": "https://ecohotels.com/search?checkin=2025-08-09&checkout=2025-08-11&rooms=2-&searchtype=2&googlehotelid=4289&usercurrency=USD&free-booking-links-5d458b93-4768-4cc8-afda-0ac59be71aff"
+    }
+  ],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [
+    {
+      "title": "Sănătate și frumusețe",
+      "count": 1
+    }
+  ],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Amenities": [
+      {
+        "Wi-Fi gratuit": true
+      },
+      {
+        "Mic dejun gratuit": true
+      },
+      {
+        "Parcare gratuită": true
+      },
+      {
+        "Acces persoane dizabilități": true
+      },
+      {
+        "Piscină": false
+      },
+      {
+        "Aer condiționat": true
+      },
+      {
+        "Serviciu de spălătorie": true
+      },
+      {
+        "Adecvat pt. animale": false
+      },
+      {
+        "Room service": true
+      },
+      {
+        "Adecvat pentru copii": true
+      },
+      {
+        "Restaurant": true
+      },
+      {
+        "Transfer de la aeroport": true
+      },
+      {
+        "Centru de fitness": true
+      },
+      {
+        "Bar": true
+      },
+      {
+        "Nu se fumează": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Mercure%20Hotel%20Sibiu%20Airport&query_place_id=ChIJfRP8lgJnTEcROvaj7tSopjY",
+  "searchPageUrl": "https://www.google.com/maps/search/hotels/@45.80745747877959,24.084930956814183,14z?hl=ro",
+  "searchString": "hotels",
+  "language": "ro",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/143/606/336/b478_fe_00_p_3000x2250_O.jpg",
+  "kgmid": "/g/11fls6jn_f",
+  "subTitle": null,
+  "locatedIn": null,
+  "plusCode": "Q4V6+8J Sibiu, România",
+  "menu": null,
+  "reviewsDistribution": {
+    "oneStar": 58,
+    "twoStar": 25,
+    "threeStar": 61,
+    "fourStar": 132,
+    "fiveStar": 305
+  },
+  "reserveTableUrl": null,
+  "similarHotelsNearby": [
+    {
+      "name": "Hotel Eden",
+      "rating": 4.2,
+      "reviews": 327,
+      "description": "Un hotel de 3 stele, cu 17 USD mai ieftin",
+      "price": "66 USD"
+    },
+    {
+      "name": "Villa Santa Maria",
+      "rating": 4.7,
+      "reviews": 408,
+      "description": "Evaluare mai bună de la oaspeți",
+      "price": "114 USD"
+    },
+    {
+      "name": "Pensiunea Magnolia",
+      "rating": 4.6,
+      "reviews": 238,
+      "description": "Un hotel de 3 stele, cu 30 USD mai ieftin",
+      "price": "53 USD"
+    },
+    {
+      "name": "Gasthof Sara",
+      "rating": 3.6,
+      "reviews": 430,
+      "description": null,
+      "price": "72 USD"
+    },
+    {
+      "name": "Hotel-Restaurant Stefani",
+      "rating": 4.3,
+      "reviews": 891,
+      "description": null,
+      "price": "84 USD"
+    },
+    {
+      "name": "Pensiunea Artemis",
+      "rating": 4.4,
+      "reviews": 80,
+      "description": null,
+      "price": null
+    },
+    {
+      "name": "Pensiunea Alina",
+      "rating": 4.9,
+      "reviews": 198,
+      "description": "Evaluare mai bună de la oaspeți",
+      "price": null
+    },
+    {
+      "name": "Casa Gloria",
+      "rating": 4.5,
+      "reviews": 94,
+      "description": "Evaluare mai bună de la oaspeți",
+      "price": null
+    },
+    {
+      "name": "Millenium",
+      "rating": 4.3,
+      "reviews": 288,
+      "description": null,
+      "price": null
+    },
+    {
+      "name": "Carpathian Villa",
+      "rating": 4.5,
+      "reviews": 85,
+      "description": "Evaluare mai bună de la oaspeți",
+      "price": null
+    }
+  ],
+  "hotelReviewSummary": null,
+  "additionalOpeningHours": null,
+  "openingHoursBusinessConfirmationText": null,
+  "questionsAndAnswers": [
+    {
+      "question": "(Translated by Google) Hello I have two questions 1. Does the hotel have a restaurant in the evening 2. Do they accept holiday vouchers?\n\n(Original)\nBuna ziua Am doua intrebari 1. Hotelul are restaurant seara 2 daca se primesc bonuri de vacanta ",
+      "answers": [
+        {
+          "answer": "(Translated by Google) And\n\n(Original)\nDa",
+          "answerDate": "3 years ago",
+          "answeredBy": {
+            "name": "Constantin Zaharia",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjWb7UI2qvYqYvCnQBOSSEP57P-jmzOB92CmFFcW60msaBhW5ROq=s120-c-rp-mo-br100"
+          }
+        },
+        {
+          "answer": "(Translated by Google) Yes, it has a restaurant, friendly staff, good conditions, video-surveilled parking! Everything is ok!\n\n(Original)\nDa,are restaurant ,personal amabil, condiții bune,parcare supravegheata video!E totul ok!",
+          "answerDate": "4 years ago",
+          "answeredBy": {
+            "name": "xxxx xxx",
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocJEVFGxX0I0gD39dlbq39IugsMBJYqW87gEDZz9Xcbgg96xrQ=s120-c-rp-mo-br100"
+          }
+        }
+      ],
+      "askDate": "4 years ago",
+      "askedBy": {
+        "name": "Florin Rudu",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocL7xCs9pBksfjS1awi5pDICvddybfTH3jSoyOn9-E6QxLMMyg=s120-c-rp-mo-br100"
+      }
+    },
+    {
+      "question": "What time is breakfast served",
+      "answers": [
+        {
+          "answer": "(Translated by Google) From 6.30 to 10.30\n\n(Original)\nDe la 6.30 la 10.30",
+          "answerDate": "5 years ago",
+          "answeredBy": {
+            "name": "Ban Constantin",
+            "url": "https://lh3.googleusercontent.com/a-/ALV-UjVV7O_kRsNFoecBpZJYigYCzfbjwGa8QuLqmimzMNVO5rwvPq2Z=s120-c-rp-mo-ba4-br100"
+          }
+        }
+      ],
+      "askDate": "5 years ago",
+      "askedBy": {
+        "name": "Brian Davis",
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocKBYukw3J0e25oyNOFmocbKxy7st-3SCypyM7F5xSAh5UJWAw=s120-c-rp-mo-ba4-br100"
+      }
+    }
+  ],
+  "updatesFromCustomers": null,
+  "userPlaceNote": null,
+  "webResults": [],
+  "tableReservationLinks": [],
+  "bookingLinks": [],
+  "orderBy": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "images": null,
+  "reviews": [],
+  "leadsEnrichment": []
+}]
