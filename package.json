@@ -1,0 +1,57 @@
+{
+  "name": "vola-n8n-agent-hotels",
+  "version": "1.0.0",
+  "description": "VolaBot - AI-powered travel consultant for hotel recommendations using N8N workflow automation",
+  "main": "Hotels-Agent-CRISTI.json",
+  "scripts": {
+    "sync-prompt": "node scripts/sync-prompt.js",
+    "validate": "node scripts/validate-workflow.js",
+    "organize": "node scripts/organize-test-data.js",
+    "dev": "npm run sync-prompt && npm run validate",
+    "deploy-prep": "npm run sync-prompt && npm run validate && echo '✅ Ready for N8N deployment'",
+    "backup": "cp Hotels-Agent-CRISTI.json archive/backups/Hotels-Agent-CRISTI-$(date +%Y%m%d-%H%M%S).json && echo '✅ Backup created'",
+    "clean": "rm -rf node_modules package-lock.json",
+    "setup": "npm install && npm run organize && npm run sync-prompt && npm run validate",
+    "help": "echo 'VolaBot Development Commands:\n  sync-prompt  - Update JSON with MAIN_PROMPT.md content\n  validate     - Validate workflow structure\n  organize     - Organize test data files\n  dev          - Sync + validate (development workflow)\n  deploy-prep  - Full preparation for deployment\n  backup       - Create timestamped backup\n  setup        - Initial project setup\n  help         - Show this help'"
+  },
+  "keywords": [
+    "n8n",
+    "workflow",
+    "travel",
+    "ai-agent",
+    "booking",
+    "airbnb",
+    "google-maps",
+    "hotel-recommendations",
+    "volabot",
+    "automation"
+  ],
+  "author": "VolaBot Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/vola-n8n-agent-hotels.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/vola-n8n-agent-hotels/issues"
+  },
+  "homepage": "https://github.com/your-org/vola-n8n-agent-hotels#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "directories": {
+    "doc": "docs",
+    "test": "test-data"
+  },
+  "files": [
+    "Hotels-Agent-CRISTI.json",
+    "MAIN_PROMPT.md",
+    "scripts/",
+    "config/",
+    "docs/",
+    "README.md",
+    "DEVELOPMENT.md"
+  ]
+}

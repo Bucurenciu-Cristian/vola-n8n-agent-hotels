@@ -25,7 +25,7 @@ const VALIDATION_RULES = {
     requiredTools: [
         'Scrape AirBnb',
         'Scrape Booking',
-        'Scrape Google Maps'
+        'Google Maps'
     ],
     systemMessageRequired: true,
     minSystemMessageLength: 1000, // Minimum prompt length
