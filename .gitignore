@@ -47,3 +47,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
+# Backups (ignored for clean working tree)
+archive/backups/*.json
