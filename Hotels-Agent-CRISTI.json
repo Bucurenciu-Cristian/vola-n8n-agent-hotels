@@ -11,10 +11,10 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2,
       "position": [
-        720,
-        -160
+        1660,
+        400
       ],
-      "id": "f09a7c96-35ce-4bb6-a3c0-9af386ee55ac",
+      "id": "41cd2863-5234-4aad-9b10-4966b7dab882",
       "name": "AI Agent",
       "retryOnFail": true,
       "onError": "continueErrorOutput"
@@ -35,10 +35,10 @@
       "type": "@n8n/n8n-nodes-langchain.chatTrigger",
       "typeVersion": 1.1,
       "position": [
-        240,
-        -140
+        1180,
+        420
       ],
-      "id": "bdc9b778-104b-48f8-b29a-0e1c0a34acb6",
+      "id": "22f8caa7-acc8-4eb7-bef5-8e87e526be2e",
       "name": "When chat message received",
       "webhookId": "b419f5d3-82dd-41d3-933d-eca656870ab6"
     },
@@ -73,10 +73,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        500,
-        260
+        1440,
+        820
       ],
-      "id": "d0373862-9fd4-415d-b613-d70a9193692f",
+      "id": "ead6bb24-c5eb-4223-bc37-a9c724706ec2",
       "name": "Scrape AirBnb",
       "retryOnFail": true,
       "credentials": {
@@ -118,10 +118,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        1000,
-        260
+        1940,
+        820
       ],
-      "id": "8168a5bc-e768-4895-a507-ef66301bec86",
+      "id": "81727f3d-8141-41e1-9e42-9b146991ec2e",
       "name": "Scrape Booking",
       "retryOnFail": true,
       "credentials": {
@@ -139,10 +139,10 @@
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.3,
       "position": [
-        1180,
-        -360
+        2120,
+        200
       ],
-      "id": "f166f39e-6548-4b41-afd2-155664f5d3cc",
+      "id": "837ba067-7fe8-41bd-8c68-20c86973f2e8",
       "name": "Respond to Webhook",
       "retryOnFail": true,
       "onError": "continueRegularOutput"
@@ -155,11 +155,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        200,
-        -200
+        1140,
+        360
       ],
       "typeVersion": 1,
-      "id": "ac62dfb3-3552-4388-914c-e883dc36fc66",
+      "id": "fc4aef29-bd34-4275-8625-58d3ef65ee92",
       "name": "Sticky Note1"
     },
     {
@@ -171,11 +171,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        380,
-        -200
+        1320,
+        360
       ],
       "typeVersion": 1,
-      "id": "2e867846-bc73-4aec-97bd-3fb0477b7d3b",
+      "id": "8af6453d-739f-40a2-b689-321f8b32b2fc",
       "name": "Sticky Note2"
     },
     {
@@ -187,11 +187,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        380,
-        200
+        1320,
+        760
       ],
       "typeVersion": 1,
-      "id": "9a8398a7-3079-42a4-ba1f-859ef164d1e7",
+      "id": "53df25f8-2edc-48ef-9dc7-eec264eb1c3a",
       "name": "Sticky Note3"
     },
     {
@@ -225,10 +225,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        660,
-        260
+        1600,
+        820
       ],
-      "id": "4abc57fe-d658-4016-bbed-5ec924e9053a",
+      "id": "d628ab2c-89e5-41d8-b822-998a2d0d96f5",
       "name": "Reviews Booking",
       "retryOnFail": true,
       "credentials": {
@@ -267,10 +267,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        1180,
-        260
+        2120,
+        820
       ],
-      "id": "b0958a57-0512-4318-ba41-1a966480ccec",
+      "id": "aa59677f-e9d6-4849-9628-1856cf4968f4",
       "name": "Reviews Airbnb",
       "retryOnFail": true,
       "credentials": {
@@ -290,11 +290,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        200,
-        -440
+        1140,
+        120
       ],
       "typeVersion": 1,
-      "id": "479cc71b-dfc8-41b4-a3a1-c5c721934487",
+      "id": "33a643d0-70e7-47ee-8276-bb71edd70c51",
       "name": "Sticky Note4"
     },
     {
@@ -307,10 +307,10 @@
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
       "position": [
-        260,
-        -360
+        1200,
+        200
       ],
-      "id": "a3c2f3cf-7d21-4639-8ed1-83f9341d5287",
+      "id": "da770793-ad12-451c-ab9f-6630e95eadbc",
       "name": "Vola Webhook",
       "webhookId": "042d2591-94ed-43a9-a5e5-0860412c08e5"
     },
@@ -337,10 +337,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        440,
-        -360
+        1380,
+        200
       ],
-      "id": "4aa72ca1-5260-49dd-8e84-c7d8ec612609",
+      "id": "84b7f46a-c1fa-466b-a7ef-01046c79d972",
       "name": "Edit Fields1"
     },
     {
@@ -350,10 +350,10 @@
       "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
       "typeVersion": 1.3,
       "position": [
-        600,
-        80
+        1540,
+        640
       ],
-      "id": "abe4c5c8-cfcc-4d5e-b8f5-63dd7c2def4c",
+      "id": "1982a0b8-ab4d-4a3b-8d6f-8fb8d3592cc4",
       "name": "Postgres Chat Memory",
       "credentials": {
         "postgres": {
@@ -370,10 +370,10 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        460,
-        80
+        1400,
+        640
       ],
-      "id": "a133bd2c-999f-4ae1-804b-f59dc680e966",
+      "id": "a22161c4-999a-43e0-b23c-823c8d65f84b",
       "name": "Google Gemini Chat Model",
       "credentials": {
         "googlePalmApi": {
@@ -413,10 +413,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        1660,
-        -40
+        2600,
+        520
       ],
-      "id": "db9871a8-835f-4ef1-8ec9-f8a136d1fa7c",
+      "id": "4c2cbe0d-e334-4923-888e-4b07e15dd612",
       "name": "Google Maps Reviews",
       "retryOnFail": true,
       "credentials": {
@@ -427,6 +427,26 @@
       },
       "disabled": true,
       "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "resource": "__CUSTOM_API_CALL__"
+      },
+      "type": "@apify/n8n-nodes-apify.apifyTool",
+      "typeVersion": 1,
+      "position": [
+        2440,
+        520
+      ],
+      "id": "eae99786-8538-49a9-b4ed-164127637bf4",
+      "name": "APIFY Google Maps",
+      "credentials": {
+        "apifyApi": {
+          "id": "Dan6ZwpKbjUbYasi",
+          "name": "Apify account"
+        }
+      },
+      "disabled": true
     },
     {
       "parameters": {
@@ -450,18 +470,20 @@
         },
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "={\n    \"locationQuery\": \"{{ $fromAI('locationQuery', `The destination city or area to search in`, 'string', 'Sibiu') }}\",\n    \"maxCrawledPlacesPerSearch\": {{ $fromAI('maxCrawledPlacesPerSearch', `Maximum number of places to crawl per search`, 'number', 2) }},\n    \"language\": \"{{ $fromAI('language', `The language to search in (en, ro, us)`, 'string', 'ro') }}\",\n    \"maxReviews\": 1,\n    \"reviewsSort\": \"newest\",\n    \"scrapeReviewsPersonalData\": false,\n    \"searchStringsArray\": [\"hotels\"]\n}",
+        "jsonBody": "={\n    \"locationQuery\": \"{{ $fromAI('locationQuery', `The destination city or area to search in`, 'string', 'Sibiu') }}\",\n    \"maxCrawledPlacesPerSearch\": {{ $fromAI('maxCrawledPlacesPerSearch', `Maximum number of places to crawl per search`, 'number', 10) }},\n    \"language\": \"{{ $fromAI('language', `The language to search in (en, ro, us)`, 'string', 'ro') }}\",\n    \"maxReviews\": {{ $fromAI('maxReviews', `How many reviews should we want to have?`, 'number', 10) }},\n    \"reviewsSort\": \"newest\",\n    \"scrapeReviewsPersonalData\": false,\n    \"searchStringsArray\": [\"hotels\"]\n}",
         "options": {},
-        "optimizeResponse": true
+        "optimizeResponse": true,
+        "fieldsToInclude": "selected",
+        "fields": "hotelStars,hotelDescription,checkInDate,checkOutDate,similarHotelsNearby,hotelAds"
       },
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        840,
-        260
+        1780,
+        820
       ],
-      "id": "e6f8b7a3-cc1a-4281-9066-7151ee98af61",
-      "name": "Google Maps",
+      "id": "bcd7e83b-f4f9-41dd-aae2-4de15578524b",
+      "name": "Scrape Google Maps",
       "retryOnFail": true,
       "alwaysOutputData": false,
       "credentials": {
@@ -471,26 +493,6 @@
         }
       },
       "onError": "continueRegularOutput"
-    },
-    {
-      "parameters": {
-        "resource": "__CUSTOM_API_CALL__"
-      },
-      "type": "@apify/n8n-nodes-apify.apifyTool",
-      "typeVersion": 1,
-      "position": [
-        1500,
-        -40
-      ],
-      "id": "5e23c0d9-d6b6-4de5-87e5-831de64a409d",
-      "name": "APIFY Google Maps",
-      "credentials": {
-        "apifyApi": {
-          "id": "Dan6ZwpKbjUbYasi",
-          "name": "Apify account"
-        }
-      },
-      "disabled": true
     }
   ],
   "pinData": {},
@@ -605,12 +607,7 @@
         ]
       ]
     },
-    "APIFY Google Maps": {
-      "ai_tool": [
-        []
-      ]
-    },
-    "Google Maps": {
+    "Scrape Google Maps": {
       "ai_tool": [
         [
           {
@@ -628,7 +625,7 @@
     "timezone": "Europe/Bucharest",
     "callerPolicy": "workflowsFromSameOwner"
   },
-  "versionId": "bc5e4751-08e0-4531-b8a2-1c06102f3b71",
+  "versionId": "d84bc24e-897c-4859-b401-b74ee3516a7f",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "70494cb356420efc72c2a7a47e27b7a31b783bdae5a28ee35c1530986f0f1709"
