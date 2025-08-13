@@ -102,7 +102,7 @@ When you prepare to call the booking, airbnb, and google maps scraper tools, you
 * **`website`**: Set to "allPlaces" for complete place data
 * **`skipClosedPlaces`**: Set to false to include all properties
 * **`scrapePlaceDetailPage`**: Set to true for detailed property information
-* **`maxReviews`**: Set to 25 for comprehensive review analysis (cost-optimized)
+* **`maxReviews`**: Set to 1 for comprehensive review analysis (cost-optimized)
 * **`reviewsSort`**: Set to "newest" for recent feedback
 * **`reviewsOrigin`**: Set to "google" for authentic Google reviews
 * **`scrapeReviewsPersonalData`**: Set to false for GDPR compliance (CRITICAL)
@@ -119,6 +119,9 @@ When user says "Looking for hotels in Sibiu for August 20-22", you extract:
 ### Reviews Booking Parameters
 * **Trigger Condition**: Only call AFTER you have received results from the main Booking.com scraper
 * **URL Extraction**: Extract ALL hotel URLs from booking scraper results (the `url` field from each property)
+* **URL Cleaning**: Strip query parameters (everything after "?") to get clean canonical URLs
+  - Example: `https://www.booking.com/hotel/ro/silva-sibiu.ro.html?checkin=2025-01-15&adults=2` 
+  - Becomes: `https://www.booking.com/hotel/ro/silva-sibiu.ro.html`
 * **startUrls Format**: Create array of URL objects: `[{"url": "hotel_url_1"}, {"url": "hotel_url_2"}, {"url": "hotel_url_3"}]`
 * **Required Parameters**:
   - `maxReviewsPerHotel: 50` (comprehensive review sample)
@@ -127,13 +130,16 @@ When user says "Looking for hotels in Sibiu for August 20-22", you extract:
 
 ### Reviews Airbnb Parameters  
 * **Trigger Condition**: Only call AFTER you have received results from the main Airbnb scraper
-* **URL Extraction**: Extract ALL listing URLs from airbnb scraper results (the `url` field from each property)
+* **URL Extraction**: Extract ALL listing URLs from airbnb scraper results (the `url` field from each property)  
+* **URL Cleaning**: Strip query parameters (everything after "?") to get clean canonical URLs
+  - Example: `https://www.airbnb.com/rooms/49313162?check_in=2025-01-15&adults=2`
+  - Becomes: `https://www.airbnb.com/rooms/49313162`
 * **startUrls Format**: Same array format as booking reviews: `[{"url": "listing_url_1"}, {"url": "listing_url_2"}]`
 * **Required Parameters**: Use identical review analysis parameters as booking reviews
 
 ### Sequential Workflow Rules
 1. **Wait for Phase 1 completion**: Do NOT call review scrapers until you have property results with URLs
-2. **Extract URLs properly**: Get the exact URL from each property's `url` field 
+2. **Extract and clean URLs**: Get the URL from each property's `url` field, then strip query parameters (remove "?" and everything after) 
 3. **Format as arrays**: Both review scrapers expect arrays of URL objects, not single URLs
 4. **Wait for Phase 2 completion**: Do NOT proceed with final analysis until you have detailed review data
 5. **Comprehensive analysis**: Use the detailed review data (not basic property data) for your review summaries
