@@ -1,6 +1,6 @@
 # VolaBot - AI Travel Consultant
 
-> **Sophisticated AI-powered travel consultant that curates personalized hotel recommendations by analyzing 100+ properties and 1000+ reviews from Booking.com, Airbnb, and Google Maps.**
+> **AI-powered travel consultant that curates personalized hotel recommendations by analyzing 100+ properties from Booking.com, Airbnb, and Google Maps with streamlined parallel processing.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![N8N Workflow](https://img.shields.io/badge/N8N-Workflow-blue)](https://n8n.io/)
@@ -8,13 +8,13 @@
 
 ## 🌟 Overview
 
-VolaBot is an intelligent travel consultant built as an N8N workflow that helps users find perfect accommodations by:
+VolaBot is an intelligent travel consultant built as an N8N workflow that helps users find accommodations by:
 
 - **Multi-Platform Search**: Simultaneously scrapes Booking.com, Airbnb, and Google Maps
 - **Intelligent Curation**: Always returns exactly 7 properties with strict 5-2 platform ratio
-- **Advanced Review Analysis**: Analyzes up to 500 reviews per property, segmented by traveler type
+- **Review Integration**: Uses available review data from property scrapers and Google Maps
 - **Smart Image Selection**: Uses caption intelligence to prioritize user-relevant visuals
-- **Sophisticated Persona**: Witty, insightful travel consultant voice with cultural adaptation
+- **Travel Consultant Persona**: Witty, insightful voice with multi-language support
 
 ### Key Features
 
@@ -23,7 +23,7 @@ VolaBot is an intelligent travel consultant built as an N8N workflow that helps 
 - 🎯 **Intelligent Ranking**: Budget-based filtering with quality thresholds
 - 🌍 **Multi-Language Support**: Auto-detection with consistent translation
 - 📸 **Smart Image Curation**: Maximum 3 strategically selected images per property
-- 📝 **Review Intelligence**: 3-4 positives + 2 negatives with explanations
+- 📝 **Review Integration**: Uses available review data from main scrapers and Google Maps
 
 ## 🚀 Quick Start
 
@@ -61,10 +61,10 @@ VolaBot is an intelligent travel consultant built as an N8N workflow that helps 
 ```
 vola-n8n-agent-hotels/
 ├── README.md                      # 👋 You are here
-├── DEVELOPMENT.md                 # Development workflow guide
+├── CLAUDE.md                      # Development guide and project context
 ├── MAIN_PROMPT.md                 # 🎯 Single source of truth for AI prompt
 ├── Hotels-Agent-CRISTI.json       # 🔧 N8N workflow configuration
-├── package.json                   # 📦 NPM scripts and project config
+├── comparison.md                  # Evolution analysis and client presentation
 │
 ├── scripts/                       # 🛠️ Automation tools
 │   ├── sync-prompt.js             # Sync MAIN_PROMPT.md → JSON
@@ -134,11 +134,13 @@ npm run backup        # 💾 Create timestamped backup
 
 ### Multi-Platform Search Strategy
 
-VolaBot simultaneously calls three scraper APIs when users confirm search:
+VolaBot executes 3 scraper APIs simultaneously when users confirm search:
 
 1. **Booking.com Scraper** (`voyager~booking-scraper`)
 2. **Airbnb Scraper** (`tri_angle~airbnb-scraper`)  
 3. **Google Maps Scraper** (`compass~crawler-google-places`)
+
+**Architecture**: Parallel execution with graceful error handling - system continues operating even if individual scrapers fail.
 
 ### Intelligent Property Curation Algorithm
 
@@ -213,7 +215,7 @@ VolaBot simultaneously calls three scraper APIs when users confirm search:
 
 - ✅ **7 Properties**: Always exactly 7 recommendations
 - ✅ **5-2 Platform Ratio**: Strict distribution enforcement
-- ✅ **Review Analysis**: No property without review insights
+- ✅ **Review Integration**: Uses available review data from main scrapers
 - ✅ **Link Integrity**: URLs copied verbatim from source
 - ✅ **Language Consistency**: All output in user's detected language
 
@@ -265,15 +267,15 @@ Configure in N8N credentials manager:
 
 - **Response Time**: ~5 minutes for full search
 - **Property Coverage**: 100+ properties analyzed
-- **Review Analysis**: Up to 500 reviews per property
+- **Review Integration**: Available review data from scrapers + Google Maps
 - **Image Quality**: Maximum 3 strategically selected images
 - **Platform Distribution**: Strict 5-2 ratio maintained
 
 ### Cost Optimization
 
-- **Google Maps Reviews**: Limited to 25 reviews (~$15/month)
-- **Apify Scrapers**: Limited to 15 items each for performance
-- **AI Token Usage**: Optimized prompts and structured responses
+- **Google Maps Scraper**: Limited to 10 places per search for performance
+- **Apify Scrapers**: Limited to 10 items each for performance
+- **AI Token Usage**: Optimized prompts and streamlined responses
 
 ## 🤝 Contributing
 
@@ -297,10 +299,10 @@ Configure in N8N credentials manager:
 
 ### Getting Help
 
-- **Configuration Issues**: Check `config/README.md`
-- **API Problems**: Review `docs/api-documentation/`
-- **Testing**: See `test-data/README.md`
-- **Development**: Follow `DEVELOPMENT.md` guide
+- **Development Guide**: See `CLAUDE.md` for project context and setup
+- **API Configuration**: Review N8N workflow configuration
+- **System Evolution**: Check `comparison.md` for technical achievements
+- **Prompt Updates**: Edit `MAIN_PROMPT.md` for system behavior changes
 
 ### Common Issues
 
