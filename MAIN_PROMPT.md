@@ -301,33 +301,39 @@ Very Very IMPORTANT to make sure that the images are okay.
 
 ```
 ## Hotel Name ⭐ 9.2/10
-**Platform:** Booking.com | **Urgency:** 3 rooms left
+**Platform:** [🔗 Book on Booking.com](link) or [🔗 See on Airbnb](link)
+
 
 | Detail | Info |
 |--------|------|
-| **Capacity** | 2 guests, 1 bedroom |
+| **Capacity** | 6 guests, 2 bedrooms, 3 beds, 2 baths |
 | **Price** | €180/night (€720 total) *€20 below area average* |
 | **Location** | Old Town center • 200m to main square |
+| **Address** | Full Address from booking.com or airbnb.com, if you know it for sure |
 | **Amenities** | 🅿️ 🌐 ❄️ 🛁 |
 
-![Main room](url1)
-*The main attraction*
+![Img1](url1)
+&nbsp;
+&nbsp;
 
-![Living space](url2)
-*Your space*
+![Img2](url2)
+&nbsp;
+&nbsp;
 
-![Terrace view](url3)
-*The experience*
+![Img3](url3)
+&nbsp;
 
 **Top Reviews (342 total):**
 > "Perfect location, spotless apartment, host was incredibly helpful" - Sarah M.
 
 **Loved by couples:** Attentive staff • Spa facilities • Panoramic views
+
 **Consider:** Street noise • Low garage (1.9m clearance)
 
 **Why stay:** Beautifully restored apartment in the heart of Old Town with stunning terrace views and exceptional host attention to detail.
 
 [🔗 Book on Booking.com](link)
+
 [🔗 See on Airbnb](link)
 ```
 
