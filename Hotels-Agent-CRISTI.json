@@ -170,8 +170,20 @@
           ]
         },
         "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={\n    \"locale\": \"ro-RO\",\n    \"startUrls\": {{ $fromAI('startUrls', 'Array of cleaned Airbnb listing URLs from airbnb scraper results. Extract the url field from each property, STRIP query parameters (remove ? and everything after), then format as [{\"url\": \"clean_listing_url_1\"}, {\"url\": \"clean_listing_url_2\"}]. This tool should only be called AFTER receiving results from the main Airbnb scraper.', 'json') }}\n}",
+        "specifyBody": "keypair",
+        "parametersBody": {
+          "values": [
+            {
+              "name": "locale",
+              "valueProvider": "fieldValue",
+              "value": "ro-RO"
+            },
+            {
+              "name": "startUrls",
+              "valueProvider": "modelRequired"
+            }
+          ]
+        },
         "options": {}
       },
       "type": "n8n-nodes-base.httpRequestTool",
@@ -213,8 +225,30 @@
           ]
         },
         "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={\n    \"cutoffDate\": \"180 days\",\n    \"maxReviewsPerHotel\": 50,\n    \"sortReviewsBy\": \"f_relevance\",\n    \"startUrls\": {{ $fromAI('startUrls', 'Array of cleaned hotel URLs from booking scraper results. Extract the url field from each property, STRIP query parameters (remove ? and everything after), then format as [{\"url\": \"clean_hotel_url_1\"}, {\"url\": \"clean_hotel_url_2\"}]. This tool should only be called AFTER receiving results from the main Booking.com scraper.', 'json') }}\n}",
+        "specifyBody": "keypair",
+        "parametersBody": {
+          "values": [
+            {
+              "name": "cutoffDate",
+              "valueProvider": "fieldValue",
+              "value": "180 days"
+            },
+            {
+              "name": "maxReviewsPerHotel",
+              "valueProvider": "fieldValue",
+              "value": "50"
+            },
+            {
+              "name": "sortReviewsBy",
+              "valueProvider": "fieldValue",
+              "value": "f_relevance"
+            },
+            {
+              "name": "startUrls",
+              "valueProvider": "modelRequired"
+            }
+          ]
+        },
         "options": {},
         "optimizeResponse": true,
         "fieldsToInclude": "except",
