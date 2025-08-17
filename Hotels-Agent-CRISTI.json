@@ -33,9 +33,9 @@
       "typeVersion": 4.2,
       "position": [
         920,
-        720
+        660
       ],
-      "id": "475d1fec-ef2d-4719-9a00-e651a5b3b8c3",
+      "id": "f9d460b1-ca79-40e4-9a01-446e96fec701",
       "name": "Scrape Google Maps",
       "retryOnFail": true,
       "alwaysOutputData": false,
@@ -57,9 +57,9 @@
       "typeVersion": 1,
       "position": [
         540,
-        560
+        500
       ],
-      "id": "2e28a93b-693a-43d3-ad08-d6195302750c",
+      "id": "7423bb7f-f567-4656-9c73-a5a6246a28d9",
       "name": "Google Gemini Chat Model",
       "credentials": {
         "googlePalmApi": {
@@ -76,9 +76,9 @@
       "typeVersion": 1.3,
       "position": [
         680,
-        560
+        500
       ],
-      "id": "93136b17-b289-4f7b-bae9-2ba8aa3fce51",
+      "id": "36f4d67e-61e7-4d4b-a1db-ec95764ee61a",
       "name": "Postgres Chat Memory",
       "credentials": {
         "postgres": {
@@ -111,9 +111,9 @@
       "typeVersion": 3.4,
       "position": [
         520,
-        120
+        60
       ],
-      "id": "06d2b173-9e7c-4a6b-a28f-4cacd0c97912",
+      "id": "d6ab4b8c-bd03-4457-be3a-26cad761b16a",
       "name": "Edit Fields1"
     },
     {
@@ -127,9 +127,9 @@
       "typeVersion": 2,
       "position": [
         340,
-        120
+        60
       ],
-      "id": "1b76062e-92ce-407b-9f57-2906dc255890",
+      "id": "d2785b0e-a9e0-4a12-82ec-870d05f1672a",
       "name": "Vola Webhook",
       "webhookId": "042d2591-94ed-43a9-a5e5-0860412c08e5"
     },
@@ -143,10 +143,10 @@
       "type": "n8n-nodes-base.stickyNote",
       "position": [
         280,
-        40
+        -20
       ],
       "typeVersion": 1,
-      "id": "cb5d2183-7a38-4a0c-88ae-a473394da63e",
+      "id": "ef3e8df9-99ac-4554-8eb2-d1d9046c871a",
       "name": "Sticky Note4"
     },
     {
@@ -170,17 +170,15 @@
           ]
         },
         "sendBody": true,
-        "specifyBody": "keypair",
-        "parametersBody": {
-          "values": [
+        "bodyParameters": {
+          "parameters": [
             {
               "name": "locale",
-              "valueProvider": "fieldValue",
               "value": "ro-RO"
             },
             {
               "name": "startUrls",
-              "valueProvider": "modelRequired"
+              "value": "={{ $fromAI('startUrls', 'Array of cleaned hotel URLs from booking scraper results. Extract the url field from each property, STRIP query parameters (remove ? and everything after), then format as [{\"url\": \"clean_hotel_url_1\"}, {\"url\": \"clean_hotel_url_2\"}]. This tool should only be called AFTER receiving results from the main Booking.com scraper.', 'json') }}"
             }
           ]
         },
@@ -190,9 +188,9 @@
       "typeVersion": 4.2,
       "position": [
         740,
-        740
+        680
       ],
-      "id": "fcc16488-317b-49b6-98f6-acda0c315751",
+      "id": "273e47be-b9f9-4dbb-8860-f3d50d07959b",
       "name": "Reviews Airbnb",
       "retryOnFail": true,
       "alwaysOutputData": false,
@@ -225,27 +223,23 @@
           ]
         },
         "sendBody": true,
-        "specifyBody": "keypair",
-        "parametersBody": {
-          "values": [
+        "bodyParameters": {
+          "parameters": [
             {
               "name": "cutoffDate",
-              "valueProvider": "fieldValue",
               "value": "180 days"
             },
             {
               "name": "maxReviewsPerHotel",
-              "valueProvider": "fieldValue",
-              "value": "50"
+              "value": "={{ Number(50) }}"
             },
             {
               "name": "sortReviewsBy",
-              "valueProvider": "fieldValue",
               "value": "f_relevance"
             },
             {
               "name": "startUrls",
-              "valueProvider": "modelRequired"
+              "value": "={{ $fromAI('startUrls', 'Array of cleaned hotel URLs from booking scraper results. Extract the url field from each property, STRIP query parameters (remove ? and everything after), then format as [{\"url\": \"clean_hotel_url_1\"}, {\"url\": \"clean_hotel_url_2\"}]. This tool should only be called AFTER receiving results from the main Booking.com scraper.', 'json') }}"
             }
           ]
         },
@@ -258,9 +252,9 @@
       "typeVersion": 4.2,
       "position": [
         1100,
-        740
+        680
       ],
-      "id": "6a52d29a-cf58-4c50-9246-ce538a4f47d9",
+      "id": "ee5b8fab-7b0c-4296-8dc6-0ce8c402410d",
       "name": "Reviews Booking",
       "retryOnFail": true,
       "credentials": {
@@ -281,10 +275,10 @@
       "type": "n8n-nodes-base.stickyNote",
       "position": [
         460,
-        680
+        620
       ],
       "typeVersion": 1,
-      "id": "f48e5dad-b7cd-40a4-bcd8-aa4658eb3255",
+      "id": "6589f8a9-b65f-46c0-9a87-9a044421c5eb",
       "name": "Sticky Note3"
     },
     {
@@ -297,10 +291,10 @@
       "type": "n8n-nodes-base.stickyNote",
       "position": [
         460,
-        280
+        220
       ],
       "typeVersion": 1,
-      "id": "39081c09-9f3c-4aa1-a58d-41d762431a7a",
+      "id": "03385901-9f98-4fbb-8f5e-3f7fecd7d3de",
       "name": "Sticky Note2"
     },
     {
@@ -312,10 +306,10 @@
       "type": "n8n-nodes-base.stickyNote",
       "position": [
         280,
-        280
+        220
       ],
       "typeVersion": 1,
-      "id": "deb2107d-4828-4ad0-a566-e619b66262bc",
+      "id": "6af79995-f42b-4f46-bb64-4df3679aaefd",
       "name": "Sticky Note1"
     },
     {
@@ -326,9 +320,9 @@
       "typeVersion": 1.3,
       "position": [
         1280,
-        120
+        60
       ],
-      "id": "6f264fb7-e118-497a-ae66-fdc4ce532222",
+      "id": "2403f343-8a25-4b64-9870-2b1a128df856",
       "name": "Respond to Webhook",
       "retryOnFail": true,
       "onError": "continueRegularOutput"
@@ -365,9 +359,9 @@
       "typeVersion": 4.2,
       "position": [
         1280,
-        740
+        680
       ],
-      "id": "edf63fe7-2a48-48a5-a44b-c76760c51313",
+      "id": "13133555-069a-4372-aa71-ceaef809b670",
       "name": "Scrape Booking",
       "retryOnFail": true,
       "credentials": {
@@ -410,9 +404,9 @@
       "typeVersion": 4.2,
       "position": [
         560,
-        740
+        680
       ],
-      "id": "633c9bb4-7cdc-4025-b188-c0eac2622499",
+      "id": "2a74da61-e338-4f39-a0aa-98590ec37387",
       "name": "Scrape AirBnb",
       "retryOnFail": true,
       "credentials": {
@@ -440,9 +434,9 @@
       "typeVersion": 1.1,
       "position": [
         320,
-        340
+        280
       ],
-      "id": "7bc138f5-722b-4204-a01c-ae3f00ca05a1",
+      "id": "4d69bb15-869b-4dc0-8845-c492cb00035a",
       "name": "When chat message received",
       "webhookId": "b419f5d3-82dd-41d3-933d-eca656870ab6"
     },
@@ -457,9 +451,9 @@
       "typeVersion": 2,
       "position": [
         820,
-        320
+        260
       ],
-      "id": "b3696009-32c0-4cab-aee4-bbf3443b150a",
+      "id": "32e2f782-5c29-4c09-abaf-392096b9a1e1",
       "name": "AI Agent",
       "retryOnFail": true,
       "onError": "continueErrorOutput"
@@ -584,7 +578,7 @@
     "timezone": "Europe/Bucharest",
     "callerPolicy": "workflowsFromSameOwner"
   },
-  "versionId": "6cf759aa-ab3a-44de-b5ea-0509d7422db4",
+  "versionId": "844d2de7-8a14-431d-9bca-3100552564e1",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "70494cb356420efc72c2a7a47e27b7a31b783bdae5a28ee35c1530986f0f1709"
