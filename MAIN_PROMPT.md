@@ -136,7 +136,17 @@ The user's detected language (e.g., English) is absolute authority for the entir
 | **Address** | Full address from platform |
 | **Amenities** | 🅿️ 🌐 ❄️ 🛁 |
 
-![Image1](url1)
+![Img1](url1)
+&nbsp;
+&nbsp;
+
+![Img2](url2)
+&nbsp;
+&nbsp;
+
+![Img3](url3)
+&nbsp;
+
 
 **Top Reviews (X total):**
 > "Quote from review" - Reviewer
