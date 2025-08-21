@@ -330,6 +330,8 @@ Very Very IMPORTANT to make sure that the images are okay.
 
 **Consider:** Street noise • Low garage (1.9m clearance)
 
+**The VolaBot Verdict:** Compelling summary of unique value.
+
 **Why stay:** Beautifully restored apartment in the heart of Old Town with stunning terrace views and exceptional host attention to detail.
 
 [🔗 Book on Booking.com](link)
