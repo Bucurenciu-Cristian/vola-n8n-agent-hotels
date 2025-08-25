@@ -10,7 +10,7 @@ BACKUP_DIR := archive/backups
 # Default target
 .DEFAULT_GOAL := help
 
-.PHONY: help sync validate dev update-from-downloads backup deploy organize clean setup test status
+.PHONY: help sync validate dev update-from-downloads backup deploy organize clean setup test status update-limits update-charge-limits
 
 ## Show this help message
 help:
@@ -36,6 +36,12 @@ help:
 	@echo "  🔍 test      - Run validation and basic checks"
 	@echo "  📊 status    - Show project status"
 	@echo "  ❓ help      - Show this help message"
+	@echo ""
+	@echo "🔧 API Configuration:"
+	@echo "  ⚙️ update-limits        - Update API limits (interactive)"
+	@echo "  ⚙️ update-limits-to-X   - Set API limits to X (e.g., make update-limits-to-10)"
+	@echo "  💰 update-charge-limits - Update API charge limits (interactive)"
+	@echo "  💰 update-charge-to-X   - Set charge limits to $X (e.g., make update-charge-to-2.50)"
 	@echo ""
 	@echo "⭐ Quick Start:"
 	@echo "  1. Edit $(MAIN_PROMPT)"
@@ -254,5 +260,25 @@ prompt-stats:
 		echo "$(RED)❌ $(MAIN_PROMPT) not found$(RESET)"; \
 	fi
 
+## Update API limits in workflow (interactive)
+update-limits:
+	@echo "🔧 Updating API limits in workflow..."
+	@python3 $(SCRIPTS_DIR)/update-api-limits.py
+
+## Update API limits with specific value (pattern rule)
+update-limits-to-%:
+	@echo "🎯 Setting API limits to $*..."
+	@python3 $(SCRIPTS_DIR)/update-api-limits.py $*
+
+## Update API charge limits in workflow (interactive)
+update-charge-limits:
+	@echo "💰 Updating API charge limits in workflow..."
+	@python3 $(SCRIPTS_DIR)/update-charge-limits.py
+
+## Update API charge limits with specific value (pattern rule)
+update-charge-to-%:
+	@echo "💰 Setting API charge limits to $$$*..."
+	@python3 $(SCRIPTS_DIR)/update-charge-limits.py $*
+
 # Hidden targets (not shown in help)
-.PHONY: clean-backups diff prompt-stats
+.PHONY: clean-backups diff prompt-stats update-limits-to-% update-charge-to-%
