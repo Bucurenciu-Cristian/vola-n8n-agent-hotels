@@ -1,0 +1,57 @@
+{
+  "properties": [
+    {
+      "id": "test-property-1",
+      "name": "Boutique Hotel Central",
+      "rating": 8.5,
+      "platform": "booking",
+      "images": [
+        {
+          "url": "https://example.com/hotel-exterior.jpg",
+          "caption": "Beautiful hotel exterior with historic architecture"
+        },
+        {
+          "url": "https://example.com/hotel-room.jpg", 
+          "caption": "Elegant bedroom with city view"
+        },
+        {
+          "url": "https://example.com/hotel-pool.jpg",
+          "caption": "Rooftop pool with panoramic view"
+        },
+        {
+          "url": "https://example.com/hotel-lobby.jpg",
+          "caption": "Modern lobby with marble floors"
+        }
+      ],
+      "amenities": ["pool", "wifi", "spa", "restaurant"]
+    },
+    {
+      "id": "test-property-2", 
+      "name": "Cozy Airbnb Apartment",
+      "rating": 4.8,
+      "platform": "airbnb",
+      "images": [
+        {
+          "url": "https://example.com/apt-living.jpg",
+          "caption": "Living cu canapea și vedere la oraș"
+        },
+        {
+          "url": "https://example.com/apt-kitchen.jpg",
+          "caption": "Bucătărie completă cu toate dotările"
+        },
+        {
+          "url": "https://example.com/apt-bedroom.jpg",
+          "caption": "Dormitor dublu cu balcon privat"
+        }
+      ],
+      "amenities": ["kitchen", "wifi", "balcony"]
+    }
+  ],
+  "userPreferences": {
+    "tripType": "romantic",
+    "preferredAmenities": ["view", "pool", "balcony"],
+    "budget": "luxury",
+    "visualPreferences": ["city views", "elegant spaces"]
+  },
+  "sessionId": "test-session-123"
+}
