@@ -1,0 +1,12 @@
+{
+  "session_id": "8127d521-0216-4070-9203-7021b4c5f9e5",
+  "prompts": [
+    "/sc:brainstorm I want with you to modify @MAIN_PROMPT.md in order to tackle the new changes added. Basically to trigger the new workflow created by you. @Hotels-Image-Analyzer.json . You're free to actually explore the project, before you make any asumptions. I'm on railway use --seq and n8n-mcp if you want. Let's go.",
+    "actually, some minor changes: Make sure to start the webhook, in phase 2, at the same time I get the reviews from the 2 platforms. the actual images are right after phase no.1",
+    "Great, now make an analysis \"end-to-end\" and try to find some maybe errors or insights about this entire new flow that we have created.  use --seq",
+    "Provide to me some actionable items for me to do right now. I want to test this properly.",
+    "Great, I'm testing right now. But until then. I want maxTotalChargeUsd to be Number(1), but added in all the api requests in the same format, of course. To actually now, that I have a clear simple margin. use --seq ",
+    "/sc:save ",
+    "/old:session-summary "
+  ]
+}

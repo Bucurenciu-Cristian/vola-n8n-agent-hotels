@@ -1,0 +1,6 @@
+{
+  "session_id": "3ec94679-5c44-4c4a-b957-db93b32e17ad",
+  "prompts": [
+    "Take @MAIN_PROMPT.md and I want to have the OUTPUT SKELETON, to be more verbose. How can I do this? use /seq and @agent-prompt-engineer in order to come with a great plan. I don't want to optimise yet something else. Just to instruct to be more verbose with the final client."
+  ]
+}

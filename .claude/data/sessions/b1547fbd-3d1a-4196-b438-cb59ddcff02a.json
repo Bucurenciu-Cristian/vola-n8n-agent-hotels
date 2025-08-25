@@ -1,0 +1,11 @@
+{
+  "session_id": "b1547fbd-3d1a-4196-b438-cb59ddcff02a",
+  "prompts": [
+    "/sc:brainstorm: I want to create another workflow entirely with 2 AI Agent, the next one, to have instructions that it has to analyze just the images and to return the link which are great. Basically a copy of current AI agent, without any tools, but it has to connect somehow to the previous AI agent, use n8n-mcp and --seq, the Model can be the same and Memory the same. The reference is this: @Hotels-Agent-CRISTI.json -> This is the starting point. What questions do you have for me that I didn't answered?",
+    "1. Let's try with another entire subworkflow. 2. Entire property data to extract images. 3.Relevance to user preferences for sure. 4. Yes, keep the limit to 3 and yes, just the links, I'll show it to the users, for sure via markdown, in the main workflow and agent, as it is now. 5. When it is having the data, basically parallel with phase 2, when it's going after reviews for those properties. 6. Let's start easy, without any memory. 7. Yes, keep volabot personality and yes, keep the same model. Thanks.  Great questions by the way.",
+    "Great, provide to me exactly what to do myself. I have the n8n instance hosted on railway, not on my local.",
+    "https://primary-production-11988.up.railway.app/webhook/analyze-images -> this is step 2. What else do you need to make yourself the changes and I'll just test it.",
+    "Your changes are not quite there. @Hotels-Agent-CRISTI.json is not valid JSON. Fix this. use --seq",
+    "Nope. It's not quite there. This systemMessage is present just here, in the JSON. MAIN PROMPT is something else."
+  ]
+}

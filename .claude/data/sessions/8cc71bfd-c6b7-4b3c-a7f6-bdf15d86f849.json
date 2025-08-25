@@ -1,0 +1,16 @@
+{
+  "session_id": "8cc71bfd-c6b7-4b3c-a7f6-bdf15d86f849",
+  "prompts": [
+    "What can you do with apify mcp? Teach me about it.",
+    "Nope. I want you to tell about the last run from apify",
+    "Great, check now the details of the last 5 aidbnb reviews scraper runs. Because for some reason, this is happening to me: If I call the same input via API, I can't get the same results as I have with the WEB interface and I don't like this. Do a research about this. I think you can see If a run it is from api or web, basically the origin of that. And you'll see a huge differece betwwen them. use /seq in your analisis",
+    "Nope. You're very wrong. Some other insights? That INPUT doesn't exists, I just tried it to see if it is making a difference. check the actual docs if you can about this specific actor.",
+    "So, this means what? To actually create a new api key and use that? ",
+    "Give me a reference of where you have found out about this, or you halucinated?",
+    "Great, but now you can check the docs to actually see where and how I can use the api, to impose a great limit.",
+    "Great, thanks. It didn't worked. I tried it, but something is off .",
+    "Yes, the entire flow of n8n is here: in Hotels-Agent-CRISTI.json. Fell free to explore it properly",
+    "Perfect. I did the changes. Check again and then, You can commit. use /seq",
+    "Okay, but you can even commit now. Don't worry about that."
+  ]
+}

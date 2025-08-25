@@ -1,0 +1,7 @@
+{
+  "session_id": "e9e8f2e0-c758-4722-aa67-c879017a1f92",
+  "prompts": [
+    "Let's add .mcp.json into git ignore and use --seq and make sure that we can't commit that, because it's with api key inside. ",
+    "/sc:git Let's have a clean state and commit the other remainings files. use --seq"
+  ]
+}
