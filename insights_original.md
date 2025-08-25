@@ -1,0 +1,3 @@
+- GEMINI PRO 2.5 nu a mers deloc. Se blocheaza la primul text, din ceva motiv extern, deci 2.5 flash ramane modelul.
+- Limita de 50 e prea mare, pt ca ajungem peste tot contextul de 1 milion, maxim 20 de proprietati recomand eu.
+- API-ul din ceva motiv e limitat si el, incercand fix pt acel scrapper si face drop la informatii. (am gasit rezolvarea, din query params, sa ii specific eu limita: 2$ de ex)
