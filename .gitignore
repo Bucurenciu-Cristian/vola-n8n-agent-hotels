@@ -50,3 +50,4 @@ __pycache__/
 
 # Backups (ignored for clean working tree)
 archive/backups/*.json
+.mcp.json
