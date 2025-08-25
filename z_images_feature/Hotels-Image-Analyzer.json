@@ -11,8 +11,8 @@
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
       "position": [
-        500,
-        380
+        200,
+        400
       ],
       "id": "image-analyzer-webhook",
       "name": "Image Analysis Webhook",
@@ -47,8 +47,8 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        680,
-        380
+        600,
+        400
       ],
       "id": "extract-input-data",
       "name": "Extract Input Data"
@@ -61,8 +61,8 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        860,
-        500
+        1000,
+        600
       ],
       "id": "gemini-model",
       "name": "Google Gemini Chat Model",
@@ -82,8 +82,8 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 1.6,
       "position": [
-        860,
-        380
+        1000,
+        400
       ],
       "id": "image-analysis-agent",
       "name": "Image Analysis Agent"
@@ -111,8 +111,8 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        1040,
-        380
+        1400,
+        400
       ],
       "id": "format-response",
       "name": "Format Response"
@@ -126,8 +126,8 @@
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.1,
       "position": [
-        1220,
-        380
+        1800,
+        400
       ],
       "id": "webhook-response",
       "name": "Webhook Response"
@@ -141,8 +141,8 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        440,
-        260
+        200,
+        100
       ],
       "typeVersion": 1,
       "id": "workflow-documentation",

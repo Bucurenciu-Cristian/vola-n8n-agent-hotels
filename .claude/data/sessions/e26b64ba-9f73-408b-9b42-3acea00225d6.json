@@ -1,6 +1,16 @@
 {
   "session_id": "e26b64ba-9f73-408b-9b42-3acea00225d6",
   "prompts": [
-    "/sc:git commit this state, but grouped.  use --seq"
+    "/sc:git commit this state, but grouped.  use --seq",
+    "Let's create a script that automatically in Hotels-Agent-CRISTI.json is changing the queryParameters to all the apis: limit and maxItems to the limit that I want. something 5, something 50, let's say. But I will chose at runtime. It's an easy task for you. It will help me a lot, add it into Makefile as well and use --seq",
+    "in @z_images_feature/Hotels-Image-Analyzer.json I want the position of every object, to be further, to actually be visual, not that small, this is the current state: [Image #1] AS you can see, it's not manageable. use --seq",
+    "continue.",
+    "Perfect. I want now, to have something similar with what you create for @scripts/update-api-limits.py  but for this one: maxTotalChargeUsd, to change it from 1 to what value I want at runtime. use --seq Thanks.",
+    "Continue",
+    "Continue",
+    "Great change it now to 0.25",
+    "/sc:git commit and push this changes, but grouped use --seq",
+    "continue",
+    "Continue"
   ]
 }

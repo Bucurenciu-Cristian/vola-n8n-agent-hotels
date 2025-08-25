@@ -1,5 +1,5 @@
 {
-  "name": "Hotels-Agent-CRISTI",
+  "name": "Hotels-Agent-CRISTI v2",
   "nodes": [
     {
       "parameters": {
@@ -13,15 +13,15 @@
           "parameters": [
             {
               "name": "maxItems",
-              "value": "5"
+              "value": "10"
             },
             {
               "name": "limit",
-              "value": "5"
+              "value": "10"
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(1) }}"
+              "value": "={{ Number(0.25) }}"
             }
           ]
         },
@@ -36,10 +36,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        1740,
-        740
+        900,
+        600
       ],
-      "id": "df1bbc8b-901f-4427-9068-0f354a76838d",
+      "id": "8c787df0-9248-46a7-98d7-59a3bca3787d",
       "name": "Scrape Google Maps",
       "retryOnFail": true,
       "alwaysOutputData": false,
@@ -68,13 +68,14 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        1900,
-        740
+        1060,
+        600
       ],
-      "id": "image-analyzer-tool",
+      "id": "07acf258-8bed-4d23-82aa-02d248478696",
       "name": "Image Analyzer",
       "retryOnFail": true,
       "alwaysOutputData": false,
+      "disabled": true,
       "onError": "continueRegularOutput"
     },
     {
@@ -85,10 +86,10 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        700,
-        820
+        -140,
+        680
       ],
-      "id": "c0fad67b-d379-4114-a67d-a25cc2dc2862",
+      "id": "dfa62b26-24c9-4c52-8890-3301870c170f",
       "name": "Google Gemini Chat Model",
       "credentials": {
         "googlePalmApi": {
@@ -104,10 +105,10 @@
       "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
       "typeVersion": 1.3,
       "position": [
-        840,
-        820
+        0,
+        680
       ],
-      "id": "c2e03cd0-eec9-4068-8261-0a9be664f50d",
+      "id": "51be79a1-76fa-4c4a-9547-0758ee27b16c",
       "name": "Postgres Chat Memory",
       "credentials": {
         "postgres": {
@@ -139,10 +140,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        680,
-        380
+        -160,
+        240
       ],
-      "id": "9a8c2c96-139e-4452-8be0-3720afa38863",
+      "id": "8c0e5925-a797-4180-974d-f35a159a75c8",
       "name": "Edit Fields1"
     },
     {
@@ -155,10 +156,10 @@
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
       "position": [
-        500,
-        380
+        -340,
+        240
       ],
-      "id": "ec27901d-6c65-4249-89cf-60b4328611c0",
+      "id": "0df3ce79-f57b-43db-b54d-97324d78ca42",
       "name": "Vola Webhook",
       "webhookId": "042d2591-94ed-43a9-a5e5-0860412c08e5"
     },
@@ -171,11 +172,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        440,
-        300
+        -400,
+        160
       ],
       "typeVersion": 1,
-      "id": "f23a8c63-3c2d-4f64-9dd6-06574a7a6ebb",
+      "id": "9da89a89-28a1-4ed4-bcfd-bf704f74af06",
       "name": "Sticky Note4"
     },
     {
@@ -190,15 +191,15 @@
           "parameters": [
             {
               "name": "maxItems",
-              "value": "5"
+              "value": "10"
             },
             {
               "name": "limit",
-              "value": "5"
+              "value": "10"
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(1) }}"
+              "value": "={{ Number(0.25) }}"
             }
           ]
         },
@@ -223,10 +224,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        1040,
-        1000
+        200,
+        860
       ],
-      "id": "49fc0184-a1ce-447d-95e4-6a83e776e4ad",
+      "id": "705d1526-d08c-4b8e-8241-b791a2a2d7e6",
       "name": "Reviews Airbnb",
       "retryOnFail": true,
       "alwaysOutputData": false,
@@ -250,15 +251,15 @@
           "parameters": [
             {
               "name": "maxItems",
-              "value": "5"
+              "value": "10"
             },
             {
               "name": "limit",
-              "value": "5"
+              "value": "10"
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(1) }}"
+              "value": "={{ Number(0.25) }}"
             }
           ]
         },
@@ -291,10 +292,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        1220,
-        1000
+        380,
+        860
       ],
-      "id": "da6a2384-0b29-4ee1-8cde-f5738ca092ff",
+      "id": "301171b0-d9ae-4169-859d-60a91afb588d",
       "name": "Reviews Booking",
       "retryOnFail": true,
       "credentials": {
@@ -314,11 +315,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        620,
-        940
+        -220,
+        800
       ],
       "typeVersion": 1,
-      "id": "a55eba3c-506c-4f90-bfb8-db580def1c62",
+      "id": "c80f0a9e-a580-46e7-a6a0-3f22e4591364",
       "name": "Sticky Note3"
     },
     {
@@ -330,11 +331,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        620,
-        540
+        -220,
+        400
       ],
       "typeVersion": 1,
-      "id": "0497bddd-169d-4ab0-affb-c448e941cdcf",
+      "id": "35a0c0ba-e93f-44ed-8bce-badbe9452683",
       "name": "Sticky Note2"
     },
     {
@@ -345,11 +346,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        440,
-        540
+        -400,
+        400
       ],
       "typeVersion": 1,
-      "id": "beba3cdc-5252-4af2-a762-f14783c585c4",
+      "id": "31bc7091-08d8-4568-b48c-f019bc19f3de",
       "name": "Sticky Note1"
     },
     {
@@ -359,10 +360,10 @@
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.3,
       "position": [
-        1440,
-        380
+        600,
+        240
       ],
-      "id": "47ecf101-3731-4113-9b1c-7ad9cd756759",
+      "id": "56cf4cfa-488c-442a-a940-87c24cc6b3db",
       "name": "Respond to Webhook",
       "retryOnFail": true,
       "onError": "continueRegularOutput"
@@ -379,15 +380,15 @@
           "parameters": [
             {
               "name": "maxItems",
-              "value": "5"
+              "value": "10"
             },
             {
               "name": "limit",
-              "value": "5"
+              "value": "10"
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(1) }}"
+              "value": "={{ Number(0.25) }}"
             }
           ]
         },
@@ -402,10 +403,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        1400,
-        1000
+        560,
+        860
       ],
-      "id": "7593d7db-6092-4af6-98de-7bc217c0c3b9",
+      "id": "cbd79807-0a3c-407e-a662-56a284143c8e",
       "name": "Scrape Booking",
       "retryOnFail": true,
       "credentials": {
@@ -428,15 +429,15 @@
           "parameters": [
             {
               "name": "maxItems",
-              "value": "5"
+              "value": "10"
             },
             {
               "name": "limit",
-              "value": "5"
+              "value": "10"
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(1) }}"
+              "value": "={{ Number(0.25) }}"
             }
           ]
         },
@@ -451,10 +452,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        880,
-        1000
+        40,
+        860
       ],
-      "id": "6cc0c1b3-8c77-40e4-aafa-6318e52b258b",
+      "id": "4ebfad57-e7c0-4de6-b2b5-65418d53c9c5",
       "name": "Scrape AirBnb",
       "retryOnFail": true,
       "credentials": {
@@ -481,10 +482,10 @@
       "type": "@n8n/n8n-nodes-langchain.chatTrigger",
       "typeVersion": 1.1,
       "position": [
-        480,
-        600
+        -360,
+        460
       ],
-      "id": "28e2df14-c82d-4a2f-807d-e334d7e7cb5e",
+      "id": "ab0b3716-16c6-474d-ad4b-a4662e7abce0",
       "name": "When chat message received",
       "webhookId": "b419f5d3-82dd-41d3-933d-eca656870ab6"
     },
@@ -499,10 +500,10 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2,
       "position": [
-        980,
-        580
+        140,
+        440
       ],
-      "id": "1f97871f-dbef-4691-81a5-4c3a53515467",
+      "id": "2c19638f-bde2-4904-bc17-39ea99f4e592",
       "name": "AI Agent",
       "retryOnFail": true,
       "onError": "continueErrorOutput"
@@ -622,28 +623,22 @@
     },
     "Image Analyzer": {
       "ai_tool": [
-        [
-          {
-            "node": "AI Agent",
-            "type": "ai_tool",
-            "index": 0
-          }
-        ]
+        []
       ]
     }
   },
-  "active": true,
+  "active": false,
   "settings": {
     "executionOrder": "v1",
     "timezone": "Europe/Bucharest",
     "callerPolicy": "workflowsFromSameOwner"
   },
-  "versionId": "a1ad8013-43cd-433e-a4f8-6370eedaabbe",
+  "versionId": "1d4f0901-71d8-4620-8490-cc00518fc557",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "70494cb356420efc72c2a7a47e27b7a31b783bdae5a28ee35c1530986f0f1709"
   },
-  "id": "OqwoBl6Q4dd4B9ap",
+  "id": "fT7ZFNbbZXj6xkeH",
   "tags": [
     {
       "createdAt": "2025-08-03T20:43:00.329Z",
