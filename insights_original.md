@@ -9,4 +9,17 @@
 - Am inceput si un flow extern pt a analiza imagini, dar inca nu e terminat.
 - Am inceput sa adaug si validare per inputs, sa ma asigur ca trimite totul bine, la APIFY scrapers.
 
-- Finish AI IMAGEs selection, via the new workflow.
+# Finish AI IMAGEs selection, via the new workflow.
+
+## Work already done.
+
+
+- 
+- in apify_short folder you have all the data you need (all the last 3 data scrappers limited to 10) to actually create this new workflow. Test it properly first, and then, you'll connect it in the right approach via a webhook.
+
+
+## TODO {now}
+
+- You have to easily create a great structure for the new workflow, and to actually test if the new AI agent is really accessing the urls or not, to actually see the images.
+- One way of this is to call that tool(the new workflow), for every property in order, not parallel, to really know that the AI agent has accessed it.
+- Baby steps, start small with just one property, let it choose the best images and then continue on. It's kinda simple.
