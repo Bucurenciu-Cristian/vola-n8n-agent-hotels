@@ -1,0 +1,352 @@
+[
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1434905219556032675",
+    "id": "1488347542205926917",
+    "language": "fr",
+    "text": "Apparemment très agréable, je recommande vivement !",
+    "localizedText": "Apartament foarte frumos, aș recomanda cu căldură!",
+    "localizedReview": {
+      "text": "Apartament foarte frumos, aș recomanda cu căldură!",
+      "disclaimer": "Tradus din franceză"
+    },
+    "localizedDate": "Acum 1 săptămână",
+    "localizedReviewerLocation": "De 5 ani pe Airbnb",
+    "createdAt": "2025-08-15T12:40:53Z",
+    "reviewee": {
+      "id": "320360037",
+      "firstName": "Florian",
+      "hostName": "Florian",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/c66d3e24-9cd8-4457-9c97-21541bdd2b30.jpg",
+      "profilePath": "/users/show/320360037",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/c66d3e24-9cd8-4457-9c97-21541bdd2b30.jpg"
+    },
+    "reviewer": {
+      "id": "349352923",
+      "firstName": "Gaudoin",
+      "hostName": "Gaudoin",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/d8e83c58-e31d-4c9e-ba50-9246cd894347.jpeg",
+      "profilePath": "/users/show/349352923",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/d8e83c58-e31d-4c9e-ba50-9246cd894347.jpeg"
+    },
+    "reviewHighlight": "Ședere de o noapte",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1434905219556032675",
+    "id": "1486958262658159020",
+    "language": "fr",
+    "text": "Parfait conforme à mes attentes",
+    "localizedText": "Perfect, a îndeplinit așteptările",
+    "localizedReview": {
+      "text": "Perfect, a îndeplinit așteptările",
+      "disclaimer": "Tradus din franceză"
+    },
+    "localizedDate": "Acum 1 săptămână",
+    "localizedReviewerLocation": "De 10 ani pe Airbnb",
+    "createdAt": "2025-08-13T14:40:38Z",
+    "reviewee": {
+      "id": "320360037",
+      "firstName": "Florian",
+      "hostName": "Florian",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/c66d3e24-9cd8-4457-9c97-21541bdd2b30.jpg",
+      "profilePath": "/users/show/320360037",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/c66d3e24-9cd8-4457-9c97-21541bdd2b30.jpg"
+    },
+    "reviewer": {
+      "id": "37971947",
+      "firstName": "Weisse",
+      "hostName": "Weisse",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/bab71269-c7b5-4286-a159-b875c06b8e49.jpeg",
+      "profilePath": "/users/show/37971947",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/bab71269-c7b5-4286-a159-b875c06b8e49.jpeg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1434905219556032675",
+    "id": "1481092595753514222",
+    "language": "fr",
+    "text": "Nous avons passé un excellent séjour dans le logement de Florian. <br/>Lieu atypique, lumineux et très calme malgré qu’il soit en plein cœur de ville. <br/>Il nous semble quand même important de mentionner pour les futurs voyageurs que le logement se trouve au dernier étage d’un immeuble sans ascenseur ce qui rend sont accès délicat. <br/>Comme mentionné ci dessus, le logement si situe en plein cœur de ville, tout est donc accessible à pied en quelques minutes de marche. <br/>De très bon restaurant se trouvent à proximité. <br/>Si nous revenons à Lyon, nous repasserons chez Florian c’est certain.",
+    "localizedText": "Ne-am distrat de minune la Florian. <br/>Loc atipic, luminos și foarte liniștit, în ciuda faptului că se află în mijlocul orașului. <br/>Încă pare important să menționăm pentru viitorii oaspeți că locuința se află la ultimul etaj al unei clădiri fără lift, ceea ce face accesul dificil. <br/>După cum am menționat mai sus, unitatea de cazare este situată central în oraș, astfel încât totul se află la câțiva pași în câteva minute. <br/>Restaurante foarte bune sunt în apropiere. <br/>Dacă ne întoarcem la Lyon, cu siguranță ne vom întoarce la Florian.",
+    "localizedReview": {
+      "text": "Ne-am distrat de minune la Florian. <br/>Loc atipic, luminos și foarte liniștit, în ciuda faptului că se află în mijlocul orașului. <br/>Încă pare important să menționăm pentru viitorii oaspeți că locuința se află la ultimul etaj al unei clădiri fără lift, ceea ce face accesul dificil. <br/>După cum am menționat mai sus, unitatea de cazare este situată central în oraș, astfel încât totul se află la câțiva pași în câteva minute. <br/>Restaurante foarte bune sunt în apropiere. <br/>Dacă ne întoarcem la Lyon, cu siguranță ne vom întoarce la Florian.",
+      "disclaimer": "Tradus din franceză"
+    },
+    "localizedDate": "Acum 2 săptămâni",
+    "localizedReviewerLocation": "De 9 ani pe Airbnb",
+    "createdAt": "2025-08-05T12:26:36Z",
+    "reviewee": {
+      "id": "320360037",
+      "firstName": "Florian",
+      "hostName": "Florian",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/c66d3e24-9cd8-4457-9c97-21541bdd2b30.jpg",
+      "profilePath": "/users/show/320360037",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/c66d3e24-9cd8-4457-9c97-21541bdd2b30.jpg"
+    },
+    "reviewer": {
+      "id": "105030112",
+      "firstName": "Manon",
+      "hostName": "Manon",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/3f10a86d-4aae-4277-a16b-3dbc435ea08d.jpg",
+      "profilePath": "/users/show/105030112",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/3f10a86d-4aae-4277-a16b-3dbc435ea08d.jpg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": "J'ai mis à jour l'annonce en indiquant que l'appartement était au 4eme étage sans ascenceur, c'est vrai que ça raffermit les mollets :D Merci pour votre venue, au plaisir de vous accueillir à nouveau !",
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1434905219556032675",
+    "id": "1478983994851652627",
+    "language": "de",
+    "text": "Florians Wohnung ist sehr schön und liegt mitten im schönsten Teil der Stadt. Florian war sehr nett und hat uns auch Empfehlungen gegeben, welche wir auch wahrgenommen haben. Wir können die Unterkunft nur empfehlen. Wir hatten ein kleines sprachliches Missverständnis bezüglich der Schlüsselübergabe, aber sonst war alles hervorragend. Außerdem, Florian hat uns einen nahegelegenen Parklplatz besorgt. Absolute Empfehlung.",
+    "localizedText": "Apartamentul lui Florian este foarte frumos și este situat în cea mai frumoasă parte a orașului. Florian a fost foarte drăguț și, de asemenea, ne-a dat recomandări, de care am luat notă și noi. Nu putem decât să recomandăm proprietatea. Am avut o mică neînțelegere lingvistică cu privire la predarea cheii, dar altfel totul a fost excelent. De asemenea, Florian ne-a adus un loc de parcare în apropiere. Recomandare absolută.",
+    "localizedReview": {
+      "text": "Apartamentul lui Florian este foarte frumos și este situat în cea mai frumoasă parte a orașului. Florian a fost foarte drăguț și, de asemenea, ne-a dat recomandări, de care am luat notă și noi. Nu putem decât să recomandăm proprietatea. Am avut o mică neînțelegere lingvistică cu privire la predarea cheii, dar altfel totul a fost excelent. De asemenea, Florian ne-a adus un loc de parcare în apropiere. Recomandare absolută.",
+      "disclaimer": "Tradus din germană"
+    },
+    "localizedDate": "Acum 3 săptămâni",
+    "localizedReviewerLocation": "De 12 ani pe Airbnb",
+    "createdAt": "2025-08-02T14:37:11Z",
+    "reviewee": {
+      "id": "320360037",
+      "firstName": "Florian",
+      "hostName": "Florian",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/c66d3e24-9cd8-4457-9c97-21541bdd2b30.jpg",
+      "profilePath": "/users/show/320360037",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/c66d3e24-9cd8-4457-9c97-21541bdd2b30.jpg"
+    },
+    "reviewer": {
+      "id": "9132596",
+      "firstName": "Rebecca",
+      "hostName": "Rebecca",
+      "pictureUrl": "https://a0.muscache.com/im/users/9132596/profile_pic/1443882935/original.jpg",
+      "profilePath": "/users/show/9132596",
+      "profilePicture": "https://a0.muscache.com/im/users/9132596/profile_pic/1443882935/original.jpg"
+    },
+    "reviewHighlight": "Ședere de o noapte",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/33822770",
+    "id": "1494102194289996977",
+    "language": "de",
+    "text": "Super tolle Wohnung! Sehr gemütlich und mit Liebe eingerichtet. Die Lage ist auch top, man hat alles möglich drum herum und ist auch schnell am Fluss. Bruno hat ganz spontan unsere Buchung angenommen und der Checkin war sehr sehr flexibel. Große Empfehlung!",
+    "localizedText": "Apartament super grozav! Foarte confortabil și mobilat cu dragoste. Locația este, de asemenea, minunată, ai tot ce este posibil în jurul ei și, de asemenea, poți ajunge rapid la râu. Bruno a acceptat în mod spontan rezervarea noastră, iar procesul de check-in a fost foarte flexibil. Recomand cu căldură!",
+    "localizedReview": {
+      "text": "Apartament super grozav! Foarte confortabil și mobilat cu dragoste. Locația este, de asemenea, minunată, ai tot ce este posibil în jurul ei și, de asemenea, poți ajunge rapid la râu. Bruno a acceptat în mod spontan rezervarea noastră, iar procesul de check-in a fost foarte flexibil. Recomand cu căldură!",
+      "disclaimer": "Tradus din germană"
+    },
+    "localizedDate": "Acum 2 zile",
+    "localizedReviewerLocation": "De 8 ani pe Airbnb",
+    "createdAt": "2025-08-23T11:14:21Z",
+    "reviewee": {
+      "id": "255360769",
+      "firstName": "Bruno",
+      "hostName": "Bruno",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/ab6a518a-5e87-4947-8749-e609d5c55fe6.jpg",
+      "profilePath": "/users/show/255360769",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/ab6a518a-5e87-4947-8749-e609d5c55fe6.jpg"
+    },
+    "reviewer": {
+      "id": "166817839",
+      "firstName": "Clara",
+      "hostName": "Clara",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-166817839/original/ae70165e-35a1-4613-a8bc-3f04ee5ac0cf.jpeg",
+      "profilePath": "/users/show/166817839",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User-166817839/original/ae70165e-35a1-4613-a8bc-3f04ee5ac0cf.jpeg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/33822770",
+    "id": "1446357490285309719",
+    "language": "en",
+    "text": "Bruno appartement is well maintained and modern. The bed was very comfy. I used the kitchen. There is a lot of light incl. natural light. Bruno is very responsive and offered me some flexibility to check in earlier. It was a bit warm even at night but that’s summer in the city.",
+    "localizedText": "Apartamentul Bruno este bine întreținut și modern. Patul a fost foarte confortabil. Am folosit bucătăria. Există multă lumină, inclusiv lumină naturală. Bruno este foarte receptiv și mi-a oferit o anumită flexibilitate pentru a face check-in mai devreme. A fost un pic cald chiar și noaptea, dar asta e vara în oraș.",
+    "localizedReview": {
+      "text": "Apartamentul Bruno este bine întreținut și modern. Patul a fost foarte confortabil. Am folosit bucătăria. Există multă lumină, inclusiv lumină naturală. Bruno este foarte receptiv și mi-a oferit o anumită flexibilitate pentru a face check-in mai devreme. A fost un pic cald chiar și noaptea, dar asta e vara în oraș.",
+      "disclaimer": "Tradus din engleză"
+    },
+    "localizedDate": "iunie 2025",
+    "localizedReviewerLocation": "De 11 ani pe Airbnb",
+    "createdAt": "2025-06-18T14:14:08Z",
+    "reviewee": {
+      "id": "255360769",
+      "firstName": "Bruno",
+      "hostName": "Bruno",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/ab6a518a-5e87-4947-8749-e609d5c55fe6.jpg",
+      "profilePath": "/users/show/255360769",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/ab6a518a-5e87-4947-8749-e609d5c55fe6.jpg"
+    },
+    "reviewer": {
+      "id": "23908040",
+      "firstName": "Violaine",
+      "hostName": "Violaine",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/00d9c4bf-b105-412c-853a-d8d7b21f1bfe.jpg",
+      "profilePath": "/users/show/23908040",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/00d9c4bf-b105-412c-853a-d8d7b21f1bfe.jpg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/33822770",
+    "id": "1443438241446649976",
+    "language": "en",
+    "text": "Nice place, as described. It was clean. Close to the metro. The area around metro Guillotière - Gabriel Péri was a tad sketchy at night, but we had no issues.",
+    "localizedText": "Frumos loc, așa cum este descris. A fost curat. Aproape de metrou. Zona din jurul metroului Guillotière - Gabriel Péri a fost un pic schițată noaptea, dar nu am avut probleme.",
+    "localizedReview": {
+      "text": "Frumos loc, așa cum este descris. A fost curat. Aproape de metrou. Zona din jurul metroului Guillotière - Gabriel Péri a fost un pic schițată noaptea, dar nu am avut probleme.",
+      "disclaimer": "Tradus din engleză"
+    },
+    "localizedDate": "iunie 2025",
+    "localizedReviewerLocation": "San Luis Obispo, California",
+    "createdAt": "2025-06-14T13:34:07Z",
+    "reviewee": {
+      "id": "255360769",
+      "firstName": "Bruno",
+      "hostName": "Bruno",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/ab6a518a-5e87-4947-8749-e609d5c55fe6.jpg",
+      "profilePath": "/users/show/255360769",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/ab6a518a-5e87-4947-8749-e609d5c55fe6.jpg"
+    },
+    "reviewer": {
+      "id": "80747920",
+      "firstName": "Garrick",
+      "hostName": "Garrick",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-80747920/original/104baa4c-f8f0-48bb-bb14-22f73a10ec88.jpeg",
+      "profilePath": "/users/show/80747920",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User-80747920/original/104baa4c-f8f0-48bb-bb14-22f73a10ec88.jpeg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/33822770",
+    "id": "1440484485168020847",
+    "language": "fr",
+    "text": "Nickel...conforme et Bruno réactif...",
+    "localizedText": "Excelent... conform și Bruno receptiv...",
+    "localizedReview": {
+      "text": "Excelent... conform și Bruno receptiv...",
+      "disclaimer": "Tradus din franceză"
+    },
+    "localizedDate": "iunie 2025",
+    "localizedReviewerLocation": "De 5 ani pe Airbnb",
+    "createdAt": "2025-06-10T11:45:32Z",
+    "reviewee": {
+      "id": "255360769",
+      "firstName": "Bruno",
+      "hostName": "Bruno",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/ab6a518a-5e87-4947-8749-e609d5c55fe6.jpg",
+      "profilePath": "/users/show/255360769",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/ab6a518a-5e87-4947-8749-e609d5c55fe6.jpg"
+    },
+    "reviewer": {
+      "id": "350095393",
+      "firstName": "Michel",
+      "hostName": "Michel",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/49993e90-e1a6-481b-9cd7-756f26a7d571.jpeg",
+      "profilePath": "/users/show/350095393",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/49993e90-e1a6-481b-9cd7-756f26a7d571.jpeg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/33822770",
+    "id": "1436901143484455081",
+    "language": "fr",
+    "text": "Fidèle à l’annonce, les instructions claires. C’est parfait.",
+    "localizedText": "Conform anunțului, instrucțiuni clare. E perfect.",
+    "localizedReview": {
+      "text": "Conform anunțului, instrucțiuni clare. E perfect.",
+      "disclaimer": "Tradus din franceză"
+    },
+    "localizedDate": "iunie 2025",
+    "localizedReviewerLocation": "De 7 ani pe Airbnb",
+    "createdAt": "2025-06-05T13:06:04Z",
+    "reviewee": {
+      "id": "255360769",
+      "firstName": "Bruno",
+      "hostName": "Bruno",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/ab6a518a-5e87-4947-8749-e609d5c55fe6.jpg",
+      "profilePath": "/users/show/255360769",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/ab6a518a-5e87-4947-8749-e609d5c55fe6.jpg"
+    },
+    "reviewer": {
+      "id": "212458522",
+      "firstName": "Nolan",
+      "hostName": "Nolan",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/4a6478bd-1b83-4aac-aab5-b55697dad56c.jpeg",
+      "profilePath": "/users/show/212458522",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/4a6478bd-1b83-4aac-aab5-b55697dad56c.jpeg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/33822770",
+    "id": "1433254252140579540",
+    "language": "fr",
+    "text": "L’appartement est conforme aux photos et à la description. Il est situé à proximité de toutes les commodité, on ne peut plus pratique pour optimiser la visite de la ville sur une courte période.",
+    "localizedText": "Apartamentul se potrivește cu fotografiile și descrierea. Se află aproape de toate facilitățile, nu ar putea fi mai convenabil pentru a optimiza vizita orașului într-o perioadă scurtă de timp.",
+    "localizedReview": {
+      "text": "Apartamentul se potrivește cu fotografiile și descrierea. Se află aproape de toate facilitățile, nu ar putea fi mai convenabil pentru a optimiza vizita orașului într-o perioadă scurtă de timp.",
+      "disclaimer": "Tradus din franceză"
+    },
+    "localizedDate": "mai 2025",
+    "localizedReviewerLocation": "De 11 ani pe Airbnb",
+    "createdAt": "2025-05-31T12:20:21Z",
+    "reviewee": {
+      "id": "255360769",
+      "firstName": "Bruno",
+      "hostName": "Bruno",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/ab6a518a-5e87-4947-8749-e609d5c55fe6.jpg",
+      "profilePath": "/users/show/255360769",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/ab6a518a-5e87-4947-8749-e609d5c55fe6.jpg"
+    },
+    "reviewer": {
+      "id": "16182332",
+      "firstName": "Loic",
+      "hostName": "Loic",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/c11a5a0c-dd77-4898-adc0-50ab57ee4eff.jpg",
+      "profilePath": "/users/show/16182332",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/c11a5a0c-dd77-4898-adc0-50ab57ee4eff.jpg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  }
+]

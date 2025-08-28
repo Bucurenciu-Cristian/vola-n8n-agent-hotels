@@ -1,0 +1,352 @@
+[
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1345667975082855986",
+    "id": "1449181514871081603",
+    "language": "en",
+    "text": "Having stayed a quite a few Airbnb’s, this place really stands out! Super friendly and responsive host, always willing to help with anything we asked. Amazing communication from the start, and clear check in instructions. The place is well presented, clean, homely and in a great location for old town & new town! It will definitely be the first place I look at when I return!",
+    "localizedText": "După ce am stat destul de multe locuințe Airbnb, această locuință iese cu adevărat în evidență! Gazdă foarte prietenoasă și receptivă, întotdeauna dispusă să ajute cu orice am cerut. Comunicare uimitoare de la început și instrucțiuni clare de check-in. Locul este bine prezentat, curat, primitor și într-o locație excelentă pentru orașul vechi și orașul nou! Cu siguranță va fi primul loc la care mă uit când mă întorc!",
+    "localizedReview": {
+      "text": "După ce am stat destul de multe locuințe Airbnb, această locuință iese cu adevărat în evidență! Gazdă foarte prietenoasă și receptivă, întotdeauna dispusă să ajute cu orice am cerut. Comunicare uimitoare de la început și instrucțiuni clare de check-in. Locul este bine prezentat, curat, primitor și într-o locație excelentă pentru orașul vechi și orașul nou! Cu siguranță va fi primul loc la care mă uit când mă întorc!",
+      "disclaimer": "Tradus din engleză"
+    },
+    "localizedDate": "iunie 2025",
+    "localizedReviewerLocation": "De 8 ani pe Airbnb",
+    "createdAt": "2025-06-22T11:44:58Z",
+    "reviewee": {
+      "id": "676029405",
+      "firstName": "Marius Gheorghe",
+      "hostName": "Marius Gheorghe",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/5a3e5733-4a0b-492d-b885-5152b5381fbc.jpeg",
+      "profilePath": "/users/show/676029405",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/5a3e5733-4a0b-492d-b885-5152b5381fbc.jpeg"
+    },
+    "reviewer": {
+      "id": "155750297",
+      "firstName": "Connor",
+      "hostName": "Connor",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/a1fa1026-6c21-4aa3-a537-ad90a81c3acb.jpg",
+      "profilePath": "/users/show/155750297",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/a1fa1026-6c21-4aa3-a537-ad90a81c3acb.jpg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1408646400835434641",
+    "id": "1428851402835906309",
+    "language": "en",
+    "text": "Awesome place for having a party or just gather for a barbecue. The pool is a really nice touch!",
+    "localizedText": "Loc minunat pentru a da o petrecere sau doar pentru a te aduna pentru un grătar. Piscina este foarte plăcută!",
+    "localizedReview": {
+      "text": "Loc minunat pentru a da o petrecere sau doar pentru a te aduna pentru un grătar. Piscina este foarte plăcută!",
+      "disclaimer": "Tradus din engleză"
+    },
+    "localizedDate": "mai 2025",
+    "localizedReviewerLocation": "De 6 ani pe Airbnb",
+    "createdAt": "2025-05-25T10:32:40Z",
+    "reviewee": {
+      "id": "692365253",
+      "firstName": "Cezar Iulian",
+      "hostName": "Cezar Iulian",
+      "pictureUrl": "https://a0.muscache.com/defaults/user_pic-225x225.png?v=3",
+      "profilePath": "/users/show/692365253",
+      "profilePicture": "https://a0.muscache.com/defaults/user_pic-225x225.png?v=3"
+    },
+    "reviewer": {
+      "id": "270683642",
+      "firstName": "Alin",
+      "hostName": "Alin",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/282f6b5a-283a-4320-9689-503f13ab4d0e.jpg",
+      "profilePath": "/users/show/270683642",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/282f6b5a-283a-4320-9689-503f13ab4d0e.jpg"
+    },
+    "reviewHighlight": "Ședere de o noapte",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1425368264931950510",
+    "id": "1464377598539656225",
+    "language": "en",
+    "text": "Very nice house and a cozy garden. Has a giant speaker great for parties.",
+    "localizedText": "Casă foarte frumoasă și o grădină confortabilă. Are un vorbitor uriaș excelent pentru petreceri.",
+    "localizedReview": {
+      "text": "Casă foarte frumoasă și o grădină confortabilă. Are un vorbitor uriaș excelent pentru petreceri.",
+      "disclaimer": "Tradus din engleză"
+    },
+    "localizedDate": "iulie 2025",
+    "localizedReviewerLocation": "De 11 ani pe Airbnb",
+    "createdAt": "2025-07-13T10:56:53Z",
+    "reviewee": {
+      "id": "473272238",
+      "firstName": "Maria",
+      "hostName": "Maria",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/0ec70af8-ddd2-4e20-9e31-c4aaa3fac181.jpeg",
+      "profilePath": "/users/show/473272238",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/0ec70af8-ddd2-4e20-9e31-c4aaa3fac181.jpeg"
+    },
+    "reviewer": {
+      "id": "27934344",
+      "firstName": "Alessandro",
+      "hostName": "Alessandro",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/b0d91f78-2afe-4088-8287-7b291c34f78c.jpg",
+      "profilePath": "/users/show/27934344",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/b0d91f78-2afe-4088-8287-7b291c34f78c.jpg"
+    },
+    "reviewHighlight": "Ședere de o noapte",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1445445334961612863",
+    "id": "1486874235652763603",
+    "language": "he",
+    "text": "אדריאן אישיות נהדרת ידידותית וחברותית מאןד. הוא זמין לבקשות וצמיד בתחושה נעימה ועם חיוך. <br/>הבית של אדריאן מעוצב ומוקפד ברמה הכי גבוהה שאפשר לדמיין  בריכה נקייה לדרים מרווחים ומתוחזקים היטב. יחד עם זאת הבית מתאים לאןהבי טבע כי ת האגם ממש בגב הבית כך שהחתר עם צמחיה מהממת ואוויר. תודה על אירוח נפלא!",
+    "localizedText": "Adrian este o persoană minunată, prietenoasă și sociabilă din Manad. El este disponibil pentru cereri și este plăcut și zâmbitor. <br/>Casa lui Adrian este proiectată și meticuloasă la cel mai înalt nivel imaginabil, o piscină curată pentru vise spațioase și bine întreținute. În același timp, casa este potrivită pentru iubitorii de natură, deoarece lacul este chiar în spatele casei, astfel încât să te poți bucura de vegetația și aerul uimitor. Îți mulțumim pentru o ședere minunată!",
+    "localizedReview": {
+      "text": "Adrian este o persoană minunată, prietenoasă și sociabilă din Manad. El este disponibil pentru cereri și este plăcut și zâmbitor. <br/>Casa lui Adrian este proiectată și meticuloasă la cel mai înalt nivel imaginabil, o piscină curată pentru vise spațioase și bine întreținute. În același timp, casa este potrivită pentru iubitorii de natură, deoarece lacul este chiar în spatele casei, astfel încât să te poți bucura de vegetația și aerul uimitor. Îți mulțumim pentru o ședere minunată!",
+      "disclaimer": "Tradus din ebraică"
+    },
+    "localizedDate": "Acum 1 săptămână",
+    "localizedReviewerLocation": "Jerusalem, Israel",
+    "createdAt": "2025-08-13T11:53:41Z",
+    "reviewee": {
+      "id": "701779774",
+      "firstName": "Robert",
+      "hostName": "Robert",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/e975615c-32db-4bc7-92c3-349451821cd8.jpeg",
+      "profilePath": "/users/show/701779774",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/e975615c-32db-4bc7-92c3-349451821cd8.jpeg"
+    },
+    "reviewer": {
+      "id": "18073495",
+      "firstName": "Hila",
+      "hostName": "Hila",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/79aae742-1ff4-4911-801f-cf21ade88145.jpg",
+      "profilePath": "/users/show/18073495",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/79aae742-1ff4-4911-801f-cf21ade88145.jpg"
+    },
+    "reviewHighlight": "Ședere cu copii",
+    "highlightType": "TYPE_OF_TRIP",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1445445334961612863",
+    "id": "1473138038911590380",
+    "language": "en",
+    "text": "Adrian is a very nice person, very flexible and supportive. The place is really beautiful. We had a great time at Casa Serafim and we will come back for sure.",
+    "localizedText": "Adrian este o persoană foarte drăguță, foarte flexibilă și de susținere. Locul este foarte frumos. Ne-am distrat de minune la Casa Serafim și ne vom întoarce cu siguranță.",
+    "localizedReview": {
+      "text": "Adrian este o persoană foarte drăguță, foarte flexibilă și de susținere. Locul este foarte frumos. Ne-am distrat de minune la Casa Serafim și ne vom întoarce cu siguranță.",
+      "disclaimer": "Tradus din engleză"
+    },
+    "localizedDate": "iulie 2025",
+    "localizedReviewerLocation": "De 5 ani pe Airbnb",
+    "createdAt": "2025-07-25T13:02:19Z",
+    "reviewee": {
+      "id": "701779774",
+      "firstName": "Robert",
+      "hostName": "Robert",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/e975615c-32db-4bc7-92c3-349451821cd8.jpeg",
+      "profilePath": "/users/show/701779774",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/e975615c-32db-4bc7-92c3-349451821cd8.jpeg"
+    },
+    "reviewer": {
+      "id": "363513481",
+      "firstName": "Staver",
+      "hostName": "Staver",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/465683c1-9568-49b0-948a-2d0a6f2be351.jpg",
+      "profilePath": "/users/show/363513481",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/465683c1-9568-49b0-948a-2d0a6f2be351.jpg"
+    },
+    "reviewHighlight": "Ședere de o noapte",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1279733176789638282",
+    "id": "1393420264733866051",
+    "language": "nl",
+    "text": "Mijn vrienden en ik hebben het erg naar ons zin gehad. Absoluut aan te raden als je dicht in de stad wilt verblijven.",
+    "localizedText": "Eu și prietenii mei ne-am distrat de minune. Recomand cu căldură dacă vrei să stai aproape de oraș.",
+    "localizedReview": {
+      "text": "Eu și prietenii mei ne-am distrat de minune. Recomand cu căldură dacă vrei să stai aproape de oraș.",
+      "disclaimer": "Tradus din neerlandeză"
+    },
+    "localizedDate": "aprilie 2025",
+    "localizedReviewerLocation": "De 7 ani pe Airbnb",
+    "createdAt": "2025-04-06T13:17:19Z",
+    "reviewee": {
+      "id": "659888677",
+      "firstName": "Sai",
+      "hostName": "Sai",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/bdc5c393-9804-48a3-a3bc-14e3ec7ac2f1.jpeg",
+      "profilePath": "/users/show/659888677",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/bdc5c393-9804-48a3-a3bc-14e3ec7ac2f1.jpeg"
+    },
+    "reviewer": {
+      "id": "229661778",
+      "firstName": "Daan",
+      "hostName": "Daan",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-229661778/original/72691a2e-2d5d-464d-9c45-a1cb201199c0.jpeg",
+      "profilePath": "/users/show/229661778",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User-229661778/original/72691a2e-2d5d-464d-9c45-a1cb201199c0.jpeg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 4,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 4 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1279733176789638282",
+    "id": "1347027538094436060",
+    "language": "en",
+    "text": "The apartment is big but the maintenance is poor and the appliances are basic. It made the apt way overpriced.<br/>The flooring is old and breaks down.<br/>There is only one small toilet - and flushing it is noisy as hell.<br/>the electric shutters are not working as expected - and you should open is manually(!!).<br/>The rooms are good and the location is very close to the city center.",
+    "localizedText": "Apartamentul este mare, dar întreținerea este slabă, iar aparatele sunt de bază. A făcut ca apartamentul să fie prea scump.<br/>Pardoseala este veche și se strică.<br/>Există o singură toaletă mică, iar spălarea este zgomotoasă ca naiba.<br/>obloanele electrice nu funcționează așa cum era de așteptat - și ar trebui să deschizi manual(!!).<br/>Camerele sunt bune, iar poziția este foarte aproape de centrul orașului.",
+    "localizedReview": {
+      "text": "Apartamentul este mare, dar întreținerea este slabă, iar aparatele sunt de bază. A făcut ca apartamentul să fie prea scump.<br/>Pardoseala este veche și se strică.<br/>Există o singură toaletă mică, iar spălarea este zgomotoasă ca naiba.<br/>obloanele electrice nu funcționează așa cum era de așteptat - și ar trebui să deschizi manual(!!).<br/>Camerele sunt bune, iar poziția este foarte aproape de centrul orașului.",
+      "disclaimer": "Tradus din engleză"
+    },
+    "localizedDate": "februarie 2025",
+    "localizedReviewerLocation": "Tel Aviv-Yafo, Israel",
+    "createdAt": "2025-02-01T13:03:15Z",
+    "reviewee": {
+      "id": "659888677",
+      "firstName": "Sai",
+      "hostName": "Sai",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/bdc5c393-9804-48a3-a3bc-14e3ec7ac2f1.jpeg",
+      "profilePath": "/users/show/659888677",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/bdc5c393-9804-48a3-a3bc-14e3ec7ac2f1.jpeg"
+    },
+    "reviewer": {
+      "id": "8928991",
+      "firstName": "Sonia",
+      "hostName": "Sonia",
+      "pictureUrl": "https://a0.muscache.com/im/users/8928991/profile_pic/1379580752/original.jpg",
+      "profilePath": "/users/show/8928991",
+      "profilePicture": "https://a0.muscache.com/im/users/8928991/profile_pic/1379580752/original.jpg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 3,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 3 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1279733176789638282",
+    "id": "1342688287941383355",
+    "language": "en",
+    "text": "everything was as described",
+    "localizedText": "totul a fost așa cum a fost descris",
+    "localizedReview": {
+      "text": "totul a fost așa cum a fost descris",
+      "disclaimer": "Tradus din engleză"
+    },
+    "localizedDate": "ianuarie 2025",
+    "localizedReviewerLocation": "De 4 ani pe Airbnb",
+    "createdAt": "2025-01-26T13:21:56Z",
+    "reviewee": {
+      "id": "659888677",
+      "firstName": "Sai",
+      "hostName": "Sai",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/bdc5c393-9804-48a3-a3bc-14e3ec7ac2f1.jpeg",
+      "profilePath": "/users/show/659888677",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/bdc5c393-9804-48a3-a3bc-14e3ec7ac2f1.jpeg"
+    },
+    "reviewer": {
+      "id": "400749793",
+      "firstName": "Martin",
+      "hostName": "Martin",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/1f07400d-eaf1-44e9-b423-b4f34787b90f.jpg",
+      "profilePath": "/users/show/400749793",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/1f07400d-eaf1-44e9-b423-b4f34787b90f.jpg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1279733176789638282",
+    "id": "1302055102361660590",
+    "language": "en",
+    "text": "The flat is very nice with a good view of the city. The host is a nice guy and very responsive.<br/>My only comment would be that the cleanness can improve (rooms, toilet)  but otherwise good place",
+    "localizedText": "Apartamentul este foarte frumos, cu o vedere bună la oraș. Gazda este un tip de treabă și foarte receptivă.<br/>Singurul meu comentariu ar fi că curățenia se poate îmbunătăți (camere, toaletă), dar altfel un loc bun",
+    "localizedReview": {
+      "text": "Apartamentul este foarte frumos, cu o vedere bună la oraș. Gazda este un tip de treabă și foarte receptivă.<br/>Singurul meu comentariu ar fi că curățenia se poate îmbunătăți (camere, toaletă), dar altfel un loc bun",
+      "disclaimer": "Tradus din engleză"
+    },
+    "localizedDate": "decembrie 2024",
+    "localizedReviewerLocation": "De 8 ani pe Airbnb",
+    "createdAt": "2024-12-01T11:51:03Z",
+    "reviewee": {
+      "id": "659888677",
+      "firstName": "Sai",
+      "hostName": "Sai",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/bdc5c393-9804-48a3-a3bc-14e3ec7ac2f1.jpeg",
+      "profilePath": "/users/show/659888677",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/bdc5c393-9804-48a3-a3bc-14e3ec7ac2f1.jpeg"
+    },
+    "reviewer": {
+      "id": "120539843",
+      "firstName": "Brandon",
+      "hostName": "Brandon",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/ca42117c-bce2-475b-8f93-71fc5a122de8.jpg",
+      "profilePath": "/users/show/120539843",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/ca42117c-bce2-475b-8f93-71fc5a122de8.jpg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 4,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 4 stele"
+  },
+  {
+    "startUrl": "https://www.airbnb.com/rooms/1279733176789638282",
+    "id": "1287607635260761103",
+    "language": "en",
+    "text": "Nice private penthouse, Joel was a nice host and very communicative! We highly recommend and will stay again",
+    "localizedText": "Penthouse privat frumos, Joel a fost o gazdă drăguță și foarte comunicativă! Recomandăm cu tărie și vom sta din nou",
+    "localizedReview": {
+      "text": "Penthouse privat frumos, Joel a fost o gazdă drăguță și foarte comunicativă! Recomandăm cu tărie și vom sta din nou",
+      "disclaimer": "Tradus din engleză"
+    },
+    "localizedDate": "noiembrie 2024",
+    "localizedReviewerLocation": "De 5 ani pe Airbnb",
+    "createdAt": "2024-11-11T13:26:31Z",
+    "reviewee": {
+      "id": "659888677",
+      "firstName": "Sai",
+      "hostName": "Sai",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/bdc5c393-9804-48a3-a3bc-14e3ec7ac2f1.jpeg",
+      "profilePath": "/users/show/659888677",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/User/original/bdc5c393-9804-48a3-a3bc-14e3ec7ac2f1.jpeg"
+    },
+    "reviewer": {
+      "id": "373941011",
+      "firstName": "Soyaka",
+      "hostName": "Soyaka",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/90b82020-eb10-4c3e-a4c0-000cf6d15f39.jpg",
+      "profilePath": "/users/show/373941011",
+      "profilePicture": "https://a0.muscache.com/im/pictures/user/90b82020-eb10-4c3e-a4c0-000cf6d15f39.jpg"
+    },
+    "reviewHighlight": "Ședere de câteva nopți",
+    "highlightType": "LENGTH_OF_STAY",
+    "rating": 5,
+    "response": null,
+    "ratingAccessibilityLabel": "Scor de 5 stele"
+  }
+]

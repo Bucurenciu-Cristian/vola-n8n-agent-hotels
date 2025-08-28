@@ -10,7 +10,7 @@ BACKUP_DIR := archive/backups
 # Default target
 .DEFAULT_GOAL := help
 
-.PHONY: help sync validate dev update-from-downloads backup deploy organize clean setup test status update-limits update-charge-limits
+.PHONY: help sync validate dev update-from-downloads backup deploy organize clean setup test status update-limits update-charge-limits truncate
 
 ## Show this help message
 help:
@@ -42,6 +42,9 @@ help:
 	@echo "  ⚙️ update-limits-to-X   - Set API limits to X (e.g., make update-limits-to-10)"
 	@echo "  💰 update-charge-limits - Update API charge limits (interactive)"
 	@echo "  💰 update-charge-to-X   - Set charge limits to $X (e.g., make update-charge-to-2.50)"
+	@echo ""
+	@echo "📝 Data Processing:"
+	@echo "  ✂️ truncate             - Truncate JSON file (usage: make truncate FILE=path.json LIMIT=5)"
 	@echo ""
 	@echo "⭐ Quick Start:"
 	@echo "  1. Edit $(MAIN_PROMPT)"
@@ -279,6 +282,16 @@ update-charge-limits:
 update-charge-to-%:
 	@echo "💰 Setting API charge limits to $$$*..."
 	@python3 $(SCRIPTS_DIR)/update-charge-limits.py $*
+
+## Truncate JSON file to specified number of elements
+truncate:
+	@if [ -z "$(FILE)" ] || [ -z "$(LIMIT)" ]; then \
+		echo "❌ Usage: make truncate FILE=path/to/file.json LIMIT=5"; \
+		echo "📝 Example: make truncate FILE=apify/booking-scraper/dataset.json LIMIT=10"; \
+		exit 1; \
+	fi
+	@echo "✂️ Truncating JSON file to $(LIMIT) elements..."
+	@python3 $(SCRIPTS_DIR)/truncate-json.py "$(FILE)" "$(LIMIT)"
 
 # Hidden targets (not shown in help)
 .PHONY: clean-backups diff prompt-stats update-limits-to-% update-charge-to-%
