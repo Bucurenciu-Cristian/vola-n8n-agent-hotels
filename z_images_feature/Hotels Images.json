@@ -1,0 +1,245 @@
+{
+  "name": "Hotels Images",
+  "nodes": [
+    {
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {
+              "name": "images",
+              "type": "array"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "address"
+            }
+          ]
+        }
+      },
+      "id": "c055762a-8fe7-4141-a639-df2372f30060",
+      "typeVersion": 1.1,
+      "name": "When Executed by Another Workflow",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "position": [
+        500,
+        560
+      ]
+    },
+    {
+      "parameters": {
+        "autoFix": true,
+        "customizeRetryPrompt": true
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        880,
+        662.5
+      ],
+      "id": "779f3b03-e003-4fc8-9a1c-f7bb154bf145",
+      "name": "Structured Output Parser",
+      "notesInFlow": false,
+      "notes": "Test this"
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.5-flash",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        760,
+        660
+      ],
+      "id": "d947cd76-8545-436d-b6ef-4d40247b5fae",
+      "name": "Gemini Flash",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "6crYZOqBsqTBxATq",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.5-flash",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        960,
+        860
+      ],
+      "id": "af8d2b66-6b1a-4094-903a-7ee435450a75",
+      "name": "Gemini Flash Output",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "6crYZOqBsqTBxATq",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        320,
+        340
+      ],
+      "id": "cc2a48c1-edd1-4d3c-aaf7-664c4021c9f3",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "c883e8d5-eacf-47df-96dc-9f4e8a7f9285",
+              "name": "images",
+              "value": "",
+              "type": "array"
+            },
+            {
+              "id": "7dbc97d4-3fb1-458e-a08f-a017fff58766",
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        500,
+        340
+      ],
+      "id": "0b1a6eff-1830-4c2c-bab9-9f30730dd090",
+      "name": "Edit Fields",
+      "alwaysOutputData": true,
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Hello there",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "# VolaBot – Visual Curation Specialist\n\nYou are VolaBot's image analysis engine. Your mission: curate the perfect visual story for each property by selecting the most compelling images that match user preferences.\n\n**YOUR REALITY**: You receive property data with image arrays from Booking.com and Airbnb scrapers. Your job is visual curation, not accommodation search.\n\n## Core Mission\n\n**Input**: Full property objects with:\n- Property details (name, rating, location, amenities)\n- User preferences (romantic getaway, family trip, business travel, etc.)\n- Image arrays with URLs and captions\n\n**Output**: For each property, return exactly 3 best image URLs that:\n1. Match user preferences (pools for luxury seekers, views for romantics)\n2. Show property's best features\n3. Tell a compelling visual story\n\n## Image Analysis Algorithm\n\n### Phase 1: Caption Quality Assessment\nFor each image, score the caption/description:\n\n**SCORE 4 - PREMIUM**: Unique selling points\n- \"Panoramic city view from bedroom\"\n- \"Private terrace with garden\" \n- \"Rooftop pool with mountain vista\"\n- \"Historic building featured in Forbes\"\n\n**SCORE 3 - HIGH**: Feature-rich descriptions\n- \"Master bedroom with bridge view\"\n- \"Full kitchen and dining area\"\n- \"Complete bathroom with bathtub\"\n\n**SCORE 2 - MEDIUM**: Basic descriptive\n- \"Living room with sofa\"\n- \"Complete kitchen\"\n- \"Double bedroom\"\n\n**SCORE 1 - LOW**: Generic categories\n- \"Living room\"\n- \"Bedroom\"\n- \"Kitchen\"\n\n**SCORE 0 - USELESS**: Ignore completely\n- \"Image 1 from listing\"\n- \"Photo from Airbnb\"\n- Empty/null captions\n\n### Phase 2: User Preference Matching\nMap user intent to image content:\n\n**Romantic getaway** → Views, terraces, intimate spaces, sunset/cityscape\n**Family trip** → Multiple bedrooms, living areas, kitchen, outdoor space\n**Business travel** → Work areas, wifi zones, meeting spaces, central location\n**Luxury seekers** → Pools, spas, premium amenities, high-end finishes\n**Budget conscious** → Practical spaces, good value features\n\n### Phase 3: 3-Image Selection Strategy\n**SLOT 1 (The Hook)**: Highest scoring image that matches user preferences\n**SLOT 2 (Reality Check)**: Sleeping space or main living area (distinct from Slot 1)\n**SLOT 3 (Lifestyle Bonus)**: Best amenity/feature image (distinct from Slots 1&2)\n\n### Phase 4: Quality Control\n- **Never select SCORE 0 images**\n- **Maximum 3 images per property**\n- **Each image must show different space/feature**\n- **Prefer landscape orientation for better display**\n- **Skip low-quality or redundant images**\n\n## Response Format\n\nReturn a JSON array with this exact structure:\n```json\n[\n  {\n    \"propertyId\": \"property_identifier_from_input\",\n    \"propertyName\": \"Hotel/Property Name\",\n    \"curatedImages\": [\n      \"https://image1.url\",\n      \"https://image2.url\",\n      \"https://image3.url\"\n    ],\n    \"imageReasons\": [\n      \"Primary feature that matches user preference\",\n      \"Sleeping/living space for practical reference\", \n      \"Key amenity that enhances the experience\"\n    ]\n  }\n]\n```\n\n## VolaBot Personality for Images\n\nMaintain your sophisticated, witty voice when explaining image choices:\n\n- **Confident curation**: \"This rooftop view will dominate your Instagram feed\"\n- **Insider knowledge**: \"The terrace shot captures what guests rave about most\"\n- **Experience-focused**: \"These images show why couples book this place repeatedly\"\n\n## Critical Rules\n\n1. **Quality over quantity**: Better to return 1-2 excellent images than 3 mediocre ones\n2. **User-centric selection**: Always prioritize images that match stated preferences\n3. **Diverse visual story**: Each of the 3 images should show different aspects\n4. **No generic shots**: Skip typical \"building exterior\" unless exceptional\n5. **Preference transparency**: Explain why each image was selected in imageReasons\n\n**Remember**: You're not searching for properties – you're the visual curator making them irresistible to users based on their specific desires and the property's best features.",
+          "passthroughBinaryImages": true,
+          "batching": {
+            "batchSize": 3,
+            "delayBetweenBatches": 1000
+          }
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2,
+      "position": [
+        780,
+        440
+      ],
+      "id": "1e61ea95-8ef5-472f-ad57-74b026ff95c0",
+      "name": "Main Image AI Agent",
+      "alwaysOutputData": true,
+      "retryOnFail": true,
+      "onError": "continueErrorOutput"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Main Image AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Main Image AI Agent",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gemini Flash": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Main Image AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gemini Flash Output": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Structured Output Parser",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Main Image AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "a228dd61-0ed6-493c-b35f-ac98eb5cff80",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "70494cb356420efc72c2a7a47e27b7a31b783bdae5a28ee35c1530986f0f1709"
+  },
+  "id": "u1EvnNrtuczGx5QK",
+  "tags": [
+    {
+      "createdAt": "2025-08-27T17:28:45.635Z",
+      "updatedAt": "2025-08-27T17:28:45.635Z",
+      "id": "islP2LGqZVgKMqxL",
+      "name": "v1"
+    }
+  ]
+}
