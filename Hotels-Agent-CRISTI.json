@@ -21,7 +21,7 @@
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(0.2) }}"
+              "value": "={{ Number(0.4) }}"
             }
           ]
         },
@@ -36,10 +36,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        560,
-        -400
+        200,
+        -340
       ],
-      "id": "65c79144-91b0-4dd4-a6c5-4ce250e0516c",
+      "id": "67e1acd9-2b75-4d69-b1ee-dbee5420badb",
       "name": "Scrape Google Maps",
       "retryOnFail": true,
       "alwaysOutputData": false,
@@ -54,42 +54,16 @@
     },
     {
       "parameters": {
-        "toolDescription": "Analyze and curate the best images from property data based on user preferences",
-        "method": "POST",
-        "url": "https://primary-production-11988.up.railway.app/webhook/analyze-images",
-        "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={\n    \"properties\": {{ $fromAI('propertyData', 'Array of all property objects from Booking.com and Airbnb scrapers with complete image data. Include all property details, image arrays, and metadata for comprehensive visual analysis. Pass the entire property objects, not just image URLs.', 'json') }},\n    \"userPreferences\": {{ $fromAI('userPreferences', 'Object containing user preferences for their stay: trip type (romantic, family, business), preferred amenities (pool, view, spa), budget range, and any specific visual preferences mentioned during the conversation.', 'json') }},\n    \"sessionId\": \"{{ $('Edit Fields1').item.json.sessionId }}\"\n}",
-        "options": {},
-        "optimizeResponse": true,
-        "fieldsToInclude": "selected",
-        "fields": "curatedImages,processingTime"
-      },
-      "type": "n8n-nodes-base.httpRequestTool",
-      "typeVersion": 4.2,
-      "position": [
-        720,
-        -260
-      ],
-      "id": "585065eb-c31b-4849-bd3d-fa0544f54590",
-      "name": "Image Analyzer",
-      "retryOnFail": true,
-      "alwaysOutputData": false,
-      "disabled": true,
-      "onError": "continueRegularOutput"
-    },
-    {
-      "parameters": {
         "modelName": "models/gemini-2.5-flash",
         "options": {}
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        -300,
-        -180
+        -660,
+        -120
       ],
-      "id": "a1f681e3-9799-454c-a1b7-1dec4091f24f",
+      "id": "dc4cc911-1303-4973-b9b3-b290a69b13b6",
       "name": "Google Gemini Chat Model",
       "credentials": {
         "googlePalmApi": {
@@ -105,10 +79,10 @@
       "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
       "typeVersion": 1.3,
       "position": [
-        -160,
-        -180
+        -520,
+        -120
       ],
-      "id": "542ce67c-dddd-48ae-a98a-64db6a969b5e",
+      "id": "fa819f2c-9b58-41db-8e7e-e89a4e7fc0c7",
       "name": "Postgres Chat Memory",
       "credentials": {
         "postgres": {
@@ -140,10 +114,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -280,
-        -600
+        -640,
+        -540
       ],
-      "id": "d2b71ad4-6e6b-47b6-af35-74bc50e545d0",
+      "id": "78ffc4d6-51e4-4ace-b23b-89440b0ab039",
       "name": "Edit Fields1"
     },
     {
@@ -156,10 +130,10 @@
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
       "position": [
-        -460,
-        -600
+        -820,
+        -540
       ],
-      "id": "739106ff-e14a-4945-8b9a-12fb10a89d78",
+      "id": "b824d1c4-20c1-411b-87ec-7d18931d1889",
       "name": "Vola Webhook",
       "webhookId": "042d2591-94ed-43a9-a5e5-0860412c08e5"
     },
@@ -172,11 +146,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -520,
-        -680
+        -880,
+        -620
       ],
       "typeVersion": 1,
-      "id": "8bf48e96-dfbf-4b76-8122-f1227a337672",
+      "id": "fef0e4e7-f0e7-40d4-9264-5b67bfa4cf8d",
       "name": "Sticky Note4"
     },
     {
@@ -199,7 +173,7 @@
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(0.2) }}"
+              "value": "={{ Number(0.4) }}"
             }
           ]
         },
@@ -224,10 +198,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        80,
-        40
+        -280,
+        120
       ],
-      "id": "f33f1f37-679c-4161-849e-601e2a14c653",
+      "id": "eda60ff1-91cc-482e-889e-24ada8aef97c",
       "name": "Reviews Airbnb",
       "retryOnFail": true,
       "alwaysOutputData": false,
@@ -259,7 +233,7 @@
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(0.2) }}"
+              "value": "={{ Number(0.4) }}"
             }
           ]
         },
@@ -292,10 +266,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        260,
-        40
+        -100,
+        120
       ],
-      "id": "da3b9ec7-9eec-41b2-bb36-073cc56a8eb7",
+      "id": "7865de4a-66fe-49b0-997a-b20c36d65dff",
       "name": "Reviews Booking",
       "retryOnFail": true,
       "credentials": {
@@ -315,11 +289,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -340,
-        -40
+        -700,
+        20
       ],
       "typeVersion": 1,
-      "id": "4aac3ff1-2e7f-415f-913d-594c3b4646cb",
+      "id": "0b895131-bf30-4c7a-bb60-fea3e7f77280",
       "name": "Sticky Note3"
     },
     {
@@ -331,11 +305,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -340,
-        -440
+        -700,
+        -380
       ],
       "typeVersion": 1,
-      "id": "ef850e09-5ce7-4739-a86e-d84decb1f083",
+      "id": "ae5388f2-d154-4f7e-9c1d-15da6dd55fb5",
       "name": "Sticky Note2"
     },
     {
@@ -346,11 +320,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -520,
-        -440
+        -880,
+        -380
       ],
       "typeVersion": 1,
-      "id": "3901f447-64e8-4200-8262-3692fab93971",
+      "id": "847ea09e-2dcd-4e13-85e3-061a9224f467",
       "name": "Sticky Note1"
     },
     {
@@ -360,10 +334,10 @@
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.3,
       "position": [
-        480,
-        -600
+        120,
+        -540
       ],
-      "id": "4e6d8752-1b60-464e-a66f-e1a05adae1ae",
+      "id": "ab883f82-b47f-4f61-9f2f-2bc7320894ea",
       "name": "Respond to Webhook",
       "retryOnFail": true,
       "onError": "continueRegularOutput"
@@ -388,7 +362,7 @@
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(0.2) }}"
+              "value": "={{ Number(0.4) }}"
             }
           ]
         },
@@ -449,10 +423,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        420,
-        40
+        60,
+        120
       ],
-      "id": "ef3878db-ba6e-4ab6-a81e-6a8a54a263de",
+      "id": "f1a683bc-515e-44f3-b709-8ccf57489070",
       "name": "Scrape Booking",
       "retryOnFail": true,
       "credentials": {
@@ -483,7 +457,7 @@
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(0.2) }}"
+              "value": "={{ Number(0.4) }}"
             }
           ]
         },
@@ -556,10 +530,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        -80,
-        40
+        -440,
+        120
       ],
-      "id": "0d2c9a52-8c83-454a-b223-be271b9074e3",
+      "id": "aa16a250-09a9-46f5-8568-02ff04e75171",
       "name": "Scrape AirBnb",
       "retryOnFail": true,
       "credentials": {
@@ -586,10 +560,10 @@
       "type": "@n8n/n8n-nodes-langchain.chatTrigger",
       "typeVersion": 1.1,
       "position": [
-        -480,
-        -380
+        -840,
+        -320
       ],
-      "id": "8cede472-e579-460b-8abf-f0c77d495e0a",
+      "id": "dce81907-ae00-4f03-af30-e6b27adb360e",
       "name": "When chat message received",
       "webhookId": "b419f5d3-82dd-41d3-933d-eca656870ab6"
     },
@@ -604,10 +578,10 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2,
       "position": [
-        20,
-        -400
+        -340,
+        -340
       ],
-      "id": "111ac902-ea10-4e97-8b0d-46f8bf5b1300",
+      "id": "1ad8ebe4-51f5-4bce-b943-a49f45fd0ed2",
       "name": "AI Agent",
       "retryOnFail": true,
       "onError": "continueErrorOutput"
@@ -620,10 +594,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolCode",
       "typeVersion": 1.3,
       "position": [
-        520,
-        180
+        160,
+        260
       ],
-      "id": "d61c1219-a5ef-42a2-ac83-a5ab0f37c155",
+      "id": "98208494-80ee-4a2b-8625-9cdac860dcb4",
       "name": "Clean Booking URLs1",
       "disabled": true
     },
@@ -635,10 +609,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolCode",
       "typeVersion": 1.3,
       "position": [
-        -200,
-        180
+        -560,
+        260
       ],
-      "id": "b1c8844e-58b3-4d95-81e9-b64eb42ad44e",
+      "id": "847feecd-07e4-4654-ba1e-a7d159552897",
       "name": "Clean AIRBNB urls",
       "disabled": true
     },
@@ -649,10 +623,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolCode",
       "typeVersion": 1.3,
       "position": [
-        -20,
-        180
+        -380,
+        260
       ],
-      "id": "2776d7dd-924e-45f4-bb67-700b2f39b193",
+      "id": "52a4c5bd-c15e-448d-9c49-e349926aa005",
       "name": "Validate AIRBNB",
       "disabled": true
     },
@@ -663,10 +637,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolCode",
       "typeVersion": 1.3,
       "position": [
-        360,
-        180
+        0,
+        260
       ],
-      "id": "2464ef0f-f1fe-4035-8589-2610302b8587",
+      "id": "38c664c8-377b-48c7-b69e-557d6209f7a5",
       "name": "Validate Bookings",
       "disabled": true
     },
@@ -674,9 +648,9 @@
       "parameters": {
         "workflowId": {
           "__rl": true,
-          "value": "DrlxA5AGJvnclCTG",
+          "value": "u1EvnNrtuczGx5QK",
           "mode": "list",
-          "cachedResultName": "Image Analysis Hotels"
+          "cachedResultName": "My Sub-Workflow 1"
         },
         "workflowInputs": {
           "mappingMode": "defineBelow",
@@ -690,12 +664,11 @@
       "type": "@n8n/n8n-nodes-langchain.toolWorkflow",
       "typeVersion": 2.2,
       "position": [
-        720,
-        60
+        200,
+        120
       ],
-      "id": "9283f96b-5609-4999-acdc-73c523f2393d",
-      "name": "Image analysis Hotels",
-      "disabled": true
+      "id": "7494d7b3-6dea-4fe6-944d-d052ae2ac7f4",
+      "name": "Image analysis Hotels"
     }
   ],
   "pinData": {},
@@ -790,35 +763,17 @@
     },
     "Clean Booking URLs1": {
       "ai_tool": [
-        [
-          {
-            "node": "AI Agent",
-            "type": "ai_tool",
-            "index": 0
-          }
-        ]
+        []
       ]
     },
     "Clean AIRBNB urls": {
       "ai_tool": [
-        [
-          {
-            "node": "AI Agent",
-            "type": "ai_tool",
-            "index": 0
-          }
-        ]
+        []
       ]
     },
     "Validate AIRBNB": {
       "ai_tool": [
-        [
-          {
-            "node": "AI Agent",
-            "type": "ai_tool",
-            "index": 0
-          }
-        ]
+        []
       ]
     },
     "Scrape Booking": {
@@ -845,13 +800,7 @@
     },
     "Validate Bookings": {
       "ai_tool": [
-        [
-          {
-            "node": "AI Agent",
-            "type": "ai_tool",
-            "index": 0
-          }
-        ]
+        []
       ]
     },
     "Image analysis Hotels": {
@@ -872,7 +821,7 @@
     "timezone": "Europe/Bucharest",
     "callerPolicy": "workflowsFromSameOwner"
   },
-  "versionId": "380023fc-33fa-4ddf-a528-3e9c4f74955d",
+  "versionId": "91c43564-a23d-40cd-a7df-9780fed6ff07",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "70494cb356420efc72c2a7a47e27b7a31b783bdae5a28ee35c1530986f0f1709"

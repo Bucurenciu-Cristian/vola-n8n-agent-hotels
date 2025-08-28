@@ -1,57 +1,89 @@
 {
   "properties": [
     {
-      "id": "test-property-1",
-      "name": "Boutique Hotel Central",
-      "rating": 8.5,
+      "id": "booking_hotel_silva_sibiu",
+      "name": "Silva Hotel Sibiu",
+      "rating": 8.7,
       "platform": "booking",
+      "amenities": ["pool", "wifi", "spa", "restaurant", "parking"],
+      "address": "Strada Nicolae Bălcescu 12, 550159 Sibiu, Romania",
       "images": [
         {
-          "url": "https://example.com/hotel-exterior.jpg",
-          "caption": "Beautiful hotel exterior with historic architecture"
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123456789.jpg",
+          "caption": "Elegant hotel exterior with historic Sibiu architecture"
         },
         {
-          "url": "https://example.com/hotel-room.jpg", 
-          "caption": "Elegant bedroom with city view"
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123456790.jpg", 
+          "caption": "Panoramic city view from deluxe bedroom"
         },
         {
-          "url": "https://example.com/hotel-pool.jpg",
-          "caption": "Rooftop pool with panoramic view"
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123456791.jpg",
+          "caption": "Rooftop pool with Carpathian mountain vista"
         },
         {
-          "url": "https://example.com/hotel-lobby.jpg",
-          "caption": "Modern lobby with marble floors"
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123456792.jpg",
+          "caption": "Modern spa facility with wellness center"
+        },
+        {
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123456793.jpg",
+          "caption": "Image 5 from listing"
         }
-      ],
-      "amenities": ["pool", "wifi", "spa", "restaurant"]
+      ]
     },
     {
-      "id": "test-property-2", 
-      "name": "Cozy Airbnb Apartment",
+      "id": "airbnb_historic_center_apartment", 
+      "name": "Historic Center Cozy Studio",
       "rating": 4.8,
       "platform": "airbnb",
+      "amenities": ["kitchen", "wifi", "balcony", "heating"],
+      "address": "Piața Mare, Sibiu Historic Center", 
       "images": [
         {
-          "url": "https://example.com/apt-living.jpg",
-          "caption": "Living cu canapea și vedere la oraș"
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-123456/original/abc123.jpg",
+          "caption": "Living cu canapea și vedere la Piața Mare"
         },
         {
-          "url": "https://example.com/apt-kitchen.jpg",
-          "caption": "Bucătărie completă cu toate dotările"
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-123456/original/abc124.jpg",
+          "caption": "Bucătărie completă cu toate dotările moderne"
         },
         {
-          "url": "https://example.com/apt-bedroom.jpg",
-          "caption": "Dormitor dublu cu balcon privat"
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-123456/original/abc125.jpg",
+          "caption": "Dormitor dublu cu balcon privat către centrul istoric"
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/miso/Hosting-123456/original/abc126.jpg",
+          "caption": "Imaginea 4 din anunț"
         }
-      ],
-      "amenities": ["kitchen", "wifi", "balcony"]
+      ]
+    },
+    {
+      "id": "booking_luxury_resort_brasov",
+      "name": "Poiana Brasov Mountain Resort",  
+      "rating": 9.1,
+      "platform": "booking",
+      "amenities": ["pool", "spa", "ski", "restaurant", "fitness"],
+      "address": "Poiana Brasov Resort, 500001 Brasov, Romania",
+      "images": [
+        {
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/987654321.jpg",
+          "caption": "A apărut în Forbes '10 dintre cele mai frumoase stațiuni montane din Europa'"
+        },
+        {
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/987654322.jpg",
+          "caption": "Suite-ul prezidențial cu vedere panoramică la munți"
+        },
+        {
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/987654323.jpg",
+          "caption": "Piscină infinită cu privelište către Carpați"
+        }
+      ]
     }
   ],
   "userPreferences": {
     "tripType": "romantic",
-    "preferredAmenities": ["view", "pool", "balcony"],
-    "budget": "luxury",
-    "visualPreferences": ["city views", "elegant spaces"]
+    "preferredAmenities": ["view", "pool", "balcony", "spa"],
+    "budget": "luxury", 
+    "visualPreferences": ["mountain views", "historic architecture", "elegant spaces", "panoramic views"]
   },
-  "sessionId": "test-session-123"
+  "sessionId": "test-session-romantic-sibiu-2025"
 }

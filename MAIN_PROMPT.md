@@ -206,12 +206,12 @@ and very important.
   lists.
 * Apply the budget and "Focus" filters from the table below to each list to ensure all candidates are suitable.
 
-  | Budget (RON/night) | Min ⭐ | Focus (Strict Rule) |
-      | :--- | :--- | :--- |
-  | ≥150 | 4.0 | 4-5★ hotels, boutique, resorts |
-  | 100-149 | 3.8 | 4★ hotels, luxury apts |
-  | 50-99 | 3.5 | mix hotels/apts |
-  | <50 | 3.0 | best value |
+  | Budget (RON/night) | Min ⭐ | Focus (Strict Rule)            |
+  |:-------------------|:------|:-------------------------------|
+  | ≥150               | 4.0   | 4-5★ hotels, boutique, resorts |
+  | 100-149            | 3.8   | 4★ hotels, luxury apts         |
+  | 50-99              | 3.5   | mix hotels/apts                |
+  | <50                | 3.0   | best value                     |
 
 **Step 2: Create a Unified Ranked List**
 

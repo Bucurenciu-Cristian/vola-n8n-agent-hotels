@@ -11,6 +11,7 @@
     "Great change it now to 0.25",
     "/sc:git commit and push this changes, but grouped use --seq",
     "continue",
-    "Continue"
+    "Continue",
+    "/old:session-summary "
   ]
 }
