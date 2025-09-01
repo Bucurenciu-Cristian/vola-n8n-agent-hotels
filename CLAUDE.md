@@ -4,225 +4,315 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a N8N workflow project for **VolaBot**, an AI-powered travel consultant that helps users find accommodations by scraping and analyzing data from Booking.com and Airbnb. The system provides curated hotel recommendations with detailed review analysis, image curation, and pricing information.
+VolaBot is an AI-powered travel consultant built as an N8N workflow that curates personalized hotel recommendations by analyzing 100+ properties from multiple platforms (Booking.com, Airbnb, Google Maps) with intelligent AI agent delegation.
 
-## Architecture
+### Core Architecture
 
-### Core Components
+- **N8N Workflow**: Event-driven architecture with dual AI agent pattern
+- **Main AI Agent**: Google Gemini with travel consultant persona and PostgreSQL chat memory
+- **Image AI Agent**: Specialized image curation and analysis agent
+- **Multi-Platform Integration**: Parallel scraping via Apify actors
+- **Prompt-First Development**: Single source of truth pattern with automated sync
 
-**N8N Workflow (`Hotels-Agent-CRISTI.json`)**
-- Main workflow configuration defining the entire agent pipeline
-- Event-driven architecture triggered by chat messages
-- Integrated AI agent with sophisticated travel consultant persona
-- Multi-platform data aggregation and intelligent ranking system
+## Essential Commands
 
-**AI Agent System**
-- **Language Model**: Google Gemini (gemini-2.5-flash)
-- **Memory**: PostgreSQL chat memory for session persistence
-- **Persona**: VolaBot - sophisticated travel consultant with witty, insightful communication style
-- **Core Logic**: Property curation algorithm with strict 5-2 platform ratio (5 Booking.com + 2 Airbnb properties)
-
-**Data Sources & Scraping**
-- **Booking.com Scraper**: Apify voyager~booking-scraper for accommodation data
-- **Airbnb Scraper**: Apify tri_angle~airbnb-scraper for accommodation data
-- **Review Scrapers**: Separate scrapers for detailed review analysis from both platforms
-- **Google Maps Reviews**: compass~google-maps-reviews-scraper for authentic guest experiences, ratings validation, and amenity verification
-
-### Workflow Architecture
-
-```
-Chat Input → AI Agent → Scraping Tools → Review Analysis → Response
-     ↓         ↓           ↓              ↓
- Webhook → PostgreSQL → Apify APIs → Data Processing
-```
-
-**Node Flow**:
-1. **Chat Trigger**: Receives user messages via N8N chat interface
-2. **Webhook Integration**: External API endpoint for third-party integrations
-3. **AI Agent**: Central orchestration with business logic and persona
-4. **Scraping Tools**: Parallel data collection from multiple sources
-5. **Review Analysis**: Detailed sentiment and preference analysis
-6. **Response Generation**: Formatted recommendations with images and links
-
-## Key Features
-
-### Intelligent Property Curation
-- **Mandatory 7 Properties**: Always returns exactly 7 accommodations
-- **5-2 Platform Ratio**: Strict distribution between Booking.com and Airbnb
-- **Budget-Based Filtering**: Automatic quality thresholds based on price range
-- **Ranking Algorithm**: Quality score + platform ratio enforcement
-
-### Advanced Review Analysis
-- **Volume**: Analyzes up to 500 reviews per property
-- **Segmentation**: Groups reviews by traveler type (couples, families, business)
-- **Sentiment Analysis**: 3-4 positives + 2 negatives with context explanation
-- **Sample Size Transparency**: Shows number of reviews analyzed
-
-### Google Maps Integration
-- **Enhanced Validation**: Cross-validates property ratings with Google Maps reviews
-- **Amenity Verification**: Uses Google reviews to confirm gym, spa, pool availability
-- **Ranking Boost**: Properties with 4.0+ Google rating get priority scoring
-- **Cost Optimized**: 25 reviews per property (~$15/month operational cost)
-- **Authentic Experience**: Incorporates genuine guest experiences from Google platform
-
-### Smart Image Curation
-- **User-Priority Matching**: Prioritizes images based on user's stated preferences
-- **Quality Filtering**: Eliminates low-quality, irrelevant, or mundane images
-- **Visual Storytelling**: Maximum 3 strategically selected images per property
-- **Fallback Strategy**: Shows fewer high-quality images rather than padding with mediocre ones
-
-### Multi-Language Support
-- **Language Detection**: Automatically detects user's language from first message
-- **Consistent Translation**: Translates all content to user's language, including mixed-language property titles
-- **Hardcoded Backend**: Uses Romanian (`"ro"`) for scraper tool operations while maintaining user language for responses
-
-## Development Commands
-
-### N8N Workflow Management
+### Development Workflow
 ```bash
-# Import workflow (if N8N CLI available)
-n8n import:workflow --file=Hotels-Agent-CRISTI.json
+# Core development cycle (most important commands)
+make dev                    # Sync prompts + validate workflow
+make sync                   # Update JSON workflow with prompt changes
+make validate               # Validate workflow structure
 
-# Export workflow changes
-n8n export:workflow --id=pkELWZSsqdr9pNfy --output=Hotels-Agent-CRISTI.json
+# Alternative using npm
+npm run dev                 # Same as make dev
+npm run sync-prompt         # Same as make sync
+npm run validate           # Same as make validate
 ```
 
-### Environment Configuration
+### Deployment Commands
 ```bash
-# Set up environment variables
-cp .env.example .env
-# Configure Apify API tokens, PostgreSQL connection, Google Gemini API key
+make deploy                 # Full deployment preparation (backup + sync + validate)
+make backup                 # Create timestamped backup
+make import-ready          # Prepare workflow for N8N GUI import
 ```
 
-### Database Setup
+### Project Management
 ```bash
-# PostgreSQL chat memory table
-# Table: hotels_agent (managed by N8N PostgreSQL Chat Memory node)
+make setup                 # Initial project setup
+make organize              # Organize scattered test data files
+make status               # Show project status and file info
+make help                 # Show all available commands
 ```
 
-## Configuration Files
+## Key Architecture Patterns
 
-### System Prompts
-- **`MAIN_PROMPT.txt`**: Current active system prompt (embedded in workflow)
-- **`initial_prompt.txt`**: Alternative/backup prompt version
-- **Prompt Location**: Both files contain identical VolaBot system instructions
+### Dual AI Agent Pattern
+The workflow uses a sophisticated AI agent delegation system:
 
-### Workflow Configuration
-- **`Hotels-Agent-CRISTI.json`**: Complete N8N workflow definition (primary workflow)
-- **`Hotels-Agent.json`**: Legacy workflow file (backup)
-- **Node Configuration**: All tool integrations, AI settings, and flow logic
-- **Credentials**: References to PostgreSQL, Google Gemini, and Apify API configurations
+1. **Main AI Agent** (`MAIN_PROMPT.md`):
+   - Google Gemini 2.5-flash model
+   - Travel consultant persona with witty, insightful voice
+   - Handles user interaction, parameter extraction, platform orchestration
+   - Manages 5-2 platform ratio enforcement (5 Booking + 2 Airbnb or vice versa)
+   - PostgreSQL chat memory for session persistence
 
-## API Integrations
+2. **Image AI Agent** (`IMAGE_PROMPT.md`):
+   - Specialized image curation and analysis
+   - Called by Main Agent via "Image AI AGENT ANALYZER" tool
+   - Processes one property at a time for simplified operation
+   - Caption-based intelligence for Airbnb, visual analysis for Booking.com
 
-### Apify Scrapers
+### Prompt-First Development
+Critical pattern: **Never edit JSON directly**
+
+```bash
+# ✅ CORRECT: Edit prompts, then sync
+nano MAIN_PROMPT.md        # Edit main agent behavior
+nano IMAGE_PROMPT.md       # Edit image agent behavior
+make sync                  # Update workflow JSON files
+
+# ❌ INCORRECT: Never edit JSON directly
+# nano Hotels-Agent-CRISTI.json  # Don't do this!
+```
+
+The sync system creates two versions:
+- `Hotels-Agent-CRISTI.json` - Stripped template (for git commits)
+- `Hotels-Agent-CRISTI.json.full` - Full workflow (for N8N import)
+
+### Multi-Platform Scraping Architecture
 ```javascript
-// Booking.com Scraper
-POST https://api.apify.com/v2/acts/voyager~booking-scraper/run-sync-get-dataset-items
-// Parameters: checkIn, checkOut, search, adults, children, rooms, currency, language
+// Parallel execution pattern with graceful error handling
+const scrapers = {
+  booking: "voyager~booking-scraper",
+  airbnb: "tri_angle~airbnb-scraper", 
+  googlemaps: "compass~crawler-google-places"
+};
 
-// Airbnb Scraper
-POST https://api.apify.com/v2/acts/tri_angle~airbnb-scraper/run-sync-get-dataset-items
-// Parameters: adults, children, checkIn, checkOut, locationQueries, priceMin, priceMax
-
-// Review Scrapers
-POST https://api.apify.com/v2/acts/voyager~booking-reviews-scraper/run-sync-get-dataset-items
-POST https://api.apify.com/v2/acts/tri_angle~airbnb-reviews-scraper/run-sync-get-dataset-items
-
-// Google Maps Reviews Scraper
-POST https://api.apify.com/v2/acts/compass~google-maps-reviews-scraper/run-sync-get-dataset-items
-// Parameters: startUrls (Google Maps URLs), maxReviews (25), reviewsSort ("newest"), reviewsOrigin ("Google")
+// Critical parameters (exact string values required)
+flexibility_window: "0"|"1"|"2"|"7"  // Only these exact strings
+language: "ro"                       // Hardcoded for scrapers
+maxItems: 10                         // Performance optimization
 ```
 
-### Critical Parameters
-- **`flexibility_window`**: Only valid values are `"0"`, `"1"`, `"2"`, or `"7"`
-- **`language`**: Always hardcoded to `"ro"` for scraper tools
-- **Date Formats**: ISO date format required (YYYY-MM-DD)
-- **Currency**: User-specified or inferred (EUR, USD, RON)
+## Critical Configuration Details
 
-### Google Maps Parameters
-- **`maxReviews`**: Set to 25 for cost optimization (estimated $15/month)
-- **`reviewsSort`**: "newest" for relevant recent feedback
-- **`reviewsStartDate`**: "6 months" for recent reviews only
-- **`reviewsOrigin`**: "Google" for hotels to avoid diluted results
-- **`personalDataEnabled`**: false for privacy compliance
+### API Parameters (Exact Values Required)
+```javascript
+// flexibility_window validation - CRITICAL
+"0" = exact dates only
+"1" = ±1 day flexibility  
+"2" = ±2 days flexibility
+"7" = ±7 days flexibility
+// Must be strings, not numbers!
 
-## Business Logic
+// Date format requirements
+checkInDate: "YYYY-MM-DD"     // ISO format required
+checkOutDate: "YYYY-MM-DD"    // ISO format required
 
-### Property Selection Algorithm
-1. **Candidate Pools**: Gather properties from both platforms
-2. **Budget Filtering**: Apply quality thresholds based on price range
-3. **Unified Ranking**: Combine and rank all candidates by quality + rating
-4. **Google Maps Enhancement**: Apply bonus scoring for 4.0+ Google ratings, verify amenities through Google reviews
-5. **5-2 Enforcement**: Select top 7 while maintaining platform ratio
-6. **Quality Gates**: Ensure minimum ratings and focus criteria are met
+// Language settings
+language: "ro"                // Hardcoded for all scrapers
+```
 
-### User Interaction Flow
-1. **Information Gathering**: Destination, dates, budget, preferences
-2. **Confirmation Request**: Summarize search parameters, ask permission
-3. **Data Collection**: Parallel scraping from multiple sources (~5 minutes)
-4. **Analysis & Curation**: Review analysis, image selection, ranking
-5. **Response Generation**: Formatted recommendations with booking links
+### Platform Ratio Enforcement
+The algorithm enforces strict 5-2 platform distribution:
+```javascript
+// Always exactly 7 properties total
+const finalSelection = {
+  booking: 5, airbnb: 2    // OR
+  booking: 2, airbnb: 5    // Based on quality/preference
+};
+```
 
-### Date Handling Logic
-- **Exact Dates**: Set `flexibility_window = "0"`
-- **Vague Dates**: Set `flexibility_window = "3"` (safe default)
-- **Required Format**: Must resolve to specific ISO dates before search
-- **Validation**: No search proceeds without exact dates
+## File Structure and Responsibilities
 
-## Quality Standards
+### Core Files
+```
+MAIN_PROMPT.md              # 🎯 Main AI agent system prompt (single source of truth)
+IMAGE_PROMPT.md             # 🖼️ Image AI agent system prompt
+Hotels-Agent-CRISTI.json    # 🔧 N8N workflow template (auto-generated)
+Hotels-Agent-CRISTI.json.full # 🚀 Full workflow for N8N import
+```
 
-### Output Requirements
-- **7 Properties**: Mandatory count (unless fewer available)
-- **Platform Mix**: Strict 5-2 distribution
-- **Review Coverage**: No property shown without review analysis
-- **Link Integrity**: URLs copied verbatim from source data
-- **Language Consistency**: All output in user's detected language
+### Development Tools
+```
+scripts/sync-prompt.js      # Syncs prompts to JSON workflow
+scripts/validate-workflow.js # Validates workflow structure
+scripts/update-api-limits.py # Updates API rate limits
+scripts/truncate-json.py    # Truncates large JSON test files
+```
 
-### Content Quality
-- **Review Analysis**: 3-4 positives + 2 negatives with explanations
-- **Image Curation**: Maximum 3 high-quality, distinct images
-- **Writing Style**: Sophisticated, witty travel consultant voice
-- **Transparency**: Show number of reviews analyzed for each property
+### Configuration & Documentation
+```
+config/api-parameters.md    # API parameter reference
+config/node-settings.md     # N8N node configuration guide
+test-data/                  # Sample requests and API responses
+docs/                       # Technical documentation
+```
 
-## Testing & Validation
+## Development Patterns
 
-### Manual Testing
+### Making Prompt Changes
 ```bash
-# Test via N8N chat interface
-# 1. Start with destination and dates
-# 2. Verify parameter extraction
-# 3. Check scraper tool calls
-# 4. Validate response formatting
-# 5. Confirm link integrity
+# 1. Edit the system prompts (single source of truth)
+cursor MAIN_PROMPT.md         # Main agent behavior
+cursor IMAGE_PROMPT.md        # Image agent behavior
+
+# 2. Sync changes to workflow
+make sync                   # Creates both .json and .json.full versions
+
+# 3. Validate workflow structure
+make validate               # Checks for errors before deployment
+
+# 4. Import to N8N
+# Import Hotels-Agent-CRISTI.json.full into N8N GUI
+
+# 5. Test in N8N interface
 ```
 
-### Integration Points
-- **PostgreSQL**: Chat memory persistence
-- **Apify APIs**: Data scraping reliability
-- **Google Gemini**: AI response quality
-- **Webhook**: External integration capability
+### API Limit Management
+```bash
+# Update API limits interactively
+make update-limits
 
-## Troubleshooting
+# Set specific limits
+make update-limits-to-10    # Set maxItems to 10
+make update-charge-to-2.50  # Set charge limits to $2.50
+```
 
-### Common Issues
-- **Invalid flexibility_window**: Must use exact string values `"0"`, `"1"`, `"2"`, `"7"`
-- **Date Format Errors**: Ensure ISO format (YYYY-MM-DD) for scraper tools
-- **Platform Ratio Violations**: Algorithm must enforce 5-2 split exactly
-- **Language Inconsistency**: All output must match user's detected language
-- **Link Corruption**: URLs must be copied verbatim from source JSON
+### Test Data Management
+```bash
+# Organize scattered test files
+make organize
 
-### Debug Workflow
-1. **Check Node Execution**: Verify each node completes successfully
-2. **Validate Parameters**: Ensure AI extracts correct search parameters
-3. **Review API Responses**: Check Apify scraper data quality
-4. **Test Output Format**: Validate final response structure
-5. **Monitor Chat Memory**: Ensure PostgreSQL persistence works
+# Truncate large JSON test files
+make truncate FILE=test-data/large-dataset.json LIMIT=5
+```
 
-## Deployment Notes
+## Image Agent Integration
 
-- **N8N Environment**: Requires N8N instance with LangChain nodes
-- **Database**: PostgreSQL with chat memory table
-- **API Keys**: Apify, Google Gemini, PostgreSQL credentials
-- **Webhook URL**: Configure for external integrations
-- **Resource Limits**: Apify scrapers limited to 15 items each for performance
+### Tool Name Consistency
+Critical: The Main Agent calls the Image Agent using exact tool name:
+```javascript
+// ✅ CORRECT tool name in MAIN_PROMPT.md
+"Image AI AGENT ANALYZER"
+
+// ❌ WRONG - will break integration
+"Tool Call for url images"
+"Image Analysis Tool"
+```
+
+### Processing Pattern
+The Main Agent processes properties sequentially:
+```javascript
+// Process ONE property at a time (not batch)
+for (const property of finalProperties) {
+  const images = await callTool("Image AI AGENT ANALYZER", {
+    property: property  // Single property object
+  });
+  // Expect 3 image URLs returned
+}
+```
+
+### Simplified Image Selection
+The Image Agent uses basic selection rules:
+- **Booking.com**: Take first 3 images (pre-ordered by quality)
+- **Airbnb**: Skip generic captions, prefer descriptive ones
+- **No HTTP tools required** - works with URLs and captions directly
+
+## Common Issues and Solutions
+
+### Tool Name Mismatches
+**Problem**: Main Agent tool calls don't trigger Image Agent
+**Solution**: Ensure exact tool name match in both prompts:
+```bash
+grep -n "Image AI AGENT ANALYZER" MAIN_PROMPT.md
+# Should show 4 occurrences
+```
+
+### Parameter Validation Errors
+**Problem**: flexibility_window validation fails
+**Solution**: Use exact string values, not numbers:
+```javascript
+// ✅ CORRECT
+"flexibility_window": "1"
+
+// ❌ INCORRECT  
+"flexibility_window": 1
+```
+
+### Workflow Import Issues
+**Problem**: N8N import fails with parsing errors
+**Solution**: Always validate before import:
+```bash
+make validate               # Check for JSON syntax errors
+```
+
+### Sync Script Issues
+**Problem**: Prompt changes not reflected in workflow
+**Solution**: Ensure both prompt files exist and run full sync:
+```bash
+ls -la MAIN_PROMPT.md IMAGE_PROMPT.md  # Verify files exist
+make sync                               # Full sync process
+```
+
+## Testing and Validation
+
+### Manual Testing Process
+1. **Start N8N chat interface** via webhook URL
+2. **Input test request**: Destination + dates + preferences  
+3. **Monitor execution**: Check logs for scraper tool calls
+4. **Verify output**: Exactly 7 properties with 5-2 ratio
+5. **Validate links**: URLs should be copied verbatim from sources
+
+### Automated Validation
+```bash
+make test                   # Run all validation checks
+make validate              # Workflow structure validation
+node scripts/parameter-tests.js  # Parameter validation tests
+```
+
+### Performance Expectations
+- **Total execution time**: ~5 minutes for full search
+- **Property coverage**: 100+ properties analyzed  
+- **Final output**: Exactly 7 curated recommendations
+- **Platform distribution**: Strict 5-2 ratio enforcement
+- **Image selection**: Maximum 3 images per property
+
+## Deployment Process
+
+### Railway N8N Deployment
+```bash
+# 1. Prepare for deployment
+make deploy                 # Creates backup + syncs + validates
+
+# 2. Import to N8N
+# - Upload Hotels-Agent-CRISTI.json.full to N8N GUI
+# - Configure API credentials (Apify, Google Gemini, PostgreSQL)
+# - Test webhook endpoints
+
+# 3. Validate deployment
+# - Test chat interface functionality
+# - Verify scraper tool connections  
+# - Check AI agent response quality
+```
+
+### Required Credentials
+Configure in N8N credentials manager:
+- `APIFY_API_TOKEN` - For scraper access
+- `GOOGLE_GEMINI_API_KEY` - For AI agent functionality
+- `POSTGRES_CONNECTION_STRING` - For chat memory persistence
+
+## Memory and Session Management
+
+The project uses Serena MCP for persistent memory across sessions:
+- Project context and architectural patterns
+- Implementation discoveries and technical learnings
+- Session checkpoints for complex development work
+- Prompt engineering patterns and optimization techniques
+
+Access memory with:
+```bash
+# Via Serena MCP tools when needed
+read_memory("project_context")
+write_memory("session_summary", "development outcomes")
+```

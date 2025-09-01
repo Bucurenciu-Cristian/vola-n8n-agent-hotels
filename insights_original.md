@@ -23,3 +23,11 @@
 - You have to easily create a great structure for the new workflow, and to actually test if the new AI agent is really accessing the urls or not, to actually see the images.
 - One way of this is to call that tool(the new workflow), for every property in order, not parallel, to really know that the AI agent has accessed it.
 - Baby steps, start small with just one property, let it choose the best images and then continue on. It's kinda simple.
+
+
+--- 
+NEW updates:
+  - You understood that the LLM, doesn't really know about the images part, just if you actually fetch the binaries and send them to another AI. 
+  - The flow will be like this: You can now to fullfill the images part, via another agent tool call, that can output specific information via a output parser.
+  - The second AI, will batch the requests, per property and it will get the data in binary versions, to actually understand the images.
+  - START small, this is the first priority, anything else doesn't matter at this stage.

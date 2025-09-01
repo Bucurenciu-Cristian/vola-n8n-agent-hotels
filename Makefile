@@ -18,10 +18,15 @@ help:
 	@echo "=============================="
 	@echo ""
 	@echo "⚡ Core Development:"
-	@echo "  🔄 sync      - Update JSON with MAIN_PROMPT.md content"
+	@echo "  🔄 sync      - Enhanced sync: create template + full workflow"
 	@echo "  ✅ validate  - Validate workflow structure"
 	@echo "  🚀 dev       - Quick development cycle (sync + validate)"
 	@echo "  🔄 update-from-downloads - Sync workflow from N8N GUI export"
+	@echo ""
+	@echo "📦 Workflow Generation:"
+	@echo "  ✂️ strip     - Create clean template (empty prompts, for git)"
+	@echo "  📤 export    - Generate full workflow (with prompts, for N8N)"
+	@echo "  🎯 import-ready - Prepare workflow for N8N import"
 	@echo ""
 	@echo "🚢 Deployment:"
 	@echo "  💾 backup    - Create timestamped backup"
@@ -47,20 +52,38 @@ help:
 	@echo "  ✂️ truncate             - Truncate JSON file (usage: make truncate FILE=path.json LIMIT=5)"
 	@echo ""
 	@echo "⭐ Quick Start:"
-	@echo "  1. Edit $(MAIN_PROMPT)"
+	@echo "  1. Edit $(MAIN_PROMPT) or IMAGE_PROMPT.md"
 	@echo "  2. Run: make dev"
-	@echo "  3. Import $(WORKFLOW_JSON) to N8N"
+	@echo "  3. Import $(WORKFLOW_JSON).full to N8N"
 	@echo ""
 
-## Update Hotels-Agent-CRISTI.json with MAIN_PROMPT.md content
+## Enhanced sync: Create both stripped template and full workflow with prompts
 sync:
-	@echo "🔄 Syncing prompt to workflow JSON..."
+	@echo "🔄 Enhanced sync: processing both prompt files..."
 	@if [ ! -f "$(MAIN_PROMPT)" ]; then \
 		echo "❌ $(MAIN_PROMPT) not found!"; \
 		exit 1; \
 	fi
+	@if [ ! -f "IMAGE_PROMPT.md" ]; then \
+		echo "❌ IMAGE_PROMPT.md not found!"; \
+		exit 1; \
+	fi
 	@node $(SCRIPTS_DIR)/sync-prompt.js
-	@echo "✅ Sync completed"
+	@echo "✅ Enhanced sync completed"
+
+## Create stripped template (empty prompts, for git commits)
+strip:
+	@echo "🔄 Creating stripped template for git..."
+	@node $(SCRIPTS_DIR)/sync-prompt.js
+	@echo "✅ Stripped template ready for git"
+
+## Create full workflow for N8N import (alias for sync)
+export: sync
+	@echo "📦 Full workflow ready for N8N import: $(WORKFLOW_JSON).full"
+
+## Alias for export with clear intent
+import-ready: export
+	@echo "🎯 Workflow prepared for N8N GUI import"
 
 ## Validate workflow structure and configuration
 validate:
@@ -77,8 +100,9 @@ dev: sync validate
 	@echo "✅ Development cycle complete!"
 	@echo ""
 	@echo "📋 Next steps:"
-	@echo "1. Import $(WORKFLOW_JSON) into N8N"
+	@echo "1. Import $(WORKFLOW_JSON).full into N8N"
 	@echo "2. Test the workflow in N8N interface"
+	@echo "3. Commit only .md files and template .json to git"
 
 ## Sync workflow from N8N GUI export in Downloads
 update-from-downloads:

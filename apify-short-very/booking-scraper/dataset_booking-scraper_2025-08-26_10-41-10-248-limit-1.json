@@ -1,0 +1,670 @@
+[
+  {
+    "order": 21,
+    "url": "https://www.booking.com/hotel/fr/studio-alia-cosy-2-pers-renove-bellecour.ro.html?checkin=2025-09-25&checkout=2025-09-27&selected_currency=EUR&lang=ro&group_adults=2&group_children=0&no_rooms=1&soz=1&lang_changed=1&explicit_lang_change=1&explicit_curr_change=1",
+    "name": "Studio Alia Cozy 2 Pers Bellecour",
+    "type": "apartment",
+    "description": "Studio Alia Cozy 2 Pers Bellecour se găsește în centrul orașului Lyon, la aproximativ 7 minute de mers pe jos de Musée Miniature et Cinéma și 1,3 km de Muzeul de Arte Frumoase din Lyon, și oferă vedere la oraș. Se află la 15 minute de mers pe jos de Gara Lyon Perrache și are o recepție deschisă nonstop.\n\nAcest apartament oferă 1 dormitor, o bucătărie cu un frigider și un prăjitor de pâine, precum și 1 baie cu duș și articole de toaletă gratuite. Acest apartament oferă oaspeților prosoape și lenjerie de pat.\n\nAcest apartament se află la 13 minute de mers pe jos de Teatrul Roman Fourviere și la 1,3 km de Bazilica Notre-Dame de Fourvière. Aeroportul Lyon - Saint Exupery se află la 27 km.Distanța din descrierea proprietății este calculată folosind © OpenStreetMap",
+    "stars": null,
+    "price": 306.12690000000003,
+    "currency": "",
+    "rating": 4.8,
+    "reviews": 5,
+    "breakfast": null,
+    "checkIn": "De la 16:00La check-in oaspeţilor li se cere să prezinte un document de identitate cu fotografie şi un card de credit Va trebui să informați proprietatea în avans despre ora sosirii.",
+    "checkOut": "Până la 11:00",
+    "checkInDate": "2025-09-25",
+    "checkOutDate": "2025-09-27",
+    "location": {
+      "lat": "45.7580288",
+      "lng": "4.8290226999999994"
+    },
+    "address": {
+      "full": "14 Rue du Plat, Arondismentul 2, 69002 Lyon, Franţa",
+      "country": "fr",
+      "city": "Lyon"
+    },
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757799.jpg?k=eb3e54f1694f186064a7243769d1412f8e4e3906e0ef845d5bf2c8d5133de908&o=",
+    "rooms": [
+      {
+        "available": true,
+        "id": 1263287602,
+        "url": "https://www.booking.com/hotel/fr/studio-alia-cosy-2-pers-renove-bellecour.ro.html#room_1263287602",
+        "roomType": "Apartament",
+        "persons": 2,
+        "bedTypes": [
+          {
+            "room": null,
+            "beds": [
+              "1 pat dublu"
+            ]
+          }
+        ],
+        "facilities": [
+          "Apartament întreg",
+          "Vedere la oraș",
+          "Bucătărie",
+          "Ustensile de bucătărie",
+          "Cadă sau duş",
+          "Baie privată",
+          "Articole de toaletă gratuite",
+          "Bucătărie",
+          "Toaletă",
+          "Cadă sau duş",
+          "Prosoape",
+          "Lenjerie de pat",
+          "Produse de curățenie",
+          "Frigider",
+          "Încălzire",
+          "Uscător de păr",
+          "Ustensile de bucătărie",
+          "Chicinetă",
+          "Ventilator",
+          "Cană fierbător",
+          "Prăjitor de pâine",
+          "Zonă de luat masa",
+          "Masă",
+          "Hârtie igienică"
+        ],
+        "isPartnerOfferRoom": false,
+        "roomsLeft": 1,
+        "options": [
+          {
+            "price": 306.12690000000003,
+            "displayedPrice": 292.67,
+            "excludedTaxesPrice": 13.4569,
+            "discount": null,
+            "id": "1263287602_400065070_2_0_0",
+            "persons": 2,
+            "currency": "",
+            "cancellationType": "non_refundable",
+            "freeCancellation": false
+          },
+          {
+            "price": 288.68,
+            "displayedPrice": 278.67,
+            "excludedTaxesPrice": 10.01,
+            "discount": null,
+            "id": "1263287602_400065070_1_0_0",
+            "persons": 1,
+            "currency": "",
+            "cancellationType": "non_refundable",
+            "freeCancellation": false
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757799.jpg?k=eb3e54f1694f186064a7243769d1412f8e4e3906e0ef845d5bf2c8d5133de908&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757797.jpg?k=e720d65f48baf0bc7f01005fafe012813ad640f2df2c7e0a5c5b77a537f54703&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757798.jpg?k=d91c672f9d82a5ebb6232d507742670c5182c47d29b78637c92167abaf879726&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757803.jpg?k=20669046a487dd90fc81e9bb63418fdb4088f1af9826bd8978729a5f8caa3abc&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757802.jpg?k=150a7260b5224587dad48840efbfbf2cc0f79d0df4dea1d0739ab01749a055e0&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757809.jpg?k=8434a61e6bf010b30869f0f8a4871f86e67dffe4b21e4e2c3a5cc8090ec8c2a9&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757813.jpg?k=7cb3a784ba22d56f9cb9f65624859f78fb6854ce1ad5e93986b0fa6a1ce18aed&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757818.jpg?k=b6b4e9529066e071cc2b73b6d0d2625e899059f8b6e1c42fe79b6a09522fdd1c&o=&hp=1"
+    ],
+    "roomImages": [
+      {
+        "id": "594757797",
+        "thumbUrl": "https://cf.bstatic.com/xdata/images/hotel/max200/594757797.jpg?k=e720d65f48baf0bc7f01005fafe012813ad640f2df2c7e0a5c5b77a537f54703&o=&hp=1",
+        "largeUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757797.jpg?k=e720d65f48baf0bc7f01005fafe012813ad640f2df2c7e0a5c5b77a537f54703&o=&hp=1",
+        "associatedRoomIds": [
+          "1263287602"
+        ],
+        "orientation": "landscape",
+        "created": "2024-09-06 11:26:18",
+        "grid": {
+          "photoWidth": 2400,
+          "photoHeight": 1600
+        }
+      },
+      {
+        "id": "594757798",
+        "thumbUrl": "https://cf.bstatic.com/xdata/images/hotel/max200/594757798.jpg?k=d91c672f9d82a5ebb6232d507742670c5182c47d29b78637c92167abaf879726&o=&hp=1",
+        "largeUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757798.jpg?k=d91c672f9d82a5ebb6232d507742670c5182c47d29b78637c92167abaf879726&o=&hp=1",
+        "associatedRoomIds": [
+          "1263287602"
+        ],
+        "orientation": "landscape",
+        "created": "2024-09-06 11:26:18",
+        "grid": {
+          "photoWidth": 2400,
+          "photoHeight": 1600
+        }
+      },
+      {
+        "id": "594757799",
+        "thumbUrl": "https://cf.bstatic.com/xdata/images/hotel/max200/594757799.jpg?k=eb3e54f1694f186064a7243769d1412f8e4e3906e0ef845d5bf2c8d5133de908&o=&hp=1",
+        "largeUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757799.jpg?k=eb3e54f1694f186064a7243769d1412f8e4e3906e0ef845d5bf2c8d5133de908&o=&hp=1",
+        "associatedRoomIds": [
+          "1263287602"
+        ],
+        "orientation": "landscape",
+        "created": "2024-09-06 11:26:18",
+        "grid": {
+          "photoWidth": 2400,
+          "photoHeight": 1600
+        }
+      },
+      {
+        "id": "594757802",
+        "thumbUrl": "https://cf.bstatic.com/xdata/images/hotel/max200/594757802.jpg?k=150a7260b5224587dad48840efbfbf2cc0f79d0df4dea1d0739ab01749a055e0&o=&hp=1",
+        "largeUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757802.jpg?k=150a7260b5224587dad48840efbfbf2cc0f79d0df4dea1d0739ab01749a055e0&o=&hp=1",
+        "associatedRoomIds": [
+          "1263287602"
+        ],
+        "orientation": "landscape",
+        "created": "2024-09-06 11:26:19",
+        "grid": {
+          "photoWidth": 2400,
+          "photoHeight": 1600
+        }
+      },
+      {
+        "id": "594757803",
+        "thumbUrl": "https://cf.bstatic.com/xdata/images/hotel/max200/594757803.jpg?k=20669046a487dd90fc81e9bb63418fdb4088f1af9826bd8978729a5f8caa3abc&o=&hp=1",
+        "largeUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757803.jpg?k=20669046a487dd90fc81e9bb63418fdb4088f1af9826bd8978729a5f8caa3abc&o=&hp=1",
+        "associatedRoomIds": [
+          "1263287602"
+        ],
+        "orientation": "landscape",
+        "created": "2024-09-06 11:26:19",
+        "grid": {
+          "photoWidth": 2400,
+          "photoHeight": 1600
+        }
+      },
+      {
+        "id": "594757809",
+        "thumbUrl": "https://cf.bstatic.com/xdata/images/hotel/max200/594757809.jpg?k=8434a61e6bf010b30869f0f8a4871f86e67dffe4b21e4e2c3a5cc8090ec8c2a9&o=&hp=1",
+        "largeUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757809.jpg?k=8434a61e6bf010b30869f0f8a4871f86e67dffe4b21e4e2c3a5cc8090ec8c2a9&o=&hp=1",
+        "associatedRoomIds": [
+          "1263287602"
+        ],
+        "orientation": "landscape",
+        "created": "2024-09-06 11:26:20",
+        "grid": {
+          "photoWidth": 2400,
+          "photoHeight": 1600
+        }
+      },
+      {
+        "id": "594757813",
+        "thumbUrl": "https://cf.bstatic.com/xdata/images/hotel/max200/594757813.jpg?k=7cb3a784ba22d56f9cb9f65624859f78fb6854ce1ad5e93986b0fa6a1ce18aed&o=&hp=1",
+        "largeUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757813.jpg?k=7cb3a784ba22d56f9cb9f65624859f78fb6854ce1ad5e93986b0fa6a1ce18aed&o=&hp=1",
+        "associatedRoomIds": [
+          "1263287602"
+        ],
+        "orientation": "landscape",
+        "created": "2024-09-06 11:26:21",
+        "grid": {
+          "photoWidth": 2400,
+          "photoHeight": 1600
+        }
+      },
+      {
+        "id": "594757818",
+        "thumbUrl": "https://cf.bstatic.com/xdata/images/hotel/max200/594757818.jpg?k=b6b4e9529066e071cc2b73b6d0d2625e899059f8b6e1c42fe79b6a09522fdd1c&o=&hp=1",
+        "largeUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/594757818.jpg?k=b6b4e9529066e071cc2b73b6d0d2625e899059f8b6e1c42fe79b6a09522fdd1c&o=&hp=1",
+        "associatedRoomIds": [
+          "1263287602"
+        ],
+        "orientation": "landscape",
+        "created": "2024-09-06 11:26:21",
+        "grid": {
+          "photoWidth": 2400,
+          "photoHeight": 1600
+        }
+      }
+    ],
+    "categoryReviews": [
+      {
+        "title": "Personal",
+        "score": 4.4
+      },
+      {
+        "title": "Facilităţi",
+        "score": 5
+      },
+      {
+        "title": "Curăţenie",
+        "score": 6.5
+      },
+      {
+        "title": "Confort",
+        "score": 6
+      },
+      {
+        "title": "Raport calitate/preţ",
+        "score": 5.5
+      },
+      {
+        "title": "Locaţie",
+        "score": 9
+      }
+    ],
+    "hotelChain": null,
+    "licenseInfo": {
+      "numbers": [
+        "6938224496505"
+      ],
+      "phrases": [
+        "Număr de licență: 6938224496505"
+      ]
+    },
+    "hostInfo": {
+      "name": null,
+      "imageUrl": null,
+      "reviewsCount": 3862,
+      "reviewsScore": 6.4,
+      "yearsOnWebsite": 2,
+      "managedProperties": 285,
+      "welcomeMessage": "## The space\n\nCharming, renovated studio with a mezzanine, perfect for two guests seeking a cozy, well-equipped space. The bright living area includes a comfortable sofa, and the open kitchenette is fully equipped, featuring a Nespresso coffee machine, kettle, toaster, and everything you need to cook. There’s a table with two chairs. The mezzanine offers a separate sleeping area with a double bed (140x90 cm); please note the limited ceiling height. The modern bathroom has a shower, a sink with storage, and a toilet. The studio also provides essential household equipment such as a vacuum cleaner, blackout curtains, and some cleaning supplies. A portable fan, mop, and a few cleaning products are also available.\n\nIMPORTANT: NO WIFI, 4G ONLY / NO TV\n\nLinens and Essentials\nYou’ll find linens and essential items in the apartment upon arrival.\n\nRegarding linens:\n\nThe bed will be made according to the number of guests specified in the reservation.\nOne bath towel per person per stay (bring additional towels if needed).\nOne kitchen towel, and one bath mat.\nRegarding essential items:\n\nThree rolls of toilet paper\nShower gel\nDishwashing liquid & sponge\nCoffee pods & tea bags as a welcome gift\nA few cleaning supplies\nNote: No oil, salt, pepper, paper towels, or laundry detergent are provided.\n\n## Guest access\n\nGuests have full access to the apartment.\n\n## Guest interaction\n\nDavid and his team manage my apartment.\n\n## Other things to note\n\nWe take every precaution to ensure the safety of our guests, following Airbnb’s cleaning protocol by sanitizing frequently touched surfaces (light switches, door handles, furniture handles, remote controls, etc.) before your arrival.\n\nPLEASE NOTE: Only one set of keys is provided per stay, and additional sets are not available.",
+      "ownerInfo": null,
+      "neighboorhoodInfo": "## The neighborhood\n\nLyon is famous for its restaurants, from traditional \"bouchons Lyonnais\" to numerous Michelin-starred establishments. You'll also find many barges along the Rhône offering lovely dining settings.\n\nLocated right in the city center, you’ll be surrounded by typical Lyonnais buildings, the large Place des Jacobins, the famous Place Bellecour, and my favorite spot in summer—the Saône Riverbanks, ideal for a stroll in the evening with views of the Medieval Vieux Lyon district and the Basilica of Fourvière.\n\nFavorite Spots: Many to choose from, so don’t hesitate to reach out based on your preferences!\n\nGreat Bakeries/Desserts:\n\nLe Pain des Jacobins, delicious and nearby\nBoulangerie du Palais, known for praline desserts\nPralus, famous for its praline brioche—highly recommended!\nA Few Restaurants and Bars:\n\nLa Brasserie Georges: a true institution, known for sauerkraut and craft beers\nCafé du Rhône: local cuisine with a modern twist in a historic venue\nLa Madone: bar and apéro platters, with a terrace and regular DJ sets, perfect for football match broadcasts\nAbel: for tasting the famous Lyonnais quenelle (reservations recommended)\nL’Ourson qui boit: excellent restaurant (reservations also recommended)\nLes Muses de l’Opéra: for drinks with a beautiful view atop the Opera building\nLa Cuisine: traditional cuisine and bar\nLa Cave des Voyageurs (in Vieux Lyon): wine tasting from small producers with great apéro platters\nThe barges along the Rhône river, ideal for enjoying a drink on the terraces\nMore Exotic Options:\n\nCafé Lisboa: Portuguese tapas\nLa Rivière Kwai: Thai cuisine\nFor Going Out:\n\nLa Maison Mère\nL'Ambassade\nNearby Cultural Sites:\n\nMusée des Beaux-Arts de Lyon: Just 5 minutes away at 20 Place des Terreaux, with impressive collections from antiquity to contemporary art.\nOpéra de Lyon: A 10-minute walk on Place de la Comédie, offering performances from classic opera to contemporary dance.\nVieux Lyon - Saint-Jean District: About a 15-minute walk, w...",
+      "familyTips": null,
+      "language": "xu",
+      "spokenLanguages": [
+        "fr"
+      ]
+    },
+    "traderInfo": {
+      "isBusiness": true,
+      "email": "reservation.conciergerielyon@gmail.com",
+      "phone": "+33607714037",
+      "companyName": "BNB LYON IMMOBILIER",
+      "firstName": null,
+      "middleName": null,
+      "lastName": null,
+      "registrationNumber": "88496697900020",
+      "tradeRegisterName": "LYON",
+      "address": {
+        "street": "20 RUE D'AGUESSEAU",
+        "street2": null,
+        "postalCode": "69007",
+        "city": "LYON",
+        "countryCode": "FR",
+        "state": null
+      }
+    },
+    "breadcrumbs": [
+      {
+        "name": "Pagina principală",
+        "fullName": "Booking.com",
+        "link": "https://www.booking.com/index.ro.html?aid=304142&label=gen173nr-10CAsoTUIoc3R1ZGlvLWFsaWEtY29zeS0yLXBlcnMtcmVub3ZlLWJlbGxlY291ckggWARojAKIAQGYATO4AQfIAQzYAQPoAQH4AQGIAgGoAgG4AoaetsUGwAIB0gIkYjVhZDJjODgtNzUwOS00N2E1LWE1MzItMzBkNGVmYmJlMjVi2AIB4AIB",
+        "altLink": null
+      },
+      {
+        "name": "Hoteluri",
+        "fullName": "Hoteluri pe Booking.com",
+        "link": "https://www.booking.com/hotel/index.ro.html?aid=304142&label=gen173nr-10CAsoTUIoc3R1ZGlvLWFsaWEtY29zeS0yLXBlcnMtcmVub3ZlLWJlbGxlY291ckggWARojAKIAQGYATO4AQfIAQzYAQPoAQH4AQGIAgGoAgG4AoaetsUGwAIB0gIkYjVhZDJjODgtNzUwOS00N2E1LWE1MzItMzBkNGVmYmJlMjVi2AIB4AIB",
+        "altLink": null
+      },
+      {
+        "name": "Toate apartamentele",
+        "fullName": "Apartamente pe Booking.com",
+        "link": "https://www.booking.com/apartments/index.ro.html?aid=304142&label=gen173nr-10CAsoTUIoc3R1ZGlvLWFsaWEtY29zeS0yLXBlcnMtcmVub3ZlLWJlbGxlY291ckggWARojAKIAQGYATO4AQfIAQzYAQPoAQH4AQGIAgGoAgG4AoaetsUGwAIB0gIkYjVhZDJjODgtNzUwOS00N2E1LWE1MzItMzBkNGVmYmJlMjVi2AIB4AIB",
+        "altLink": null
+      },
+      {
+        "name": "Franţa",
+        "fullName": "Apartamente în Franţa",
+        "link": "https://www.booking.com/searchresults.ro.html?aid=304142&label=gen173nr-10CAsoTUIoc3R1ZGlvLWFsaWEtY29zeS0yLXBlcnMtcmVub3ZlLWJlbGxlY291ckggWARojAKIAQGYATO4AQfIAQzYAQPoAQH4AQGIAgGoAgG4AoaetsUGwAIB0gIkYjVhZDJjODgtNzUwOS00N2E1LWE1MzItMzBkNGVmYmJlMjVi2AIB4AIB&dest_id=73&dest_type=country&nflt=sth%3D1",
+        "altLink": "https://www.booking.com/country/fr.html"
+      },
+      {
+        "name": "Rhône-Alps",
+        "fullName": "Apartamente în Rhône-Alps",
+        "link": "https://www.booking.com/searchresults.ro.html?aid=304142&label=gen173nr-10CAsoTUIoc3R1ZGlvLWFsaWEtY29zeS0yLXBlcnMtcmVub3ZlLWJlbGxlY291ckggWARojAKIAQGYATO4AQfIAQzYAQPoAQH4AQGIAgGoAgG4AoaetsUGwAIB0gIkYjVhZDJjODgtNzUwOS00N2E1LWE1MzItMzBkNGVmYmJlMjVi2AIB4AIB&dest_id=807&dest_type=region&nflt=sth%3D1",
+        "altLink": null
+      },
+      {
+        "name": "Lyon",
+        "fullName": "Apartamente în Lyon",
+        "link": "https://www.booking.com/searchresults.ro.html?aid=304142&label=gen173nr-10CAsoTUIoc3R1ZGlvLWFsaWEtY29zeS0yLXBlcnMtcmVub3ZlLWJlbGxlY291ckggWARojAKIAQGYATO4AQfIAQzYAQPoAQH4AQGIAgGoAgG4AoaetsUGwAIB0gIkYjVhZDJjODgtNzUwOS00N2E1LWE1MzItMzBkNGVmYmJlMjVi2AIB4AIB&dest_id=-1448468&dest_type=city&nflt=sth%3D1",
+        "altLink": null
+      },
+      {
+        "name": "Oferte la Studio Alia Cozy 2 Pers Bellecour (Apartment) (Franţa)",
+        "fullName": "Oferte la Studio Alia Cozy 2 Pers Bellecour (Apartment) (Franţa)",
+        "link": null,
+        "altLink": null
+      }
+    ],
+    "hotelId": 12632876,
+    "facilities": [
+      {
+        "name": "Great for your stay",
+        "facilities": [
+          {
+            "name": "Baie privată",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 38
+          },
+          {
+            "name": "camere pentru nefumători",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 16
+          },
+          {
+            "name": "Bucătărie",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 45
+          },
+          {
+            "name": "Duş",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 4
+          },
+          {
+            "name": "Mașină de cafea",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 120
+          }
+        ],
+        "overview": null,
+        "id": null
+      },
+      {
+        "name": "Parcare",
+        "overview": "Nu există parcare disponibilă.",
+        "id": 16,
+        "facilities": []
+      },
+      {
+        "name": "Internet ",
+        "overview": "Nu există acces la internet .",
+        "id": 11,
+        "facilities": []
+      },
+      {
+        "name": "Bucătărie",
+        "overview": null,
+        "id": 12,
+        "facilities": [
+          {
+            "name": "Masă",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 126
+          },
+          {
+            "name": "Mașină de cafea",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 120
+          },
+          {
+            "name": "Produse de curățenie",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 116
+          },
+          {
+            "name": "Prăjitor de pâine",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 98
+          },
+          {
+            "name": "Ustensile de bucătărie",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 89
+          },
+          {
+            "name": "Cană fierbător",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 86
+          },
+          {
+            "name": "Bucătărie",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 45
+          },
+          {
+            "name": "Frigider",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 22
+          },
+          {
+            "name": "Chicinetă",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 16
+          }
+        ]
+      },
+      {
+        "name": "Dormitor",
+        "overview": null,
+        "id": 17,
+        "facilities": [
+          {
+            "name": "Lenjerie de pat",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 125
+          }
+        ]
+      },
+      {
+        "name": "Baie",
+        "overview": null,
+        "id": 5,
+        "facilities": [
+          {
+            "name": "Hârtie igienică",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 141
+          },
+          {
+            "name": "Prosoape",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 124
+          },
+          {
+            "name": "Cadă sau duş",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 69
+          },
+          {
+            "name": "Baie privată",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 38
+          },
+          {
+            "name": "Toaletă",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 31
+          },
+          {
+            "name": "Articole de toaletă gratuite",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 27
+          },
+          {
+            "name": "Uscător de păr",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 12
+          },
+          {
+            "name": "Duş",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 4
+          }
+        ]
+      },
+      {
+        "name": "Zonă de living",
+        "overview": null,
+        "id": 15,
+        "facilities": [
+          {
+            "name": "Zonă de luat masa",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 85
+          }
+        ]
+      },
+      {
+        "name": "Facilităţile camerei",
+        "overview": null,
+        "id": 4,
+        "facilities": [
+          {
+            "name": "Ventilator",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 30
+          }
+        ]
+      },
+      {
+        "name": "Exterior/Vedere",
+        "overview": null,
+        "id": 9,
+        "facilities": [
+          {
+            "name": "Vedere la oraș",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 121
+          }
+        ]
+      },
+      {
+        "name": "Servicii de recepție",
+        "overview": null,
+        "id": 23,
+        "facilities": [
+          {
+            "name": "recepţie deschisă nonstop",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 8
+          }
+        ]
+      },
+      {
+        "name": "Altele",
+        "overview": null,
+        "id": 29,
+        "facilities": [
+          {
+            "name": "fumatul interzis în toate spaţiile publice şi private",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 108
+          },
+          {
+            "name": "încălzire",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 80
+          },
+          {
+            "name": "camere pentru nefumători",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 16
+          }
+        ]
+      },
+      {
+        "name": "Siguranță",
+        "overview": null,
+        "id": 34,
+        "facilities": [
+          {
+            "name": "Alarmă de fum",
+            "additionalInfo": {
+              "requiresAdditionalCharge": false,
+              "isOffSite": false
+            },
+            "id": 422
+          }
+        ]
+      }
+    ],
+    "timeOfScrapeISO": "2025-08-26T10:40:11.445Z"
+  }
+]
