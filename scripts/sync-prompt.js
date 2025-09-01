@@ -22,7 +22,7 @@ const BACKUP_DIR = path.join(__dirname, '..', 'archive', 'backups');
 
 // Node identifiers
 const MAIN_AI_AGENT_TYPE = '@n8n/n8n-nodes-langchain.agent';
-const IMAGE_AI_AGENT_ID = 'df8935d5-8871-431c-ae38-92191ee1bb49';
+const IMAGE_AI_AGENT_NAME = 'Image AI AGENT ANALYZER';
 
 // Ensure backup directory exists
 if (!fs.existsSync(BACKUP_DIR)) {
@@ -76,6 +76,10 @@ function findNodeByType(workflow, nodeType) {
     return workflow.nodes.find(node => node.type === nodeType);
 }
 
+function findNodeByName(workflow, nodeName) {
+    return workflow.nodes.find(node => node.name === nodeName);
+}
+
 function updateWorkflowPrompts(workflow, mainPrompt, imagePrompt) {
     const updates = [];
     
@@ -96,7 +100,7 @@ function updateWorkflowPrompts(workflow, mainPrompt, imagePrompt) {
     }
     
     // Find and update Image AI AGENT ANALYZER
-    const imageAgent = findNodeById(workflow, IMAGE_AI_AGENT_ID);
+    const imageAgent = findNodeByName(workflow, IMAGE_AI_AGENT_NAME);
     if (imageAgent) {
         if (!imageAgent.parameters) imageAgent.parameters = {};
         if (!imageAgent.parameters.options) imageAgent.parameters.options = {};
@@ -124,7 +128,7 @@ function createStrippedWorkflow(workflow) {
         mainAgent.parameters.options.systemMessage = '';
     }
     
-    const imageAgent = findNodeById(stripped, IMAGE_AI_AGENT_ID);
+    const imageAgent = findNodeByName(stripped, IMAGE_AI_AGENT_NAME);
     if (imageAgent && imageAgent.parameters?.options) {
         imageAgent.parameters.options.systemMessage = '';
     }
@@ -232,7 +236,8 @@ module.exports = {
     updateWorkflowPrompts,
     createStrippedWorkflow,
     findNodeById,
-    findNodeByType
+    findNodeByType,
+    findNodeByName
 };
 
 // Run the script if called directly

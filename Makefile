@@ -10,7 +10,7 @@ BACKUP_DIR := archive/backups
 # Default target
 .DEFAULT_GOAL := help
 
-.PHONY: help sync validate dev update-from-downloads backup deploy organize clean setup test status update-limits update-charge-limits truncate
+.PHONY: help sync validate dev update-from-downloads integrate backup deploy organize clean setup test status update-limits update-charge-limits truncate
 
 ## Show this help message
 help:
@@ -22,6 +22,7 @@ help:
 	@echo "  ✅ validate  - Validate workflow structure"
 	@echo "  🚀 dev       - Quick development cycle (sync + validate)"
 	@echo "  🔄 update-from-downloads - Sync workflow from N8N GUI export"
+	@echo "  🎯 integrate - Import GUI changes + sync prompts + validate"
 	@echo ""
 	@echo "📦 Workflow Generation:"
 	@echo "  ✂️ strip     - Create clean template (empty prompts, for git)"
@@ -129,6 +130,18 @@ update-from-downloads:
 	else \
 		echo "⚠️ Downloads file is not newer than current file - no update needed"; \
 	fi
+
+## Full integration: import GUI changes, sync prompts, validate
+integrate: update-from-downloads sync validate
+	@echo "🎯 Full integration complete!"
+	@echo ""
+	@echo "✅ What just happened:"
+	@echo "  1. Imported N8N GUI changes (with backup created)"
+	@echo "  2. Synced your latest .md prompts to the workflow"  
+	@echo "  3. Validated the integrated workflow"
+	@echo ""
+	@echo "📦 Ready to import: Hotels-Agent-CRISTI.full.json"
+	@echo "🔄 Your GUI changes + prompt updates are now combined!"
 
 ## Create timestamped backup of workflow JSON
 backup:

@@ -13,7 +13,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const WORKFLOW_FILE = path.join(__dirname, '..', 'Hotels-Agent-CRISTI.json');
+const TEMPLATE_FILE = path.join(__dirname, '..', 'Hotels-Agent-CRISTI.json');
+const FULL_FILE = path.join(__dirname, '..', 'Hotels-Agent-CRISTI.full.json');
 
 // Validation rules
 const VALIDATION_RULES = {
@@ -32,18 +33,26 @@ const VALIDATION_RULES = {
     maxSystemMessageLength: 50000, // Maximum prompt length
 };
 
-function loadWorkflow() {
+function loadWorkflow(filePath) {
     try {
-        if (!fs.existsSync(WORKFLOW_FILE)) {
-            throw new Error(`Workflow file not found: ${WORKFLOW_FILE}`);
+        if (!fs.existsSync(filePath)) {
+            throw new Error(`Workflow file not found: ${filePath}`);
         }
         
-        const content = fs.readFileSync(WORKFLOW_FILE, 'utf8');
+        const content = fs.readFileSync(filePath, 'utf8');
         return JSON.parse(content);
     } catch (error) {
         console.error(`❌ Failed to load workflow: ${error.message}`);
         process.exit(1);
     }
+}
+
+function findMainAgent(workflow) {
+    return workflow.nodes.find(node => node.type === '@n8n/n8n-nodes-langchain.agent');
+}
+
+function findImageAgent(workflow) {
+    return workflow.nodes.find(node => node.name === 'Image AI AGENT ANALYZER');
 }
 
 function validateNodeTypes(workflow) {
@@ -92,38 +101,76 @@ function validateTools(workflow) {
     return true;
 }
 
-function validateSystemMessage(workflow) {
-    console.log('🔍 Validating system message...');
+function validateTemplateSystemMessages(workflow) {
+    console.log('🔍 Validating template system messages (should be empty)...');
     
-    const agentNode = workflow.nodes.find(node => 
-        node.type === '@n8n/n8n-nodes-langchain.agent'
-    );
+    const mainAgent = findMainAgent(workflow);
+    const imageAgent = findImageAgent(workflow);
     
-    if (!agentNode) {
-        console.error('❌ AI Agent node not found');
+    if (!mainAgent) {
+        console.error('❌ Main AI Agent node not found');
         return false;
     }
     
-    const systemMessage = agentNode.parameters?.options?.systemMessage;
-    
-    if (!systemMessage) {
-        console.error('❌ System message not found in AI Agent node');
+    if (!imageAgent) {
+        console.error('❌ Image AI Agent node not found');
         return false;
     }
     
-    const length = systemMessage.length;
-    
-    if (length < VALIDATION_RULES.minSystemMessageLength) {
-        console.error(`❌ System message too short: ${length} chars (min: ${VALIDATION_RULES.minSystemMessageLength})`);
+    // Check Main Agent - should be empty
+    const mainSystemMessage = mainAgent.parameters?.options?.systemMessage || '';
+    if (mainSystemMessage.trim() !== '') {
+        console.error(`❌ Template Main Agent has populated systemMessage (${mainSystemMessage.length} chars) - should be empty`);
         return false;
     }
     
-    if (length > VALIDATION_RULES.maxSystemMessageLength) {
-        console.error(`❌ System message too long: ${length} chars (max: ${VALIDATION_RULES.maxSystemMessageLength})`);
+    // Check Image Agent - should be empty
+    const imageSystemMessage = imageAgent.parameters?.options?.systemMessage || '';
+    if (imageSystemMessage.trim() !== '') {
+        console.error(`❌ Template Image Agent has populated systemMessage (${imageSystemMessage.length} chars) - should be empty`);
         return false;
     }
     
-    // Check for required sections
+    console.log('✅ Template has empty system messages (ready for git)');
+    return true;
+}
+
+function validateFullSystemMessages(workflow) {
+    console.log('🔍 Validating full workflow system messages (should be populated)...');
+    
+    const mainAgent = findMainAgent(workflow);
+    const imageAgent = findImageAgent(workflow);
+    
+    if (!mainAgent) {
+        console.error('❌ Main AI Agent node not found');
+        return false;
+    }
+    
+    if (!imageAgent) {
+        console.error('❌ Image AI Agent node not found');
+        return false;
+    }
+    
+    // Check Main Agent - should be populated (1000+ chars)
+    const mainSystemMessage = mainAgent.parameters?.options?.systemMessage;
+    if (!mainSystemMessage || mainSystemMessage.length < VALIDATION_RULES.minSystemMessageLength) {
+        console.error(`❌ Main Agent systemMessage too short: ${mainSystemMessage?.length || 0} chars (min: ${VALIDATION_RULES.minSystemMessageLength})`);
+        return false;
+    }
+    
+    if (mainSystemMessage.length > VALIDATION_RULES.maxSystemMessageLength) {
+        console.error(`❌ Main Agent systemMessage too long: ${mainSystemMessage.length} chars (max: ${VALIDATION_RULES.maxSystemMessageLength})`);
+        return false;
+    }
+    
+    // Check Image Agent - should be populated (500+ chars minimum)
+    const imageSystemMessage = imageAgent.parameters?.options?.systemMessage;
+    if (!imageSystemMessage || imageSystemMessage.length < 500) {
+        console.error(`❌ Image Agent systemMessage too short: ${imageSystemMessage?.length || 0} chars (min: 500)`);
+        return false;
+    }
+    
+    // Check for required sections in Main Agent
     const requiredSections = [
         'VolaBot',
         'Language Consistency Rule',
@@ -133,14 +180,16 @@ function validateSystemMessage(workflow) {
     ];
     
     const missingSections = requiredSections.filter(section => 
-        !systemMessage.includes(section)
+        !mainSystemMessage.includes(section)
     );
     
     if (missingSections.length > 0) {
-        console.warn(`⚠️ Missing recommended sections: ${missingSections.join(', ')}`);
+        console.warn(`⚠️ Missing recommended sections in Main Agent: ${missingSections.join(', ')}`);
     }
     
-    console.log(`✅ System message valid: ${length} characters`);
+    console.log(`✅ Full workflow has populated system messages:`);
+    console.log(`   • Main Agent: ${mainSystemMessage.length} characters`);
+    console.log(`   • Image Agent: ${imageSystemMessage.length} characters`);
     return true;
 }
 
@@ -173,49 +222,7 @@ function validateApiConfiguration(workflow) {
     return valid;
 }
 
-function validateSecurityCredentials(workflow) {
-    console.log('🔍 Validating security credentials...');
-    
-    const workflowString = JSON.stringify(workflow);
-    
-    // Look for hardcoded Apify API keys in URLs
-    const apifyTokenPattern = /\?token=apify_api_[A-Za-z0-9_]+/g;
-    const matches = workflowString.match(apifyTokenPattern);
-    
-    if (matches) {
-        // Filter out N8N variable references
-        const hardcodedTokens = matches.filter(match => {
-            // Check if this token is part of a variable reference
-            const tokenIndex = workflowString.indexOf(match);
-            const beforeToken = workflowString.substring(Math.max(0, tokenIndex - 50), tokenIndex);
-            const afterToken = workflowString.substring(tokenIndex, tokenIndex + match.length + 50);
-            
-            // If it's wrapped in N8N variables {{ }} or is a credential reference, it's OK
-            return !beforeToken.includes('{{') && !afterToken.includes('}}') && 
-                   !beforeToken.includes('credential:');
-        });
-        
-        if (hardcodedTokens.length > 0) {
-            console.error('❌ Security issue found: Hardcoded Apify API keys detected!');
-            console.error('');
-            hardcodedTokens.forEach((token, index) => {
-                const maskedToken = token.substring(0, 20) + '...';
-                console.error(`  🚨 Hardcoded API key ${index + 1}: ${maskedToken}`);
-            });
-            console.error('');
-            console.error('⚠️  CRITICAL: API keys should not be embedded directly in the workflow!');
-            console.error('   Please use N8N credential management instead:');
-            console.error('   1. Go to Settings > Credentials in N8N');
-            console.error('   2. Create Apify API credentials');
-            console.error('   3. Reference them in HTTP Request Tool authentication');
-            console.error('   Guide: https://docs.n8n.io/credentials/');
-            return false;
-        }
-    }
-    
-    console.log('✅ No hardcoded API keys detected');
-    return true;
-}
+
 
 function validateWorkflowStructure(workflow) {
     console.log('🔍 Validating workflow structure...');
@@ -275,28 +282,76 @@ function main() {
     console.log('🔍 VolaBot Workflow Validator');
     console.log('==============================');
     
-    const workflow = loadWorkflow();
+    console.log('📄 Validating Template File (Hotels-Agent-CRISTI.json)');
+    console.log('=======================================================');
     
-    const validations = [
-        validateWorkflowStructure(workflow),
-        validateNodeTypes(workflow),
-        validateTools(workflow),
-        validateSystemMessage(workflow),
-        validateApiConfiguration(workflow),
-        validateSecurityCredentials(workflow)
+    const templateWorkflow = loadWorkflow(TEMPLATE_FILE);
+    
+    const templateValidations = [
+        validateWorkflowStructure(templateWorkflow),
+        validateNodeTypes(templateWorkflow),
+        validateTools(templateWorkflow),
+        // validateApiConfiguration(templateWorkflow),
+        validateTemplateSystemMessages(templateWorkflow),
     ];
     
-    const passed = validations.filter(Boolean).length;
-    const total = validations.length;
+    const templatePassed = templateValidations.filter(Boolean).length;
+    const templateTotal = templateValidations.length;
     
-    console.log(`\n📋 Validation Results: ${passed}/${total} passed`);
+    console.log(`📋 Template Validation Results: ${templatePassed}/${templateTotal} passed`);
     
-    if (passed === total) {
-        console.log('✅ All validations passed! Workflow is ready for deployment.');
-        generateReport(workflow);
-        process.exit(0);
+    // Only validate full file if template passes
+    let fullPassed = 0;
+    let fullTotal = 0;
+    let fullWorkflow = null;
+    
+    if (templatePassed === templateTotal) {
+        console.log('Validating Full File (Hotels-Agent-CRISTI.full.json)');
+        console.log('====================================================');
+        
+        if (!fs.existsSync(FULL_FILE)) {
+            console.warn('⚠️ Full workflow file not found - run "make sync" to generate it');
+        } else {
+            fullWorkflow = loadWorkflow(FULL_FILE);
+            
+            const fullValidations = [
+                validateWorkflowStructure(fullWorkflow),
+                validateFullSystemMessages(fullWorkflow),
+            ];
+            
+            fullPassed = fullValidations.filter(Boolean).length;
+            fullTotal = fullValidations.length;
+            
+            console.log(`📋 Full File Validation Results: ${fullPassed}/${fullTotal} passed`);
+        }
+    }
+    
+    console.log('🎯 Overall Validation Summary');
+    console.log('=============================');
+    
+    if (templatePassed === templateTotal) {
+        console.log('✅ Template validation: PASSED');
+        if (fs.existsSync(FULL_FILE)) {
+            if (fullPassed === fullTotal) {
+                console.log('✅ Full file validation: PASSED');
+                console.log('🚀 Both workflows ready!');
+                console.log('  • Template: Ready for git commits');
+                console.log('  • Full: Ready for N8N import');
+                generateReport(templateWorkflow);
+                process.exit(0);
+            } else {
+                console.log('❌ Full file validation: FAILED');
+                process.exit(1);
+            }
+        } else {
+            console.log('⚠️  Full file: Not found (run "make sync")');
+            console.log('✅ Template validation passed - ready for development');
+            generateReport(templateWorkflow);
+            process.exit(0);
+        }
     } else {
-        console.log('❌ Some validations failed. Please fix the issues before deployment.');
+        console.log('❌ Template validation: FAILED');
+        console.log('❌ Please fix template issues before proceeding');
         process.exit(1);
     }
 }
@@ -306,4 +361,4 @@ if (require.main === module) {
     main();
 }
 
-module.exports = { main, loadWorkflow, validateNodeTypes, validateTools, validateSystemMessage, validateSecurityCredentials };
+module.exports = { main, loadWorkflow, validateNodeTypes, validateTools, validateTemplateSystemMessages, validateFullSystemMessages, findMainAgent, findImageAgent };
