@@ -11,15 +11,15 @@
           "parameters": [
             {
               "name": "maxItems",
-              "value": "1"
+              "value": "5"
             },
             {
               "name": "limit",
-              "value": "1"
+              "value": "5"
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(0.01) }}"
+              "value": "={{ Number(0.1) }}"
             }
           ]
         },
@@ -34,10 +34,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        1648,
-        -336
+        352,
+        272
       ],
-      "id": "f2cab474-6666-4c87-8d37-7eb2b3c038b1",
+      "id": "f660d547-6a72-46a4-8226-a0d921191bff",
       "name": "Scrape Google Maps",
       "retryOnFail": true,
       "alwaysOutputData": false,
@@ -51,10 +51,10 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        784,
-        -128
+        -512,
+        480
       ],
-      "id": "ec33ad6b-ae5c-42df-a8c1-b24f86cee922",
+      "id": "81ac3574-cda1-4081-b242-085911d02e3e",
       "name": "Google Gemini Chat Model",
       "credentials": {
         "googlePalmApi": {
@@ -71,10 +71,10 @@
       "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
       "typeVersion": 1.3,
       "position": [
-        928,
-        -128
+        -368,
+        480
       ],
-      "id": "a602b210-add9-4160-8ac5-9e540449990f",
+      "id": "2dbace78-8c76-4086-959c-391772a03099",
       "name": "Postgres Chat Memory",
       "credentials": {
         "postgres": {
@@ -106,10 +106,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        800,
-        -544
+        -496,
+        64
       ],
-      "id": "5f1381e0-655c-4000-bd55-b025d6bf8ea0",
+      "id": "ca6ad04f-67d9-4da6-88a3-2d2949b834e8",
       "name": "Edit Fields1"
     },
     {
@@ -122,10 +122,10 @@
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
       "position": [
-        608,
-        -544
+        -688,
+        64
       ],
-      "id": "d03c2e01-77ed-4069-8034-bb6463a31621",
+      "id": "e386b198-1889-4c97-9446-fc250b6e6187",
       "name": "Vola Webhook",
       "webhookId": "042d2591-94ed-43a9-a5e5-0860412c08e5"
     },
@@ -138,11 +138,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        544,
-        -624
+        -752,
+        -16
       ],
       "typeVersion": 1,
-      "id": "7fd3aaf1-a9ca-42b9-8f9c-35ac1f93e6f4",
+      "id": "ae28c0ad-c582-4ec0-aabe-d124a48c44f0",
       "name": "Sticky Note4"
     },
     {
@@ -155,15 +155,15 @@
           "parameters": [
             {
               "name": "maxItems",
-              "value": "1"
+              "value": "5"
             },
             {
               "name": "limit",
-              "value": "1"
+              "value": "5"
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(0.01) }}"
+              "value": "={{ Number(0.1) }}"
             }
           ]
         },
@@ -188,10 +188,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        1168,
-        32
+        -128,
+        656
       ],
-      "id": "d14e7294-5fcd-49c7-a1bf-abafebff2530",
+      "id": "ba98d656-ae3a-41a0-b015-840475e41e67",
       "name": "Reviews Airbnb",
       "retryOnFail": true,
       "alwaysOutputData": false,
@@ -207,15 +207,15 @@
           "parameters": [
             {
               "name": "maxItems",
-              "value": "1"
+              "value": "5"
             },
             {
               "name": "limit",
-              "value": "1"
+              "value": "5"
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(0.01) }}"
+              "value": "={{ Number(0.1) }}"
             }
           ]
         },
@@ -248,10 +248,10 @@
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        1344,
-        32
+        48,
+        656
       ],
-      "id": "7ab86326-f932-4786-8ca9-3dd91c0eaed9",
+      "id": "4b673444-fe90-4d43-ba19-83f3d6eaf7b6",
       "name": "Reviews Booking",
       "retryOnFail": true,
       "onError": "continueRegularOutput"
@@ -265,11 +265,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        720,
-        16
+        -576,
+        624
       ],
       "typeVersion": 1,
-      "id": "e8e76241-5f90-4aa6-b6b0-94b5e38b460b",
+      "id": "ececd5e2-b2fc-4445-99ff-29d1c85e5a87",
       "name": "Sticky Note3"
     },
     {
@@ -281,11 +281,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        720,
-        -384
+        -576,
+        224
       ],
       "typeVersion": 1,
-      "id": "ac9f9919-29f8-4fba-9bb7-0c5db9d4e0ef",
+      "id": "ff617d18-5fa2-4dc3-8f33-80ba30222e87",
       "name": "Sticky Note2"
     },
     {
@@ -296,11 +296,11 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        544,
-        -384
+        -752,
+        224
       ],
       "typeVersion": 1,
-      "id": "3721cfb7-0346-4a4f-81dc-c70e3d1b0c74",
+      "id": "f429d939-73dc-45f6-8a19-26ac6d960cfd",
       "name": "Sticky Note1"
     },
     {
@@ -310,10 +310,10 @@
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.3,
       "position": [
-        1568,
-        -544
+        272,
+        64
       ],
-      "id": "91606ac8-2005-49f5-b2a3-3a57f3a5e018",
+      "id": "c78dfb21-1410-43a5-9a6f-2003ecc9b70e",
       "name": "Respond to Webhook",
       "retryOnFail": true,
       "onError": "continueRegularOutput"
@@ -328,15 +328,15 @@
           "parameters": [
             {
               "name": "maxItems",
-              "value": "1"
+              "value": "5"
             },
             {
               "name": "limit",
-              "value": "1"
+              "value": "5"
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(0.01) }}"
+              "value": "={{ Number(0.1) }}"
             }
           ]
         },
@@ -391,16 +391,17 @@
         },
         "options": {},
         "optimizeResponse": true,
+        "dataField": "response",
         "fieldsToInclude": "except",
         "fields": "order,hotelChain,licenseInfo,hostInfo,traderInfo,breadcrumbs,timeOfScrapeISO,hotelId"
       },
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        1520,
-        32
+        224,
+        656
       ],
-      "id": "1f14f467-050d-4ef4-a534-8fa9df54d886",
+      "id": "bf523a46-1d4d-47a3-a031-f6ac0792c9a4",
       "name": "Scrape Booking",
       "retryOnFail": true,
       "onError": "continueRegularOutput"
@@ -415,15 +416,15 @@
           "parameters": [
             {
               "name": "maxItems",
-              "value": "1"
+              "value": "5"
             },
             {
               "name": "limit",
-              "value": "1"
+              "value": "5"
             },
             {
               "name": "maxTotalChargeUsd",
-              "value": "={{ Number(0.01) }}"
+              "value": "={{ Number(0.1) }}"
             }
           ]
         },
@@ -490,16 +491,17 @@
         },
         "options": {},
         "optimizeResponse": true,
+        "dataField": "response",
         "fieldsToInclude": "except",
         "fields": "id,descriptionOriginalLanguage,metaDescription,seoTitle,thumbnail,androidLink,iosLink,breadcrumbs,host,coHosts,locationSubtitle,htmlDescription,brandHighlights,icon,timestamp,language"
       },
       "type": "n8n-nodes-base.httpRequestTool",
       "typeVersion": 4.2,
       "position": [
-        992,
-        32
+        -304,
+        656
       ],
-      "id": "0e6c57f0-6512-48ce-a83e-8be86fb717d0",
+      "id": "ee39bfc6-5f2b-4459-8b83-b3e68f17c01f",
       "name": "Scrape AirBnb",
       "retryOnFail": true,
       "onError": "continueRegularOutput"
@@ -520,36 +522,12 @@
       "type": "@n8n/n8n-nodes-langchain.chatTrigger",
       "typeVersion": 1.1,
       "position": [
-        576,
-        -320
+        -720,
+        288
       ],
-      "id": "af5b122b-31d5-4b9c-92f3-b3e83f0b71af",
+      "id": "5f04ca7b-67dd-4b9c-afb8-c37a4bad48fa",
       "name": "When chat message received",
       "webhookId": "b419f5d3-82dd-41d3-933d-eca656870ab6"
-    },
-    {
-      "parameters": {
-        "toolDescription": "Try to get the images per property, using the url from the images array",
-        "url": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('URL', `this is used to gather the exact URL per property, to get it, to gain the binary`, 'string') }}",
-        "options": {
-          "batching": {
-            "batch": {
-              "batchSize": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Items_per_Batch', ``, 'number') }}",
-              "batchInterval": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Batch_Interval__ms_', ``, 'number') }}"
-            }
-          }
-        },
-        "optimizeResponse": true,
-        "responseType": "text"
-      },
-      "type": "n8n-nodes-base.httpRequestTool",
-      "typeVersion": 4.2,
-      "position": [
-        1808,
-        240
-      ],
-      "id": "aa7df933-8440-48a6-b8f7-827ef155cef4",
-      "name": "Tool Call for url images"
     },
     {
       "parameters": {
@@ -562,10 +540,10 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2,
       "position": [
-        1104,
-        -336
+        -192,
+        272
       ],
-      "id": "d1d62c74-46df-458e-a481-3d817df086d4",
+      "id": "ec1ddab7-2aa8-4c10-8a06-b3f069ae86c6",
       "name": "Main AI AGENT",
       "retryOnFail": true,
       "onError": "continueErrorOutput"
@@ -576,21 +554,47 @@
         "text": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Prompt__User_Message_', `Send the actual images as a test:`, 'string') }}",
         "options": {
           "systemMessage": "",
-          "passthroughBinaryImages": true,
-          "batching": {
-            "batchSize": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Batch_Size', ``, 'number') }}",
-            "delayBetweenBatches": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Delay_Between_Batches', ``, 'number') }}"
-          }
+          "passthroughBinaryImages": true
         }
       },
       "type": "@n8n/n8n-nodes-langchain.agentTool",
       "typeVersion": 2.2,
       "position": [
-        1664,
-        48
+        368,
+        688
       ],
-      "id": "39bcc630-2193-4ce0-904f-4e6e4cae418e",
+      "id": "136ee585-ed9b-4be4-94b3-58adb1a6f18e",
       "name": "Image AI AGENT ANALYZER"
+    },
+    {
+      "parameters": {
+        "resource": "image",
+        "operation": "analyze",
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-2.5-flash",
+          "mode": "list",
+          "cachedResultName": "models/gemini-2.5-flash"
+        },
+        "text": "Analyze these property images and evaluate each one for: 1) Visual Quality (composition, lighting, clarity, professional appearance) on a 0-4 scale, 2) Content Relevance (unique features, room types, amenities, marketing appeal) on a 0-4 scale, 3) Marketing Value \n  (does this image make someone want to book?). For each image, identify: room type, key features, visual quality score, content score, and any standout elements. Provide detailed analysis to help select the 3 most compelling images for booking conversion.",
+        "imageUrls": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('image_urls_csv', `Extract ALL image URLs from the property's images array and return them as a comma-separated string. The property object contains an images array with URL fields. Extract each URL and join them with commas. Example: 'url1.jpg,url2.jpg,url3.jpg'`, 'string') }}",
+        "simplify": false,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGeminiTool",
+      "typeVersion": 1,
+      "position": [
+        512,
+        864
+      ],
+      "id": "975879ad-8ebd-4000-a613-a55b477acdb8",
+      "name": "Analyze image in Google Gemini",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "6crYZOqBsqTBxATq",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
     }
   ],
   "pinData": {},
@@ -699,17 +703,6 @@
         ]
       ]
     },
-    "Tool Call for url images": {
-      "ai_tool": [
-        [
-          {
-            "node": "Image AI AGENT ANALYZER",
-            "type": "ai_tool",
-            "index": 0
-          }
-        ]
-      ]
-    },
     "Main AI AGENT": {
       "main": [
         [
@@ -731,6 +724,17 @@
           }
         ]
       ]
+    },
+    "Analyze image in Google Gemini": {
+      "ai_tool": [
+        [
+          {
+            "node": "Image AI AGENT ANALYZER",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "active": false,
@@ -739,7 +743,7 @@
     "timezone": "Europe/Bucharest",
     "callerPolicy": "workflowsFromSameOwner"
   },
-  "versionId": "cf97f663-fa61-42f5-a0c5-3ab54c93d462",
+  "versionId": "1c8029df-ccf1-4855-aa2c-f43f5ed4c41a",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "70494cb356420efc72c2a7a47e27b7a31b783bdae5a28ee35c1530986f0f1709"
@@ -751,6 +755,12 @@
       "updatedAt": "2025-08-25T15:36:57.340Z",
       "id": "3l4Lwwau5pfBMZl3",
       "name": "v3"
+    },
+    {
+      "createdAt": "2025-09-02T10:27:32.363Z",
+      "updatedAt": "2025-09-02T10:27:32.363Z",
+      "id": "2BtkD10KS8583pCr",
+      "name": "working"
     }
   ]
 }
