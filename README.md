@@ -36,6 +36,7 @@ VolaBot is an intelligent travel consultant built as an N8N workflow that helps 
 ### Setup
 
 1. **Clone and setup project:**
+
    ```bash
    git clone <your-repo-url>
    cd vola-n8n-agent-hotels
@@ -43,6 +44,7 @@ VolaBot is an intelligent travel consultant built as an N8N workflow that helps 
    ```
 
 2. **Make your first change:**
+
    ```bash
    # Edit the system prompt
    nano MAIN_PROMPT.md
@@ -58,7 +60,6 @@ VolaBot is an intelligent travel consultant built as an N8N workflow that helps 
 
 ## 📁 Project Structure
 
-```
 vola-n8n-agent-hotels/
 ├── README.md                      # 👋 You are here
 ├── CLAUDE.md                      # Development guide and project context
@@ -89,7 +90,6 @@ vola-n8n-agent-hotels/
     ├── backups/                   # Automated workflow backups
     ├── init/                      # Original workflow versions
     └── development-notes/         # Historical development files
-```
 
 ## 🔧 Development Workflow
 
@@ -144,26 +144,31 @@ VolaBot executes 3 scraper APIs simultaneously when users confirm search:
 
 ### Intelligent Property Curation Algorithm
 
-**Step 1: Candidate Pools**
+#### Step 1: Candidate Pools**
+
 - Gather properties from both platforms
 - Apply budget-based quality filters
 
-**Step 2: Unified Ranking**  
+#### Step 2: Unified Ranking**  
+
 - Combine and rank by adherence to focus criteria
 - Secondary sort by rating + Google Maps enhancement
 
-**Step 3: 5-2 Platform Ratio Enforcement**
+#### Step 3: 5-2 Platform Ratio Enforcement**
+
 - Select top 7 while maintaining strict 5-2 platform distribution
 - Quality gates ensure minimum ratings
 
 ### Smart Image Curation
 
 **For Airbnb (Caption Intelligence):**
+
 - Uses `caption` text as primary filter for reliability
 - Matches user priorities: "pool" → "piscin", "ștrand", "înot"
 - Room identification: "Dormitor principal", "Living", "Bucătărie"
 
 **For Booking.com (Visual Analysis):**
+
 - Standard visual quality assessment
 - Focus on user experience priorities
 
@@ -230,6 +235,7 @@ VolaBot executes 3 scraper APIs simultaneously when users confirm search:
 ### Environment Variables
 
 Configure in N8N credentials manager:
+
 - `APIFY_API_TOKEN`
 - `GOOGLE_GEMINI_API_KEY`  
 - `POSTGRES_CONNECTION_STRING`
@@ -239,6 +245,7 @@ Configure in N8N credentials manager:
 ### Railway N8N Deployment
 
 1. **Prepare locally:**
+
    ```bash
    npm run deploy-prep
    ```

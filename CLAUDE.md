@@ -17,6 +17,7 @@ VolaBot is an AI-powered travel consultant built as an N8N workflow that curates
 ## Essential Commands
 
 ### Development Workflow
+
 ```bash
 # Core development cycle (most important commands)
 make dev                    # Sync prompts + validate workflow
@@ -30,6 +31,7 @@ npm run validate           # Same as make validate
 ```
 
 ### Deployment Commands
+
 ```bash
 make deploy                 # Full deployment preparation (backup + sync + validate)
 make backup                 # Create timestamped backup
@@ -37,6 +39,7 @@ make import-ready          # Prepare workflow for N8N GUI import
 ```
 
 ### Project Management
+
 ```bash
 make setup                 # Initial project setup
 make organize              # Organize scattered test data files
@@ -47,6 +50,7 @@ make help                 # Show all available commands
 ## Key Architecture Patterns
 
 ### Dual AI Agent Pattern
+
 The workflow uses a sophisticated AI agent delegation system:
 
 1. **Main AI Agent** (`MAIN_PROMPT.md`):
@@ -63,6 +67,7 @@ The workflow uses a sophisticated AI agent delegation system:
    - Caption-based intelligence for Airbnb, visual analysis for Booking.com
 
 ### Prompt-First Development
+
 Critical pattern: **Never edit JSON directly**
 
 ```bash
@@ -76,10 +81,12 @@ make sync                  # Update workflow JSON files
 ```
 
 The sync system creates two versions:
+
 - `Hotels-Agent-CRISTI.json` - Stripped template (for git commits)
 - `Hotels-Agent-CRISTI.json.full` - Full workflow (for N8N import)
 
 ### Multi-Platform Scraping Architecture
+
 ```javascript
 // Parallel execution pattern with graceful error handling
 const scrapers = {
@@ -97,6 +104,7 @@ maxItems: 10                         // Performance optimization
 ## Critical Configuration Details
 
 ### API Parameters (Exact Values Required)
+
 ```javascript
 // flexibility_window validation - CRITICAL
 "0" = exact dates only
@@ -114,7 +122,9 @@ language: "ro"                // Hardcoded for all scrapers
 ```
 
 ### Platform Ratio Enforcement
+
 The algorithm enforces strict 5-2 platform distribution:
+
 ```javascript
 // Always exactly 7 properties total
 const finalSelection = {
@@ -126,32 +136,30 @@ const finalSelection = {
 ## File Structure and Responsibilities
 
 ### Core Files
-```
+
 MAIN_PROMPT.md              # 🎯 Main AI agent system prompt (single source of truth)
 IMAGE_PROMPT.md             # 🖼️ Image AI agent system prompt
 Hotels-Agent-CRISTI.json    # 🔧 N8N workflow template (auto-generated)
 Hotels-Agent-CRISTI.json.full # 🚀 Full workflow for N8N import
-```
 
 ### Development Tools
-```
+
 scripts/sync-prompt.js      # Syncs prompts to JSON workflow
 scripts/validate-workflow.js # Validates workflow structure
 scripts/update-api-limits.py # Updates API rate limits
 scripts/truncate-json.py    # Truncates large JSON test files
-```
 
 ### Configuration & Documentation
-```
+
 config/api-parameters.md    # API parameter reference
 config/node-settings.md     # N8N node configuration guide
 test-data/                  # Sample requests and API responses
 docs/                       # Technical documentation
-```
 
 ## Development Patterns
 
 ### Making Prompt Changes
+
 ```bash
 # 1. Edit the system prompts (single source of truth)
 cursor MAIN_PROMPT.md         # Main agent behavior
@@ -170,6 +178,7 @@ make validate               # Checks for errors before deployment
 ```
 
 ### API Limit Management
+
 ```bash
 # Update API limits interactively
 make update-limits
@@ -180,6 +189,7 @@ make update-charge-to-2.50  # Set charge limits to $2.50
 ```
 
 ### Test Data Management
+
 ```bash
 # Organize scattered test files
 make organize
@@ -191,7 +201,9 @@ make truncate FILE=test-data/large-dataset.json LIMIT=5
 ## Image Agent Integration
 
 ### Tool Name Consistency
+
 Critical: The Main Agent calls the Image Agent using exact tool name:
+
 ```javascript
 // ✅ CORRECT tool name in MAIN_PROMPT.md
 "Image AI AGENT ANALYZER"
@@ -202,7 +214,9 @@ Critical: The Main Agent calls the Image Agent using exact tool name:
 ```
 
 ### Processing Pattern
+
 The Main Agent processes properties sequentially:
+
 ```javascript
 // Process ONE property at a time (not batch)
 for (const property of finalProperties) {
@@ -214,7 +228,9 @@ for (const property of finalProperties) {
 ```
 
 ### Simplified Image Selection
+
 The Image Agent uses basic selection rules:
+
 - **Booking.com**: Take first 3 images (pre-ordered by quality)
 - **Airbnb**: Skip generic captions, prefer descriptive ones
 - **No HTTP tools required** - works with URLs and captions directly
@@ -222,16 +238,20 @@ The Image Agent uses basic selection rules:
 ## Common Issues and Solutions
 
 ### Tool Name Mismatches
+
 **Problem**: Main Agent tool calls don't trigger Image Agent
 **Solution**: Ensure exact tool name match in both prompts:
+
 ```bash
 grep -n "Image AI AGENT ANALYZER" MAIN_PROMPT.md
 # Should show 4 occurrences
 ```
 
 ### Parameter Validation Errors
+
 **Problem**: flexibility_window validation fails
 **Solution**: Use exact string values, not numbers:
+
 ```javascript
 // ✅ CORRECT
 "flexibility_window": "1"
@@ -241,15 +261,19 @@ grep -n "Image AI AGENT ANALYZER" MAIN_PROMPT.md
 ```
 
 ### Workflow Import Issues
+
 **Problem**: N8N import fails with parsing errors
 **Solution**: Always validate before import:
+
 ```bash
 make validate               # Check for JSON syntax errors
 ```
 
 ### Sync Script Issues
+
 **Problem**: Prompt changes not reflected in workflow
 **Solution**: Ensure both prompt files exist and run full sync:
+
 ```bash
 ls -la MAIN_PROMPT.md IMAGE_PROMPT.md  # Verify files exist
 make sync                               # Full sync process
@@ -258,6 +282,7 @@ make sync                               # Full sync process
 ## Testing and Validation
 
 ### Manual Testing Process
+
 1. **Start N8N chat interface** via webhook URL
 2. **Input test request**: Destination + dates + preferences  
 3. **Monitor execution**: Check logs for scraper tool calls
@@ -265,6 +290,7 @@ make sync                               # Full sync process
 5. **Validate links**: URLs should be copied verbatim from sources
 
 ### Automated Validation
+
 ```bash
 make test                   # Run all validation checks
 make validate              # Workflow structure validation
@@ -272,6 +298,7 @@ node scripts/parameter-tests.js  # Parameter validation tests
 ```
 
 ### Performance Expectations
+
 - **Total execution time**: ~5 minutes for full search
 - **Property coverage**: 100+ properties analyzed  
 - **Final output**: Exactly 7 curated recommendations
@@ -281,6 +308,7 @@ node scripts/parameter-tests.js  # Parameter validation tests
 ## Deployment Process
 
 ### Railway N8N Deployment
+
 ```bash
 # 1. Prepare for deployment
 make deploy                 # Creates backup + syncs + validates
@@ -297,7 +325,9 @@ make deploy                 # Creates backup + syncs + validates
 ```
 
 ### Required Credentials
+
 Configure in N8N credentials manager:
+
 - `APIFY_API_TOKEN` - For scraper access
 - `GOOGLE_GEMINI_API_KEY` - For AI agent functionality
 - `POSTGRES_CONNECTION_STRING` - For chat memory persistence
@@ -305,12 +335,14 @@ Configure in N8N credentials manager:
 ## Memory and Session Management
 
 The project uses Serena MCP for persistent memory across sessions:
+
 - Project context and architectural patterns
 - Implementation discoveries and technical learnings
 - Session checkpoints for complex development work
 - Prompt engineering patterns and optimization techniques
 
 Access memory with:
+
 ```bash
 # Via Serena MCP tools when needed
 read_memory("project_context")
