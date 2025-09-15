@@ -193,32 +193,105 @@ function validateFullSystemMessages(workflow) {
     return true;
 }
 
-function validateApiConfiguration(workflow) {
-    console.log('🔍 Validating API configuration...');
-    
-    const httpNodes = workflow.nodes.filter(node => 
+function detectExposedSecrets(workflow) {
+    console.log('🔒 Detecting exposed API keys and secrets...');
+
+    const secretPatterns = [
+        { pattern: /apify_api_[A-Za-z0-9]{20,}/g, name: 'Apify API Key' },
+        { pattern: /token=[A-Za-z0-9_]{20,}(?!REDACTED)/g, name: 'API Token in URL' },
+        { pattern: /api[_-]?key["\s:=]+[A-Za-z0-9_]{15,}/gi, name: 'Generic API Key' },
+        { pattern: /sk-[A-Za-z0-9]{20,}/g, name: 'OpenAI API Key' },
+        { pattern: /pk-[A-Za-z0-9]{20,}/g, name: 'Public API Key' }
+    ];
+
+    let exposedSecrets = [];
+
+    // Convert workflow to string for pattern matching
+    const workflowString = JSON.stringify(workflow, null, 2);
+
+    for (const { pattern, name } of secretPatterns) {
+        const matches = workflowString.match(pattern);
+        if (matches) {
+            exposedSecrets.push({
+                type: name,
+                count: matches.length,
+                samples: matches.slice(0, 2) // Show first 2 matches as examples
+            });
+        }
+    }
+
+    // Check specific node parameters for exposed secrets
+    const httpNodes = workflow.nodes.filter(node =>
         node.type === 'n8n-nodes-base.httpRequestTool'
     );
-    
-    let valid = true;
-    
+
     for (const node of httpNodes) {
         const url = node.parameters?.url;
-        
+        if (url && url.includes('token=') && !url.includes('REDACTED')) {
+            exposedSecrets.push({
+                type: 'Token in URL',
+                node: node.name,
+                url: url.substring(0, 100) + '...' // Truncate for security
+            });
+        }
+    }
+
+    if (exposedSecrets.length > 0) {
+        console.error('❌ EXPOSED SECRETS DETECTED:');
+        for (const secret of exposedSecrets) {
+            if (secret.node) {
+                console.error(`   • ${secret.type} in node "${secret.node}"`);
+            } else {
+                console.error(`   • ${secret.type}: ${secret.count} occurrence(s) found`);
+                if (secret.samples) {
+                    console.error(`     Examples: ${secret.samples.map(s => s.substring(0, 20) + '***').join(', ')}`);
+                }
+            }
+        }
+        console.error('');
+        console.error('🚨 SECURITY RISK: Workflow contains exposed API keys!');
+        console.error('   Please use N8N credentials instead of hardcoded tokens.');
+        return false;
+    }
+
+    console.log('✅ No exposed secrets detected');
+    return true;
+}
+
+function validateApiConfiguration(workflow) {
+    console.log('🔍 Validating API configuration...');
+
+    const httpNodes = workflow.nodes.filter(node =>
+        node.type === 'n8n-nodes-base.httpRequestTool'
+    );
+
+    let valid = true;
+
+    for (const node of httpNodes) {
+        const url = node.parameters?.url;
+
         if (!url || !url.includes('api.apify.com')) {
             console.error(`❌ Invalid API URL in node ${node.name}: ${url}`);
             valid = false;
         }
-        
-        if (!node.parameters?.authentication) {
-            console.warn(`⚠️ No authentication configured for ${node.name}`);
+
+        // Check for proper credential usage
+        if (!node.credentials) {
+            console.warn(`⚠️ No credentials configured for ${node.name} - using hardcoded authentication`);
+        } else {
+            console.log(`✅ ${node.name} uses N8N credentials: ${Object.keys(node.credentials).join(', ')}`);
+        }
+
+        // Check for authentication parameter
+        if (!node.parameters?.authentication && !node.credentials) {
+            console.warn(`⚠️ No authentication method configured for ${node.name}`);
         }
     }
-    
+
     if (valid) {
         console.log(`✅ API configuration valid for ${httpNodes.length} tools`);
     }
-    
+
     return valid;
 }
 
@@ -291,7 +364,8 @@ function main() {
         validateWorkflowStructure(templateWorkflow),
         validateNodeTypes(templateWorkflow),
         validateTools(templateWorkflow),
-        // validateApiConfiguration(templateWorkflow),
+        detectExposedSecrets(templateWorkflow),
+        validateApiConfiguration(templateWorkflow),
         validateTemplateSystemMessages(templateWorkflow),
     ];
     
@@ -316,6 +390,7 @@ function main() {
             
             const fullValidations = [
                 validateWorkflowStructure(fullWorkflow),
+                detectExposedSecrets(fullWorkflow),
                 validateFullSystemMessages(fullWorkflow),
             ];
             
@@ -361,4 +436,4 @@ if (require.main === module) {
     main();
 }
 
-module.exports = { main, loadWorkflow, validateNodeTypes, validateTools, validateTemplateSystemMessages, validateFullSystemMessages, findMainAgent, findImageAgent };
+module.exports = { main, loadWorkflow, validateNodeTypes, validateTools, validateTemplateSystemMessages, validateFullSystemMessages, detectExposedSecrets, validateApiConfiguration, findMainAgent, findImageAgent };

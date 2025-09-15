@@ -10,7 +10,7 @@ BACKUP_DIR := archive/backups
 # Default target
 .DEFAULT_GOAL := help
 
-.PHONY: help sync validate dev update-from-downloads integrate backup deploy organize update-limits-to-% update-charge-to-% clean setup test status update-limits update-charge-limits truncate
+.PHONY: help sync validate dev update-from-downloads integrate backup deploy organize update-limits-to-% update-charge-to-% clean setup test status update-limits update-charge-limits truncate check-secrets safe-commit
 
 ## Show this help message
 help:
@@ -19,7 +19,7 @@ help:
 	@echo ""
 	@echo "⚡ Core Development:"
 	@echo "  🔄 sync      - Enhanced sync: create template + full workflow"
-	@echo "  ✅ validate  - Validate workflow structure"
+	@echo "  ✅ validate  - Validate workflow structure (includes security checks)"
 	@echo "  🚀 dev       - Quick development cycle (sync + validate)"
 	@echo "  🔄 update-from-downloads - Sync workflow from N8N GUI export"
 	@echo "  🎯 integrate - Import GUI changes + sync prompts + validate"
@@ -32,6 +32,10 @@ help:
 	@echo "🚢 Deployment:"
 	@echo "  💾 backup    - Create timestamped backup"
 	@echo "  🎯 deploy    - Full preparation for deployment"
+	@echo ""
+	@echo "🔒 Security:"
+	@echo "  🔍 check-secrets - Scan for exposed API keys and secrets"
+	@echo "  🛡️ safe-commit   - Validate security before git commits"
 	@echo ""
 	@echo "📁 Project Management:"
 	@echo "  📦 organize  - Organize test data files"
@@ -86,8 +90,25 @@ export: sync
 import-ready: export
 	@echo "🎯 Workflow prepared for N8N GUI import"
 
-## Validate workflow structure and configuration
-validate:
+## Check for exposed API keys and secrets (security guard)
+check-secrets:
+	@echo "🔒 Checking for exposed API keys and secrets..."
+	@echo "🔍 Scanning JSON workflow files..."
+	@! grep -r "apify_api_[A-Za-z0-9]\{20,\}" *.json 2>/dev/null || (echo "❌ Exposed Apify API key found in workflow files!" && exit 1)
+	@! grep -r "token=[A-Za-z0-9_]\{20,\}" *.json 2>/dev/null | grep -v "REDACTED" || (echo "❌ Exposed API token found in URL!" && exit 1)
+	@! grep -r "sk-[A-Za-z0-9]\{20,\}" *.json 2>/dev/null || (echo "❌ Exposed OpenAI API key found!" && exit 1)
+	@! grep -r "pk-[A-Za-z0-9]\{20,\}" *.json 2>/dev/null || (echo "❌ Exposed public API key found!" && exit 1)
+	@echo "🔍 Checking backup and archive files..."
+	@if [ -d "archive" ]; then \
+		! find archive/ -name "*.json" -exec grep -l "apify_api_[A-Za-z0-9]\{20,\}" {} \; | head -1 | grep -q . || (echo "❌ Exposed keys found in archive files!" && exit 1); \
+	fi
+	@if [ -d "transfer-package" ]; then \
+		! find transfer-package/ -name "*.json" -exec grep -l "apify_api_[A-Za-z0-9]\{20,\}" {} \; | head -1 | grep -q . || (echo "❌ Exposed keys found in transfer-package!" && exit 1); \
+	fi
+	@echo "✅ No exposed secrets detected"
+
+## Validate workflow structure and configuration (includes security check)
+validate: check-secrets
 	@echo "🔍 Validating workflow..."
 	@if [ ! -f "$(WORKFLOW_JSON)" ]; then \
 		echo "❌ $(WORKFLOW_JSON) not found!"; \
@@ -96,6 +117,18 @@ validate:
 	@node $(SCRIPTS_DIR)/validate-workflow.js
 	@echo "✅ Validation completed"
 
+## Safe commit: check for secrets before committing
+safe-commit: check-secrets
+	@echo "🛡️ Pre-commit security check passed!"
+	@echo ""
+	@echo "✅ Safe to commit - no exposed secrets detected"
+	@echo "📋 Recommended git workflow:"
+	@echo "1. git add MAIN_PROMPT.md IMAGE_PROMPT.md"
+	@echo "2. git add $(WORKFLOW_JSON)  # Template only (no .full file)"
+	@echo "3. git commit -m 'Your commit message'"
+	@echo ""
+	@echo "⚠️  NEVER commit $(WORKFLOW_JSON).full - it may contain secrets!"
+
 ## Quick development cycle: sync + validate
 dev: sync validate
 	@echo "✅ Development cycle complete!"
@@ -103,7 +136,7 @@ dev: sync validate
 	@echo "📋 Next steps:"
 	@echo "1. Import $(WORKFLOW_JSON).full into N8N"
 	@echo "2. Test the workflow in N8N interface"
-	@echo "3. Commit only .md files and template .json to git"
+	@echo "3. Run 'make safe-commit' before git commits"
 
 ## Sync workflow from N8N GUI export in Downloads
 update-from-downloads:

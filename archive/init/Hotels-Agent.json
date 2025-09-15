@@ -39,7 +39,7 @@
       "parameters": {
         "toolDescription": "Scrape AirBnb to get available listings.",
         "method": "POST",
-        "url": "https://api.apify.com/v2/acts/tri_angle~airbnb-scraper/run-sync-get-dataset-items?token=apify_api_Jfvr7mJthgPiFnw2hVvDjLZDKW5vHw1KSU6Z",
+        "url": "https://api.apify.com/v2/acts/tri_angle~airbnb-scraper/run-sync-get-dataset-items?token=APIFY_API_KEY_REDACTED",
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
@@ -73,7 +73,7 @@
       "parameters": {
         "toolDescription": "Scrape Booking to get listings.",
         "method": "POST",
-        "url": "https://api.apify.com/v2/acts/voyager~booking-scraper/run-sync-get-dataset-items?token=apify_api_Jfvr7mJthgPiFnw2hVvDjLZDKW5vHw1KSU6Z",
+        "url": "https://api.apify.com/v2/acts/voyager~booking-scraper/run-sync-get-dataset-items?token=APIFY_API_KEY_REDACTED",
         "sendQuery": true,
         "queryParameters": {
           "parameters": [

@@ -5,7 +5,18 @@
       "parameters": {
         "toolDescription": "Scrape Google maps to get reviews",
         "method": "POST",
-        "url": "https://api.apify.com/v2/acts/compass~crawler-google-places/run-sync-get-dataset-items?token=APIFY_API_KEY_REDACTED",
+        "url": "https://api.apify.com/v2/acts/compass~crawler-google-places/run-sync-get-dataset-items",
+        "authentication": "queryAuth",
+        "queryAuth": {
+          "parameters": {
+            "parameters": [
+              {
+                "name": "token",
+                "value": "={{$credentials.apifyApi.token}}"
+              }
+            ]
+          }
+        },
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
@@ -149,7 +160,18 @@
       "parameters": {
         "toolDescription": "Get Accomodation Reviews for Airbnb Platform",
         "method": "POST",
-        "url": "https://api.apify.com/v2/acts/tri_angle~airbnb-reviews-scraper/run-sync-get-dataset-items?token=APIFY_API_KEY_REDACTED",
+        "url": "https://api.apify.com/v2/acts/tri_angle~airbnb-reviews-scraper/run-sync-get-dataset-items",
+        "authentication": "queryAuth",
+        "queryAuth": {
+          "parameters": {
+            "parameters": [
+              {
+                "name": "token",
+                "value": "={{$credentials.apifyApi.token}}"
+              }
+            ]
+          }
+        },
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
@@ -201,7 +223,18 @@
       "parameters": {
         "toolDescription": "Get Accomodation Reviews for Booking.com Platform",
         "method": "POST",
-        "url": "https://api.apify.com/v2/acts/voyager~booking-reviews-scraper/run-sync-get-dataset-items?token=APIFY_API_KEY_REDACTED",
+        "url": "https://api.apify.com/v2/acts/voyager~booking-reviews-scraper/run-sync-get-dataset-items",
+        "authentication": "queryAuth",
+        "queryAuth": {
+          "parameters": {
+            "parameters": [
+              {
+                "name": "token",
+                "value": "={{$credentials.apifyApi.token}}"
+              }
+            ]
+          }
+        },
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
@@ -322,7 +355,18 @@
       "parameters": {
         "toolDescription": "Scrape Booking to get listings.",
         "method": "POST",
-        "url": "https://api.apify.com/v2/acts/voyager~booking-scraper/run-sync-get-dataset-items?token=APIFY_API_KEY_REDACTED",
+        "url": "https://api.apify.com/v2/acts/voyager~booking-scraper/run-sync-get-dataset-items",
+        "authentication": "queryAuth",
+        "queryAuth": {
+          "parameters": {
+            "parameters": [
+              {
+                "name": "token",
+                "value": "={{$credentials.apifyApi.token}}"
+              }
+            ]
+          }
+        },
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
@@ -409,7 +453,18 @@
       "parameters": {
         "toolDescription": "Scrape AirBnb to get available listings.",
         "method": "POST",
-        "url": "https://api.apify.com/v2/acts/tri_angle~airbnb-scraper/run-sync-get-dataset-items?token=APIFY_API_KEY_REDACTED",
+        "url": "https://api.apify.com/v2/acts/tri_angle~airbnb-scraper/run-sync-get-dataset-items",
+        "authentication": "queryAuth",
+        "queryAuth": {
+          "parameters": {
+            "parameters": [
+              {
+                "name": "token",
+                "value": "={{$credentials.apifyApi.token}}"
+              }
+            ]
+          }
+        },
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
