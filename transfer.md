@@ -38,9 +38,7 @@
 
 ### Admin Dashboard
 - **Dashboard URL**: https://vola-internal.vercel.app/dashboard
-- **Credentials**:
-  - Username: `admin`
-  - Password: `REDACTED`
+- **Credentials**: Contact administrator for access credentials
 
 ---
 
